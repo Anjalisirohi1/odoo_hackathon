@@ -1,12 +1,9 @@
 import { useEffect, useState } from 'react'
 import DashboardLayout from '../components/dashboard/DashboardLayout'
-import RegisterAssetModal from '../components/assets/RegisterAssetModal'
 import { useAuth } from '../context/AuthContext'
 import { getDashboardStats } from '../api/dashboard'
-import { listAssetCategories } from '../api/assets'
 import { ApiError } from '../api/client'
 import {
-  Plus,
   CheckCircle2,
   User,
   Hourglass,
@@ -99,9 +96,6 @@ export default function Dashboard() {
   const [stats, setStats] = useState(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
-  const [categories, setCategories] = useState([])
-  const [categoriesError, setCategoriesError] = useState(null)
-  const [showModal, setShowModal] = useState(false)
 
   const loadStats = () => {
     setLoading(true)
@@ -112,41 +106,18 @@ export default function Dashboard() {
       .finally(() => setLoading(false))
   }
 
-  const loadCategories = () => {
-    setCategoriesError(null)
-    listAssetCategories(token)
-      .then((data) => setCategories(data.categories))
-      .catch((err) => setCategoriesError(err instanceof ApiError ? err.message : 'Failed to load categories.'))
-  }
-
   useEffect(loadStats, [token])
-  useEffect(loadCategories, [token])
 
   const kpis = stats?.kpis ?? {}
   const activity = stats?.recentActivity ?? []
 
-  const handleAssetCreated = () => {
-    setShowModal(false)
-    loadStats()
-  }
-
   return (
     <DashboardLayout>
-      <div className="flex items-start justify-between gap-4">
-        <div>
-          <h1 className="text-3xl font-bold text-slate-900 dark:text-slate-100">Today's Overview</h1>
-          <p className="mt-1 text-slate-500 dark:text-slate-400">
-            Welcome back. Here is what's happening with your assets today.
-          </p>
-        </div>
-        <button
-          type="button"
-          onClick={() => setShowModal(true)}
-          className="flex shrink-0 items-center gap-2 rounded-lg bg-blue-700 px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-blue-800 dark:bg-blue-600 dark:hover:bg-blue-500"
-        >
-          <Plus size={16} />
-          Register Asset
-        </button>
+      <div>
+        <h1 className="text-3xl font-bold text-slate-900 dark:text-slate-100">Today's Overview</h1>
+        <p className="mt-1 text-slate-500 dark:text-slate-400">
+          Welcome back. Here is what's happening with your assets today.
+        </p>
       </div>
 
       {error && (
@@ -275,16 +246,6 @@ export default function Dashboard() {
           </ul>
         </div>
       </div>
-
-      {showModal && (
-        <RegisterAssetModal
-          categories={categories}
-          categoriesError={categoriesError}
-          onRetryCategories={loadCategories}
-          onClose={() => setShowModal(false)}
-          onCreated={handleAssetCreated}
-        />
-      )}
     </DashboardLayout>
   )
 }
