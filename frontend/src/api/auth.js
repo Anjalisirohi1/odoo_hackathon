@@ -11,3 +11,11 @@ export function login({ email, password }) {
 export function getMe(token) {
   return apiRequest('/api/auth/me', { token })
 }
+
+export function listUsers(token) {
+  return apiRequest('/api/auth/users', { token })
+}
+
+export function promoteUser(userId, payload, token) {
+  return apiRequest(`/api/auth/users/${userId}/promote`, { method: 'PATCH', body: payload, token })
+}

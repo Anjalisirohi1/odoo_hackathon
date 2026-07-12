@@ -22,3 +22,15 @@ export function listAssetDepartments(token) {
 export function createAsset(payload, token) {
   return apiRequest('/api/assets', { method: 'POST', body: payload, token })
 }
+
+export function createAssetCategory(payload, token) {
+  return apiRequest('/api/assets/categories', { method: 'POST', body: payload, token })
+}
+
+export function createDepartment(payload, token) {
+  return apiRequest('/api/assets/departments', { method: 'POST', body: payload, token })
+}
+
+export function updateDepartmentStatus(id, status, token) {
+  return apiRequest(`/api/assets/departments/${id}/status`, { method: 'PATCH', body: { status }, token })
+}
