@@ -133,12 +133,12 @@ export default function ResourceBooking() {
     };
 
     return (
-        <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-6 font-sans text-slate-900 dark:text-slate-100">
+        <div className="min-h-screen bg-slate-50 p-6 font-sans">
             {/* Top Banner */}
             <div className="flex justify-between items-center mb-8">
                 <div>
-                    <h1 className="text-3xl font-bold text-slate-900 dark:text-slate-100">Resource Booking</h1>
-                    <p className="text-slate-500 dark:text-slate-300 mt-1">Manage schedules and reservations for shared enterprise assets.</p>
+                    <h1 className="text-3xl font-bold text-slate-900">Resource Booking</h1>
+                    <p className="text-slate-500 mt-1">Manage schedules and reservations for shared enterprise assets.</p>
                 </div>
                 <button
                     onClick={() => setIsModalOpen(true)}
@@ -152,7 +152,7 @@ export default function ResourceBooking() {
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 mb-8">
                 {/* Left Side: Selectors & Details */}
                 <div className="lg:col-span-4 space-y-6">
-                    <div className="bg-white dark:bg-slate-800 p-6 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-700">
+                    <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100">
                         {/* Resource Selector */}
                         <div className="mb-5">
                             <label className="block text-xs font-semibold text-blue-600 tracking-wider uppercase mb-2">Select Resource</label>
@@ -174,7 +174,7 @@ export default function ResourceBooking() {
                                 type="date"
                                 value={selectedDate}
                                 onChange={(e) => setSelectedDate(e.target.value)}
-                                className="w-full border border-slate-200 rounded-lg p-2.5 bg-slate-50 dark:bg-slate-700 font-medium text-slate-800 dark:text-slate-100 focus:outline-none"
+                                className="w-full border border-slate-200 rounded-lg p-2.5 bg-slate-50 font-medium text-slate-800 focus:outline-none"
                             />
                         </div>
 
@@ -192,7 +192,7 @@ export default function ResourceBooking() {
                     </div>
 
                     {/* Daily Status Card */}
-                    <div className="bg-white dark:bg-slate-800 p-5 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-700">
+                    <div className="bg-white p-5 rounded-2xl shadow-sm border border-slate-100">
                         <h4 className="text-sm font-semibold text-slate-800 flex items-center gap-2 mb-3">
                             <span>ℹ️</span> Daily Status
                         </h4>
@@ -204,10 +204,10 @@ export default function ResourceBooking() {
                 </div>
 
                 {/* Right Side: Interactive Calendar Timeline */}
-                    <div className="lg:col-span-8">
-                    <div className="bg-white dark:bg-slate-800 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-700 p-6">
+                <div className="lg:col-span-8">
+                    <div className="bg-white rounded-2xl shadow-sm border border-slate-100 p-6">
                         <div className="flex justify-between items-center mb-6">
-                            <h3 className="text-xl font-bold text-slate-800 dark:text-slate-100">Timeline View</h3>
+                            <h3 className="text-xl font-bold text-slate-800">Timeline View</h3>
                             <div className="flex gap-4 text-xs font-semibold">
                                 <span className="flex items-center gap-1.5 text-blue-600">
                                     <span className="w-3 h-3 rounded-full bg-blue-100 border border-blue-400"></span> Booked
@@ -219,10 +219,10 @@ export default function ResourceBooking() {
                         </div>
 
                         {/* Scrollable Schedule Timeline */}
-                            <div className="relative border-l border-slate-100 dark:border-slate-700 pl-4 py-2 space-y-12">
+                        <div className="relative border-l border-slate-100 pl-4 py-2 space-y-12">
                             {hours.map((hour) => (
-                                    <div key={hour.value} className="flex items-start text-sm border-b border-slate-50 dark:border-slate-800 pb-2">
-                                    <span className="w-16 font-medium text-slate-400 dark:text-slate-400 select-none">{hour.label}</span>
+                                <div key={hour.value} className="flex items-start text-sm border-b border-slate-50 pb-2">
+                                    <span className="w-16 font-medium text-slate-400 select-none">{hour.label}</span>
                                     <div className="flex-1 min-h-[48px]"></div>
                                 </div>
                             ))}
@@ -235,7 +235,7 @@ export default function ResourceBooking() {
                                         <div
                                             key={booking.id}
                                             style={style}
-                                            className="absolute left-0 right-0 bg-blue-100/90 hover:bg-blue-200/95 border-l-4 border-blue-600 rounded-r-lg p-3 shadow-sm transition pointer-events-auto dark:bg-slate-700/70 dark:hover:bg-slate-600/60"
+                                            className="absolute left-0 right-0 bg-blue-100/90 hover:bg-blue-200/95 border-l-4 border-blue-600 rounded-r-lg p-3 shadow-sm transition pointer-events-auto"
                                         >
                                             <h4 className="text-sm font-bold text-blue-900">
                                                 Booked - {booking.booked_by || 'Staff'}
