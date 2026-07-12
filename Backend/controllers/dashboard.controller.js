@@ -12,6 +12,7 @@ export const getDashboardStats = async (req, res) => {
             transfersRes,
             upcomingRes,
             overdueRes,
+            atRiskRes,
             activityRes
         ] = await Promise.all([
             // Card 1: Available Assets
@@ -33,9 +34,15 @@ export const getDashboardStats = async (req, res) => {
       `),
             // Mini-Card 4: Overdue Returns (Expected return date is in the past)
             db.query(`
-        SELECT COUNT(*)::int as count FROM allocations 
-        WHERE status = 'ACTIVE' 
+        SELECT COUNT(*)::int as count FROM allocations
+        WHERE status = 'ACTIVE'
         AND expected_return_at < NOW()
+      `),
+            // Mini-Card 5: Assets at Risk (under maintenance, lost, or in damaged condition)
+            db.query(`
+        SELECT COUNT(*)::int as count FROM assets
+        WHERE status IN ('UNDER_MAINTENANCE', 'LOST')
+        OR condition = 'Damaged'
       `),
 
             // Recent Activity Stream (Fetched from Audit Logs)
@@ -56,7 +63,8 @@ export const getDashboardStats = async (req, res) => {
                 activeBookings: bookingsRes.rows[0].count,
                 pendingTransfers: transfersRes.rows[0].count,
                 upcomingReturns: upcomingRes.rows[0].count,
-                overdueReturns: overdueRes.rows[0].count
+                overdueReturns: overdueRes.rows[0].count,
+                assetsAtRisk: atRiskRes.rows[0].count
             },
             recentActivity: activityRes.rows.map(row => ({
                 id: row.id,
