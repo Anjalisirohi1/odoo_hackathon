@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import { User, Mail, Lock, Info, ArrowRight, Eye, EyeOff, Check, X } from 'lucide-react'
+import { User, Mail, Lock, Info, ArrowRight, Eye, EyeOff, Check, X, AlertCircle } from 'lucide-react'
 import AuthLayout from '../components/AuthLayout'
 import FormField from '../components/FormField'
 import {
@@ -11,9 +11,12 @@ import {
   passwordRequirements,
   FULL_NAME_MAX_LENGTH,
 } from '../utils/validation'
+import { useAuth } from '../context/AuthContext'
+import { ApiError } from '../api/client'
 
 export default function Signup() {
   const navigate = useNavigate()
+  const { signup } = useAuth()
   const [form, setForm] = useState({
     fullName: '',
     email: '',
@@ -25,6 +28,7 @@ export default function Signup() {
   const [showPassword, setShowPassword] = useState(false)
   const [showConfirmPassword, setShowConfirmPassword] = useState(false)
   const [passwordFocused, setPasswordFocused] = useState(false)
+  const [formError, setFormError] = useState(null)
 
   const handleChange = (e) => {
     const { name, value } = e.target
@@ -54,12 +58,18 @@ export default function Signup() {
 
   const handleSubmit = async (e) => {
     e.preventDefault()
+    setFormError(null)
     if (!validate()) return
     setSubmitting(true)
     try {
-      // TODO: wire up to auth API
-      await new Promise((resolve) => setTimeout(resolve, 600))
-      navigate('/login')
+      const data = await signup(form.fullName, form.email, form.password)
+      if (data?.token) {
+        navigate('/dashboard', { replace: true })
+      } else {
+        navigate('/login', { state: { signupSuccess: true } })
+      }
+    } catch (err) {
+      setFormError(err instanceof ApiError ? err.message : 'Something went wrong. Please try again.')
     } finally {
       setSubmitting(false)
     }
@@ -72,6 +82,13 @@ export default function Signup() {
           <h2 className="text-2xl font-bold text-slate-900 dark:text-slate-100">Create your account</h2>
           <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">Set up employee access to AssetFlow</p>
         </div>
+
+        {formError && (
+          <div className="flex items-start gap-2 rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700 dark:border-red-900/60 dark:bg-red-950/40 dark:text-red-400">
+            <AlertCircle size={16} className="mt-0.5 shrink-0" />
+            {formError}
+          </div>
+        )}
 
         <FormField
           id="fullName"

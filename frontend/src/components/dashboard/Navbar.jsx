@@ -1,6 +1,7 @@
-import { Link, NavLink } from 'react-router-dom'
-import { Search, Moon, Sun } from 'lucide-react'
+import { Link, NavLink, useNavigate } from 'react-router-dom'
+import { Search, Moon, Sun, LogOut } from 'lucide-react'
 import { useTheme } from '../../context/ThemeContext'
+import { useAuth } from '../../context/AuthContext'
 
 const navLinks = [
   { label: 'Dashboard', to: '/dashboard' },
@@ -8,8 +9,22 @@ const navLinks = [
   { label: 'Reporting', to: '/reports' },
 ]
 
-export default function Navbar({ userInitials = 'JD' }) {
+function getInitials(name) {
+  if (!name) return '?'
+  const parts = name.trim().split(/\s+/)
+  const initials = parts.length > 1 ? `${parts[0][0]}${parts[parts.length - 1][0]}` : parts[0].slice(0, 2)
+  return initials.toUpperCase()
+}
+
+export default function Navbar() {
   const { theme, toggleTheme } = useTheme()
+  const { user, logout } = useAuth()
+  const navigate = useNavigate()
+
+  const handleSignOut = () => {
+    logout()
+    navigate('/login', { replace: true })
+  }
 
   return (
     <header className="sticky top-0 z-20 flex h-16 items-center justify-between border-b border-slate-200 bg-white px-8 dark:border-slate-800 dark:bg-slate-900">
@@ -55,9 +70,21 @@ export default function Navbar({ userInitials = 'JD' }) {
         >
           Help
         </button>
-        <div className="flex h-9 w-9 items-center justify-center rounded-full bg-blue-700 text-sm font-semibold text-white dark:bg-blue-600">
-          {userInitials}
-        </div>
+        {user?.name && (
+          <span className="hidden text-sm font-medium text-slate-600 dark:text-slate-300 lg:inline">
+            {user.name}
+          </span>
+        )}
+        <button
+          type="button"
+          onClick={handleSignOut}
+          className="group flex h-9 w-9 items-center justify-center rounded-full bg-blue-700 text-sm font-semibold text-white transition-colors hover:bg-red-600 dark:bg-blue-600 dark:hover:bg-red-600"
+          aria-label="Sign out"
+          title="Sign out"
+        >
+          <span className="group-hover:hidden">{getInitials(user?.name)}</span>
+          <LogOut size={16} className="hidden group-hover:block" />
+        </button>
       </div>
     </header>
   )

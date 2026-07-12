@@ -1,16 +1,25 @@
 import { useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
-import { Mail, Lock, Info, ArrowRight, Eye, EyeOff } from 'lucide-react'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
+import { Mail, Lock, Info, ArrowRight, Eye, EyeOff, AlertCircle, CheckCircle2 } from 'lucide-react'
 import AuthLayout from '../components/AuthLayout'
 import FormField from '../components/FormField'
 import { getEmailError } from '../utils/validation'
+import { useAuth } from '../context/AuthContext'
+import { ApiError } from '../api/client'
 
 export default function Login() {
   const navigate = useNavigate()
+  const location = useLocation()
+  const { login } = useAuth()
   const [form, setForm] = useState({ email: '', password: '' })
   const [errors, setErrors] = useState({})
   const [submitting, setSubmitting] = useState(false)
   const [showPassword, setShowPassword] = useState(false)
+  const [formError, setFormError] = useState(null)
+
+  const successMessage = location.state?.signupSuccess
+    ? 'Account created. Sign in with your new credentials.'
+    : null
 
   const handleChange = (e) => {
     const { name, value } = e.target
@@ -28,12 +37,15 @@ export default function Login() {
 
   const handleSubmit = async (e) => {
     e.preventDefault()
+    setFormError(null)
     if (!validate()) return
     setSubmitting(true)
     try {
-      // TODO: wire up to auth API
-      await new Promise((resolve) => setTimeout(resolve, 600))
-      navigate('/dashboard')
+      await login(form.email, form.password)
+      const redirectTo = location.state?.from?.pathname ?? '/dashboard'
+      navigate(redirectTo, { replace: true })
+    } catch (err) {
+      setFormError(err instanceof ApiError ? err.message : 'Something went wrong. Please try again.')
     } finally {
       setSubmitting(false)
     }
@@ -46,6 +58,20 @@ export default function Login() {
           <h2 className="text-2xl font-bold text-slate-900 dark:text-slate-100">Sign in to your account</h2>
           <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">Access your enterprise dashboard</p>
         </div>
+
+        {successMessage && (
+          <div className="flex items-start gap-2 rounded-lg border border-emerald-200 bg-emerald-50 px-4 py-3 text-sm text-emerald-700 dark:border-emerald-900/60 dark:bg-emerald-950/40 dark:text-emerald-400">
+            <CheckCircle2 size={16} className="mt-0.5 shrink-0" />
+            {successMessage}
+          </div>
+        )}
+
+        {formError && (
+          <div className="flex items-start gap-2 rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700 dark:border-red-900/60 dark:bg-red-950/40 dark:text-red-400">
+            <AlertCircle size={16} className="mt-0.5 shrink-0" />
+            {formError}
+          </div>
+        )}
 
         <FormField
           id="email"

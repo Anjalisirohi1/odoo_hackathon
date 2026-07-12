@@ -4,6 +4,7 @@ import Signup from './pages/Signup'
 import Dashboard from './pages/Dashboard'
 import Notifications from './pages/Notifications'
 import ComingSoon from './pages/ComingSoon'
+import ProtectedRoute from './components/ProtectedRoute'
 
 const comingSoonRoutes = [
   { path: '/organization-setup', title: 'Organization Setup' },
@@ -20,10 +21,32 @@ function App() {
     <Routes>
       <Route path="/login" element={<Login />} />
       <Route path="/signup" element={<Signup />} />
-      <Route path="/dashboard" element={<Dashboard />} />
-      <Route path="/notifications" element={<Notifications />} />
+      <Route
+        path="/dashboard"
+        element={
+          <ProtectedRoute>
+            <Dashboard />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/notifications"
+        element={
+          <ProtectedRoute>
+            <Notifications />
+          </ProtectedRoute>
+        }
+      />
       {comingSoonRoutes.map(({ path, title }) => (
-        <Route key={path} path={path} element={<ComingSoon title={title} />} />
+        <Route
+          key={path}
+          path={path}
+          element={
+            <ProtectedRoute>
+              <ComingSoon title={title} />
+            </ProtectedRoute>
+          }
+        />
       ))}
       <Route path="*" element={<Navigate to="/login" replace />} />
     </Routes>
