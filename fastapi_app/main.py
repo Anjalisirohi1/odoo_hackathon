@@ -12,8 +12,11 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
 BASE_DIR = Path(__file__).parent
+PROJECT_ROOT = BASE_DIR.parent
+
 MODELS_DIR = BASE_DIR / "models"
-DATA_DIR = BASE_DIR / "data"
+DATA_DIR = PROJECT_ROOT / "real_data"
+OUTPUT_DIR = PROJECT_ROOT / "real_model_outputs"
 
 app = FastAPI(
     title="AssetFlow Screen 9 ML API",
@@ -31,6 +34,13 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+@app.get("/")
+def root():
+    return {
+        "message": "AssetFlow Screen 9 ML API is running",
+        "docs": "/docs",
+        "health": "/health"
+    }
 # ---------------------------------------------------------------------------
 # Load models and metadata once at startup
 # ---------------------------------------------------------------------------
@@ -43,7 +53,7 @@ with open(MODELS_DIR / "maintenance_model_columns.json") as f:
 categories_df = pd.read_csv(DATA_DIR / "categories.csv")
 VALID_CATEGORY_IDS = set(categories_df["category_id"])
 
-with open(DATA_DIR / "screen9_analytics.json") as f:
+with open(OUTPUT_DIR / "screen9_analytics.json") as f:
     PRECOMPUTED_ANALYTICS = json.load(f)
 
 CONDITION_MAP = {"Excellent": 0, "Good": 1, "Fair": 2, "Poor": 3}
