@@ -7,11 +7,11 @@ import Assets from './pages/Assets'
 import OrganizationSetup from './pages/OrganizationSetup'
 import ResourceBooking from './pages/ResourceBooking'
 import Reports from './pages/Reports'
+import AllocationTransfer from './pages/AllocationTransfer'
 import ComingSoon from './pages/ComingSoon'
 import ProtectedRoute from './components/ProtectedRoute'
 
 const comingSoonRoutes = [
-  { path: '/allocation-transfer', title: 'Allocation & Transfer' },
   { path: '/maintenance', title: 'Maintenance' },
   { path: '/audit', title: 'Audit' },
 ]
@@ -66,6 +66,14 @@ function App() {
         element={
           <ProtectedRoute>
             <Reports />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/allocation-transfer"
+        element={
+          <ProtectedRoute>
+            <AllocationTransfer />
           </ProtectedRoute>
         }
       />
