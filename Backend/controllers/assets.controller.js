@@ -131,8 +131,16 @@ export const getAssetSummary = async (req, res) => {
 
 export const listAssetCategories = async (req, res) => {
     try {
-        const result = await db.query('SELECT id, name FROM asset_categories ORDER BY name');
-        res.status(200).json({ categories: result.rows });
+        const result = await db.query(`
+            SELECT c.id, c.name, COUNT(a.id)::int AS asset_count
+            FROM asset_categories c
+            LEFT JOIN assets a ON a.category_id = c.id
+            GROUP BY c.id, c.name
+            ORDER BY c.name
+        `);
+        res.status(200).json({
+            categories: result.rows.map((row) => ({ id: row.id, name: row.name, assetCount: row.asset_count })),
+        });
     } catch (error) {
         console.error('Error listing asset categories:', error);
         res.status(500).json({ error: 'Failed to retrieve asset categories.' });
@@ -141,11 +149,95 @@ export const listAssetCategories = async (req, res) => {
 
 export const listAssetDepartments = async (req, res) => {
     try {
-        const result = await db.query('SELECT id, name FROM departments ORDER BY name');
-        res.status(200).json({ departments: result.rows });
+        const result = await db.query(`
+            SELECT d.id, d.name, d.status, d.parent_department_id, pd.name AS parent_name, d.department_head_id, u.name AS head_name
+            FROM departments d
+            LEFT JOIN departments pd ON pd.id = d.parent_department_id
+            LEFT JOIN users u ON u.id = d.department_head_id
+            ORDER BY d.name
+        `);
+        res.status(200).json({
+            departments: result.rows.map((row) => ({
+                id: row.id,
+                name: row.name,
+                status: row.status,
+                parentId: row.parent_department_id,
+                parentName: row.parent_name,
+                headId: row.department_head_id,
+                headName: row.head_name,
+            })),
+        });
     } catch (error) {
         console.error('Error listing departments:', error);
         res.status(500).json({ error: 'Failed to retrieve departments.' });
+    }
+};
+
+export const createAssetCategory = async (req, res) => {
+    const { name } = req.body;
+    if (!name || !name.trim()) {
+        return res.status(400).json({ error: 'Category name is required.' });
+    }
+
+    try {
+        const result = await db.query(
+            `INSERT INTO asset_categories (name) VALUES ($1) RETURNING id, name`,
+            [name.trim()]
+        );
+        res.status(201).json({ category: result.rows[0] });
+    } catch (error) {
+        if (error.code === '23505') {
+            return res.status(400).json({ error: 'A category with that name already exists.' });
+        }
+        console.error('Error creating asset category:', error);
+        res.status(500).json({ error: 'Failed to create category.' });
+    }
+};
+
+export const createDepartment = async (req, res) => {
+    const { name, parent_department_id, department_head_id, status } = req.body;
+    if (!name || !name.trim()) {
+        return res.status(400).json({ error: 'Department name is required.' });
+    }
+
+    try {
+        const result = await db.query(
+            `INSERT INTO departments (name, parent_department_id, department_head_id, status)
+             VALUES ($1, $2, $3, $4)
+             RETURNING id, name, parent_department_id, department_head_id, status`,
+            [
+                name.trim(),
+                parent_department_id ? parseInt(parent_department_id, 10) : null,
+                department_head_id ? parseInt(department_head_id, 10) : null,
+                status === 'INACTIVE' ? 'INACTIVE' : 'ACTIVE',
+            ]
+        );
+        res.status(201).json({ department: result.rows[0] });
+    } catch (error) {
+        console.error('Error creating department:', error);
+        res.status(500).json({ error: 'Failed to create department.' });
+    }
+};
+
+export const updateDepartmentStatus = async (req, res) => {
+    const { id } = req.params;
+    const { status } = req.body;
+    if (!['ACTIVE', 'INACTIVE'].includes(status)) {
+        return res.status(400).json({ error: 'status must be ACTIVE or INACTIVE.' });
+    }
+
+    try {
+        const result = await db.query(
+            `UPDATE departments SET status = $1 WHERE id = $2 RETURNING id, name, status`,
+            [status, parseInt(id, 10)]
+        );
+        if (!result.rows[0]) {
+            return res.status(404).json({ error: 'Department not found.' });
+        }
+        res.status(200).json({ department: result.rows[0] });
+    } catch (error) {
+        console.error('Error updating department status:', error);
+        res.status(500).json({ error: 'Failed to update department.' });
     }
 };
 

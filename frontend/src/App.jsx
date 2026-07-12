@@ -4,11 +4,11 @@ import Signup from './pages/Signup'
 import Dashboard from './pages/Dashboard'
 import Notifications from './pages/Notifications'
 import Assets from './pages/Assets'
+import OrganizationSetup from './pages/OrganizationSetup'
 import ComingSoon from './pages/ComingSoon'
 import ProtectedRoute from './components/ProtectedRoute'
 
 const comingSoonRoutes = [
-  { path: '/organization-setup', title: 'Organization Setup' },
   { path: '/allocation-transfer', title: 'Allocation & Transfer' },
   { path: '/resource-booking', title: 'Resource Booking' },
   { path: '/maintenance', title: 'Maintenance' },
@@ -42,6 +42,14 @@ function App() {
         element={
           <ProtectedRoute>
             <Assets />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/organization-setup"
+        element={
+          <ProtectedRoute>
+            <OrganizationSetup />
           </ProtectedRoute>
         }
       />

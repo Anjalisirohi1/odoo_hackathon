@@ -102,6 +102,31 @@ export const forgotPassword = async (req, res) => {
     }
 };
 
+export const listUsers = async (req, res) => {
+    try {
+        const result = await db.query(`
+            SELECT u.id, u.name, u.email, u.role, u.status, u.department_id, d.name AS department_name
+            FROM users u
+            LEFT JOIN departments d ON d.id = u.department_id
+            ORDER BY u.created_at DESC
+        `);
+        res.status(200).json({
+            users: result.rows.map((row) => ({
+                id: row.id,
+                name: row.name,
+                email: row.email,
+                role: row.role,
+                status: row.status,
+                departmentId: row.department_id,
+                departmentName: row.department_name,
+            })),
+        });
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ error: 'Failed to retrieve users.' });
+    }
+};
+
 export const promoteUser = async (req, res) => {
     const { id } = req.params;
     const { role, departmentId } = req.body;
