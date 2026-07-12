@@ -1,0 +1,351 @@
+asset_tag,asset_name,category_id,category_name,serial_number,acquisition_date,acquisition_cost,condition,location,status,is_bookable
+AF-0001,Air Purifier,C-006,HVAC/Appliances,SN-31351823,2024-01-21,56192.0,Good,Mumbai Office,Reserved,0
+AF-0002,Water Cooler,C-006,HVAC/Appliances,SN-37498941,2024-09-11,71838.46,Excellent,Delhi Office,Available,0
+AF-0003,Dell Laptop,C-001,Electronics,SN-34352408,2023-11-18,91847.5,Fair,Bengaluru HQ Floor 1,Allocated,0
+AF-0004,Generator,C-004,Heavy Equipment,SN-24008427,2026-06-19,706718.4,Good,Field Site - Pune,Available,1
+AF-0005,Projector,C-001,Electronics,SN-10947775,2025-04-28,114321.87,Good,Bengaluru HQ Floor 1,Retired,1
+AF-0006,Water Cooler,C-006,HVAC/Appliances,SN-20471167,2023-04-21,66225.51,Poor,Field Site - Pune,Available,0
+AF-0007,Dell Laptop,C-001,Electronics,SN-19022941,2024-03-22,51776.2,Excellent,Warehouse - West,Under Maintenance,0
+AF-0008,Docking Station,C-005,IT Peripherals,SN-31869993,2024-04-11,2572.18,Fair,Warehouse - West,Lost,0
+AF-0009,Docking Station,C-005,IT Peripherals,SN-86774964,2026-05-19,5456.72,Excellent,Bengaluru HQ Floor 2,Available,1
+AF-0010,Pickup Truck,C-003,Vehicles,SN-99091334,2022-06-05,1095020.93,Fair,Warehouse - East,Allocated,1
+AF-0011,Wireless Mouse,C-005,IT Peripherals,SN-12328120,2024-05-24,3095.96,Excellent,Delhi Office,Allocated,0
+AF-0012,Docking Station,C-005,IT Peripherals,SN-67974034,2025-03-18,5073.67,Poor,Delhi Office,Available,0
+AF-0013,Delivery Van,C-003,Vehicles,SN-47134936,2025-11-23,1484601.17,Good,Mumbai Office,Under Maintenance,1
+AF-0014,Sedan Car,C-003,Vehicles,SN-18324210,2023-04-15,412489.01,Fair,Mumbai Office,Available,1
+AF-0015,Wireless Mouse,C-005,IT Peripherals,SN-24994717,2025-05-01,1962.7,Excellent,Bengaluru HQ Floor 2,Available,1
+AF-0016,Microwave,C-006,HVAC/Appliances,SN-46488771,2025-07-02,62204.9,Good,Warehouse - West,Reserved,0
+AF-0017,Compressor,C-004,Heavy Equipment,SN-90659401,2023-05-12,728671.46,Good,Delhi Office,Available,1
+AF-0018,Generator,C-004,Heavy Equipment,SN-39904902,2025-12-07,791036.98,Fair,Delhi Office,Allocated,1
+AF-0019,Compressor,C-004,Heavy Equipment,SN-78742967,2026-04-15,621717.68,Fair,Field Site - Pune,Retired,1
+AF-0020,Dell Laptop,C-001,Electronics,SN-17565512,2026-06-29,60764.02,Fair,Bengaluru HQ Floor 2,Disposed,0
+AF-0021,Forklift,C-004,Heavy Equipment,SN-56746807,2025-10-18,678385.66,Fair,Field Site - Pune,Allocated,1
+AF-0022,Air Purifier,C-006,HVAC/Appliances,SN-15451680,2023-12-08,32148.21,Good,Warehouse - West,Allocated,0
+AF-0023,Projector,C-001,Electronics,SN-87603859,2025-01-02,74429.23,Good,Bengaluru HQ Floor 1,Retired,1
+AF-0024,HP Laptop,C-001,Electronics,SN-77034824,2026-06-28,96738.04,Good,Mumbai Office,Allocated,0
+AF-0025,Pickup Truck,C-003,Vehicles,SN-77109324,2023-04-27,1262018.31,Good,Bengaluru HQ Floor 2,Retired,1
+AF-0026,Microwave,C-006,HVAC/Appliances,SN-80861317,2025-08-08,62505.06,Excellent,Warehouse - West,Available,0
+AF-0027,Camera,C-001,Electronics,SN-12748467,2026-04-21,38188.58,Excellent,Warehouse - West,Allocated,0
+AF-0028,HP Laptop,C-001,Electronics,SN-73782639,2026-04-11,51466.08,Good,Warehouse - East,Allocated,0
+AF-0029,HP Laptop,C-001,Electronics,SN-82146584,2024-04-30,84650.54,Excellent,Bengaluru HQ Floor 2,Under Maintenance,0
+AF-0030,Meeting Table,C-002,Furniture,SN-04499727,2025-11-23,16601.6,Fair,Mumbai Office,Available,1
+AF-0031,Air Purifier,C-006,HVAC/Appliances,SN-87558867,2025-07-19,35193.24,Good,Delhi Office,Allocated,0
+AF-0032,Meeting Table,C-002,Furniture,SN-53396360,2025-12-26,22591.6,Good,Warehouse - West,Available,1
+AF-0033,Pallet Jack,C-004,Heavy Equipment,SN-57662702,2024-08-27,386003.49,Poor,Warehouse - East,Allocated,1
+AF-0034,Generator,C-004,Heavy Equipment,SN-89517187,2026-02-27,254442.89,Fair,Bengaluru HQ Floor 2,Available,1
+AF-0035,Monitor,C-001,Electronics,SN-02621745,2025-07-06,63987.7,Excellent,Warehouse - West,Under Maintenance,0
+AF-0036,Forklift,C-004,Heavy Equipment,SN-96158657,2022-11-25,650170.41,Fair,Field Site - Pune,Allocated,1
+AF-0037,Delivery Van,C-003,Vehicles,SN-80913431,2026-05-13,1039362.04,Good,Field Site - Pune,Available,1
+AF-0038,Dell Laptop,C-001,Electronics,SN-61172400,2026-06-10,119046.22,Good,Bengaluru HQ Floor 2,Allocated,0
+AF-0039,Sedan Car,C-003,Vehicles,SN-50455623,2022-11-24,536726.95,Fair,Field Site - Pune,Available,1
+AF-0040,Pallet Jack,C-004,Heavy Equipment,SN-86922219,2024-01-02,256376.36,Fair,Mumbai Office,Allocated,1
+AF-0041,Delivery Van,C-003,Vehicles,SN-69379237,2023-08-29,883048.4,Fair,Warehouse - West,Under Maintenance,1
+AF-0042,Scooter,C-003,Vehicles,SN-47407482,2023-05-20,1397119.32,Good,Mumbai Office,Allocated,1
+AF-0043,Desktop PC,C-001,Electronics,SN-17594647,2024-05-13,83906.91,Excellent,Mumbai Office,Available,0
+AF-0044,Compressor,C-004,Heavy Equipment,SN-43671369,2024-07-24,221910.63,Fair,Mumbai Office,Allocated,1
+AF-0045,Dell Laptop,C-001,Electronics,SN-59440640,2026-03-04,93613.99,Fair,Delhi Office,Allocated,0
+AF-0046,Forklift,C-004,Heavy Equipment,SN-90974395,2025-10-29,531049.39,Fair,Delhi Office,Available,1
+AF-0047,Air Purifier,C-006,HVAC/Appliances,SN-33942104,2025-05-22,60503.63,Poor,Field Site - Pune,Allocated,0
+AF-0048,Air Purifier,C-006,HVAC/Appliances,SN-70952145,2025-09-16,80242.23,Good,Bengaluru HQ Floor 1,Allocated,0
+AF-0049,Projector,C-001,Electronics,SN-62328588,2025-12-20,101271.08,Good,Warehouse - West,Allocated,1
+AF-0050,Wireless Mouse,C-005,IT Peripherals,SN-42474517,2025-09-15,3391.51,Good,Warehouse - West,Retired,0
+AF-0051,Forklift,C-004,Heavy Equipment,SN-12368516,2026-07-06,246630.77,Good,Delhi Office,Disposed,1
+AF-0052,Compressor,C-004,Heavy Equipment,SN-04817549,2026-06-08,283340.77,Good,Mumbai Office,Allocated,1
+AF-0053,HP Laptop,C-001,Electronics,SN-65137098,2024-06-25,68062.44,Poor,Mumbai Office,Available,1
+AF-0054,Delivery Van,C-003,Vehicles,SN-59317461,2026-02-05,427924.99,Excellent,Field Site - Pune,Available,1
+AF-0055,Pickup Truck,C-003,Vehicles,SN-20047113,2025-01-01,1279907.69,Excellent,Field Site - Pune,Available,1
+AF-0056,Wireless Mouse,C-005,IT Peripherals,SN-82675869,2023-11-18,2324.37,Good,Bengaluru HQ Floor 2,Available,0
+AF-0057,Projector,C-001,Electronics,SN-26179640,2026-04-03,80388.95,Good,Field Site - Pune,Allocated,1
+AF-0058,Sedan Car,C-003,Vehicles,SN-53773515,2025-03-10,879739.18,Fair,Mumbai Office,Available,1
+AF-0059,Forklift,C-004,Heavy Equipment,SN-85064317,2023-06-14,324640.28,Good,Mumbai Office,Available,1
+AF-0060,Air Purifier,C-006,HVAC/Appliances,SN-13900532,2020-10-31,23831.33,Fair,Warehouse - West,Allocated,0
+AF-0061,Forklift,C-004,Heavy Equipment,SN-93183933,2024-02-08,735012.12,Good,Bengaluru HQ Floor 1,Allocated,1
+AF-0062,Bookshelf,C-002,Furniture,SN-52904228,2023-03-01,11429.05,Good,Field Site - Pune,Available,0
+AF-0063,Pickup Truck,C-003,Vehicles,SN-42102053,2026-01-23,726833.89,Fair,Bengaluru HQ Floor 2,Retired,1
+AF-0064,Office Chair,C-002,Furniture,SN-95024026,2026-06-27,16091.71,Excellent,Bengaluru HQ Floor 2,Under Maintenance,0
+AF-0065,Keyboard,C-005,IT Peripherals,SN-81177589,2025-08-04,4956.96,Good,Bengaluru HQ Floor 1,Available,0
+AF-0066,Camera,C-001,Electronics,SN-17839084,2023-02-12,37997.77,Fair,Warehouse - West,Reserved,0
+AF-0067,Forklift,C-004,Heavy Equipment,SN-70076617,2023-12-10,791984.21,Poor,Field Site - Pune,Reserved,1
+AF-0068,Meeting Table,C-002,Furniture,SN-71159212,2025-05-19,3746.81,Good,Field Site - Pune,Retired,1
+AF-0069,Water Cooler,C-006,HVAC/Appliances,SN-49985698,2023-12-25,24042.52,Good,Bengaluru HQ Floor 2,Available,0
+AF-0070,Webcam,C-005,IT Peripherals,SN-47896118,2026-06-09,4054.64,Excellent,Mumbai Office,Allocated,0
+AF-0071,Water Cooler,C-006,HVAC/Appliances,SN-36736576,2026-07-02,41303.39,Good,Warehouse - East,Under Maintenance,0
+AF-0072,Pallet Jack,C-004,Heavy Equipment,SN-61565452,2023-09-12,423882.05,Good,Bengaluru HQ Floor 2,Available,1
+AF-0073,Sedan Car,C-003,Vehicles,SN-71111615,2026-01-18,419661.33,Excellent,Delhi Office,Allocated,1
+AF-0074,Air Purifier,C-006,HVAC/Appliances,SN-28098851,2024-06-01,61005.85,Excellent,Warehouse - West,Available,1
+AF-0075,Air Purifier,C-006,HVAC/Appliances,SN-65604945,2025-02-03,28982.87,Excellent,Warehouse - West,Under Maintenance,0
+AF-0076,Microwave,C-006,HVAC/Appliances,SN-19832731,2023-08-01,67201.55,Good,Bengaluru HQ Floor 1,Available,0
+AF-0077,Sedan Car,C-003,Vehicles,SN-58514936,2025-06-23,500635.52,Poor,Bengaluru HQ Floor 2,Retired,1
+AF-0078,AC Unit,C-006,HVAC/Appliances,SN-89980940,2024-04-04,34481.53,Excellent,Warehouse - East,Reserved,0
+AF-0079,Delivery Van,C-003,Vehicles,SN-24455022,2024-12-15,944661.18,Good,Mumbai Office,Allocated,1
+AF-0080,Generator,C-004,Heavy Equipment,SN-96120183,2026-02-07,702878.12,Good,Mumbai Office,Under Maintenance,1
+AF-0081,Generator,C-004,Heavy Equipment,SN-66752545,2025-03-18,716698.29,Good,Bengaluru HQ Floor 1,Available,1
+AF-0082,Keyboard,C-005,IT Peripherals,SN-99102290,2026-04-16,2292.6,Excellent,Delhi Office,Disposed,0
+AF-0083,Forklift,C-004,Heavy Equipment,SN-14767976,2025-06-19,501823.28,Poor,Bengaluru HQ Floor 2,Allocated,1
+AF-0084,Dell Laptop,C-001,Electronics,SN-43815614,2022-09-27,90349.14,Excellent,Bengaluru HQ Floor 1,Allocated,0
+AF-0085,Air Purifier,C-006,HVAC/Appliances,SN-97840369,2021-07-23,16659.27,Fair,Bengaluru HQ Floor 1,Allocated,0
+AF-0086,Generator,C-004,Heavy Equipment,SN-00343244,2025-09-20,443401.57,Excellent,Warehouse - East,Reserved,1
+AF-0087,Camera,C-001,Electronics,SN-51076226,2024-12-19,87178.57,Good,Warehouse - West,Allocated,0
+AF-0088,Sedan Car,C-003,Vehicles,SN-83885160,2020-11-14,652950.07,Poor,Mumbai Office,Allocated,1
+AF-0089,Generator,C-004,Heavy Equipment,SN-60715969,2021-10-22,651099.2,Good,Delhi Office,Allocated,1
+AF-0090,Monitor,C-001,Electronics,SN-66416052,2023-01-21,83581.78,Fair,Mumbai Office,Allocated,0
+AF-0091,Desktop PC,C-001,Electronics,SN-97516136,2025-05-02,50554.37,Good,Bengaluru HQ Floor 2,Allocated,0
+AF-0092,Scooter,C-003,Vehicles,SN-96816453,2024-11-26,443580.71,Excellent,Field Site - Pune,Disposed,1
+AF-0093,Pallet Jack,C-004,Heavy Equipment,SN-52181883,2025-03-18,362199.85,Excellent,Bengaluru HQ Floor 2,Allocated,1
+AF-0094,Dell Laptop,C-001,Electronics,SN-55231243,2025-11-02,37608.0,Fair,Bengaluru HQ Floor 1,Available,0
+AF-0095,Camera,C-001,Electronics,SN-29212779,2022-10-05,29937.27,Excellent,Warehouse - West,Allocated,0
+AF-0096,Air Purifier,C-006,HVAC/Appliances,SN-97995527,2025-06-11,21122.25,Excellent,Warehouse - West,Available,0
+AF-0097,Microwave,C-006,HVAC/Appliances,SN-17744905,2026-03-11,52364.68,Excellent,Warehouse - West,Allocated,0
+AF-0098,AC Unit,C-006,HVAC/Appliances,SN-81477005,2021-06-28,34326.22,Fair,Delhi Office,Allocated,1
+AF-0099,Keyboard,C-005,IT Peripherals,SN-41199867,2025-10-08,5308.56,Good,Bengaluru HQ Floor 1,Allocated,0
+AF-0100,Microwave,C-006,HVAC/Appliances,SN-98079359,2023-05-15,61722.49,Good,Delhi Office,Allocated,0
+AF-0101,Docking Station,C-005,IT Peripherals,SN-78207151,2023-04-01,5242.8,Good,Field Site - Pune,Available,1
+AF-0102,Forklift,C-004,Heavy Equipment,SN-82037788,2025-12-02,780118.01,Fair,Bengaluru HQ Floor 2,Allocated,1
+AF-0103,HP Laptop,C-001,Electronics,SN-92554665,2021-09-26,68110.01,Good,Bengaluru HQ Floor 2,Under Maintenance,0
+AF-0104,Pallet Jack,C-004,Heavy Equipment,SN-90515186,2024-11-06,628661.31,Fair,Bengaluru HQ Floor 2,Lost,1
+AF-0105,Pallet Jack,C-004,Heavy Equipment,SN-44925192,2023-10-03,187106.46,Good,Bengaluru HQ Floor 2,Available,1
+AF-0106,Pickup Truck,C-003,Vehicles,SN-54629148,2022-10-23,445730.14,Poor,Warehouse - West,Available,1
+AF-0107,Generator,C-004,Heavy Equipment,SN-65281685,2023-10-04,583461.77,Fair,Field Site - Pune,Allocated,1
+AF-0108,Office Chair,C-002,Furniture,SN-05423573,2024-12-30,5065.82,Poor,Warehouse - West,Reserved,0
+AF-0109,Forklift,C-004,Heavy Equipment,SN-32214188,2025-08-03,169751.59,Excellent,Bengaluru HQ Floor 1,Allocated,1
+AF-0110,Forklift,C-004,Heavy Equipment,SN-80592962,2025-11-04,799618.92,Fair,Bengaluru HQ Floor 1,Allocated,1
+AF-0111,Wireless Mouse,C-005,IT Peripherals,SN-22927065,2025-05-20,4271.49,Good,Bengaluru HQ Floor 2,Under Maintenance,0
+AF-0112,Webcam,C-005,IT Peripherals,SN-37947383,2026-05-09,2860.1,Excellent,Warehouse - West,Allocated,0
+AF-0113,Scooter,C-003,Vehicles,SN-47359774,2026-03-06,1135034.08,Good,Bengaluru HQ Floor 2,Retired,1
+AF-0114,Pallet Jack,C-004,Heavy Equipment,SN-68862392,2026-06-30,527112.04,Fair,Bengaluru HQ Floor 1,Under Maintenance,1
+AF-0115,Wireless Mouse,C-005,IT Peripherals,SN-40758181,2022-04-08,5469.76,Poor,Warehouse - West,Retired,0
+AF-0116,Delivery Van,C-003,Vehicles,SN-41247826,2026-05-20,713360.19,Good,Warehouse - West,Allocated,1
+AF-0117,Docking Station,C-005,IT Peripherals,SN-13750606,2026-02-03,1743.48,Good,Field Site - Pune,Reserved,0
+AF-0118,Scooter,C-003,Vehicles,SN-85361530,2022-01-07,1005249.2,Poor,Warehouse - East,Allocated,1
+AF-0119,Microwave,C-006,HVAC/Appliances,SN-51522047,2026-03-05,41506.6,Excellent,Delhi Office,Available,0
+AF-0120,Microwave,C-006,HVAC/Appliances,SN-27790104,2025-10-10,27601.07,Excellent,Bengaluru HQ Floor 2,Reserved,1
+AF-0121,HP Laptop,C-001,Electronics,SN-32898614,2026-07-01,85987.29,Excellent,Warehouse - East,Allocated,1
+AF-0122,Generator,C-004,Heavy Equipment,SN-34103697,2025-10-26,794316.4,Good,Bengaluru HQ Floor 1,Reserved,1
+AF-0123,Delivery Van,C-003,Vehicles,SN-11798089,2026-06-01,611054.06,Good,Delhi Office,Available,1
+AF-0124,Projector,C-001,Electronics,SN-32460953,2024-04-28,47202.65,Good,Bengaluru HQ Floor 1,Allocated,1
+AF-0125,AC Unit,C-006,HVAC/Appliances,SN-96218518,2025-01-16,86821.9,Excellent,Mumbai Office,Available,0
+AF-0126,Pallet Jack,C-004,Heavy Equipment,SN-88880670,2026-05-23,582192.62,Good,Mumbai Office,Available,1
+AF-0127,Monitor,C-001,Electronics,SN-65405153,2020-07-03,113065.09,Poor,Bengaluru HQ Floor 2,Under Maintenance,0
+AF-0128,Keyboard,C-005,IT Peripherals,SN-19520585,2024-11-03,1255.74,Good,Mumbai Office,Allocated,0
+AF-0129,Delivery Van,C-003,Vehicles,SN-27722170,2025-04-10,946659.83,Excellent,Field Site - Pune,Retired,1
+AF-0130,Wireless Mouse,C-005,IT Peripherals,SN-43030548,2025-11-15,2384.33,Good,Bengaluru HQ Floor 1,Allocated,0
+AF-0131,Delivery Van,C-003,Vehicles,SN-68740345,2021-06-12,545777.14,Fair,Delhi Office,Allocated,1
+AF-0132,Standing Desk,C-002,Furniture,SN-05415667,2025-07-28,6220.23,Poor,Warehouse - West,Disposed,0
+AF-0133,Delivery Van,C-003,Vehicles,SN-65277584,2026-01-07,516231.15,Excellent,Mumbai Office,Allocated,1
+AF-0134,HP Laptop,C-001,Electronics,SN-16169284,2024-06-14,68681.04,Excellent,Mumbai Office,Available,0
+AF-0135,Delivery Van,C-003,Vehicles,SN-51154479,2026-05-20,960364.34,Good,Mumbai Office,Allocated,1
+AF-0136,Forklift,C-004,Heavy Equipment,SN-62757059,2025-10-08,276504.63,Fair,Warehouse - West,Under Maintenance,1
+AF-0137,Docking Station,C-005,IT Peripherals,SN-64016582,2026-07-07,4753.51,Excellent,Warehouse - East,Allocated,0
+AF-0138,Sedan Car,C-003,Vehicles,SN-02970213,2021-06-06,936639.45,Excellent,Delhi Office,Lost,1
+AF-0139,Compressor,C-004,Heavy Equipment,SN-55690927,2026-04-22,394327.39,Fair,Bengaluru HQ Floor 2,Under Maintenance,1
+AF-0140,Air Purifier,C-006,HVAC/Appliances,SN-55719285,2024-05-30,17881.98,Good,Warehouse - West,Retired,0
+AF-0141,Generator,C-004,Heavy Equipment,SN-65431027,2023-06-11,486965.21,Fair,Delhi Office,Allocated,1
+AF-0142,Camera,C-001,Electronics,SN-86814473,2026-05-29,93050.72,Good,Warehouse - East,Allocated,0
+AF-0143,Webcam,C-005,IT Peripherals,SN-94731217,2025-01-17,4774.74,Poor,Warehouse - East,Available,0
+AF-0144,Delivery Van,C-003,Vehicles,SN-27155188,2024-07-09,626255.99,Good,Bengaluru HQ Floor 1,Allocated,1
+AF-0145,Desktop PC,C-001,Electronics,SN-44225831,2021-10-18,100877.85,Good,Mumbai Office,Under Maintenance,0
+AF-0146,Delivery Van,C-003,Vehicles,SN-32370589,2022-12-04,875284.57,Good,Bengaluru HQ Floor 1,Available,1
+AF-0147,Meeting Table,C-002,Furniture,SN-57829114,2023-07-19,9289.95,Fair,Bengaluru HQ Floor 2,Available,1
+AF-0148,Compressor,C-004,Heavy Equipment,SN-67866912,2024-01-02,265328.7,Excellent,Bengaluru HQ Floor 2,Retired,1
+AF-0149,Bookshelf,C-002,Furniture,SN-51778528,2026-05-03,20991.28,Good,Bengaluru HQ Floor 1,Allocated,0
+AF-0150,Sedan Car,C-003,Vehicles,SN-92268018,2025-05-22,1099920.49,Excellent,Warehouse - East,Available,1
+AF-0151,Docking Station,C-005,IT Peripherals,SN-24225358,2020-07-03,3686.44,Good,Bengaluru HQ Floor 2,Allocated,0
+AF-0152,Webcam,C-005,IT Peripherals,SN-41438424,2025-06-04,1852.9,Excellent,Field Site - Pune,Allocated,0
+AF-0153,Pickup Truck,C-003,Vehicles,SN-98182992,2023-08-31,893471.69,Good,Mumbai Office,Allocated,1
+AF-0154,Forklift,C-004,Heavy Equipment,SN-29959001,2026-07-11,210443.92,Excellent,Delhi Office,Allocated,1
+AF-0155,Compressor,C-004,Heavy Equipment,SN-09439690,2025-05-26,673242.85,Excellent,Delhi Office,Allocated,1
+AF-0156,Dell Laptop,C-001,Electronics,SN-78447364,2025-12-21,99565.21,Excellent,Bengaluru HQ Floor 2,Allocated,0
+AF-0157,Pickup Truck,C-003,Vehicles,SN-71027677,2025-04-13,1426424.66,Excellent,Bengaluru HQ Floor 1,Under Maintenance,1
+AF-0158,Delivery Van,C-003,Vehicles,SN-35925556,2024-01-09,1046546.3,Excellent,Delhi Office,Available,1
+AF-0159,Water Cooler,C-006,HVAC/Appliances,SN-25881537,2026-02-03,80454.77,Fair,Warehouse - East,Lost,0
+AF-0160,Compressor,C-004,Heavy Equipment,SN-14732104,2025-08-17,472699.75,Excellent,Mumbai Office,Under Maintenance,1
+AF-0161,Generator,C-004,Heavy Equipment,SN-69632595,2026-05-01,194822.71,Excellent,Delhi Office,Available,1
+AF-0162,Air Purifier,C-006,HVAC/Appliances,SN-32787747,2026-02-19,51567.84,Fair,Bengaluru HQ Floor 2,Available,0
+AF-0163,Camera,C-001,Electronics,SN-01687339,2025-06-27,64054.08,Excellent,Delhi Office,Allocated,1
+AF-0164,Pickup Truck,C-003,Vehicles,SN-50047974,2026-02-12,682183.07,Poor,Mumbai Office,Allocated,1
+AF-0165,Pallet Jack,C-004,Heavy Equipment,SN-80162456,2025-12-09,313128.33,Excellent,Warehouse - East,Allocated,1
+AF-0166,AC Unit,C-006,HVAC/Appliances,SN-50609835,2024-10-09,51352.22,Fair,Bengaluru HQ Floor 1,Available,1
+AF-0167,Pallet Jack,C-004,Heavy Equipment,SN-84168784,2025-09-05,190477.52,Excellent,Field Site - Pune,Allocated,1
+AF-0168,Docking Station,C-005,IT Peripherals,SN-99121655,2026-03-22,3500.81,Fair,Bengaluru HQ Floor 1,Retired,1
+AF-0169,Delivery Van,C-003,Vehicles,SN-85239868,2025-09-15,429884.16,Good,Warehouse - East,Allocated,1
+AF-0170,HP Laptop,C-001,Electronics,SN-00025787,2025-01-24,103099.8,Good,Delhi Office,Available,0
+AF-0171,Compressor,C-004,Heavy Equipment,SN-29825952,2024-05-04,252670.63,Fair,Bengaluru HQ Floor 2,Allocated,1
+AF-0172,Microwave,C-006,HVAC/Appliances,SN-69495888,2026-01-31,64071.94,Good,Mumbai Office,Available,0
+AF-0173,Camera,C-001,Electronics,SN-79470551,2023-08-07,101342.34,Poor,Warehouse - West,Allocated,0
+AF-0174,Delivery Van,C-003,Vehicles,SN-69409749,2026-04-15,980139.58,Excellent,Bengaluru HQ Floor 1,Reserved,1
+AF-0175,AC Unit,C-006,HVAC/Appliances,SN-93097289,2024-03-10,49444.89,Fair,Delhi Office,Allocated,0
+AF-0176,Sedan Car,C-003,Vehicles,SN-62309130,2026-04-08,510701.23,Fair,Mumbai Office,Allocated,1
+AF-0177,Forklift,C-004,Heavy Equipment,SN-75626368,2025-03-14,786418.21,Good,Field Site - Pune,Allocated,1
+AF-0178,Compressor,C-004,Heavy Equipment,SN-97028385,2026-06-06,694076.73,Good,Mumbai Office,Reserved,1
+AF-0179,Sedan Car,C-003,Vehicles,SN-78652785,2026-03-15,1118479.07,Good,Warehouse - West,Under Maintenance,1
+AF-0180,Sedan Car,C-003,Vehicles,SN-85497334,2023-04-11,522088.42,Good,Bengaluru HQ Floor 1,Allocated,1
+AF-0181,Air Purifier,C-006,HVAC/Appliances,SN-84344375,2026-05-15,79375.63,Fair,Warehouse - East,Available,1
+AF-0182,Keyboard,C-005,IT Peripherals,SN-75844198,2026-07-03,2263.91,Good,Warehouse - East,Available,0
+AF-0183,HP Laptop,C-001,Electronics,SN-66524041,2026-02-24,26178.38,Fair,Delhi Office,Under Maintenance,0
+AF-0184,Water Cooler,C-006,HVAC/Appliances,SN-57473384,2025-01-07,74593.37,Poor,Delhi Office,Available,0
+AF-0185,AC Unit,C-006,HVAC/Appliances,SN-84219933,2025-07-09,83222.01,Fair,Warehouse - East,Allocated,0
+AF-0186,Pallet Jack,C-004,Heavy Equipment,SN-08330165,2025-07-13,653021.78,Good,Mumbai Office,Allocated,1
+AF-0187,Generator,C-004,Heavy Equipment,SN-71208267,2025-04-21,217746.12,Poor,Bengaluru HQ Floor 2,Allocated,1
+AF-0188,Generator,C-004,Heavy Equipment,SN-73454019,2024-08-31,315354.53,Excellent,Field Site - Pune,Available,1
+AF-0189,Sedan Car,C-003,Vehicles,SN-38026206,2021-08-28,615707.48,Excellent,Warehouse - West,Allocated,1
+AF-0190,Dell Laptop,C-001,Electronics,SN-72400499,2026-03-11,28488.53,Good,Bengaluru HQ Floor 2,Available,1
+AF-0191,Camera,C-001,Electronics,SN-15478872,2025-03-20,35814.65,Excellent,Warehouse - East,Disposed,0
+AF-0192,Scooter,C-003,Vehicles,SN-87431527,2025-10-12,1185435.91,Fair,Field Site - Pune,Disposed,1
+AF-0193,Camera,C-001,Electronics,SN-42054932,2025-02-22,29857.86,Good,Field Site - Pune,Allocated,0
+AF-0194,Camera,C-001,Electronics,SN-96685161,2025-10-14,96361.91,Good,Field Site - Pune,Allocated,0
+AF-0195,HP Laptop,C-001,Electronics,SN-22753046,2025-02-22,111762.26,Excellent,Warehouse - East,Available,0
+AF-0196,HP Laptop,C-001,Electronics,SN-37454990,2025-10-11,53028.87,Good,Field Site - Pune,Allocated,0
+AF-0197,AC Unit,C-006,HVAC/Appliances,SN-45301742,2024-11-30,48481.46,Fair,Warehouse - West,Under Maintenance,0
+AF-0198,AC Unit,C-006,HVAC/Appliances,SN-68414593,2025-10-04,66630.38,Good,Field Site - Pune,Allocated,0
+AF-0199,Desktop PC,C-001,Electronics,SN-32727956,2023-07-04,57858.36,Good,Bengaluru HQ Floor 2,Available,0
+AF-0200,Generator,C-004,Heavy Equipment,SN-87833918,2025-04-03,445101.05,Excellent,Field Site - Pune,Allocated,1
+AF-0201,Pallet Jack,C-004,Heavy Equipment,SN-78519108,2021-12-23,402191.39,Fair,Warehouse - East,Under Maintenance,1
+AF-0202,Pickup Truck,C-003,Vehicles,SN-83982258,2023-05-18,745363.39,Good,Field Site - Pune,Disposed,1
+AF-0203,Water Cooler,C-006,HVAC/Appliances,SN-71397187,2025-11-08,55627.86,Good,Bengaluru HQ Floor 2,Under Maintenance,0
+AF-0204,Delivery Van,C-003,Vehicles,SN-07286790,2026-02-12,776692.78,Good,Delhi Office,Allocated,1
+AF-0205,HP Laptop,C-001,Electronics,SN-87406403,2025-09-22,84492.26,Excellent,Warehouse - West,Allocated,0
+AF-0206,Pickup Truck,C-003,Vehicles,SN-91065180,2026-06-22,650524.71,Fair,Warehouse - East,Allocated,1
+AF-0207,Dell Laptop,C-001,Electronics,SN-17046226,2024-05-22,36857.98,Good,Field Site - Pune,Allocated,1
+AF-0208,Air Purifier,C-006,HVAC/Appliances,SN-56766182,2025-04-24,53345.66,Fair,Warehouse - East,Allocated,0
+AF-0209,Microwave,C-006,HVAC/Appliances,SN-51286823,2025-10-24,23194.82,Fair,Delhi Office,Lost,0
+AF-0210,Air Purifier,C-006,HVAC/Appliances,SN-00478686,2026-06-10,16433.71,Fair,Bengaluru HQ Floor 1,Allocated,0
+AF-0211,Forklift,C-004,Heavy Equipment,SN-33752431,2026-05-01,331193.92,Poor,Warehouse - East,Available,1
+AF-0212,Generator,C-004,Heavy Equipment,SN-06903311,2024-02-12,692193.99,Fair,Mumbai Office,Under Maintenance,1
+AF-0213,Compressor,C-004,Heavy Equipment,SN-90790306,2024-07-16,466958.08,Excellent,Bengaluru HQ Floor 1,Allocated,1
+AF-0214,Delivery Van,C-003,Vehicles,SN-73830284,2026-05-15,479548.12,Good,Mumbai Office,Available,1
+AF-0215,Webcam,C-005,IT Peripherals,SN-39599534,2024-11-06,2008.4,Good,Warehouse - East,Under Maintenance,1
+AF-0216,Air Purifier,C-006,HVAC/Appliances,SN-28364408,2025-12-31,41836.06,Fair,Warehouse - West,Allocated,0
+AF-0217,Forklift,C-004,Heavy Equipment,SN-92687056,2025-09-17,593701.19,Fair,Warehouse - West,Under Maintenance,1
+AF-0218,Generator,C-004,Heavy Equipment,SN-85662462,2025-07-10,472852.02,Excellent,Warehouse - East,Allocated,1
+AF-0219,Keyboard,C-005,IT Peripherals,SN-87334270,2026-01-02,4476.28,Excellent,Delhi Office,Under Maintenance,0
+AF-0220,Webcam,C-005,IT Peripherals,SN-86688263,2026-01-03,2429.41,Fair,Bengaluru HQ Floor 1,Retired,0
+AF-0221,Sedan Car,C-003,Vehicles,SN-43517518,2021-12-22,943195.44,Good,Warehouse - East,Available,1
+AF-0222,Webcam,C-005,IT Peripherals,SN-30469901,2025-01-10,2349.87,Excellent,Bengaluru HQ Floor 1,Under Maintenance,0
+AF-0223,Pickup Truck,C-003,Vehicles,SN-39837354,2022-03-25,903469.57,Fair,Mumbai Office,Available,1
+AF-0224,Pickup Truck,C-003,Vehicles,SN-03317393,2024-03-01,1123088.83,Good,Delhi Office,Allocated,1
+AF-0225,Delivery Van,C-003,Vehicles,SN-63854678,2026-04-30,747190.08,Fair,Delhi Office,Available,1
+AF-0226,Pickup Truck,C-003,Vehicles,SN-54458771,2025-11-25,967448.09,Good,Mumbai Office,Allocated,1
+AF-0227,Projector,C-001,Electronics,SN-75355609,2026-05-07,64296.05,Poor,Delhi Office,Allocated,1
+AF-0228,Pallet Jack,C-004,Heavy Equipment,SN-32048996,2024-12-24,488842.43,Fair,Warehouse - East,Available,1
+AF-0229,Webcam,C-005,IT Peripherals,SN-42353693,2026-05-09,3493.39,Excellent,Delhi Office,Allocated,0
+AF-0230,Compressor,C-004,Heavy Equipment,SN-78547772,2021-07-10,659078.97,Good,Mumbai Office,Allocated,1
+AF-0231,HP Laptop,C-001,Electronics,SN-52287280,2026-03-05,48427.35,Poor,Bengaluru HQ Floor 2,Retired,0
+AF-0232,Pallet Jack,C-004,Heavy Equipment,SN-80100623,2022-01-09,277291.5,Fair,Delhi Office,Under Maintenance,1
+AF-0233,Desktop PC,C-001,Electronics,SN-12038750,2024-03-31,85415.7,Fair,Delhi Office,Available,0
+AF-0234,Generator,C-004,Heavy Equipment,SN-99770088,2026-06-10,440987.73,Excellent,Mumbai Office,Allocated,1
+AF-0235,Compressor,C-004,Heavy Equipment,SN-60084840,2024-12-20,448782.17,Excellent,Warehouse - West,Available,1
+AF-0236,Delivery Van,C-003,Vehicles,SN-86211823,2026-03-17,1479311.78,Excellent,Warehouse - East,Disposed,1
+AF-0237,Air Purifier,C-006,HVAC/Appliances,SN-39845461,2020-07-03,59517.07,Poor,Bengaluru HQ Floor 2,Available,0
+AF-0238,Cabinet,C-002,Furniture,SN-56793341,2024-05-17,23761.44,Fair,Field Site - Pune,Available,0
+AF-0239,Pickup Truck,C-003,Vehicles,SN-01666870,2025-02-16,1021593.84,Good,Warehouse - West,Available,1
+AF-0240,Microwave,C-006,HVAC/Appliances,SN-02176591,2026-03-05,22154.95,Good,Warehouse - West,Allocated,0
+AF-0241,Generator,C-004,Heavy Equipment,SN-80339740,2026-05-10,795615.76,Good,Mumbai Office,Allocated,1
+AF-0242,Webcam,C-005,IT Peripherals,SN-14890250,2023-02-05,2105.21,Good,Field Site - Pune,Allocated,0
+AF-0243,Standing Desk,C-002,Furniture,SN-39261429,2023-02-07,14131.07,Poor,Delhi Office,Retired,0
+AF-0244,Forklift,C-004,Heavy Equipment,SN-39685621,2025-09-29,333622.44,Fair,Warehouse - East,Retired,1
+AF-0245,Pickup Truck,C-003,Vehicles,SN-85016315,2024-06-15,625148.12,Excellent,Bengaluru HQ Floor 1,Lost,1
+AF-0246,HP Laptop,C-001,Electronics,SN-99965047,2026-06-07,114374.53,Good,Delhi Office,Reserved,0
+AF-0247,Projector,C-001,Electronics,SN-73586629,2023-09-03,76213.98,Good,Bengaluru HQ Floor 2,Available,1
+AF-0248,Generator,C-004,Heavy Equipment,SN-61943114,2026-06-14,347562.63,Poor,Bengaluru HQ Floor 2,Reserved,1
+AF-0249,Delivery Van,C-003,Vehicles,SN-26265511,2025-01-15,864892.12,Excellent,Bengaluru HQ Floor 1,Under Maintenance,1
+AF-0250,Sedan Car,C-003,Vehicles,SN-04754121,2023-05-08,1229673.09,Fair,Warehouse - West,Available,1
+AF-0251,Keyboard,C-005,IT Peripherals,SN-26788861,2026-04-12,2179.7,Fair,Warehouse - West,Available,0
+AF-0252,Desktop PC,C-001,Electronics,SN-01581995,2025-07-17,73344.6,Good,Delhi Office,Allocated,1
+AF-0253,Wireless Mouse,C-005,IT Peripherals,SN-60466183,2023-10-27,2545.17,Fair,Delhi Office,Lost,0
+AF-0254,Pallet Jack,C-004,Heavy Equipment,SN-98262244,2022-07-04,661033.67,Poor,Warehouse - West,Available,1
+AF-0255,Desktop PC,C-001,Electronics,SN-47212646,2024-11-11,117174.43,Good,Bengaluru HQ Floor 2,Disposed,0
+AF-0256,Wireless Mouse,C-005,IT Peripherals,SN-47154379,2023-10-24,1484.92,Good,Delhi Office,Available,0
+AF-0257,AC Unit,C-006,HVAC/Appliances,SN-93712406,2024-12-31,82956.53,Excellent,Field Site - Pune,Available,0
+AF-0258,Forklift,C-004,Heavy Equipment,SN-59657569,2026-01-24,367132.48,Fair,Field Site - Pune,Available,1
+AF-0259,Scooter,C-003,Vehicles,SN-24593752,2025-10-02,462244.22,Good,Bengaluru HQ Floor 2,Allocated,1
+AF-0260,Standing Desk,C-002,Furniture,SN-65479356,2025-10-15,5230.2,Excellent,Field Site - Pune,Available,0
+AF-0261,Microwave,C-006,HVAC/Appliances,SN-46519398,2026-05-13,44820.93,Good,Bengaluru HQ Floor 1,Available,0
+AF-0262,Sedan Car,C-003,Vehicles,SN-28073741,2026-01-24,1064000.92,Excellent,Field Site - Pune,Available,1
+AF-0263,Forklift,C-004,Heavy Equipment,SN-67243426,2025-03-11,777259.99,Good,Warehouse - West,Reserved,1
+AF-0264,Sedan Car,C-003,Vehicles,SN-61797968,2026-02-04,1441407.1,Fair,Field Site - Pune,Reserved,1
+AF-0265,Cabinet,C-002,Furniture,SN-86805891,2025-04-26,17962.46,Good,Delhi Office,Allocated,1
+AF-0266,Air Purifier,C-006,HVAC/Appliances,SN-13529096,2026-03-30,21946.91,Good,Field Site - Pune,Under Maintenance,1
+AF-0267,Scooter,C-003,Vehicles,SN-56101438,2025-10-01,1048399.39,Excellent,Mumbai Office,Reserved,1
+AF-0268,Meeting Table,C-002,Furniture,SN-88993756,2023-08-28,3302.4,Fair,Warehouse - West,Available,1
+AF-0269,Webcam,C-005,IT Peripherals,SN-79825071,2025-04-02,4986.47,Excellent,Bengaluru HQ Floor 2,Retired,0
+AF-0270,Pallet Jack,C-004,Heavy Equipment,SN-46112545,2024-09-01,391223.41,Excellent,Warehouse - West,Allocated,1
+AF-0271,Pickup Truck,C-003,Vehicles,SN-73875717,2023-06-10,899779.97,Good,Field Site - Pune,Allocated,1
+AF-0272,Generator,C-004,Heavy Equipment,SN-75140105,2022-10-05,438547.65,Excellent,Field Site - Pune,Allocated,1
+AF-0273,Compressor,C-004,Heavy Equipment,SN-12382825,2022-12-11,575862.91,Excellent,Field Site - Pune,Available,1
+AF-0274,Meeting Table,C-002,Furniture,SN-86736226,2025-01-13,20910.77,Good,Warehouse - West,Available,1
+AF-0275,Generator,C-004,Heavy Equipment,SN-60937966,2025-12-04,350067.29,Good,Warehouse - East,Allocated,1
+AF-0276,Pallet Jack,C-004,Heavy Equipment,SN-03341918,2022-08-26,509691.27,Fair,Bengaluru HQ Floor 1,Lost,1
+AF-0277,Air Purifier,C-006,HVAC/Appliances,SN-25537147,2023-11-07,28443.99,Good,Bengaluru HQ Floor 2,Reserved,0
+AF-0278,Bookshelf,C-002,Furniture,SN-85969691,2026-07-12,19112.82,Excellent,Warehouse - East,Available,1
+AF-0279,Pickup Truck,C-003,Vehicles,SN-55792499,2026-05-18,1068527.95,Excellent,Mumbai Office,Available,1
+AF-0280,AC Unit,C-006,HVAC/Appliances,SN-12513412,2025-03-21,67660.96,Good,Bengaluru HQ Floor 2,Available,0
+AF-0281,Water Cooler,C-006,HVAC/Appliances,SN-52866929,2025-02-28,25713.15,Good,Bengaluru HQ Floor 2,Reserved,0
+AF-0282,Microwave,C-006,HVAC/Appliances,SN-66278282,2026-03-20,50569.13,Good,Delhi Office,Allocated,0
+AF-0283,Sedan Car,C-003,Vehicles,SN-74225790,2026-07-07,1319729.47,Fair,Delhi Office,Allocated,1
+AF-0284,Sedan Car,C-003,Vehicles,SN-50723688,2026-04-02,912940.73,Excellent,Bengaluru HQ Floor 1,Retired,1
+AF-0285,Desktop PC,C-001,Electronics,SN-76767721,2023-08-28,61993.47,Good,Warehouse - West,Allocated,0
+AF-0286,Air Purifier,C-006,HVAC/Appliances,SN-90340438,2025-05-29,42718.06,Good,Mumbai Office,Allocated,0
+AF-0287,Pallet Jack,C-004,Heavy Equipment,SN-42797881,2026-07-08,153453.76,Excellent,Warehouse - West,Allocated,1
+AF-0288,Keyboard,C-005,IT Peripherals,SN-91485807,2025-04-30,1529.69,Excellent,Bengaluru HQ Floor 2,Allocated,0
+AF-0289,Cabinet,C-002,Furniture,SN-83613407,2023-07-03,22981.03,Good,Warehouse - West,Allocated,0
+AF-0290,Forklift,C-004,Heavy Equipment,SN-45171339,2024-10-20,306975.41,Good,Field Site - Pune,Retired,1
+AF-0291,Meeting Table,C-002,Furniture,SN-59629233,2026-06-02,11421.57,Excellent,Warehouse - West,Reserved,1
+AF-0292,Microwave,C-006,HVAC/Appliances,SN-09584982,2025-02-22,59647.74,Fair,Bengaluru HQ Floor 1,Available,0
+AF-0293,Docking Station,C-005,IT Peripherals,SN-54494812,2024-07-27,3048.2,Fair,Warehouse - East,Available,0
+AF-0294,Scooter,C-003,Vehicles,SN-60422325,2025-05-31,755330.08,Poor,Field Site - Pune,Retired,1
+AF-0295,Microwave,C-006,HVAC/Appliances,SN-36729466,2023-12-24,39497.94,Poor,Mumbai Office,Under Maintenance,0
+AF-0296,Water Cooler,C-006,HVAC/Appliances,SN-71168457,2026-02-24,73780.37,Good,Warehouse - West,Allocated,0
+AF-0297,Sedan Car,C-003,Vehicles,SN-75901751,2026-07-05,1238532.89,Good,Warehouse - East,Allocated,1
+AF-0298,Microwave,C-006,HVAC/Appliances,SN-86363745,2025-04-26,44192.29,Poor,Warehouse - West,Available,0
+AF-0299,AC Unit,C-006,HVAC/Appliances,SN-45892975,2025-12-15,75331.05,Excellent,Warehouse - West,Reserved,0
+AF-0300,Compressor,C-004,Heavy Equipment,SN-00170127,2024-12-28,258782.07,Good,Delhi Office,Reserved,1
+AF-0301,Scooter,C-003,Vehicles,SN-70632424,2026-04-19,597291.61,Excellent,Delhi Office,Under Maintenance,1
+AF-0302,HP Laptop,C-001,Electronics,SN-15415206,2024-06-17,82921.26,Excellent,Field Site - Pune,Allocated,0
+AF-0303,Pallet Jack,C-004,Heavy Equipment,SN-43611037,2026-01-31,380701.03,Excellent,Bengaluru HQ Floor 2,Allocated,1
+AF-0304,Forklift,C-004,Heavy Equipment,SN-12938700,2023-08-13,710947.94,Good,Warehouse - West,Reserved,1
+AF-0305,Keyboard,C-005,IT Peripherals,SN-51627136,2020-07-03,3218.05,Excellent,Bengaluru HQ Floor 1,Available,0
+AF-0306,Microwave,C-006,HVAC/Appliances,SN-11155426,2024-03-15,30809.48,Excellent,Bengaluru HQ Floor 2,Available,0
+AF-0307,Desktop PC,C-001,Electronics,SN-22189092,2026-04-12,38991.18,Excellent,Bengaluru HQ Floor 2,Under Maintenance,0
+AF-0308,Delivery Van,C-003,Vehicles,SN-75326973,2026-05-04,1141393.63,Good,Warehouse - East,Available,1
+AF-0309,Microwave,C-006,HVAC/Appliances,SN-11219656,2026-04-19,25286.14,Excellent,Warehouse - East,Allocated,0
+AF-0310,Generator,C-004,Heavy Equipment,SN-52341389,2026-02-03,349201.25,Good,Warehouse - West,Allocated,1
+AF-0311,Docking Station,C-005,IT Peripherals,SN-99404389,2025-05-12,3597.72,Good,Warehouse - East,Disposed,1
+AF-0312,Cabinet,C-002,Furniture,SN-83640376,2025-08-10,13836.52,Good,Warehouse - East,Allocated,0
+AF-0313,Webcam,C-005,IT Peripherals,SN-13791805,2026-05-06,3812.44,Good,Warehouse - East,Allocated,0
+AF-0314,Delivery Van,C-003,Vehicles,SN-52696582,2025-01-17,603797.39,Excellent,Warehouse - West,Under Maintenance,1
+AF-0315,AC Unit,C-006,HVAC/Appliances,SN-71091043,2021-09-24,21526.29,Fair,Delhi Office,Allocated,0
+AF-0316,Meeting Table,C-002,Furniture,SN-00684866,2024-12-31,7800.57,Fair,Bengaluru HQ Floor 1,Retired,1
+AF-0317,Compressor,C-004,Heavy Equipment,SN-61889241,2024-08-18,210954.74,Excellent,Bengaluru HQ Floor 2,Available,1
+AF-0318,Office Chair,C-002,Furniture,SN-41832856,2026-02-26,13297.52,Poor,Field Site - Pune,Allocated,0
+AF-0319,Keyboard,C-005,IT Peripherals,SN-91463031,2025-11-01,2570.14,Good,Field Site - Pune,Allocated,1
+AF-0320,Forklift,C-004,Heavy Equipment,SN-61799042,2026-06-17,695467.26,Excellent,Bengaluru HQ Floor 2,Allocated,1
+AF-0321,HP Laptop,C-001,Electronics,SN-10202758,2024-10-06,35601.33,Excellent,Field Site - Pune,Allocated,0
+AF-0322,Keyboard,C-005,IT Peripherals,SN-84252410,2026-02-27,1144.06,Fair,Mumbai Office,Under Maintenance,0
+AF-0323,Sedan Car,C-003,Vehicles,SN-56481491,2025-12-13,1134654.7,Good,Bengaluru HQ Floor 2,Allocated,1
+AF-0324,Water Cooler,C-006,HVAC/Appliances,SN-77850792,2022-07-03,15771.34,Fair,Warehouse - West,Reserved,0
+AF-0325,AC Unit,C-006,HVAC/Appliances,SN-52419138,2026-01-07,77592.88,Good,Mumbai Office,Retired,0
+AF-0326,Water Cooler,C-006,HVAC/Appliances,SN-00030756,2026-06-11,48503.59,Good,Warehouse - West,Allocated,0
+AF-0327,Compressor,C-004,Heavy Equipment,SN-22086353,2024-08-16,681315.1,Excellent,Field Site - Pune,Available,1
+AF-0328,Compressor,C-004,Heavy Equipment,SN-65419518,2025-10-21,740963.92,Excellent,Bengaluru HQ Floor 2,Available,1
+AF-0329,Meeting Table,C-002,Furniture,SN-02380617,2025-12-15,21280.88,Excellent,Mumbai Office,Allocated,1
+AF-0330,Forklift,C-004,Heavy Equipment,SN-44518705,2025-10-01,736568.47,Poor,Field Site - Pune,Allocated,1
+AF-0331,Water Cooler,C-006,HVAC/Appliances,SN-34949375,2025-05-20,76991.33,Good,Warehouse - East,Under Maintenance,0
+AF-0332,Forklift,C-004,Heavy Equipment,SN-97383206,2026-05-10,536650.8,Good,Mumbai Office,Allocated,1
+AF-0333,Dell Laptop,C-001,Electronics,SN-03850506,2026-04-09,78957.56,Good,Warehouse - East,Disposed,0
+AF-0334,Monitor,C-001,Electronics,SN-41383670,2026-06-15,90741.07,Fair,Delhi Office,Allocated,0
+AF-0335,Pallet Jack,C-004,Heavy Equipment,SN-24103865,2025-12-08,285888.59,Fair,Warehouse - West,Allocated,1
+AF-0336,Sedan Car,C-003,Vehicles,SN-71918261,2025-11-15,823072.18,Poor,Bengaluru HQ Floor 1,Available,1
+AF-0337,Generator,C-004,Heavy Equipment,SN-99062344,2025-06-28,254792.23,Fair,Bengaluru HQ Floor 1,Allocated,1
+AF-0338,Camera,C-001,Electronics,SN-56557431,2025-10-15,36054.06,Fair,Field Site - Pune,Allocated,0
+AF-0339,Docking Station,C-005,IT Peripherals,SN-32912127,2025-03-26,2948.5,Good,Field Site - Pune,Allocated,0
+AF-0340,Meeting Table,C-002,Furniture,SN-75618537,2026-04-18,3922.13,Good,Field Site - Pune,Available,1
+AF-0341,Keyboard,C-005,IT Peripherals,SN-47411249,2022-03-09,4104.15,Fair,Field Site - Pune,Allocated,0
+AF-0342,Forklift,C-004,Heavy Equipment,SN-03521356,2025-10-06,691404.32,Good,Warehouse - East,Allocated,1
+AF-0343,Microwave,C-006,HVAC/Appliances,SN-80442067,2026-02-18,39390.84,Excellent,Delhi Office,Available,0
+AF-0344,Air Purifier,C-006,HVAC/Appliances,SN-88317121,2021-11-29,86006.72,Good,Bengaluru HQ Floor 1,Allocated,0
+AF-0345,Air Purifier,C-006,HVAC/Appliances,SN-00323651,2026-06-29,28588.75,Good,Bengaluru HQ Floor 1,Allocated,0
+AF-0346,Pallet Jack,C-004,Heavy Equipment,SN-99410137,2025-10-16,642233.94,Excellent,Field Site - Pune,Allocated,1
+AF-0347,Desktop PC,C-001,Electronics,SN-21510702,2025-01-17,82232.7,Fair,Bengaluru HQ Floor 1,Available,0
+AF-0348,Microwave,C-006,HVAC/Appliances,SN-96670662,2025-10-13,58743.93,Good,Warehouse - East,Available,0
+AF-0349,Camera,C-001,Electronics,SN-53244720,2025-04-25,62780.02,Good,Field Site - Pune,Retired,0
+AF-0350,Desktop PC,C-001,Electronics,SN-99934768,2025-10-08,104074.54,Good,Delhi Office,Available,0

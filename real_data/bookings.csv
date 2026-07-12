@@ -1,0 +1,2790 @@
+booking_id,asset_tag,asset_name,booking_date,weekday,start_hour,duration_minutes,booked_by,status
+BK-00001,AF-0004,Generator,2026-01-08,Thursday,14,90,E-0011,Completed
+BK-00002,AF-0004,Generator,2025-09-16,Tuesday,16,30,E-0020,Completed
+BK-00003,AF-0004,Generator,2026-02-10,Tuesday,16,60,E-0023,Completed
+BK-00004,AF-0004,Generator,2025-08-18,Monday,15,30,E-0031,Completed
+BK-00005,AF-0004,Generator,2026-03-10,Tuesday,11,60,E-0036,Completed
+BK-00006,AF-0004,Generator,2026-04-02,Thursday,9,90,E-0008,Completed
+BK-00007,AF-0004,Generator,2025-12-12,Friday,16,90,E-0058,Completed
+BK-00008,AF-0004,Generator,2026-04-02,Thursday,15,90,E-0002,Completed
+BK-00009,AF-0004,Generator,2025-10-31,Friday,9,60,E-0050,Completed
+BK-00010,AF-0004,Generator,2026-05-13,Wednesday,15,30,E-0015,Completed
+BK-00011,AF-0004,Generator,2025-10-04,Saturday,10,30,E-0045,Completed
+BK-00012,AF-0004,Generator,2025-07-15,Tuesday,15,60,E-0028,Completed
+BK-00013,AF-0004,Generator,2026-02-16,Monday,15,30,E-0059,Cancelled
+BK-00014,AF-0004,Generator,2025-12-17,Wednesday,16,120,E-0045,Completed
+BK-00015,AF-0005,Projector,2026-02-28,Saturday,17,60,E-0045,Completed
+BK-00016,AF-0005,Projector,2026-05-16,Saturday,12,60,E-0003,Completed
+BK-00017,AF-0005,Projector,2026-05-22,Friday,14,60,E-0040,Completed
+BK-00018,AF-0005,Projector,2026-02-23,Monday,14,30,E-0041,Completed
+BK-00019,AF-0005,Projector,2026-04-06,Monday,11,30,E-0026,Completed
+BK-00020,AF-0005,Projector,2026-02-17,Tuesday,17,30,E-0051,Cancelled
+BK-00021,AF-0005,Projector,2025-08-27,Wednesday,13,60,E-0032,Completed
+BK-00022,AF-0005,Projector,2025-08-01,Friday,14,90,E-0056,Completed
+BK-00023,AF-0005,Projector,2026-04-16,Thursday,11,90,E-0025,Completed
+BK-00024,AF-0005,Projector,2026-07-10,Friday,14,60,E-0008,Completed
+BK-00025,AF-0005,Projector,2026-02-06,Friday,12,60,E-0053,Completed
+BK-00026,AF-0005,Projector,2025-12-02,Tuesday,17,120,E-0015,Completed
+BK-00027,AF-0005,Projector,2026-01-27,Tuesday,14,60,E-0060,Completed
+BK-00028,AF-0005,Projector,2026-01-21,Wednesday,15,60,E-0003,Completed
+BK-00029,AF-0005,Projector,2026-04-21,Tuesday,14,90,E-0047,Completed
+BK-00030,AF-0005,Projector,2025-12-17,Wednesday,10,90,E-0044,Completed
+BK-00031,AF-0005,Projector,2026-06-23,Tuesday,17,90,E-0024,Completed
+BK-00032,AF-0005,Projector,2026-01-05,Monday,14,30,E-0003,Completed
+BK-00033,AF-0005,Projector,2025-11-10,Monday,12,30,E-0059,Completed
+BK-00034,AF-0005,Projector,2026-02-20,Friday,10,30,E-0052,Completed
+BK-00035,AF-0009,Docking Station,2026-04-28,Tuesday,14,30,E-0034,Completed
+BK-00036,AF-0009,Docking Station,2026-05-19,Tuesday,11,30,E-0035,Completed
+BK-00037,AF-0010,Pickup Truck,2026-04-19,Sunday,14,90,E-0027,Cancelled
+BK-00038,AF-0010,Pickup Truck,2026-01-03,Saturday,10,30,E-0057,Completed
+BK-00039,AF-0010,Pickup Truck,2026-05-07,Thursday,9,60,E-0037,Completed
+BK-00040,AF-0010,Pickup Truck,2026-02-10,Tuesday,14,30,E-0023,Completed
+BK-00041,AF-0010,Pickup Truck,2025-09-03,Wednesday,15,30,E-0015,Completed
+BK-00042,AF-0010,Pickup Truck,2026-01-20,Tuesday,15,60,E-0006,Completed
+BK-00043,AF-0010,Pickup Truck,2025-12-17,Wednesday,11,60,E-0053,Completed
+BK-00044,AF-0010,Pickup Truck,2026-06-23,Tuesday,17,30,E-0013,Completed
+BK-00045,AF-0010,Pickup Truck,2025-09-12,Friday,14,60,E-0049,Completed
+BK-00046,AF-0010,Pickup Truck,2025-10-27,Monday,13,60,E-0044,Cancelled
+BK-00047,AF-0010,Pickup Truck,2025-07-30,Wednesday,12,30,E-0034,Completed
+BK-00048,AF-0010,Pickup Truck,2026-03-13,Friday,10,120,E-0008,Completed
+BK-00049,AF-0010,Pickup Truck,2025-07-23,Wednesday,11,60,E-0015,Completed
+BK-00050,AF-0010,Pickup Truck,2026-05-07,Thursday,11,60,E-0037,Completed
+BK-00051,AF-0013,Delivery Van,2025-09-09,Tuesday,10,60,E-0017,Completed
+BK-00052,AF-0014,Sedan Car,2026-03-12,Thursday,16,90,E-0034,Completed
+BK-00053,AF-0014,Sedan Car,2026-05-05,Tuesday,16,90,E-0030,Completed
+BK-00054,AF-0014,Sedan Car,2026-04-21,Tuesday,15,90,E-0040,Completed
+BK-00055,AF-0014,Sedan Car,2026-06-08,Monday,10,60,E-0055,Completed
+BK-00056,AF-0014,Sedan Car,2025-12-30,Tuesday,11,30,E-0041,Completed
+BK-00057,AF-0014,Sedan Car,2026-02-12,Thursday,12,30,E-0024,Cancelled
+BK-00058,AF-0015,Wireless Mouse,2026-02-11,Wednesday,11,120,E-0029,Cancelled
+BK-00059,AF-0015,Wireless Mouse,2025-08-23,Saturday,10,60,E-0023,Completed
+BK-00060,AF-0015,Wireless Mouse,2026-02-24,Tuesday,11,60,E-0049,Cancelled
+BK-00061,AF-0015,Wireless Mouse,2026-04-06,Monday,9,120,E-0017,Completed
+BK-00062,AF-0015,Wireless Mouse,2025-08-06,Wednesday,11,120,E-0004,Completed
+BK-00063,AF-0015,Wireless Mouse,2025-10-27,Monday,15,30,E-0018,Completed
+BK-00064,AF-0015,Wireless Mouse,2026-03-20,Friday,14,120,E-0003,Completed
+BK-00065,AF-0015,Wireless Mouse,2025-09-11,Thursday,11,30,E-0027,Completed
+BK-00066,AF-0015,Wireless Mouse,2026-06-22,Monday,15,90,E-0057,Completed
+BK-00067,AF-0015,Wireless Mouse,2026-05-22,Friday,15,90,E-0008,Completed
+BK-00068,AF-0015,Wireless Mouse,2026-02-16,Monday,9,60,E-0019,Completed
+BK-00069,AF-0015,Wireless Mouse,2025-08-19,Tuesday,17,60,E-0015,Completed
+BK-00070,AF-0015,Wireless Mouse,2025-11-11,Tuesday,15,60,E-0046,Cancelled
+BK-00071,AF-0015,Wireless Mouse,2025-08-25,Monday,10,30,E-0033,Completed
+BK-00072,AF-0015,Wireless Mouse,2026-03-26,Thursday,14,60,E-0021,Completed
+BK-00073,AF-0017,Compressor,2026-06-09,Tuesday,15,30,E-0042,Completed
+BK-00074,AF-0017,Compressor,2026-04-15,Wednesday,13,30,E-0020,Completed
+BK-00075,AF-0017,Compressor,2025-07-30,Wednesday,11,60,E-0015,Completed
+BK-00076,AF-0017,Compressor,2025-12-02,Tuesday,15,120,E-0055,Completed
+BK-00077,AF-0017,Compressor,2026-06-08,Monday,15,30,E-0017,Completed
+BK-00078,AF-0017,Compressor,2026-01-21,Wednesday,13,120,E-0035,Completed
+BK-00079,AF-0017,Compressor,2026-01-15,Thursday,9,60,E-0002,Completed
+BK-00080,AF-0017,Compressor,2026-04-09,Thursday,17,30,E-0011,Completed
+BK-00081,AF-0017,Compressor,2025-08-04,Monday,10,60,E-0048,Completed
+BK-00082,AF-0017,Compressor,2026-06-30,Tuesday,9,30,E-0048,Completed
+BK-00083,AF-0017,Compressor,2025-12-10,Wednesday,12,120,E-0041,Completed
+BK-00084,AF-0018,Generator,2025-11-01,Saturday,11,90,E-0005,Completed
+BK-00085,AF-0018,Generator,2025-11-20,Thursday,12,30,E-0040,Completed
+BK-00086,AF-0018,Generator,2026-02-04,Wednesday,14,30,E-0023,Completed
+BK-00087,AF-0018,Generator,2025-12-12,Friday,10,60,E-0041,Completed
+BK-00088,AF-0019,Compressor,2025-11-03,Monday,11,90,E-0031,Completed
+BK-00089,AF-0019,Compressor,2025-11-03,Monday,15,90,E-0009,Completed
+BK-00090,AF-0019,Compressor,2026-07-06,Monday,17,90,E-0038,Completed
+BK-00091,AF-0019,Compressor,2025-10-03,Friday,11,30,E-0008,Completed
+BK-00092,AF-0021,Forklift,2026-02-04,Wednesday,9,60,E-0049,Completed
+BK-00093,AF-0021,Forklift,2025-07-17,Thursday,10,90,E-0008,Completed
+BK-00094,AF-0021,Forklift,2025-08-20,Wednesday,15,90,E-0007,Completed
+BK-00095,AF-0021,Forklift,2026-02-12,Thursday,11,60,E-0056,Cancelled
+BK-00096,AF-0021,Forklift,2026-07-01,Wednesday,14,90,E-0024,Completed
+BK-00097,AF-0021,Forklift,2025-08-12,Tuesday,11,30,E-0059,Completed
+BK-00098,AF-0021,Forklift,2025-07-29,Tuesday,10,90,E-0041,Completed
+BK-00099,AF-0021,Forklift,2025-08-26,Tuesday,17,60,E-0020,Completed
+BK-00100,AF-0021,Forklift,2025-11-13,Thursday,10,60,E-0036,Completed
+BK-00101,AF-0021,Forklift,2026-04-01,Wednesday,14,60,E-0015,Completed
+BK-00102,AF-0023,Projector,2026-02-25,Wednesday,15,90,E-0054,Completed
+BK-00103,AF-0023,Projector,2025-08-21,Thursday,15,120,E-0014,Completed
+BK-00104,AF-0023,Projector,2025-09-08,Monday,10,30,E-0031,Completed
+BK-00105,AF-0023,Projector,2025-11-28,Friday,15,60,E-0020,Completed
+BK-00106,AF-0023,Projector,2025-11-24,Monday,14,30,E-0016,Completed
+BK-00107,AF-0023,Projector,2026-04-13,Monday,9,120,E-0007,Completed
+BK-00108,AF-0023,Projector,2025-10-22,Wednesday,13,90,E-0039,Completed
+BK-00109,AF-0023,Projector,2026-04-21,Tuesday,9,60,E-0051,Completed
+BK-00110,AF-0023,Projector,2026-06-08,Monday,12,60,E-0023,Completed
+BK-00111,AF-0023,Projector,2025-07-14,Monday,15,90,E-0010,Completed
+BK-00112,AF-0023,Projector,2026-06-15,Monday,12,60,E-0047,Cancelled
+BK-00113,AF-0023,Projector,2026-02-06,Friday,16,120,E-0033,Completed
+BK-00114,AF-0023,Projector,2025-07-30,Wednesday,9,30,E-0027,Completed
+BK-00115,AF-0023,Projector,2026-01-27,Tuesday,11,60,E-0051,Cancelled
+BK-00116,AF-0023,Projector,2025-12-24,Wednesday,11,90,E-0034,Completed
+BK-00117,AF-0023,Projector,2026-04-22,Wednesday,10,30,E-0047,Completed
+BK-00118,AF-0023,Projector,2025-12-08,Monday,11,30,E-0013,Completed
+BK-00119,AF-0023,Projector,2025-11-29,Saturday,15,60,E-0056,Cancelled
+BK-00120,AF-0025,Pickup Truck,2026-04-21,Tuesday,11,60,E-0016,Completed
+BK-00121,AF-0025,Pickup Truck,2026-04-16,Thursday,11,30,E-0054,Completed
+BK-00122,AF-0030,Meeting Table,2025-08-13,Wednesday,14,90,E-0038,Completed
+BK-00123,AF-0030,Meeting Table,2026-03-26,Thursday,10,90,E-0007,Cancelled
+BK-00124,AF-0030,Meeting Table,2026-02-26,Thursday,9,30,E-0053,Completed
+BK-00125,AF-0030,Meeting Table,2025-10-07,Tuesday,17,30,E-0037,Completed
+BK-00126,AF-0030,Meeting Table,2026-04-02,Thursday,10,60,E-0025,Completed
+BK-00127,AF-0030,Meeting Table,2026-01-14,Wednesday,9,30,E-0043,Completed
+BK-00128,AF-0030,Meeting Table,2026-06-15,Monday,13,120,E-0033,Completed
+BK-00129,AF-0030,Meeting Table,2026-05-05,Tuesday,10,60,E-0055,Completed
+BK-00130,AF-0030,Meeting Table,2026-02-13,Friday,11,30,E-0010,Completed
+BK-00131,AF-0030,Meeting Table,2025-10-10,Friday,17,60,E-0049,Completed
+BK-00132,AF-0030,Meeting Table,2025-08-27,Wednesday,11,60,E-0025,Completed
+BK-00133,AF-0030,Meeting Table,2025-12-18,Thursday,16,30,E-0041,Completed
+BK-00134,AF-0030,Meeting Table,2025-07-24,Thursday,11,60,E-0059,Completed
+BK-00135,AF-0030,Meeting Table,2025-08-27,Wednesday,15,30,E-0031,Completed
+BK-00136,AF-0030,Meeting Table,2025-10-24,Friday,14,60,E-0001,Completed
+BK-00137,AF-0030,Meeting Table,2026-03-05,Thursday,10,30,E-0012,Cancelled
+BK-00138,AF-0030,Meeting Table,2025-11-05,Wednesday,14,90,E-0045,Completed
+BK-00139,AF-0032,Meeting Table,2025-11-11,Tuesday,12,90,E-0054,Completed
+BK-00140,AF-0032,Meeting Table,2026-05-01,Friday,14,90,E-0005,Completed
+BK-00141,AF-0032,Meeting Table,2026-06-01,Monday,14,30,E-0030,Completed
+BK-00142,AF-0032,Meeting Table,2026-02-05,Thursday,13,120,E-0017,Cancelled
+BK-00143,AF-0032,Meeting Table,2026-02-12,Thursday,10,60,E-0020,Completed
+BK-00144,AF-0032,Meeting Table,2025-07-23,Wednesday,16,30,E-0006,Completed
+BK-00145,AF-0032,Meeting Table,2025-09-08,Monday,15,120,E-0032,Completed
+BK-00146,AF-0032,Meeting Table,2025-12-18,Thursday,13,30,E-0007,Completed
+BK-00147,AF-0032,Meeting Table,2025-08-05,Tuesday,14,30,E-0003,Completed
+BK-00148,AF-0032,Meeting Table,2025-11-06,Thursday,15,60,E-0013,Completed
+BK-00149,AF-0032,Meeting Table,2026-05-07,Thursday,12,90,E-0047,Completed
+BK-00150,AF-0032,Meeting Table,2025-10-15,Wednesday,17,60,E-0006,Completed
+BK-00151,AF-0032,Meeting Table,2026-06-30,Tuesday,13,30,E-0033,Completed
+BK-00152,AF-0032,Meeting Table,2025-11-18,Tuesday,10,60,E-0052,Completed
+BK-00153,AF-0032,Meeting Table,2026-04-30,Thursday,14,30,E-0041,Completed
+BK-00154,AF-0032,Meeting Table,2026-02-03,Tuesday,15,30,E-0018,Completed
+BK-00155,AF-0032,Meeting Table,2026-07-03,Friday,15,60,E-0057,Completed
+BK-00156,AF-0032,Meeting Table,2025-12-31,Wednesday,15,60,E-0053,Cancelled
+BK-00157,AF-0032,Meeting Table,2025-12-24,Wednesday,10,60,E-0012,Completed
+BK-00158,AF-0032,Meeting Table,2026-02-05,Thursday,15,30,E-0025,Completed
+BK-00159,AF-0032,Meeting Table,2026-02-18,Wednesday,14,90,E-0026,Completed
+BK-00160,AF-0032,Meeting Table,2025-10-07,Tuesday,14,60,E-0047,Completed
+BK-00161,AF-0032,Meeting Table,2026-05-15,Friday,14,30,E-0035,Cancelled
+BK-00162,AF-0032,Meeting Table,2025-11-27,Thursday,10,30,E-0022,Completed
+BK-00163,AF-0032,Meeting Table,2025-10-20,Monday,11,30,E-0030,Completed
+BK-00164,AF-0033,Pallet Jack,2026-04-01,Wednesday,14,60,E-0042,Completed
+BK-00165,AF-0033,Pallet Jack,2026-03-02,Monday,10,30,E-0040,Completed
+BK-00166,AF-0033,Pallet Jack,2025-10-30,Thursday,11,120,E-0001,Completed
+BK-00167,AF-0033,Pallet Jack,2025-10-29,Wednesday,11,60,E-0054,Completed
+BK-00168,AF-0033,Pallet Jack,2025-07-22,Tuesday,11,30,E-0057,Completed
+BK-00169,AF-0033,Pallet Jack,2026-06-02,Tuesday,11,30,E-0027,Cancelled
+BK-00170,AF-0033,Pallet Jack,2025-10-13,Monday,14,90,E-0053,Completed
+BK-00171,AF-0033,Pallet Jack,2025-07-16,Wednesday,10,30,E-0035,Completed
+BK-00172,AF-0033,Pallet Jack,2025-10-29,Wednesday,11,60,E-0009,Cancelled
+BK-00173,AF-0033,Pallet Jack,2026-03-26,Thursday,14,60,E-0023,Completed
+BK-00174,AF-0033,Pallet Jack,2026-06-19,Friday,13,90,E-0012,Completed
+BK-00175,AF-0033,Pallet Jack,2026-04-17,Friday,13,60,E-0037,Completed
+BK-00176,AF-0033,Pallet Jack,2026-04-02,Thursday,10,30,E-0001,Completed
+BK-00177,AF-0033,Pallet Jack,2025-08-05,Tuesday,16,60,E-0004,Completed
+BK-00178,AF-0033,Pallet Jack,2026-02-10,Tuesday,15,60,E-0010,Completed
+BK-00179,AF-0033,Pallet Jack,2026-04-06,Monday,14,120,E-0040,Completed
+BK-00180,AF-0033,Pallet Jack,2025-08-21,Thursday,14,60,E-0043,Completed
+BK-00181,AF-0033,Pallet Jack,2026-01-30,Friday,15,60,E-0053,Completed
+BK-00182,AF-0033,Pallet Jack,2026-05-05,Tuesday,12,60,E-0002,Completed
+BK-00183,AF-0033,Pallet Jack,2025-09-11,Thursday,10,60,E-0055,Completed
+BK-00184,AF-0033,Pallet Jack,2025-07-31,Thursday,13,60,E-0002,Completed
+BK-00185,AF-0033,Pallet Jack,2025-09-01,Monday,14,90,E-0013,Completed
+BK-00186,AF-0033,Pallet Jack,2025-12-22,Monday,17,60,E-0017,Cancelled
+BK-00187,AF-0033,Pallet Jack,2026-04-19,Sunday,16,60,E-0039,Completed
+BK-00188,AF-0033,Pallet Jack,2026-07-08,Wednesday,15,120,E-0024,Completed
+BK-00189,AF-0034,Generator,2026-01-27,Tuesday,9,60,E-0040,Completed
+BK-00190,AF-0034,Generator,2025-12-25,Thursday,13,30,E-0005,Completed
+BK-00191,AF-0034,Generator,2025-11-12,Wednesday,14,30,E-0042,Completed
+BK-00192,AF-0034,Generator,2026-05-21,Thursday,9,30,E-0044,Completed
+BK-00193,AF-0034,Generator,2025-12-19,Friday,15,90,E-0016,Completed
+BK-00194,AF-0034,Generator,2025-07-30,Wednesday,15,90,E-0053,Completed
+BK-00195,AF-0034,Generator,2025-12-25,Thursday,15,60,E-0045,Completed
+BK-00196,AF-0034,Generator,2026-01-21,Wednesday,11,60,E-0049,Completed
+BK-00197,AF-0034,Generator,2026-01-28,Wednesday,15,30,E-0006,Completed
+BK-00198,AF-0034,Generator,2025-10-22,Wednesday,9,60,E-0051,Completed
+BK-00199,AF-0034,Generator,2025-08-05,Tuesday,14,60,E-0053,Completed
+BK-00200,AF-0034,Generator,2026-01-06,Tuesday,15,60,E-0014,Completed
+BK-00201,AF-0034,Generator,2025-10-10,Friday,14,30,E-0054,Cancelled
+BK-00202,AF-0034,Generator,2026-03-17,Tuesday,10,90,E-0022,Completed
+BK-00203,AF-0034,Generator,2025-09-23,Tuesday,14,30,E-0040,Completed
+BK-00204,AF-0034,Generator,2026-05-04,Monday,10,60,E-0019,Completed
+BK-00205,AF-0034,Generator,2026-03-10,Tuesday,14,60,E-0037,Completed
+BK-00206,AF-0034,Generator,2025-10-24,Friday,14,90,E-0029,Completed
+BK-00207,AF-0034,Generator,2025-09-22,Monday,15,60,E-0057,Cancelled
+BK-00208,AF-0034,Generator,2025-11-06,Thursday,16,60,E-0019,Completed
+BK-00209,AF-0034,Generator,2025-08-14,Thursday,13,60,E-0039,Completed
+BK-00210,AF-0034,Generator,2025-08-28,Thursday,11,60,E-0047,Completed
+BK-00211,AF-0034,Generator,2026-01-12,Monday,15,90,E-0058,Completed
+BK-00212,AF-0034,Generator,2025-08-18,Monday,10,120,E-0051,Completed
+BK-00213,AF-0034,Generator,2026-01-06,Tuesday,14,90,E-0001,Completed
+BK-00214,AF-0034,Generator,2026-03-24,Tuesday,14,30,E-0038,Completed
+BK-00215,AF-0034,Generator,2026-05-08,Friday,10,60,E-0032,Completed
+BK-00216,AF-0034,Generator,2026-05-08,Friday,10,30,E-0031,Completed
+BK-00217,AF-0034,Generator,2025-09-09,Tuesday,11,30,E-0024,Completed
+BK-00218,AF-0034,Generator,2025-09-22,Monday,12,60,E-0059,Completed
+BK-00219,AF-0034,Generator,2025-11-12,Wednesday,17,30,E-0017,Completed
+BK-00220,AF-0034,Generator,2026-06-06,Saturday,15,30,E-0014,Completed
+BK-00221,AF-0034,Generator,2025-10-08,Wednesday,10,90,E-0041,Completed
+BK-00222,AF-0034,Generator,2026-02-22,Sunday,12,60,E-0016,Completed
+BK-00223,AF-0034,Generator,2026-06-15,Monday,11,90,E-0043,Cancelled
+BK-00224,AF-0034,Generator,2026-06-12,Friday,16,60,E-0049,Completed
+BK-00225,AF-0034,Generator,2026-06-30,Tuesday,13,60,E-0050,Cancelled
+BK-00226,AF-0034,Generator,2026-01-28,Wednesday,10,60,E-0026,Completed
+BK-00227,AF-0036,Forklift,2025-08-21,Thursday,15,60,E-0032,Completed
+BK-00228,AF-0036,Forklift,2026-05-06,Wednesday,14,90,E-0001,Completed
+BK-00229,AF-0036,Forklift,2026-05-11,Monday,15,120,E-0030,Completed
+BK-00230,AF-0036,Forklift,2026-01-01,Thursday,15,60,E-0042,Completed
+BK-00231,AF-0036,Forklift,2026-05-12,Tuesday,9,60,E-0053,Completed
+BK-00232,AF-0036,Forklift,2026-07-01,Wednesday,14,60,E-0046,Completed
+BK-00233,AF-0036,Forklift,2026-01-21,Wednesday,10,60,E-0008,Completed
+BK-00234,AF-0036,Forklift,2025-07-22,Tuesday,10,30,E-0026,Completed
+BK-00235,AF-0036,Forklift,2025-10-03,Friday,15,60,E-0005,Completed
+BK-00236,AF-0036,Forklift,2026-02-20,Friday,15,90,E-0004,Completed
+BK-00237,AF-0036,Forklift,2026-05-20,Wednesday,10,60,E-0024,Completed
+BK-00238,AF-0036,Forklift,2025-09-16,Tuesday,9,120,E-0028,Completed
+BK-00239,AF-0036,Forklift,2026-04-09,Thursday,10,60,E-0047,Cancelled
+BK-00240,AF-0036,Forklift,2025-08-21,Thursday,17,60,E-0035,Completed
+BK-00241,AF-0036,Forklift,2026-03-05,Thursday,11,120,E-0036,Completed
+BK-00242,AF-0036,Forklift,2026-05-11,Monday,14,60,E-0056,Completed
+BK-00243,AF-0036,Forklift,2025-12-04,Thursday,16,120,E-0023,Completed
+BK-00244,AF-0036,Forklift,2026-05-06,Wednesday,10,60,E-0045,Completed
+BK-00245,AF-0036,Forklift,2026-04-30,Thursday,9,30,E-0021,Completed
+BK-00246,AF-0036,Forklift,2025-12-31,Wednesday,15,30,E-0042,Completed
+BK-00247,AF-0036,Forklift,2026-07-04,Saturday,14,30,E-0036,Completed
+BK-00248,AF-0037,Delivery Van,2025-12-25,Thursday,10,60,E-0015,Completed
+BK-00249,AF-0037,Delivery Van,2025-10-02,Thursday,15,60,E-0016,Completed
+BK-00250,AF-0037,Delivery Van,2026-04-07,Tuesday,14,60,E-0047,Completed
+BK-00251,AF-0037,Delivery Van,2025-10-07,Tuesday,14,60,E-0028,Completed
+BK-00252,AF-0037,Delivery Van,2026-04-30,Thursday,16,60,E-0008,Completed
+BK-00253,AF-0037,Delivery Van,2025-07-24,Thursday,15,30,E-0001,Completed
+BK-00254,AF-0037,Delivery Van,2026-05-20,Wednesday,14,60,E-0037,Completed
+BK-00255,AF-0037,Delivery Van,2026-01-23,Friday,11,60,E-0020,Completed
+BK-00256,AF-0037,Delivery Van,2026-04-28,Tuesday,14,30,E-0037,Completed
+BK-00257,AF-0037,Delivery Van,2025-08-28,Thursday,10,30,E-0029,Completed
+BK-00258,AF-0037,Delivery Van,2026-04-17,Friday,11,60,E-0029,Completed
+BK-00259,AF-0037,Delivery Van,2025-09-23,Tuesday,14,90,E-0051,Completed
+BK-00260,AF-0037,Delivery Van,2025-07-31,Thursday,9,90,E-0059,Completed
+BK-00261,AF-0039,Sedan Car,2025-09-26,Friday,12,60,E-0011,Completed
+BK-00262,AF-0039,Sedan Car,2025-10-09,Thursday,15,60,E-0018,Completed
+BK-00263,AF-0039,Sedan Car,2026-07-02,Thursday,10,30,E-0033,Cancelled
+BK-00264,AF-0039,Sedan Car,2025-09-24,Wednesday,10,30,E-0051,Completed
+BK-00265,AF-0039,Sedan Car,2026-02-26,Thursday,17,60,E-0016,Completed
+BK-00266,AF-0039,Sedan Car,2026-02-27,Friday,17,60,E-0014,Completed
+BK-00267,AF-0039,Sedan Car,2026-02-16,Monday,13,30,E-0010,Completed
+BK-00268,AF-0039,Sedan Car,2026-01-16,Friday,11,30,E-0036,Completed
+BK-00269,AF-0039,Sedan Car,2026-04-06,Monday,14,30,E-0026,Completed
+BK-00270,AF-0039,Sedan Car,2026-05-04,Monday,15,30,E-0048,Completed
+BK-00271,AF-0039,Sedan Car,2026-06-02,Tuesday,12,60,E-0027,Completed
+BK-00272,AF-0039,Sedan Car,2026-05-21,Thursday,10,120,E-0037,Completed
+BK-00273,AF-0039,Sedan Car,2026-02-16,Monday,17,60,E-0058,Completed
+BK-00274,AF-0039,Sedan Car,2026-07-08,Wednesday,12,60,E-0027,Completed
+BK-00275,AF-0039,Sedan Car,2025-10-08,Wednesday,15,120,E-0010,Completed
+BK-00276,AF-0039,Sedan Car,2026-02-18,Wednesday,11,90,E-0020,Completed
+BK-00277,AF-0039,Sedan Car,2026-02-19,Thursday,11,90,E-0042,Completed
+BK-00278,AF-0039,Sedan Car,2026-01-13,Tuesday,13,90,E-0054,Completed
+BK-00279,AF-0039,Sedan Car,2026-01-03,Saturday,10,30,E-0024,Completed
+BK-00280,AF-0039,Sedan Car,2026-01-22,Thursday,10,120,E-0001,Completed
+BK-00281,AF-0039,Sedan Car,2026-06-19,Friday,15,30,E-0009,Completed
+BK-00282,AF-0039,Sedan Car,2026-04-06,Monday,16,60,E-0022,Completed
+BK-00283,AF-0039,Sedan Car,2025-10-07,Tuesday,14,30,E-0019,Completed
+BK-00284,AF-0039,Sedan Car,2025-12-11,Thursday,14,120,E-0006,Completed
+BK-00285,AF-0039,Sedan Car,2025-07-17,Thursday,14,60,E-0028,Completed
+BK-00286,AF-0039,Sedan Car,2026-04-21,Tuesday,17,120,E-0029,Completed
+BK-00287,AF-0039,Sedan Car,2025-09-12,Friday,9,30,E-0014,Completed
+BK-00288,AF-0039,Sedan Car,2026-01-16,Friday,15,90,E-0017,Completed
+BK-00289,AF-0039,Sedan Car,2026-04-08,Wednesday,10,90,E-0016,Completed
+BK-00290,AF-0039,Sedan Car,2026-06-22,Monday,10,60,E-0036,Completed
+BK-00291,AF-0039,Sedan Car,2025-07-30,Wednesday,11,30,E-0055,Completed
+BK-00292,AF-0039,Sedan Car,2025-10-07,Tuesday,15,60,E-0055,Completed
+BK-00293,AF-0039,Sedan Car,2026-06-08,Monday,11,60,E-0016,Completed
+BK-00294,AF-0039,Sedan Car,2025-08-08,Friday,15,30,E-0060,Completed
+BK-00295,AF-0039,Sedan Car,2026-07-10,Friday,14,30,E-0045,Completed
+BK-00296,AF-0040,Pallet Jack,2025-12-30,Tuesday,10,30,E-0002,Completed
+BK-00297,AF-0040,Pallet Jack,2026-01-06,Tuesday,11,30,E-0053,Completed
+BK-00298,AF-0040,Pallet Jack,2026-03-21,Saturday,10,120,E-0016,Completed
+BK-00299,AF-0040,Pallet Jack,2026-04-02,Thursday,14,60,E-0011,Completed
+BK-00300,AF-0040,Pallet Jack,2025-11-20,Thursday,9,30,E-0035,Completed
+BK-00301,AF-0040,Pallet Jack,2026-03-30,Monday,16,60,E-0018,Completed
+BK-00302,AF-0040,Pallet Jack,2026-01-27,Tuesday,11,60,E-0023,Completed
+BK-00303,AF-0040,Pallet Jack,2026-02-18,Wednesday,13,30,E-0033,Completed
+BK-00304,AF-0040,Pallet Jack,2025-09-06,Saturday,13,60,E-0035,Completed
+BK-00305,AF-0040,Pallet Jack,2025-12-24,Wednesday,15,90,E-0030,Completed
+BK-00306,AF-0040,Pallet Jack,2025-12-30,Tuesday,15,90,E-0030,Completed
+BK-00307,AF-0040,Pallet Jack,2025-07-15,Tuesday,16,30,E-0006,Completed
+BK-00308,AF-0040,Pallet Jack,2025-09-05,Friday,10,30,E-0055,Completed
+BK-00309,AF-0040,Pallet Jack,2025-11-19,Wednesday,16,30,E-0019,Completed
+BK-00310,AF-0040,Pallet Jack,2026-02-04,Wednesday,10,120,E-0019,Completed
+BK-00311,AF-0040,Pallet Jack,2026-03-08,Sunday,10,60,E-0038,Completed
+BK-00312,AF-0040,Pallet Jack,2025-08-06,Wednesday,17,120,E-0020,Completed
+BK-00313,AF-0040,Pallet Jack,2026-07-01,Wednesday,14,30,E-0034,Completed
+BK-00314,AF-0040,Pallet Jack,2025-12-30,Tuesday,13,30,E-0010,Cancelled
+BK-00315,AF-0040,Pallet Jack,2026-05-11,Monday,16,30,E-0048,Completed
+BK-00316,AF-0040,Pallet Jack,2026-05-06,Wednesday,16,60,E-0023,Completed
+BK-00317,AF-0040,Pallet Jack,2026-04-27,Monday,14,30,E-0050,Completed
+BK-00318,AF-0040,Pallet Jack,2026-04-24,Friday,10,60,E-0032,Completed
+BK-00319,AF-0040,Pallet Jack,2026-06-16,Tuesday,17,30,E-0045,Completed
+BK-00320,AF-0040,Pallet Jack,2026-02-25,Wednesday,11,60,E-0012,Completed
+BK-00321,AF-0040,Pallet Jack,2026-07-07,Tuesday,14,60,E-0039,Completed
+BK-00322,AF-0040,Pallet Jack,2025-08-26,Tuesday,14,90,E-0038,Completed
+BK-00323,AF-0040,Pallet Jack,2026-07-09,Thursday,14,60,E-0042,Completed
+BK-00324,AF-0040,Pallet Jack,2025-11-24,Monday,11,60,E-0030,Completed
+BK-00325,AF-0040,Pallet Jack,2025-07-30,Wednesday,17,90,E-0012,Completed
+BK-00326,AF-0040,Pallet Jack,2026-01-07,Wednesday,14,120,E-0006,Completed
+BK-00327,AF-0040,Pallet Jack,2025-08-06,Wednesday,12,30,E-0035,Completed
+BK-00328,AF-0041,Delivery Van,2026-05-22,Friday,11,30,E-0015,Completed
+BK-00329,AF-0041,Delivery Van,2026-02-07,Saturday,15,60,E-0052,Completed
+BK-00330,AF-0041,Delivery Van,2025-08-13,Wednesday,15,90,E-0012,Completed
+BK-00331,AF-0042,Scooter,2025-12-09,Tuesday,11,30,E-0027,Completed
+BK-00332,AF-0042,Scooter,2026-04-22,Wednesday,10,60,E-0055,Completed
+BK-00333,AF-0042,Scooter,2025-11-05,Wednesday,16,120,E-0041,Completed
+BK-00334,AF-0042,Scooter,2025-10-31,Friday,10,30,E-0002,Completed
+BK-00335,AF-0042,Scooter,2025-11-19,Wednesday,12,60,E-0034,Completed
+BK-00336,AF-0042,Scooter,2026-03-19,Thursday,11,30,E-0035,Completed
+BK-00337,AF-0042,Scooter,2025-12-04,Thursday,10,30,E-0053,Completed
+BK-00338,AF-0042,Scooter,2025-08-05,Tuesday,14,60,E-0041,Completed
+BK-00339,AF-0042,Scooter,2026-04-02,Thursday,15,60,E-0033,Completed
+BK-00340,AF-0042,Scooter,2026-05-06,Wednesday,16,60,E-0001,Cancelled
+BK-00341,AF-0042,Scooter,2025-07-29,Tuesday,14,60,E-0030,Completed
+BK-00342,AF-0042,Scooter,2025-08-15,Friday,9,60,E-0034,Completed
+BK-00343,AF-0042,Scooter,2026-06-16,Tuesday,10,60,E-0059,Completed
+BK-00344,AF-0042,Scooter,2026-04-28,Tuesday,11,30,E-0004,Completed
+BK-00345,AF-0042,Scooter,2026-01-28,Wednesday,10,90,E-0018,Cancelled
+BK-00346,AF-0042,Scooter,2025-07-21,Monday,11,60,E-0025,Completed
+BK-00347,AF-0042,Scooter,2025-10-22,Wednesday,10,60,E-0009,Completed
+BK-00348,AF-0042,Scooter,2025-11-21,Friday,11,60,E-0031,Completed
+BK-00349,AF-0042,Scooter,2025-07-19,Saturday,14,60,E-0016,Completed
+BK-00350,AF-0042,Scooter,2025-11-26,Wednesday,17,30,E-0027,Completed
+BK-00351,AF-0042,Scooter,2025-09-10,Wednesday,12,120,E-0051,Completed
+BK-00352,AF-0042,Scooter,2026-07-01,Wednesday,10,30,E-0037,Completed
+BK-00353,AF-0042,Scooter,2026-01-19,Monday,15,90,E-0027,Completed
+BK-00354,AF-0042,Scooter,2025-07-31,Thursday,12,90,E-0032,Completed
+BK-00355,AF-0042,Scooter,2025-12-01,Monday,11,30,E-0035,Cancelled
+BK-00356,AF-0042,Scooter,2025-11-27,Thursday,11,60,E-0037,Completed
+BK-00357,AF-0042,Scooter,2026-04-23,Thursday,14,60,E-0020,Completed
+BK-00358,AF-0046,Forklift,2026-05-29,Friday,10,30,E-0054,Completed
+BK-00359,AF-0046,Forklift,2026-03-06,Friday,15,30,E-0022,Completed
+BK-00360,AF-0046,Forklift,2026-02-23,Monday,11,30,E-0024,Completed
+BK-00361,AF-0046,Forklift,2025-08-04,Monday,13,30,E-0028,Completed
+BK-00362,AF-0046,Forklift,2026-06-17,Wednesday,11,90,E-0056,Completed
+BK-00363,AF-0046,Forklift,2025-08-21,Thursday,16,90,E-0011,Completed
+BK-00364,AF-0046,Forklift,2026-02-13,Friday,15,60,E-0019,Completed
+BK-00365,AF-0046,Forklift,2026-06-23,Tuesday,10,60,E-0028,Completed
+BK-00366,AF-0046,Forklift,2025-07-23,Wednesday,14,90,E-0009,Completed
+BK-00367,AF-0046,Forklift,2025-09-12,Friday,17,60,E-0009,Completed
+BK-00368,AF-0046,Forklift,2026-06-05,Friday,12,60,E-0057,Completed
+BK-00369,AF-0046,Forklift,2026-01-05,Monday,11,30,E-0006,Completed
+BK-00370,AF-0046,Forklift,2026-02-25,Wednesday,14,120,E-0037,Completed
+BK-00371,AF-0049,Projector,2025-12-12,Friday,11,30,E-0035,Completed
+BK-00372,AF-0049,Projector,2025-10-01,Wednesday,11,120,E-0013,Completed
+BK-00373,AF-0049,Projector,2026-02-05,Thursday,10,30,E-0002,Completed
+BK-00374,AF-0049,Projector,2026-01-29,Thursday,14,90,E-0034,Completed
+BK-00375,AF-0049,Projector,2026-07-09,Thursday,15,60,E-0020,Completed
+BK-00376,AF-0049,Projector,2026-06-23,Tuesday,9,60,E-0035,Completed
+BK-00377,AF-0049,Projector,2025-09-10,Wednesday,13,60,E-0058,Completed
+BK-00378,AF-0049,Projector,2025-09-30,Tuesday,14,60,E-0045,Completed
+BK-00379,AF-0049,Projector,2026-01-14,Wednesday,10,120,E-0022,Completed
+BK-00380,AF-0049,Projector,2026-04-18,Saturday,10,30,E-0027,Completed
+BK-00381,AF-0049,Projector,2025-10-06,Monday,14,90,E-0031,Cancelled
+BK-00382,AF-0049,Projector,2026-01-16,Friday,10,60,E-0004,Completed
+BK-00383,AF-0049,Projector,2026-05-14,Thursday,10,60,E-0003,Completed
+BK-00384,AF-0049,Projector,2025-12-07,Sunday,10,120,E-0026,Completed
+BK-00385,AF-0049,Projector,2025-07-28,Monday,10,60,E-0018,Completed
+BK-00386,AF-0049,Projector,2026-05-06,Wednesday,14,60,E-0054,Completed
+BK-00387,AF-0049,Projector,2025-10-26,Sunday,14,60,E-0003,Completed
+BK-00388,AF-0049,Projector,2025-12-10,Wednesday,13,60,E-0035,Completed
+BK-00389,AF-0049,Projector,2026-02-16,Monday,11,60,E-0057,Completed
+BK-00390,AF-0049,Projector,2025-10-10,Friday,15,120,E-0054,Completed
+BK-00391,AF-0049,Projector,2025-11-21,Friday,11,30,E-0042,Completed
+BK-00392,AF-0049,Projector,2026-01-15,Thursday,9,90,E-0018,Completed
+BK-00393,AF-0049,Projector,2026-03-19,Thursday,11,90,E-0057,Completed
+BK-00394,AF-0051,Forklift,2026-02-19,Thursday,17,60,E-0059,Completed
+BK-00395,AF-0051,Forklift,2025-10-31,Friday,10,60,E-0014,Completed
+BK-00396,AF-0052,Compressor,2025-10-09,Thursday,13,30,E-0055,Completed
+BK-00397,AF-0052,Compressor,2026-04-06,Monday,16,90,E-0040,Completed
+BK-00398,AF-0052,Compressor,2026-06-19,Friday,10,90,E-0043,Completed
+BK-00399,AF-0052,Compressor,2025-10-07,Tuesday,14,60,E-0008,Cancelled
+BK-00400,AF-0052,Compressor,2025-11-15,Saturday,11,90,E-0042,Completed
+BK-00401,AF-0052,Compressor,2025-07-17,Thursday,10,30,E-0043,Completed
+BK-00402,AF-0052,Compressor,2026-04-02,Thursday,11,30,E-0025,Completed
+BK-00403,AF-0052,Compressor,2026-01-24,Saturday,11,90,E-0035,Completed
+BK-00404,AF-0052,Compressor,2026-02-23,Monday,15,30,E-0025,Completed
+BK-00405,AF-0052,Compressor,2025-07-22,Tuesday,14,30,E-0022,Completed
+BK-00406,AF-0052,Compressor,2026-02-17,Tuesday,9,60,E-0051,Completed
+BK-00407,AF-0052,Compressor,2026-01-08,Thursday,11,30,E-0045,Completed
+BK-00408,AF-0052,Compressor,2026-04-14,Tuesday,15,120,E-0046,Completed
+BK-00409,AF-0052,Compressor,2026-06-22,Monday,10,30,E-0047,Completed
+BK-00410,AF-0052,Compressor,2025-09-08,Monday,10,90,E-0048,Completed
+BK-00411,AF-0052,Compressor,2026-03-17,Tuesday,10,60,E-0012,Completed
+BK-00412,AF-0052,Compressor,2025-12-08,Monday,14,90,E-0005,Cancelled
+BK-00413,AF-0053,HP Laptop,2026-06-18,Thursday,15,120,E-0036,Completed
+BK-00414,AF-0053,HP Laptop,2025-07-17,Thursday,14,30,E-0053,Completed
+BK-00415,AF-0053,HP Laptop,2026-03-07,Saturday,9,30,E-0004,Completed
+BK-00416,AF-0054,Delivery Van,2026-04-17,Friday,14,60,E-0051,Completed
+BK-00417,AF-0054,Delivery Van,2025-10-11,Saturday,10,60,E-0060,Cancelled
+BK-00418,AF-0054,Delivery Van,2025-09-22,Monday,14,60,E-0036,Completed
+BK-00419,AF-0054,Delivery Van,2026-01-22,Thursday,11,30,E-0016,Completed
+BK-00420,AF-0054,Delivery Van,2025-07-16,Wednesday,13,60,E-0028,Cancelled
+BK-00421,AF-0054,Delivery Van,2026-06-09,Tuesday,10,60,E-0057,Completed
+BK-00422,AF-0054,Delivery Van,2026-05-20,Wednesday,11,120,E-0005,Completed
+BK-00423,AF-0054,Delivery Van,2026-04-16,Thursday,10,120,E-0025,Completed
+BK-00424,AF-0054,Delivery Van,2026-05-13,Wednesday,17,60,E-0019,Completed
+BK-00425,AF-0054,Delivery Van,2026-04-14,Tuesday,11,30,E-0051,Completed
+BK-00426,AF-0055,Pickup Truck,2026-06-30,Tuesday,12,120,E-0014,Cancelled
+BK-00427,AF-0055,Pickup Truck,2026-06-23,Tuesday,11,60,E-0026,Completed
+BK-00428,AF-0055,Pickup Truck,2026-06-30,Tuesday,14,30,E-0011,Completed
+BK-00429,AF-0059,Forklift,2025-11-04,Tuesday,15,60,E-0002,Completed
+BK-00430,AF-0059,Forklift,2025-09-10,Wednesday,15,60,E-0031,Completed
+BK-00431,AF-0059,Forklift,2026-01-26,Monday,14,120,E-0016,Completed
+BK-00432,AF-0059,Forklift,2025-10-09,Thursday,15,30,E-0046,Completed
+BK-00433,AF-0059,Forklift,2026-04-08,Wednesday,14,120,E-0036,Cancelled
+BK-00434,AF-0059,Forklift,2025-08-22,Friday,17,30,E-0010,Completed
+BK-00435,AF-0059,Forklift,2026-06-15,Monday,11,90,E-0037,Completed
+BK-00436,AF-0059,Forklift,2026-04-03,Friday,14,120,E-0010,Completed
+BK-00437,AF-0059,Forklift,2026-01-01,Thursday,14,90,E-0034,Completed
+BK-00438,AF-0059,Forklift,2025-11-14,Friday,10,30,E-0008,Completed
+BK-00439,AF-0059,Forklift,2026-05-14,Thursday,14,120,E-0032,Completed
+BK-00440,AF-0059,Forklift,2025-11-18,Tuesday,10,30,E-0009,Completed
+BK-00441,AF-0059,Forklift,2025-09-18,Thursday,14,60,E-0022,Completed
+BK-00442,AF-0059,Forklift,2025-07-28,Monday,14,90,E-0053,Cancelled
+BK-00443,AF-0059,Forklift,2026-02-20,Friday,11,90,E-0046,Completed
+BK-00444,AF-0059,Forklift,2025-11-25,Tuesday,14,60,E-0027,Completed
+BK-00445,AF-0059,Forklift,2025-12-01,Monday,15,60,E-0001,Completed
+BK-00446,AF-0061,Forklift,2026-01-14,Wednesday,10,30,E-0052,Completed
+BK-00447,AF-0061,Forklift,2026-07-08,Wednesday,12,120,E-0054,Completed
+BK-00448,AF-0061,Forklift,2026-05-08,Friday,11,60,E-0018,Completed
+BK-00449,AF-0061,Forklift,2025-12-23,Tuesday,10,30,E-0054,Completed
+BK-00450,AF-0061,Forklift,2026-04-07,Tuesday,10,120,E-0003,Completed
+BK-00451,AF-0061,Forklift,2025-12-25,Thursday,13,60,E-0041,Completed
+BK-00452,AF-0061,Forklift,2026-07-01,Wednesday,14,30,E-0023,Completed
+BK-00453,AF-0061,Forklift,2026-06-12,Friday,14,90,E-0007,Completed
+BK-00454,AF-0061,Forklift,2026-04-12,Sunday,10,60,E-0001,Completed
+BK-00455,AF-0061,Forklift,2025-09-02,Tuesday,14,60,E-0033,Completed
+BK-00456,AF-0061,Forklift,2025-12-02,Tuesday,10,60,E-0008,Cancelled
+BK-00457,AF-0061,Forklift,2025-10-27,Monday,14,30,E-0056,Completed
+BK-00458,AF-0061,Forklift,2025-11-19,Wednesday,10,120,E-0051,Completed
+BK-00459,AF-0061,Forklift,2025-11-06,Thursday,15,30,E-0001,Completed
+BK-00460,AF-0061,Forklift,2026-04-20,Monday,15,90,E-0023,Completed
+BK-00461,AF-0061,Forklift,2026-06-10,Wednesday,10,30,E-0017,Completed
+BK-00462,AF-0061,Forklift,2026-02-13,Friday,11,90,E-0027,Completed
+BK-00463,AF-0061,Forklift,2026-04-07,Tuesday,11,120,E-0052,Completed
+BK-00464,AF-0061,Forklift,2025-09-19,Friday,12,120,E-0041,Completed
+BK-00465,AF-0061,Forklift,2025-10-21,Tuesday,14,60,E-0025,Completed
+BK-00466,AF-0061,Forklift,2025-07-21,Monday,14,60,E-0058,Completed
+BK-00467,AF-0061,Forklift,2026-02-23,Monday,15,90,E-0019,Completed
+BK-00468,AF-0061,Forklift,2026-03-23,Monday,10,30,E-0033,Completed
+BK-00469,AF-0061,Forklift,2025-09-01,Monday,9,60,E-0026,Completed
+BK-00470,AF-0061,Forklift,2025-09-16,Tuesday,13,30,E-0015,Completed
+BK-00471,AF-0061,Forklift,2025-12-10,Wednesday,14,30,E-0005,Completed
+BK-00472,AF-0063,Pickup Truck,2025-10-16,Thursday,10,30,E-0036,Completed
+BK-00473,AF-0067,Forklift,2026-07-03,Friday,14,60,E-0037,Completed
+BK-00474,AF-0067,Forklift,2026-01-15,Thursday,15,60,E-0059,Completed
+BK-00475,AF-0067,Forklift,2025-10-10,Friday,10,30,E-0001,Completed
+BK-00476,AF-0067,Forklift,2026-04-09,Thursday,11,120,E-0025,Completed
+BK-00477,AF-0067,Forklift,2026-03-09,Monday,12,30,E-0002,Completed
+BK-00478,AF-0067,Forklift,2025-08-01,Friday,10,90,E-0043,Completed
+BK-00479,AF-0067,Forklift,2025-08-20,Wednesday,10,60,E-0059,Completed
+BK-00480,AF-0067,Forklift,2026-05-11,Monday,17,60,E-0011,Completed
+BK-00481,AF-0067,Forklift,2026-06-02,Tuesday,17,60,E-0005,Completed
+BK-00482,AF-0067,Forklift,2026-07-10,Friday,14,60,E-0015,Completed
+BK-00483,AF-0067,Forklift,2025-09-08,Monday,10,30,E-0017,Completed
+BK-00484,AF-0067,Forklift,2025-07-17,Thursday,11,120,E-0047,Completed
+BK-00485,AF-0067,Forklift,2026-01-06,Tuesday,9,60,E-0022,Completed
+BK-00486,AF-0068,Meeting Table,2025-09-23,Tuesday,16,30,E-0059,Completed
+BK-00487,AF-0068,Meeting Table,2026-05-05,Tuesday,11,30,E-0002,Completed
+BK-00488,AF-0068,Meeting Table,2025-08-22,Friday,9,120,E-0014,Completed
+BK-00489,AF-0068,Meeting Table,2026-01-01,Thursday,12,30,E-0010,Completed
+BK-00490,AF-0068,Meeting Table,2025-08-12,Tuesday,15,30,E-0060,Completed
+BK-00491,AF-0068,Meeting Table,2025-11-28,Friday,10,60,E-0002,Completed
+BK-00492,AF-0068,Meeting Table,2026-03-27,Friday,14,30,E-0052,Completed
+BK-00493,AF-0068,Meeting Table,2025-08-19,Tuesday,15,30,E-0021,Completed
+BK-00494,AF-0068,Meeting Table,2025-09-28,Sunday,10,120,E-0020,Completed
+BK-00495,AF-0072,Pallet Jack,2026-05-11,Monday,11,120,E-0014,Completed
+BK-00496,AF-0072,Pallet Jack,2025-12-12,Friday,14,30,E-0028,Completed
+BK-00497,AF-0072,Pallet Jack,2025-11-24,Monday,10,60,E-0026,Completed
+BK-00498,AF-0072,Pallet Jack,2026-03-12,Thursday,11,60,E-0038,Completed
+BK-00499,AF-0072,Pallet Jack,2025-12-18,Thursday,15,30,E-0040,Completed
+BK-00500,AF-0072,Pallet Jack,2025-08-29,Friday,10,120,E-0023,Completed
+BK-00501,AF-0072,Pallet Jack,2025-10-20,Monday,11,60,E-0040,Cancelled
+BK-00502,AF-0072,Pallet Jack,2026-01-21,Wednesday,11,30,E-0017,Completed
+BK-00503,AF-0072,Pallet Jack,2026-04-17,Friday,15,30,E-0042,Completed
+BK-00504,AF-0073,Sedan Car,2026-02-03,Tuesday,11,90,E-0047,Completed
+BK-00505,AF-0073,Sedan Car,2025-12-24,Wednesday,14,60,E-0056,Completed
+BK-00506,AF-0073,Sedan Car,2026-03-19,Thursday,11,60,E-0056,Completed
+BK-00507,AF-0073,Sedan Car,2025-08-28,Thursday,15,90,E-0008,Completed
+BK-00508,AF-0073,Sedan Car,2026-03-23,Monday,15,60,E-0052,Completed
+BK-00509,AF-0073,Sedan Car,2025-10-08,Wednesday,14,60,E-0058,Completed
+BK-00510,AF-0073,Sedan Car,2026-03-18,Wednesday,11,30,E-0010,Completed
+BK-00511,AF-0073,Sedan Car,2026-03-10,Tuesday,13,60,E-0060,Completed
+BK-00512,AF-0073,Sedan Car,2026-02-24,Tuesday,16,90,E-0018,Completed
+BK-00513,AF-0073,Sedan Car,2026-04-30,Thursday,15,60,E-0024,Completed
+BK-00514,AF-0073,Sedan Car,2026-05-04,Monday,15,90,E-0058,Completed
+BK-00515,AF-0073,Sedan Car,2026-04-09,Thursday,11,90,E-0054,Completed
+BK-00516,AF-0073,Sedan Car,2025-12-03,Wednesday,11,30,E-0021,Completed
+BK-00517,AF-0073,Sedan Car,2025-09-11,Thursday,11,30,E-0017,Completed
+BK-00518,AF-0073,Sedan Car,2026-03-10,Tuesday,15,90,E-0017,Completed
+BK-00519,AF-0073,Sedan Car,2026-04-20,Monday,9,90,E-0029,Completed
+BK-00520,AF-0073,Sedan Car,2026-03-27,Friday,14,60,E-0046,Cancelled
+BK-00521,AF-0073,Sedan Car,2025-08-25,Monday,11,60,E-0010,Completed
+BK-00522,AF-0073,Sedan Car,2026-04-01,Wednesday,14,60,E-0049,Completed
+BK-00523,AF-0073,Sedan Car,2026-07-07,Tuesday,12,30,E-0055,Completed
+BK-00524,AF-0073,Sedan Car,2026-02-03,Tuesday,13,60,E-0028,Completed
+BK-00525,AF-0073,Sedan Car,2026-06-03,Wednesday,10,60,E-0044,Completed
+BK-00526,AF-0073,Sedan Car,2025-09-13,Saturday,10,90,E-0020,Completed
+BK-00527,AF-0074,Air Purifier,2025-09-05,Friday,17,60,E-0022,Completed
+BK-00528,AF-0074,Air Purifier,2025-07-24,Thursday,16,120,E-0041,Cancelled
+BK-00529,AF-0074,Air Purifier,2026-06-22,Monday,10,30,E-0008,Completed
+BK-00530,AF-0074,Air Purifier,2025-11-05,Wednesday,15,60,E-0025,Completed
+BK-00531,AF-0074,Air Purifier,2026-03-25,Wednesday,15,120,E-0048,Completed
+BK-00532,AF-0074,Air Purifier,2026-02-20,Friday,16,60,E-0051,Completed
+BK-00533,AF-0074,Air Purifier,2025-12-12,Friday,12,120,E-0059,Completed
+BK-00534,AF-0074,Air Purifier,2026-05-26,Tuesday,9,60,E-0041,Completed
+BK-00535,AF-0074,Air Purifier,2025-09-04,Thursday,9,90,E-0039,Completed
+BK-00536,AF-0074,Air Purifier,2026-01-07,Wednesday,11,60,E-0021,Completed
+BK-00537,AF-0074,Air Purifier,2025-11-11,Tuesday,14,120,E-0005,Completed
+BK-00538,AF-0074,Air Purifier,2025-11-11,Tuesday,10,30,E-0051,Completed
+BK-00539,AF-0074,Air Purifier,2025-08-11,Monday,15,30,E-0001,Completed
+BK-00540,AF-0074,Air Purifier,2025-08-14,Thursday,10,60,E-0046,Completed
+BK-00541,AF-0074,Air Purifier,2026-05-18,Monday,11,60,E-0034,Cancelled
+BK-00542,AF-0074,Air Purifier,2025-10-30,Thursday,17,30,E-0038,Completed
+BK-00543,AF-0077,Sedan Car,2026-03-23,Monday,14,30,E-0005,Completed
+BK-00544,AF-0077,Sedan Car,2025-12-10,Wednesday,17,60,E-0032,Cancelled
+BK-00545,AF-0077,Sedan Car,2026-04-09,Thursday,10,60,E-0029,Completed
+BK-00546,AF-0080,Generator,2026-03-18,Wednesday,15,120,E-0027,Completed
+BK-00547,AF-0080,Generator,2025-12-24,Wednesday,10,60,E-0042,Completed
+BK-00548,AF-0080,Generator,2026-04-13,Monday,9,120,E-0050,Completed
+BK-00549,AF-0081,Generator,2025-07-13,Sunday,11,30,E-0037,Completed
+BK-00550,AF-0081,Generator,2026-05-06,Wednesday,16,30,E-0004,Completed
+BK-00551,AF-0081,Generator,2025-11-14,Friday,13,60,E-0018,Completed
+BK-00552,AF-0081,Generator,2026-06-25,Thursday,10,60,E-0018,Completed
+BK-00553,AF-0081,Generator,2025-10-07,Tuesday,10,90,E-0022,Completed
+BK-00554,AF-0081,Generator,2026-05-28,Thursday,12,60,E-0051,Completed
+BK-00555,AF-0081,Generator,2026-01-09,Friday,13,60,E-0045,Cancelled
+BK-00556,AF-0081,Generator,2025-10-06,Monday,11,60,E-0016,Completed
+BK-00557,AF-0081,Generator,2025-09-04,Thursday,14,30,E-0046,Completed
+BK-00558,AF-0081,Generator,2025-09-25,Thursday,15,90,E-0059,Completed
+BK-00559,AF-0081,Generator,2026-02-10,Tuesday,17,30,E-0028,Completed
+BK-00560,AF-0081,Generator,2026-01-19,Monday,15,60,E-0004,Completed
+BK-00561,AF-0086,Generator,2025-11-26,Wednesday,10,60,E-0013,Completed
+BK-00562,AF-0086,Generator,2025-09-19,Friday,10,60,E-0012,Cancelled
+BK-00563,AF-0086,Generator,2026-06-04,Thursday,14,30,E-0032,Cancelled
+BK-00564,AF-0086,Generator,2025-10-29,Wednesday,11,90,E-0045,Completed
+BK-00565,AF-0086,Generator,2025-12-25,Thursday,9,60,E-0013,Completed
+BK-00566,AF-0086,Generator,2025-12-08,Monday,15,30,E-0003,Cancelled
+BK-00567,AF-0086,Generator,2026-01-19,Monday,15,30,E-0046,Completed
+BK-00568,AF-0086,Generator,2025-12-06,Saturday,11,90,E-0003,Completed
+BK-00569,AF-0086,Generator,2026-01-16,Friday,15,30,E-0039,Completed
+BK-00570,AF-0086,Generator,2025-09-25,Thursday,10,60,E-0023,Completed
+BK-00571,AF-0086,Generator,2025-12-02,Tuesday,10,30,E-0019,Completed
+BK-00572,AF-0086,Generator,2026-03-02,Monday,9,60,E-0007,Completed
+BK-00573,AF-0086,Generator,2025-11-10,Monday,15,30,E-0015,Completed
+BK-00574,AF-0086,Generator,2025-07-30,Wednesday,13,90,E-0005,Completed
+BK-00575,AF-0086,Generator,2026-01-09,Friday,15,90,E-0025,Completed
+BK-00576,AF-0086,Generator,2026-01-05,Monday,13,30,E-0044,Completed
+BK-00577,AF-0086,Generator,2026-07-07,Tuesday,10,60,E-0036,Completed
+BK-00578,AF-0086,Generator,2025-08-05,Tuesday,13,30,E-0058,Completed
+BK-00579,AF-0086,Generator,2025-10-14,Tuesday,12,60,E-0043,Completed
+BK-00580,AF-0086,Generator,2026-05-10,Sunday,11,90,E-0024,Completed
+BK-00581,AF-0086,Generator,2026-07-01,Wednesday,15,60,E-0047,Completed
+BK-00582,AF-0086,Generator,2025-10-31,Friday,16,60,E-0039,Completed
+BK-00583,AF-0086,Generator,2026-07-02,Thursday,10,60,E-0003,Completed
+BK-00584,AF-0086,Generator,2025-08-06,Wednesday,17,60,E-0031,Completed
+BK-00585,AF-0086,Generator,2026-02-02,Monday,10,120,E-0037,Cancelled
+BK-00586,AF-0086,Generator,2025-11-02,Sunday,17,120,E-0036,Completed
+BK-00587,AF-0088,Sedan Car,2025-08-29,Friday,11,60,E-0005,Completed
+BK-00588,AF-0088,Sedan Car,2026-03-12,Thursday,10,90,E-0038,Completed
+BK-00589,AF-0088,Sedan Car,2026-06-25,Thursday,10,30,E-0011,Completed
+BK-00590,AF-0088,Sedan Car,2025-09-30,Tuesday,12,30,E-0009,Completed
+BK-00591,AF-0088,Sedan Car,2026-02-11,Wednesday,10,120,E-0036,Completed
+BK-00592,AF-0088,Sedan Car,2026-06-04,Thursday,17,30,E-0031,Completed
+BK-00593,AF-0088,Sedan Car,2026-05-12,Tuesday,11,60,E-0054,Completed
+BK-00594,AF-0088,Sedan Car,2025-09-15,Monday,11,60,E-0013,Completed
+BK-00595,AF-0088,Sedan Car,2026-03-04,Wednesday,11,60,E-0032,Completed
+BK-00596,AF-0088,Sedan Car,2026-04-26,Sunday,9,60,E-0043,Completed
+BK-00597,AF-0088,Sedan Car,2025-12-31,Wednesday,10,60,E-0016,Completed
+BK-00598,AF-0089,Generator,2026-03-25,Wednesday,15,90,E-0042,Completed
+BK-00599,AF-0092,Scooter,2026-03-11,Wednesday,14,120,E-0014,Completed
+BK-00600,AF-0092,Scooter,2026-04-23,Thursday,10,90,E-0026,Completed
+BK-00601,AF-0093,Pallet Jack,2026-01-15,Thursday,10,30,E-0040,Completed
+BK-00602,AF-0093,Pallet Jack,2025-12-25,Thursday,15,60,E-0042,Completed
+BK-00603,AF-0093,Pallet Jack,2026-04-10,Friday,12,120,E-0003,Completed
+BK-00604,AF-0093,Pallet Jack,2025-12-11,Thursday,12,90,E-0023,Completed
+BK-00605,AF-0093,Pallet Jack,2026-04-28,Tuesday,11,120,E-0047,Cancelled
+BK-00606,AF-0093,Pallet Jack,2026-04-20,Monday,11,60,E-0037,Completed
+BK-00607,AF-0093,Pallet Jack,2026-05-20,Wednesday,17,60,E-0049,Completed
+BK-00608,AF-0093,Pallet Jack,2026-05-07,Thursday,14,90,E-0034,Completed
+BK-00609,AF-0093,Pallet Jack,2026-06-17,Wednesday,15,30,E-0007,Completed
+BK-00610,AF-0093,Pallet Jack,2026-05-04,Monday,10,60,E-0055,Completed
+BK-00611,AF-0093,Pallet Jack,2025-12-23,Tuesday,13,30,E-0001,Completed
+BK-00612,AF-0093,Pallet Jack,2025-08-20,Wednesday,10,30,E-0040,Completed
+BK-00613,AF-0093,Pallet Jack,2025-12-17,Wednesday,15,30,E-0045,Cancelled
+BK-00614,AF-0093,Pallet Jack,2025-12-15,Monday,10,30,E-0059,Completed
+BK-00615,AF-0093,Pallet Jack,2025-11-27,Thursday,15,120,E-0033,Completed
+BK-00616,AF-0093,Pallet Jack,2025-07-28,Monday,11,60,E-0051,Completed
+BK-00617,AF-0093,Pallet Jack,2026-01-09,Friday,17,30,E-0043,Completed
+BK-00618,AF-0093,Pallet Jack,2026-06-18,Thursday,16,30,E-0001,Completed
+BK-00619,AF-0093,Pallet Jack,2026-02-06,Friday,15,120,E-0010,Completed
+BK-00620,AF-0093,Pallet Jack,2026-01-05,Monday,14,60,E-0003,Completed
+BK-00621,AF-0093,Pallet Jack,2026-01-26,Monday,17,90,E-0038,Completed
+BK-00622,AF-0093,Pallet Jack,2025-09-03,Wednesday,9,30,E-0045,Completed
+BK-00623,AF-0093,Pallet Jack,2026-05-06,Wednesday,10,30,E-0050,Completed
+BK-00624,AF-0093,Pallet Jack,2025-12-18,Thursday,14,30,E-0044,Completed
+BK-00625,AF-0093,Pallet Jack,2026-05-20,Wednesday,11,90,E-0002,Completed
+BK-00626,AF-0093,Pallet Jack,2026-01-13,Tuesday,17,90,E-0054,Completed
+BK-00627,AF-0093,Pallet Jack,2025-08-12,Tuesday,12,60,E-0035,Completed
+BK-00628,AF-0093,Pallet Jack,2026-06-30,Tuesday,10,60,E-0023,Completed
+BK-00629,AF-0093,Pallet Jack,2026-01-14,Wednesday,10,30,E-0035,Completed
+BK-00630,AF-0098,AC Unit,2026-02-25,Wednesday,10,30,E-0050,Completed
+BK-00631,AF-0098,AC Unit,2025-09-25,Thursday,16,60,E-0008,Completed
+BK-00632,AF-0101,Docking Station,2025-10-10,Friday,16,90,E-0048,Completed
+BK-00633,AF-0101,Docking Station,2025-09-25,Thursday,11,120,E-0041,Completed
+BK-00634,AF-0101,Docking Station,2026-05-22,Friday,14,30,E-0021,Completed
+BK-00635,AF-0101,Docking Station,2025-11-07,Friday,13,90,E-0054,Completed
+BK-00636,AF-0101,Docking Station,2025-09-24,Wednesday,9,60,E-0022,Completed
+BK-00637,AF-0101,Docking Station,2026-01-28,Wednesday,13,60,E-0060,Completed
+BK-00638,AF-0101,Docking Station,2025-12-02,Tuesday,14,30,E-0003,Completed
+BK-00639,AF-0101,Docking Station,2026-03-23,Monday,10,60,E-0057,Completed
+BK-00640,AF-0101,Docking Station,2026-05-13,Wednesday,11,90,E-0003,Cancelled
+BK-00641,AF-0101,Docking Station,2025-09-23,Tuesday,11,30,E-0055,Completed
+BK-00642,AF-0101,Docking Station,2026-02-06,Friday,16,60,E-0032,Completed
+BK-00643,AF-0101,Docking Station,2025-07-31,Thursday,11,90,E-0030,Completed
+BK-00644,AF-0101,Docking Station,2026-06-08,Monday,15,60,E-0051,Completed
+BK-00645,AF-0101,Docking Station,2025-08-22,Friday,11,30,E-0040,Completed
+BK-00646,AF-0101,Docking Station,2025-12-23,Tuesday,13,60,E-0026,Completed
+BK-00647,AF-0101,Docking Station,2025-12-23,Tuesday,12,30,E-0025,Completed
+BK-00648,AF-0101,Docking Station,2025-10-08,Wednesday,10,30,E-0003,Completed
+BK-00649,AF-0101,Docking Station,2025-12-01,Monday,11,30,E-0044,Completed
+BK-00650,AF-0101,Docking Station,2025-10-13,Monday,11,90,E-0039,Completed
+BK-00651,AF-0101,Docking Station,2025-11-06,Thursday,11,90,E-0028,Completed
+BK-00652,AF-0101,Docking Station,2026-03-06,Friday,17,60,E-0060,Completed
+BK-00653,AF-0102,Forklift,2025-09-16,Tuesday,11,30,E-0048,Completed
+BK-00654,AF-0102,Forklift,2025-11-15,Saturday,11,30,E-0034,Completed
+BK-00655,AF-0104,Pallet Jack,2025-08-21,Thursday,14,90,E-0043,Completed
+BK-00656,AF-0104,Pallet Jack,2025-09-04,Thursday,11,90,E-0040,Completed
+BK-00657,AF-0104,Pallet Jack,2025-08-04,Monday,14,30,E-0034,Completed
+BK-00658,AF-0104,Pallet Jack,2025-12-25,Thursday,11,60,E-0038,Completed
+BK-00659,AF-0104,Pallet Jack,2025-08-26,Tuesday,9,60,E-0056,Completed
+BK-00660,AF-0104,Pallet Jack,2026-03-25,Wednesday,11,90,E-0050,Cancelled
+BK-00661,AF-0104,Pallet Jack,2025-12-15,Monday,15,30,E-0014,Completed
+BK-00662,AF-0104,Pallet Jack,2026-03-03,Tuesday,12,30,E-0009,Completed
+BK-00663,AF-0105,Pallet Jack,2025-12-20,Saturday,11,60,E-0010,Completed
+BK-00664,AF-0106,Pickup Truck,2025-10-21,Tuesday,11,120,E-0059,Completed
+BK-00665,AF-0106,Pickup Truck,2026-07-09,Thursday,11,60,E-0018,Completed
+BK-00666,AF-0106,Pickup Truck,2025-09-09,Tuesday,9,60,E-0053,Completed
+BK-00667,AF-0106,Pickup Truck,2026-01-15,Thursday,12,120,E-0016,Completed
+BK-00668,AF-0106,Pickup Truck,2026-05-10,Sunday,14,60,E-0039,Completed
+BK-00669,AF-0106,Pickup Truck,2026-06-30,Tuesday,14,60,E-0049,Cancelled
+BK-00670,AF-0106,Pickup Truck,2026-03-26,Thursday,15,90,E-0012,Completed
+BK-00671,AF-0106,Pickup Truck,2025-07-14,Monday,15,120,E-0027,Completed
+BK-00672,AF-0107,Generator,2026-07-03,Friday,12,30,E-0010,Completed
+BK-00673,AF-0109,Forklift,2025-08-10,Sunday,14,30,E-0042,Completed
+BK-00674,AF-0109,Forklift,2025-08-19,Tuesday,15,30,E-0020,Completed
+BK-00675,AF-0109,Forklift,2025-12-09,Tuesday,12,90,E-0054,Completed
+BK-00676,AF-0109,Forklift,2025-11-27,Thursday,15,60,E-0012,Completed
+BK-00677,AF-0109,Forklift,2026-02-16,Monday,15,60,E-0012,Completed
+BK-00678,AF-0109,Forklift,2026-03-26,Thursday,11,30,E-0006,Cancelled
+BK-00679,AF-0109,Forklift,2026-04-29,Wednesday,11,90,E-0012,Cancelled
+BK-00680,AF-0109,Forklift,2026-06-14,Sunday,11,30,E-0031,Completed
+BK-00681,AF-0109,Forklift,2025-07-22,Tuesday,10,30,E-0011,Cancelled
+BK-00682,AF-0109,Forklift,2025-09-09,Tuesday,14,60,E-0040,Completed
+BK-00683,AF-0109,Forklift,2025-12-09,Tuesday,9,30,E-0023,Completed
+BK-00684,AF-0109,Forklift,2026-04-08,Wednesday,16,60,E-0032,Completed
+BK-00685,AF-0109,Forklift,2026-06-12,Friday,13,60,E-0042,Cancelled
+BK-00686,AF-0109,Forklift,2025-07-28,Monday,11,60,E-0040,Completed
+BK-00687,AF-0109,Forklift,2025-11-19,Wednesday,14,60,E-0056,Completed
+BK-00688,AF-0109,Forklift,2026-06-02,Tuesday,11,60,E-0037,Completed
+BK-00689,AF-0109,Forklift,2026-02-09,Monday,15,60,E-0027,Completed
+BK-00690,AF-0109,Forklift,2025-10-02,Thursday,10,90,E-0027,Completed
+BK-00691,AF-0109,Forklift,2025-12-12,Friday,15,120,E-0009,Completed
+BK-00692,AF-0109,Forklift,2025-11-20,Thursday,15,30,E-0018,Completed
+BK-00693,AF-0109,Forklift,2026-03-12,Thursday,10,90,E-0050,Completed
+BK-00694,AF-0109,Forklift,2026-03-09,Monday,9,30,E-0003,Completed
+BK-00695,AF-0109,Forklift,2025-07-18,Friday,14,90,E-0047,Completed
+BK-00696,AF-0109,Forklift,2025-09-18,Thursday,15,60,E-0011,Completed
+BK-00697,AF-0109,Forklift,2026-06-30,Tuesday,11,90,E-0002,Completed
+BK-00698,AF-0109,Forklift,2026-06-29,Monday,11,30,E-0033,Completed
+BK-00699,AF-0109,Forklift,2025-12-04,Thursday,9,60,E-0035,Completed
+BK-00700,AF-0110,Forklift,2025-12-27,Saturday,11,60,E-0047,Cancelled
+BK-00701,AF-0113,Scooter,2026-06-17,Wednesday,15,30,E-0030,Completed
+BK-00702,AF-0113,Scooter,2025-09-08,Monday,15,60,E-0028,Completed
+BK-00703,AF-0113,Scooter,2025-09-04,Thursday,12,90,E-0051,Completed
+BK-00704,AF-0113,Scooter,2026-02-17,Tuesday,14,30,E-0016,Completed
+BK-00705,AF-0113,Scooter,2026-05-10,Sunday,13,30,E-0014,Completed
+BK-00706,AF-0113,Scooter,2026-02-08,Sunday,10,30,E-0049,Completed
+BK-00707,AF-0113,Scooter,2026-06-12,Friday,16,60,E-0056,Completed
+BK-00708,AF-0113,Scooter,2025-09-24,Wednesday,12,60,E-0041,Completed
+BK-00709,AF-0113,Scooter,2025-10-15,Wednesday,12,30,E-0019,Completed
+BK-00710,AF-0113,Scooter,2025-10-09,Thursday,10,30,E-0019,Completed
+BK-00711,AF-0113,Scooter,2025-11-07,Friday,15,30,E-0055,Completed
+BK-00712,AF-0113,Scooter,2025-10-20,Monday,14,60,E-0058,Completed
+BK-00713,AF-0113,Scooter,2026-01-08,Thursday,14,60,E-0008,Completed
+BK-00714,AF-0113,Scooter,2025-07-23,Wednesday,10,30,E-0025,Completed
+BK-00715,AF-0113,Scooter,2026-02-05,Thursday,13,60,E-0026,Completed
+BK-00716,AF-0113,Scooter,2026-01-20,Tuesday,11,120,E-0042,Completed
+BK-00717,AF-0113,Scooter,2025-09-24,Wednesday,16,30,E-0017,Completed
+BK-00718,AF-0113,Scooter,2026-05-05,Tuesday,10,60,E-0005,Completed
+BK-00719,AF-0113,Scooter,2026-05-03,Sunday,17,120,E-0038,Completed
+BK-00720,AF-0116,Delivery Van,2025-11-22,Saturday,17,90,E-0003,Completed
+BK-00721,AF-0118,Scooter,2025-11-18,Tuesday,11,120,E-0040,Completed
+BK-00722,AF-0118,Scooter,2026-06-02,Tuesday,10,90,E-0042,Completed
+BK-00723,AF-0118,Scooter,2026-01-20,Tuesday,15,60,E-0039,Completed
+BK-00724,AF-0118,Scooter,2026-03-09,Monday,10,90,E-0029,Completed
+BK-00725,AF-0118,Scooter,2026-05-05,Tuesday,14,30,E-0057,Completed
+BK-00726,AF-0118,Scooter,2025-09-30,Tuesday,15,90,E-0051,Completed
+BK-00727,AF-0118,Scooter,2025-12-04,Thursday,14,60,E-0060,Completed
+BK-00728,AF-0118,Scooter,2026-02-19,Thursday,11,60,E-0059,Completed
+BK-00729,AF-0118,Scooter,2025-11-11,Tuesday,10,30,E-0023,Completed
+BK-00730,AF-0118,Scooter,2026-05-06,Wednesday,10,30,E-0052,Completed
+BK-00731,AF-0118,Scooter,2026-06-08,Monday,17,90,E-0047,Completed
+BK-00732,AF-0118,Scooter,2026-03-12,Thursday,15,90,E-0015,Completed
+BK-00733,AF-0118,Scooter,2026-07-11,Saturday,14,60,E-0030,Completed
+BK-00734,AF-0118,Scooter,2026-01-29,Thursday,15,60,E-0036,Completed
+BK-00735,AF-0118,Scooter,2026-06-16,Tuesday,17,60,E-0045,Completed
+BK-00736,AF-0118,Scooter,2025-09-04,Thursday,15,60,E-0059,Completed
+BK-00737,AF-0118,Scooter,2025-10-27,Monday,14,30,E-0015,Completed
+BK-00738,AF-0120,Microwave,2025-07-18,Friday,17,30,E-0014,Completed
+BK-00739,AF-0120,Microwave,2025-08-29,Friday,14,60,E-0012,Completed
+BK-00740,AF-0120,Microwave,2026-03-10,Tuesday,11,60,E-0027,Completed
+BK-00741,AF-0120,Microwave,2025-08-11,Monday,11,120,E-0028,Completed
+BK-00742,AF-0120,Microwave,2026-01-27,Tuesday,10,60,E-0056,Completed
+BK-00743,AF-0120,Microwave,2025-08-06,Wednesday,13,60,E-0043,Completed
+BK-00744,AF-0120,Microwave,2025-10-14,Tuesday,17,120,E-0044,Completed
+BK-00745,AF-0120,Microwave,2025-12-15,Monday,14,90,E-0056,Completed
+BK-00746,AF-0120,Microwave,2026-06-14,Sunday,11,30,E-0045,Completed
+BK-00747,AF-0120,Microwave,2026-03-17,Tuesday,12,90,E-0035,Cancelled
+BK-00748,AF-0120,Microwave,2025-12-26,Friday,13,90,E-0005,Completed
+BK-00749,AF-0120,Microwave,2026-05-27,Wednesday,14,30,E-0005,Completed
+BK-00750,AF-0120,Microwave,2026-06-25,Thursday,15,60,E-0007,Completed
+BK-00751,AF-0120,Microwave,2026-06-29,Monday,14,90,E-0040,Completed
+BK-00752,AF-0120,Microwave,2025-11-17,Monday,10,60,E-0049,Completed
+BK-00753,AF-0121,HP Laptop,2026-02-17,Tuesday,15,60,E-0007,Completed
+BK-00754,AF-0121,HP Laptop,2026-06-17,Wednesday,15,30,E-0016,Completed
+BK-00755,AF-0121,HP Laptop,2026-05-28,Thursday,11,60,E-0002,Completed
+BK-00756,AF-0121,HP Laptop,2025-12-01,Monday,14,60,E-0017,Completed
+BK-00757,AF-0121,HP Laptop,2026-05-15,Friday,14,60,E-0052,Completed
+BK-00758,AF-0121,HP Laptop,2025-10-08,Wednesday,11,30,E-0011,Completed
+BK-00759,AF-0121,HP Laptop,2026-02-04,Wednesday,9,30,E-0022,Completed
+BK-00760,AF-0121,HP Laptop,2026-03-13,Friday,16,30,E-0043,Completed
+BK-00761,AF-0121,HP Laptop,2025-09-17,Wednesday,14,60,E-0024,Completed
+BK-00762,AF-0121,HP Laptop,2026-01-30,Friday,14,60,E-0005,Completed
+BK-00763,AF-0121,HP Laptop,2025-09-26,Friday,13,120,E-0024,Completed
+BK-00764,AF-0121,HP Laptop,2026-01-20,Tuesday,16,90,E-0016,Completed
+BK-00765,AF-0121,HP Laptop,2025-12-23,Tuesday,9,90,E-0001,Completed
+BK-00766,AF-0121,HP Laptop,2025-08-14,Thursday,15,60,E-0013,Completed
+BK-00767,AF-0121,HP Laptop,2025-10-28,Tuesday,11,90,E-0057,Completed
+BK-00768,AF-0121,HP Laptop,2025-09-03,Wednesday,10,60,E-0030,Completed
+BK-00769,AF-0121,HP Laptop,2026-02-20,Friday,11,60,E-0031,Completed
+BK-00770,AF-0121,HP Laptop,2025-08-20,Wednesday,12,30,E-0047,Completed
+BK-00771,AF-0121,HP Laptop,2025-10-11,Saturday,13,90,E-0045,Cancelled
+BK-00772,AF-0121,HP Laptop,2025-12-08,Monday,14,60,E-0014,Completed
+BK-00773,AF-0121,HP Laptop,2025-12-11,Thursday,10,30,E-0008,Completed
+BK-00774,AF-0121,HP Laptop,2026-03-09,Monday,16,30,E-0003,Completed
+BK-00775,AF-0121,HP Laptop,2026-04-17,Friday,16,60,E-0028,Completed
+BK-00776,AF-0121,HP Laptop,2026-05-26,Tuesday,10,30,E-0056,Completed
+BK-00777,AF-0121,HP Laptop,2025-11-10,Monday,10,60,E-0018,Completed
+BK-00778,AF-0121,HP Laptop,2025-08-27,Wednesday,10,120,E-0056,Completed
+BK-00779,AF-0121,HP Laptop,2026-04-21,Tuesday,16,60,E-0046,Completed
+BK-00780,AF-0121,HP Laptop,2025-11-05,Wednesday,12,30,E-0056,Completed
+BK-00781,AF-0121,HP Laptop,2026-03-18,Wednesday,9,30,E-0004,Completed
+BK-00782,AF-0121,HP Laptop,2025-07-28,Monday,9,30,E-0046,Completed
+BK-00783,AF-0121,HP Laptop,2026-07-08,Wednesday,12,30,E-0026,Completed
+BK-00784,AF-0121,HP Laptop,2026-07-06,Monday,15,60,E-0038,Completed
+BK-00785,AF-0121,HP Laptop,2026-03-30,Monday,13,60,E-0016,Completed
+BK-00786,AF-0121,HP Laptop,2026-04-28,Tuesday,17,60,E-0044,Completed
+BK-00787,AF-0121,HP Laptop,2026-04-22,Wednesday,11,120,E-0023,Completed
+BK-00788,AF-0121,HP Laptop,2025-12-17,Wednesday,10,30,E-0001,Completed
+BK-00789,AF-0121,HP Laptop,2026-03-31,Tuesday,16,30,E-0007,Completed
+BK-00790,AF-0121,HP Laptop,2025-12-09,Tuesday,10,60,E-0004,Completed
+BK-00791,AF-0121,HP Laptop,2025-10-01,Wednesday,10,90,E-0050,Completed
+BK-00792,AF-0121,HP Laptop,2026-06-12,Friday,11,30,E-0051,Completed
+BK-00793,AF-0121,HP Laptop,2026-05-22,Friday,15,60,E-0043,Completed
+BK-00794,AF-0121,HP Laptop,2025-11-21,Friday,11,30,E-0030,Completed
+BK-00795,AF-0121,HP Laptop,2026-02-15,Sunday,15,30,E-0017,Completed
+BK-00796,AF-0121,HP Laptop,2025-12-10,Wednesday,15,30,E-0003,Completed
+BK-00797,AF-0122,Generator,2025-12-12,Friday,9,30,E-0053,Completed
+BK-00798,AF-0122,Generator,2025-12-02,Tuesday,10,60,E-0016,Completed
+BK-00799,AF-0122,Generator,2026-01-13,Tuesday,10,30,E-0050,Completed
+BK-00800,AF-0122,Generator,2026-05-11,Monday,16,60,E-0003,Completed
+BK-00801,AF-0122,Generator,2026-04-22,Wednesday,10,90,E-0045,Completed
+BK-00802,AF-0122,Generator,2026-06-05,Friday,11,30,E-0016,Completed
+BK-00803,AF-0122,Generator,2026-04-24,Friday,15,30,E-0032,Completed
+BK-00804,AF-0122,Generator,2026-06-17,Wednesday,14,60,E-0058,Completed
+BK-00805,AF-0122,Generator,2026-03-09,Monday,15,30,E-0018,Completed
+BK-00806,AF-0122,Generator,2026-06-10,Wednesday,15,90,E-0052,Completed
+BK-00807,AF-0122,Generator,2026-04-01,Wednesday,13,90,E-0005,Completed
+BK-00808,AF-0122,Generator,2025-12-02,Tuesday,11,90,E-0032,Completed
+BK-00809,AF-0122,Generator,2026-03-02,Monday,14,120,E-0044,Completed
+BK-00810,AF-0122,Generator,2026-05-05,Tuesday,11,120,E-0042,Completed
+BK-00811,AF-0122,Generator,2025-10-08,Wednesday,14,60,E-0014,Completed
+BK-00812,AF-0122,Generator,2025-12-26,Friday,12,30,E-0016,Cancelled
+BK-00813,AF-0122,Generator,2025-07-15,Tuesday,9,30,E-0013,Completed
+BK-00814,AF-0123,Delivery Van,2025-11-26,Wednesday,12,60,E-0053,Completed
+BK-00815,AF-0123,Delivery Van,2026-04-09,Thursday,14,90,E-0022,Completed
+BK-00816,AF-0123,Delivery Van,2026-05-13,Wednesday,11,30,E-0057,Completed
+BK-00817,AF-0123,Delivery Van,2025-08-20,Wednesday,11,60,E-0013,Completed
+BK-00818,AF-0123,Delivery Van,2026-02-10,Tuesday,9,30,E-0052,Cancelled
+BK-00819,AF-0123,Delivery Van,2026-03-15,Sunday,16,30,E-0019,Completed
+BK-00820,AF-0123,Delivery Van,2026-04-06,Monday,14,60,E-0027,Completed
+BK-00821,AF-0123,Delivery Van,2026-06-23,Tuesday,10,60,E-0003,Completed
+BK-00822,AF-0123,Delivery Van,2026-05-28,Thursday,13,60,E-0019,Completed
+BK-00823,AF-0123,Delivery Van,2025-09-16,Tuesday,11,60,E-0013,Completed
+BK-00824,AF-0123,Delivery Van,2025-12-17,Wednesday,16,60,E-0039,Completed
+BK-00825,AF-0123,Delivery Van,2025-07-23,Wednesday,10,30,E-0035,Completed
+BK-00826,AF-0124,Projector,2026-06-26,Friday,15,30,E-0028,Completed
+BK-00827,AF-0124,Projector,2026-03-10,Tuesday,15,60,E-0049,Completed
+BK-00828,AF-0124,Projector,2025-09-24,Wednesday,15,90,E-0007,Completed
+BK-00829,AF-0124,Projector,2025-11-10,Monday,15,90,E-0034,Completed
+BK-00830,AF-0124,Projector,2026-06-25,Thursday,15,30,E-0046,Completed
+BK-00831,AF-0124,Projector,2026-04-30,Thursday,13,60,E-0015,Completed
+BK-00832,AF-0124,Projector,2026-02-16,Monday,15,90,E-0042,Cancelled
+BK-00833,AF-0124,Projector,2025-11-20,Thursday,10,60,E-0032,Completed
+BK-00834,AF-0126,Pallet Jack,2025-08-22,Friday,15,120,E-0053,Completed
+BK-00835,AF-0126,Pallet Jack,2026-03-20,Friday,11,60,E-0051,Completed
+BK-00836,AF-0126,Pallet Jack,2026-02-04,Wednesday,11,90,E-0010,Completed
+BK-00837,AF-0126,Pallet Jack,2025-11-27,Thursday,17,90,E-0024,Completed
+BK-00838,AF-0126,Pallet Jack,2026-06-15,Monday,11,120,E-0032,Completed
+BK-00839,AF-0126,Pallet Jack,2025-09-23,Tuesday,9,60,E-0059,Completed
+BK-00840,AF-0126,Pallet Jack,2026-05-20,Wednesday,13,30,E-0030,Completed
+BK-00841,AF-0129,Delivery Van,2025-07-21,Monday,17,60,E-0028,Completed
+BK-00842,AF-0129,Delivery Van,2026-02-09,Monday,14,60,E-0008,Completed
+BK-00843,AF-0129,Delivery Van,2026-01-19,Monday,17,90,E-0051,Cancelled
+BK-00844,AF-0129,Delivery Van,2025-08-11,Monday,10,30,E-0040,Completed
+BK-00845,AF-0129,Delivery Van,2026-07-07,Tuesday,15,60,E-0054,Completed
+BK-00846,AF-0129,Delivery Van,2026-04-14,Tuesday,11,60,E-0055,Completed
+BK-00847,AF-0129,Delivery Van,2026-06-23,Tuesday,13,30,E-0046,Completed
+BK-00848,AF-0129,Delivery Van,2025-09-29,Monday,14,30,E-0003,Completed
+BK-00849,AF-0129,Delivery Van,2025-12-12,Friday,13,30,E-0028,Completed
+BK-00850,AF-0129,Delivery Van,2026-03-19,Thursday,9,60,E-0007,Completed
+BK-00851,AF-0129,Delivery Van,2025-10-17,Friday,11,60,E-0029,Completed
+BK-00852,AF-0129,Delivery Van,2026-06-24,Wednesday,12,90,E-0036,Completed
+BK-00853,AF-0129,Delivery Van,2025-12-05,Friday,14,60,E-0001,Completed
+BK-00854,AF-0129,Delivery Van,2026-06-19,Friday,14,60,E-0040,Completed
+BK-00855,AF-0129,Delivery Van,2025-10-09,Thursday,11,60,E-0045,Cancelled
+BK-00856,AF-0129,Delivery Van,2026-01-28,Wednesday,10,60,E-0047,Completed
+BK-00857,AF-0129,Delivery Van,2025-07-16,Wednesday,10,60,E-0055,Completed
+BK-00858,AF-0129,Delivery Van,2025-10-17,Friday,15,60,E-0019,Completed
+BK-00859,AF-0129,Delivery Van,2026-06-14,Sunday,10,30,E-0039,Completed
+BK-00860,AF-0129,Delivery Van,2025-10-27,Monday,10,30,E-0039,Completed
+BK-00861,AF-0129,Delivery Van,2025-09-29,Monday,11,30,E-0045,Completed
+BK-00862,AF-0129,Delivery Van,2025-09-23,Tuesday,10,90,E-0039,Completed
+BK-00863,AF-0129,Delivery Van,2026-06-12,Friday,14,60,E-0048,Completed
+BK-00864,AF-0129,Delivery Van,2026-03-31,Tuesday,10,60,E-0012,Completed
+BK-00865,AF-0129,Delivery Van,2025-10-16,Thursday,14,60,E-0014,Completed
+BK-00866,AF-0129,Delivery Van,2026-02-07,Saturday,11,60,E-0011,Completed
+BK-00867,AF-0129,Delivery Van,2026-03-19,Thursday,15,30,E-0004,Completed
+BK-00868,AF-0129,Delivery Van,2025-10-25,Saturday,14,60,E-0002,Completed
+BK-00869,AF-0129,Delivery Van,2026-07-09,Thursday,11,30,E-0028,Cancelled
+BK-00870,AF-0129,Delivery Van,2025-09-03,Wednesday,17,120,E-0027,Completed
+BK-00871,AF-0129,Delivery Van,2026-02-24,Tuesday,10,60,E-0039,Completed
+BK-00872,AF-0129,Delivery Van,2026-03-03,Tuesday,10,30,E-0037,Completed
+BK-00873,AF-0131,Delivery Van,2025-07-29,Tuesday,11,60,E-0004,Completed
+BK-00874,AF-0131,Delivery Van,2026-02-04,Wednesday,15,90,E-0003,Completed
+BK-00875,AF-0131,Delivery Van,2026-04-02,Thursday,11,30,E-0050,Completed
+BK-00876,AF-0131,Delivery Van,2026-05-21,Thursday,10,30,E-0036,Completed
+BK-00877,AF-0131,Delivery Van,2025-10-01,Wednesday,9,60,E-0005,Completed
+BK-00878,AF-0131,Delivery Van,2026-03-20,Friday,13,60,E-0042,Cancelled
+BK-00879,AF-0131,Delivery Van,2026-07-08,Wednesday,12,60,E-0018,Cancelled
+BK-00880,AF-0131,Delivery Van,2026-04-08,Wednesday,10,30,E-0028,Completed
+BK-00881,AF-0131,Delivery Van,2025-10-23,Thursday,16,30,E-0021,Completed
+BK-00882,AF-0131,Delivery Van,2026-06-11,Thursday,16,30,E-0041,Completed
+BK-00883,AF-0131,Delivery Van,2026-04-27,Monday,10,30,E-0025,Completed
+BK-00884,AF-0131,Delivery Van,2025-11-11,Tuesday,16,60,E-0035,Completed
+BK-00885,AF-0131,Delivery Van,2026-03-13,Friday,11,30,E-0031,Completed
+BK-00886,AF-0131,Delivery Van,2026-01-14,Wednesday,10,60,E-0053,Completed
+BK-00887,AF-0131,Delivery Van,2026-05-20,Wednesday,14,120,E-0060,Completed
+BK-00888,AF-0131,Delivery Van,2026-01-01,Thursday,14,90,E-0054,Completed
+BK-00889,AF-0131,Delivery Van,2025-07-18,Friday,16,90,E-0042,Completed
+BK-00890,AF-0131,Delivery Van,2026-02-18,Wednesday,15,30,E-0037,Completed
+BK-00891,AF-0133,Delivery Van,2026-04-22,Wednesday,16,60,E-0032,Completed
+BK-00892,AF-0133,Delivery Van,2026-01-22,Thursday,15,30,E-0021,Completed
+BK-00893,AF-0133,Delivery Van,2025-10-04,Saturday,13,90,E-0010,Completed
+BK-00894,AF-0133,Delivery Van,2025-08-13,Wednesday,15,30,E-0059,Completed
+BK-00895,AF-0133,Delivery Van,2025-10-27,Monday,13,90,E-0057,Completed
+BK-00896,AF-0133,Delivery Van,2026-02-25,Wednesday,14,30,E-0007,Completed
+BK-00897,AF-0133,Delivery Van,2025-08-18,Monday,12,120,E-0017,Completed
+BK-00898,AF-0133,Delivery Van,2026-01-30,Friday,16,60,E-0008,Completed
+BK-00899,AF-0133,Delivery Van,2025-11-07,Friday,9,90,E-0037,Completed
+BK-00900,AF-0133,Delivery Van,2026-03-12,Thursday,12,60,E-0016,Completed
+BK-00901,AF-0133,Delivery Van,2025-09-09,Tuesday,15,60,E-0042,Completed
+BK-00902,AF-0133,Delivery Van,2026-05-13,Wednesday,11,60,E-0005,Completed
+BK-00903,AF-0133,Delivery Van,2025-08-18,Monday,11,90,E-0034,Completed
+BK-00904,AF-0133,Delivery Van,2025-10-30,Thursday,11,60,E-0028,Completed
+BK-00905,AF-0135,Delivery Van,2026-03-26,Thursday,15,90,E-0033,Cancelled
+BK-00906,AF-0136,Forklift,2026-05-07,Thursday,15,90,E-0011,Completed
+BK-00907,AF-0136,Forklift,2026-02-06,Friday,10,30,E-0054,Completed
+BK-00908,AF-0136,Forklift,2025-09-09,Tuesday,16,60,E-0059,Completed
+BK-00909,AF-0136,Forklift,2025-07-16,Wednesday,12,30,E-0014,Completed
+BK-00910,AF-0136,Forklift,2025-12-19,Friday,11,30,E-0054,Completed
+BK-00911,AF-0136,Forklift,2026-06-16,Tuesday,14,120,E-0033,Completed
+BK-00912,AF-0138,Sedan Car,2025-11-13,Thursday,11,30,E-0010,Completed
+BK-00913,AF-0138,Sedan Car,2025-09-01,Monday,10,90,E-0039,Completed
+BK-00914,AF-0138,Sedan Car,2025-12-15,Monday,16,60,E-0023,Cancelled
+BK-00915,AF-0139,Compressor,2026-04-14,Tuesday,10,120,E-0055,Completed
+BK-00916,AF-0139,Compressor,2026-06-02,Tuesday,15,90,E-0017,Completed
+BK-00917,AF-0139,Compressor,2026-07-09,Thursday,9,60,E-0003,Completed
+BK-00918,AF-0139,Compressor,2025-09-04,Thursday,10,60,E-0021,Completed
+BK-00919,AF-0139,Compressor,2025-09-24,Wednesday,10,60,E-0025,Completed
+BK-00920,AF-0139,Compressor,2026-04-10,Friday,11,30,E-0053,Completed
+BK-00921,AF-0139,Compressor,2025-07-17,Thursday,14,90,E-0044,Cancelled
+BK-00922,AF-0139,Compressor,2026-05-01,Friday,15,90,E-0034,Completed
+BK-00923,AF-0139,Compressor,2026-06-25,Thursday,10,60,E-0016,Completed
+BK-00924,AF-0139,Compressor,2025-07-23,Wednesday,10,30,E-0001,Completed
+BK-00925,AF-0139,Compressor,2026-01-21,Wednesday,10,30,E-0013,Completed
+BK-00926,AF-0139,Compressor,2026-03-07,Saturday,11,60,E-0027,Completed
+BK-00927,AF-0139,Compressor,2025-11-06,Thursday,12,30,E-0032,Cancelled
+BK-00928,AF-0139,Compressor,2025-09-19,Friday,10,60,E-0017,Completed
+BK-00929,AF-0139,Compressor,2026-04-23,Thursday,9,60,E-0022,Completed
+BK-00930,AF-0139,Compressor,2026-04-23,Thursday,15,90,E-0012,Completed
+BK-00931,AF-0139,Compressor,2026-06-09,Tuesday,10,30,E-0056,Completed
+BK-00932,AF-0139,Compressor,2026-05-26,Tuesday,11,90,E-0058,Completed
+BK-00933,AF-0139,Compressor,2026-05-19,Tuesday,16,60,E-0014,Completed
+BK-00934,AF-0139,Compressor,2026-07-06,Monday,12,60,E-0051,Completed
+BK-00935,AF-0139,Compressor,2026-05-25,Monday,9,30,E-0011,Completed
+BK-00936,AF-0139,Compressor,2026-05-15,Friday,17,60,E-0027,Completed
+BK-00937,AF-0139,Compressor,2025-11-25,Tuesday,10,90,E-0019,Completed
+BK-00938,AF-0139,Compressor,2025-10-21,Tuesday,14,120,E-0021,Completed
+BK-00939,AF-0139,Compressor,2026-01-30,Friday,14,60,E-0010,Completed
+BK-00940,AF-0139,Compressor,2026-03-10,Tuesday,10,30,E-0003,Completed
+BK-00941,AF-0139,Compressor,2025-11-04,Tuesday,15,60,E-0048,Completed
+BK-00942,AF-0139,Compressor,2025-09-12,Friday,11,30,E-0003,Completed
+BK-00943,AF-0139,Compressor,2025-12-22,Monday,11,60,E-0024,Completed
+BK-00944,AF-0139,Compressor,2025-10-27,Monday,15,90,E-0053,Completed
+BK-00945,AF-0139,Compressor,2026-06-08,Monday,14,90,E-0028,Cancelled
+BK-00946,AF-0141,Generator,2026-01-31,Saturday,10,90,E-0033,Completed
+BK-00947,AF-0141,Generator,2026-04-21,Tuesday,11,90,E-0023,Completed
+BK-00948,AF-0141,Generator,2026-04-08,Wednesday,16,60,E-0033,Completed
+BK-00949,AF-0141,Generator,2026-04-02,Thursday,14,90,E-0060,Completed
+BK-00950,AF-0141,Generator,2026-06-16,Tuesday,14,30,E-0006,Completed
+BK-00951,AF-0141,Generator,2026-03-23,Monday,11,60,E-0002,Completed
+BK-00952,AF-0141,Generator,2025-09-01,Monday,16,60,E-0025,Completed
+BK-00953,AF-0141,Generator,2025-10-07,Tuesday,15,90,E-0011,Completed
+BK-00954,AF-0141,Generator,2026-04-21,Tuesday,14,90,E-0022,Completed
+BK-00955,AF-0141,Generator,2025-10-29,Wednesday,13,120,E-0009,Completed
+BK-00956,AF-0141,Generator,2026-07-08,Wednesday,11,90,E-0040,Completed
+BK-00957,AF-0141,Generator,2026-02-05,Thursday,14,60,E-0052,Completed
+BK-00958,AF-0144,Delivery Van,2025-12-11,Thursday,12,60,E-0032,Completed
+BK-00959,AF-0144,Delivery Van,2025-09-30,Tuesday,12,60,E-0056,Completed
+BK-00960,AF-0144,Delivery Van,2026-07-03,Friday,16,60,E-0038,Completed
+BK-00961,AF-0144,Delivery Van,2026-05-22,Friday,14,60,E-0023,Completed
+BK-00962,AF-0144,Delivery Van,2025-09-09,Tuesday,16,90,E-0058,Completed
+BK-00963,AF-0144,Delivery Van,2025-08-18,Monday,12,60,E-0007,Completed
+BK-00964,AF-0144,Delivery Van,2026-02-11,Wednesday,14,60,E-0039,Completed
+BK-00965,AF-0144,Delivery Van,2026-02-12,Thursday,14,120,E-0030,Completed
+BK-00966,AF-0144,Delivery Van,2025-07-29,Tuesday,10,120,E-0013,Completed
+BK-00967,AF-0144,Delivery Van,2025-09-03,Wednesday,17,60,E-0057,Completed
+BK-00968,AF-0144,Delivery Van,2026-06-08,Monday,15,30,E-0013,Cancelled
+BK-00969,AF-0144,Delivery Van,2025-07-23,Wednesday,14,30,E-0029,Completed
+BK-00970,AF-0144,Delivery Van,2025-10-13,Monday,11,30,E-0029,Completed
+BK-00971,AF-0144,Delivery Van,2026-04-20,Monday,12,120,E-0034,Completed
+BK-00972,AF-0144,Delivery Van,2025-09-25,Thursday,15,30,E-0045,Completed
+BK-00973,AF-0144,Delivery Van,2026-05-19,Tuesday,12,60,E-0035,Completed
+BK-00974,AF-0144,Delivery Van,2026-06-25,Thursday,15,60,E-0016,Completed
+BK-00975,AF-0144,Delivery Van,2026-03-27,Friday,13,30,E-0035,Completed
+BK-00976,AF-0144,Delivery Van,2026-04-13,Monday,15,30,E-0051,Completed
+BK-00977,AF-0144,Delivery Van,2026-03-06,Friday,14,30,E-0032,Completed
+BK-00978,AF-0144,Delivery Van,2025-12-09,Tuesday,10,60,E-0053,Cancelled
+BK-00979,AF-0144,Delivery Van,2026-05-20,Wednesday,17,60,E-0039,Cancelled
+BK-00980,AF-0144,Delivery Van,2025-11-07,Friday,11,30,E-0001,Completed
+BK-00981,AF-0144,Delivery Van,2025-10-27,Monday,15,60,E-0041,Completed
+BK-00982,AF-0144,Delivery Van,2026-04-17,Friday,13,60,E-0037,Completed
+BK-00983,AF-0144,Delivery Van,2025-11-07,Friday,14,60,E-0053,Completed
+BK-00984,AF-0144,Delivery Van,2026-03-20,Friday,12,60,E-0006,Completed
+BK-00985,AF-0144,Delivery Van,2025-11-28,Friday,12,60,E-0041,Completed
+BK-00986,AF-0144,Delivery Van,2025-10-16,Thursday,10,90,E-0040,Completed
+BK-00987,AF-0144,Delivery Van,2026-07-08,Wednesday,11,30,E-0029,Completed
+BK-00988,AF-0144,Delivery Van,2026-01-29,Thursday,14,30,E-0038,Completed
+BK-00989,AF-0144,Delivery Van,2025-07-23,Wednesday,15,60,E-0047,Completed
+BK-00990,AF-0144,Delivery Van,2025-12-09,Tuesday,12,60,E-0045,Completed
+BK-00991,AF-0144,Delivery Van,2025-11-05,Wednesday,14,30,E-0022,Cancelled
+BK-00992,AF-0144,Delivery Van,2025-08-06,Wednesday,14,90,E-0014,Completed
+BK-00993,AF-0144,Delivery Van,2026-04-21,Tuesday,9,60,E-0048,Completed
+BK-00994,AF-0146,Delivery Van,2026-04-03,Friday,17,60,E-0045,Completed
+BK-00995,AF-0146,Delivery Van,2025-12-02,Tuesday,10,60,E-0056,Completed
+BK-00996,AF-0146,Delivery Van,2026-04-06,Monday,14,90,E-0031,Completed
+BK-00997,AF-0146,Delivery Van,2026-05-19,Tuesday,14,30,E-0050,Completed
+BK-00998,AF-0146,Delivery Van,2026-02-10,Tuesday,16,90,E-0006,Completed
+BK-00999,AF-0146,Delivery Van,2025-12-01,Monday,13,30,E-0037,Completed
+BK-01000,AF-0146,Delivery Van,2026-06-29,Monday,12,60,E-0054,Completed
+BK-01001,AF-0146,Delivery Van,2026-05-27,Wednesday,12,60,E-0049,Completed
+BK-01002,AF-0146,Delivery Van,2025-11-17,Monday,14,120,E-0036,Cancelled
+BK-01003,AF-0146,Delivery Van,2026-07-10,Friday,12,90,E-0004,Completed
+BK-01004,AF-0146,Delivery Van,2025-10-07,Tuesday,11,30,E-0045,Completed
+BK-01005,AF-0146,Delivery Van,2025-12-26,Friday,13,30,E-0013,Completed
+BK-01006,AF-0146,Delivery Van,2026-02-19,Thursday,13,60,E-0012,Completed
+BK-01007,AF-0146,Delivery Van,2025-09-19,Friday,15,120,E-0021,Completed
+BK-01008,AF-0146,Delivery Van,2026-05-13,Wednesday,16,60,E-0058,Completed
+BK-01009,AF-0146,Delivery Van,2026-03-24,Tuesday,10,120,E-0030,Cancelled
+BK-01010,AF-0146,Delivery Van,2026-01-12,Monday,15,60,E-0023,Completed
+BK-01011,AF-0146,Delivery Van,2026-05-20,Wednesday,9,60,E-0024,Completed
+BK-01012,AF-0146,Delivery Van,2026-01-03,Saturday,14,120,E-0060,Cancelled
+BK-01013,AF-0147,Meeting Table,2025-07-29,Tuesday,9,60,E-0005,Completed
+BK-01014,AF-0147,Meeting Table,2025-09-03,Wednesday,11,60,E-0032,Completed
+BK-01015,AF-0147,Meeting Table,2025-10-21,Tuesday,12,60,E-0021,Completed
+BK-01016,AF-0147,Meeting Table,2025-10-06,Monday,9,90,E-0055,Completed
+BK-01017,AF-0147,Meeting Table,2026-05-02,Saturday,11,60,E-0022,Completed
+BK-01018,AF-0147,Meeting Table,2026-02-04,Wednesday,16,60,E-0008,Completed
+BK-01019,AF-0147,Meeting Table,2025-11-13,Thursday,14,30,E-0044,Completed
+BK-01020,AF-0147,Meeting Table,2025-12-17,Wednesday,12,60,E-0045,Completed
+BK-01021,AF-0147,Meeting Table,2025-07-17,Thursday,9,60,E-0003,Completed
+BK-01022,AF-0147,Meeting Table,2025-08-21,Thursday,10,30,E-0034,Completed
+BK-01023,AF-0147,Meeting Table,2025-08-26,Tuesday,11,30,E-0034,Completed
+BK-01024,AF-0147,Meeting Table,2025-07-14,Monday,16,30,E-0030,Completed
+BK-01025,AF-0147,Meeting Table,2026-07-07,Tuesday,10,60,E-0053,Completed
+BK-01026,AF-0147,Meeting Table,2025-10-17,Friday,10,120,E-0060,Completed
+BK-01027,AF-0147,Meeting Table,2026-03-26,Thursday,15,60,E-0010,Completed
+BK-01028,AF-0147,Meeting Table,2025-08-20,Wednesday,15,30,E-0013,Completed
+BK-01029,AF-0147,Meeting Table,2025-07-28,Monday,10,60,E-0029,Cancelled
+BK-01030,AF-0147,Meeting Table,2025-07-14,Monday,17,90,E-0004,Completed
+BK-01031,AF-0148,Compressor,2025-11-26,Wednesday,10,30,E-0001,Completed
+BK-01032,AF-0148,Compressor,2025-07-15,Tuesday,10,60,E-0007,Completed
+BK-01033,AF-0148,Compressor,2026-05-13,Wednesday,14,60,E-0015,Completed
+BK-01034,AF-0148,Compressor,2026-04-29,Wednesday,10,120,E-0003,Completed
+BK-01035,AF-0148,Compressor,2026-05-21,Thursday,10,90,E-0044,Completed
+BK-01036,AF-0148,Compressor,2026-01-20,Tuesday,9,120,E-0025,Completed
+BK-01037,AF-0148,Compressor,2025-10-07,Tuesday,17,30,E-0040,Completed
+BK-01038,AF-0148,Compressor,2025-12-24,Wednesday,10,90,E-0031,Completed
+BK-01039,AF-0148,Compressor,2026-02-03,Tuesday,9,60,E-0007,Completed
+BK-01040,AF-0148,Compressor,2026-05-04,Monday,13,60,E-0037,Completed
+BK-01041,AF-0148,Compressor,2026-02-14,Saturday,9,90,E-0035,Completed
+BK-01042,AF-0148,Compressor,2026-06-03,Wednesday,11,90,E-0036,Completed
+BK-01043,AF-0148,Compressor,2025-10-11,Saturday,14,90,E-0033,Completed
+BK-01044,AF-0148,Compressor,2026-01-20,Tuesday,12,90,E-0060,Completed
+BK-01045,AF-0148,Compressor,2025-07-31,Thursday,14,120,E-0041,Completed
+BK-01046,AF-0148,Compressor,2025-11-10,Monday,13,60,E-0046,Completed
+BK-01047,AF-0148,Compressor,2025-10-28,Tuesday,14,30,E-0022,Completed
+BK-01048,AF-0150,Sedan Car,2026-03-16,Monday,17,30,E-0007,Completed
+BK-01049,AF-0150,Sedan Car,2026-03-31,Tuesday,11,30,E-0046,Completed
+BK-01050,AF-0150,Sedan Car,2025-08-18,Monday,14,30,E-0042,Completed
+BK-01051,AF-0150,Sedan Car,2026-04-29,Wednesday,12,60,E-0021,Completed
+BK-01052,AF-0150,Sedan Car,2026-04-23,Thursday,12,60,E-0008,Completed
+BK-01053,AF-0150,Sedan Car,2026-06-26,Friday,13,60,E-0036,Completed
+BK-01054,AF-0150,Sedan Car,2025-11-25,Tuesday,13,90,E-0009,Completed
+BK-01055,AF-0150,Sedan Car,2026-06-23,Tuesday,14,60,E-0015,Completed
+BK-01056,AF-0150,Sedan Car,2026-02-24,Tuesday,17,90,E-0059,Completed
+BK-01057,AF-0150,Sedan Car,2026-05-06,Wednesday,14,90,E-0024,Cancelled
+BK-01058,AF-0150,Sedan Car,2025-12-09,Tuesday,16,30,E-0042,Completed
+BK-01059,AF-0150,Sedan Car,2026-02-11,Wednesday,15,60,E-0060,Completed
+BK-01060,AF-0150,Sedan Car,2025-09-10,Wednesday,14,90,E-0022,Cancelled
+BK-01061,AF-0150,Sedan Car,2026-03-19,Thursday,16,30,E-0017,Completed
+BK-01062,AF-0150,Sedan Car,2026-06-19,Friday,14,60,E-0042,Completed
+BK-01063,AF-0153,Pickup Truck,2025-08-18,Monday,10,60,E-0030,Completed
+BK-01064,AF-0153,Pickup Truck,2026-03-04,Wednesday,15,60,E-0015,Completed
+BK-01065,AF-0153,Pickup Truck,2025-09-09,Tuesday,10,90,E-0048,Cancelled
+BK-01066,AF-0153,Pickup Truck,2025-10-31,Friday,11,30,E-0019,Completed
+BK-01067,AF-0153,Pickup Truck,2026-05-25,Monday,16,120,E-0042,Completed
+BK-01068,AF-0153,Pickup Truck,2025-12-02,Tuesday,17,60,E-0060,Completed
+BK-01069,AF-0153,Pickup Truck,2025-11-03,Monday,10,90,E-0027,Completed
+BK-01070,AF-0153,Pickup Truck,2025-09-03,Wednesday,11,60,E-0052,Completed
+BK-01071,AF-0153,Pickup Truck,2025-12-26,Friday,11,60,E-0005,Completed
+BK-01072,AF-0153,Pickup Truck,2025-10-23,Thursday,14,30,E-0049,Completed
+BK-01073,AF-0153,Pickup Truck,2025-08-07,Thursday,14,30,E-0059,Completed
+BK-01074,AF-0153,Pickup Truck,2026-03-09,Monday,15,90,E-0059,Completed
+BK-01075,AF-0153,Pickup Truck,2026-06-23,Tuesday,12,60,E-0031,Cancelled
+BK-01076,AF-0153,Pickup Truck,2025-11-25,Tuesday,10,90,E-0056,Completed
+BK-01077,AF-0153,Pickup Truck,2025-08-12,Tuesday,14,30,E-0055,Completed
+BK-01078,AF-0153,Pickup Truck,2025-07-29,Tuesday,15,60,E-0021,Completed
+BK-01079,AF-0153,Pickup Truck,2026-03-20,Friday,16,60,E-0031,Completed
+BK-01080,AF-0153,Pickup Truck,2026-02-04,Wednesday,11,30,E-0058,Completed
+BK-01081,AF-0153,Pickup Truck,2026-03-25,Wednesday,10,90,E-0008,Completed
+BK-01082,AF-0153,Pickup Truck,2026-05-12,Tuesday,14,60,E-0017,Completed
+BK-01083,AF-0153,Pickup Truck,2025-12-10,Wednesday,11,60,E-0024,Completed
+BK-01084,AF-0153,Pickup Truck,2026-05-06,Wednesday,11,120,E-0050,Completed
+BK-01085,AF-0153,Pickup Truck,2025-09-02,Tuesday,13,60,E-0017,Completed
+BK-01086,AF-0153,Pickup Truck,2025-12-03,Wednesday,17,60,E-0004,Completed
+BK-01087,AF-0153,Pickup Truck,2026-04-24,Friday,16,60,E-0017,Completed
+BK-01088,AF-0153,Pickup Truck,2025-08-15,Friday,15,90,E-0022,Completed
+BK-01089,AF-0153,Pickup Truck,2026-06-01,Monday,17,30,E-0008,Completed
+BK-01090,AF-0153,Pickup Truck,2026-04-13,Monday,10,30,E-0039,Completed
+BK-01091,AF-0154,Forklift,2026-05-18,Monday,14,120,E-0020,Completed
+BK-01092,AF-0154,Forklift,2026-06-04,Thursday,10,120,E-0052,Completed
+BK-01093,AF-0155,Compressor,2026-06-02,Tuesday,13,30,E-0015,Completed
+BK-01094,AF-0155,Compressor,2026-02-13,Friday,17,60,E-0003,Completed
+BK-01095,AF-0155,Compressor,2025-11-05,Wednesday,14,30,E-0031,Completed
+BK-01096,AF-0157,Pickup Truck,2026-07-10,Friday,15,60,E-0003,Completed
+BK-01097,AF-0157,Pickup Truck,2026-04-21,Tuesday,14,90,E-0022,Completed
+BK-01098,AF-0157,Pickup Truck,2025-09-03,Wednesday,10,60,E-0003,Cancelled
+BK-01099,AF-0157,Pickup Truck,2026-02-04,Wednesday,15,30,E-0046,Cancelled
+BK-01100,AF-0157,Pickup Truck,2025-09-16,Tuesday,11,90,E-0053,Completed
+BK-01101,AF-0157,Pickup Truck,2026-07-07,Tuesday,15,30,E-0040,Completed
+BK-01102,AF-0157,Pickup Truck,2026-01-20,Tuesday,14,60,E-0022,Completed
+BK-01103,AF-0157,Pickup Truck,2025-09-15,Monday,14,60,E-0054,Completed
+BK-01104,AF-0157,Pickup Truck,2026-04-23,Thursday,14,30,E-0054,Cancelled
+BK-01105,AF-0157,Pickup Truck,2026-01-08,Thursday,16,30,E-0029,Completed
+BK-01106,AF-0157,Pickup Truck,2025-09-03,Wednesday,16,60,E-0049,Cancelled
+BK-01107,AF-0157,Pickup Truck,2025-08-12,Tuesday,11,60,E-0045,Cancelled
+BK-01108,AF-0157,Pickup Truck,2026-07-06,Monday,15,90,E-0037,Completed
+BK-01109,AF-0157,Pickup Truck,2025-11-25,Tuesday,9,90,E-0052,Cancelled
+BK-01110,AF-0157,Pickup Truck,2025-11-14,Friday,10,30,E-0023,Completed
+BK-01111,AF-0157,Pickup Truck,2026-03-27,Friday,11,60,E-0044,Completed
+BK-01112,AF-0157,Pickup Truck,2026-03-07,Saturday,15,60,E-0029,Completed
+BK-01113,AF-0157,Pickup Truck,2025-08-28,Thursday,14,30,E-0048,Completed
+BK-01114,AF-0157,Pickup Truck,2026-04-08,Wednesday,11,90,E-0029,Completed
+BK-01115,AF-0157,Pickup Truck,2025-08-02,Saturday,11,90,E-0059,Cancelled
+BK-01116,AF-0157,Pickup Truck,2026-05-27,Wednesday,9,30,E-0022,Completed
+BK-01117,AF-0157,Pickup Truck,2025-11-19,Wednesday,14,120,E-0036,Completed
+BK-01118,AF-0157,Pickup Truck,2026-02-25,Wednesday,11,60,E-0058,Completed
+BK-01119,AF-0157,Pickup Truck,2026-01-16,Friday,14,30,E-0053,Completed
+BK-01120,AF-0157,Pickup Truck,2025-08-11,Monday,15,30,E-0051,Completed
+BK-01121,AF-0157,Pickup Truck,2025-09-12,Friday,11,30,E-0007,Completed
+BK-01122,AF-0157,Pickup Truck,2025-12-01,Monday,13,30,E-0049,Completed
+BK-01123,AF-0157,Pickup Truck,2025-12-25,Thursday,17,30,E-0003,Completed
+BK-01124,AF-0157,Pickup Truck,2025-11-26,Wednesday,13,60,E-0050,Completed
+BK-01125,AF-0157,Pickup Truck,2025-07-14,Monday,15,60,E-0009,Completed
+BK-01126,AF-0157,Pickup Truck,2026-03-25,Wednesday,11,30,E-0028,Cancelled
+BK-01127,AF-0158,Delivery Van,2025-10-10,Friday,11,90,E-0018,Completed
+BK-01128,AF-0160,Compressor,2025-11-12,Wednesday,14,90,E-0039,Completed
+BK-01129,AF-0160,Compressor,2026-04-01,Wednesday,10,90,E-0035,Cancelled
+BK-01130,AF-0160,Compressor,2025-12-22,Monday,11,90,E-0053,Completed
+BK-01131,AF-0160,Compressor,2026-04-16,Thursday,14,90,E-0016,Completed
+BK-01132,AF-0160,Compressor,2025-12-20,Saturday,15,60,E-0053,Completed
+BK-01133,AF-0160,Compressor,2026-02-10,Tuesday,13,90,E-0025,Completed
+BK-01134,AF-0160,Compressor,2026-04-24,Friday,11,60,E-0006,Completed
+BK-01135,AF-0160,Compressor,2026-01-08,Thursday,9,30,E-0015,Completed
+BK-01136,AF-0160,Compressor,2025-12-22,Monday,10,30,E-0039,Completed
+BK-01137,AF-0160,Compressor,2026-06-30,Tuesday,14,30,E-0030,Completed
+BK-01138,AF-0160,Compressor,2026-05-27,Wednesday,15,120,E-0013,Completed
+BK-01139,AF-0160,Compressor,2026-01-29,Thursday,10,30,E-0030,Completed
+BK-01140,AF-0160,Compressor,2026-05-18,Monday,14,30,E-0010,Completed
+BK-01141,AF-0160,Compressor,2025-07-24,Thursday,11,60,E-0021,Completed
+BK-01142,AF-0160,Compressor,2025-12-25,Thursday,14,90,E-0039,Completed
+BK-01143,AF-0160,Compressor,2026-05-08,Friday,9,30,E-0060,Completed
+BK-01144,AF-0160,Compressor,2025-11-14,Friday,10,30,E-0001,Completed
+BK-01145,AF-0160,Compressor,2026-07-10,Friday,11,90,E-0052,Completed
+BK-01146,AF-0160,Compressor,2026-05-08,Friday,9,30,E-0017,Completed
+BK-01147,AF-0160,Compressor,2026-07-09,Thursday,14,30,E-0027,Cancelled
+BK-01148,AF-0161,Generator,2026-03-05,Thursday,10,120,E-0016,Completed
+BK-01149,AF-0161,Generator,2026-06-03,Wednesday,10,60,E-0058,Completed
+BK-01150,AF-0161,Generator,2026-06-03,Wednesday,15,30,E-0035,Completed
+BK-01151,AF-0161,Generator,2026-02-05,Thursday,17,120,E-0046,Completed
+BK-01152,AF-0161,Generator,2026-04-02,Thursday,14,30,E-0004,Completed
+BK-01153,AF-0161,Generator,2026-06-07,Sunday,14,120,E-0014,Completed
+BK-01154,AF-0161,Generator,2026-06-15,Monday,13,60,E-0004,Completed
+BK-01155,AF-0161,Generator,2026-06-23,Tuesday,15,30,E-0003,Completed
+BK-01156,AF-0161,Generator,2026-07-07,Tuesday,17,30,E-0020,Completed
+BK-01157,AF-0161,Generator,2026-04-28,Tuesday,10,30,E-0017,Completed
+BK-01158,AF-0161,Generator,2026-03-30,Monday,17,90,E-0006,Completed
+BK-01159,AF-0161,Generator,2026-06-19,Friday,11,30,E-0002,Completed
+BK-01160,AF-0161,Generator,2026-06-15,Monday,13,30,E-0028,Completed
+BK-01161,AF-0161,Generator,2026-03-05,Thursday,17,120,E-0023,Cancelled
+BK-01162,AF-0161,Generator,2025-10-24,Friday,12,60,E-0041,Completed
+BK-01163,AF-0161,Generator,2026-03-02,Monday,9,60,E-0016,Completed
+BK-01164,AF-0161,Generator,2025-09-28,Sunday,10,90,E-0052,Completed
+BK-01165,AF-0161,Generator,2025-09-04,Thursday,17,60,E-0001,Completed
+BK-01166,AF-0161,Generator,2025-07-16,Wednesday,9,60,E-0015,Cancelled
+BK-01167,AF-0161,Generator,2025-12-12,Friday,14,30,E-0059,Cancelled
+BK-01168,AF-0161,Generator,2025-08-29,Friday,14,120,E-0014,Completed
+BK-01169,AF-0161,Generator,2026-04-09,Thursday,12,60,E-0051,Completed
+BK-01170,AF-0161,Generator,2025-11-19,Wednesday,15,90,E-0042,Completed
+BK-01171,AF-0161,Generator,2025-09-24,Wednesday,15,60,E-0053,Completed
+BK-01172,AF-0161,Generator,2026-03-18,Wednesday,15,60,E-0020,Cancelled
+BK-01173,AF-0161,Generator,2026-04-27,Monday,10,30,E-0032,Completed
+BK-01174,AF-0163,Camera,2025-09-18,Thursday,15,60,E-0010,Completed
+BK-01175,AF-0163,Camera,2026-05-21,Thursday,11,30,E-0053,Completed
+BK-01176,AF-0163,Camera,2025-10-13,Monday,12,90,E-0034,Completed
+BK-01177,AF-0163,Camera,2025-09-27,Saturday,16,30,E-0009,Completed
+BK-01178,AF-0163,Camera,2025-11-06,Thursday,13,60,E-0051,Completed
+BK-01179,AF-0163,Camera,2026-06-22,Monday,16,90,E-0016,Completed
+BK-01180,AF-0163,Camera,2025-09-30,Tuesday,15,30,E-0029,Completed
+BK-01181,AF-0163,Camera,2025-09-11,Thursday,14,60,E-0022,Completed
+BK-01182,AF-0163,Camera,2025-12-02,Tuesday,16,90,E-0013,Completed
+BK-01183,AF-0163,Camera,2026-04-02,Thursday,14,30,E-0022,Completed
+BK-01184,AF-0163,Camera,2025-11-25,Tuesday,10,60,E-0020,Cancelled
+BK-01185,AF-0163,Camera,2026-04-08,Wednesday,16,90,E-0039,Completed
+BK-01186,AF-0163,Camera,2025-10-14,Tuesday,16,60,E-0035,Completed
+BK-01187,AF-0163,Camera,2026-01-14,Wednesday,15,60,E-0058,Completed
+BK-01188,AF-0163,Camera,2025-12-11,Thursday,11,30,E-0052,Completed
+BK-01189,AF-0163,Camera,2026-03-28,Saturday,16,30,E-0019,Completed
+BK-01190,AF-0164,Pickup Truck,2026-03-02,Monday,14,30,E-0036,Completed
+BK-01191,AF-0164,Pickup Truck,2025-07-25,Friday,11,30,E-0009,Completed
+BK-01192,AF-0164,Pickup Truck,2026-06-16,Tuesday,15,30,E-0020,Cancelled
+BK-01193,AF-0164,Pickup Truck,2026-02-25,Wednesday,12,30,E-0042,Completed
+BK-01194,AF-0164,Pickup Truck,2025-09-09,Tuesday,11,30,E-0059,Completed
+BK-01195,AF-0164,Pickup Truck,2025-09-24,Wednesday,15,60,E-0060,Cancelled
+BK-01196,AF-0164,Pickup Truck,2026-05-27,Wednesday,10,60,E-0028,Completed
+BK-01197,AF-0164,Pickup Truck,2026-04-15,Wednesday,14,30,E-0052,Completed
+BK-01198,AF-0164,Pickup Truck,2026-07-03,Friday,11,60,E-0060,Completed
+BK-01199,AF-0164,Pickup Truck,2025-11-14,Friday,14,60,E-0040,Completed
+BK-01200,AF-0164,Pickup Truck,2025-08-16,Saturday,15,120,E-0036,Completed
+BK-01201,AF-0164,Pickup Truck,2026-03-20,Friday,14,90,E-0049,Completed
+BK-01202,AF-0164,Pickup Truck,2025-11-18,Tuesday,11,120,E-0011,Completed
+BK-01203,AF-0164,Pickup Truck,2025-07-24,Thursday,10,30,E-0046,Completed
+BK-01204,AF-0164,Pickup Truck,2026-01-13,Tuesday,9,120,E-0011,Completed
+BK-01205,AF-0164,Pickup Truck,2026-06-23,Tuesday,10,30,E-0049,Completed
+BK-01206,AF-0164,Pickup Truck,2026-03-10,Tuesday,14,60,E-0010,Completed
+BK-01207,AF-0164,Pickup Truck,2026-02-14,Saturday,15,30,E-0038,Completed
+BK-01208,AF-0164,Pickup Truck,2026-05-25,Monday,16,30,E-0001,Completed
+BK-01209,AF-0164,Pickup Truck,2026-04-17,Friday,13,30,E-0011,Completed
+BK-01210,AF-0164,Pickup Truck,2025-10-24,Friday,14,60,E-0017,Completed
+BK-01211,AF-0164,Pickup Truck,2026-07-09,Thursday,15,60,E-0054,Completed
+BK-01212,AF-0164,Pickup Truck,2026-05-05,Tuesday,12,60,E-0057,Completed
+BK-01213,AF-0164,Pickup Truck,2025-10-06,Monday,9,120,E-0048,Completed
+BK-01214,AF-0164,Pickup Truck,2026-01-02,Friday,15,30,E-0029,Completed
+BK-01215,AF-0164,Pickup Truck,2026-01-08,Thursday,15,30,E-0040,Completed
+BK-01216,AF-0164,Pickup Truck,2025-12-09,Tuesday,14,30,E-0007,Completed
+BK-01217,AF-0164,Pickup Truck,2026-03-25,Wednesday,15,30,E-0010,Completed
+BK-01218,AF-0164,Pickup Truck,2026-06-03,Wednesday,9,120,E-0030,Completed
+BK-01219,AF-0164,Pickup Truck,2026-03-02,Monday,14,90,E-0040,Completed
+BK-01220,AF-0165,Pallet Jack,2026-01-29,Thursday,14,30,E-0056,Completed
+BK-01221,AF-0165,Pallet Jack,2026-06-15,Monday,13,60,E-0020,Completed
+BK-01222,AF-0165,Pallet Jack,2026-06-24,Wednesday,10,60,E-0037,Completed
+BK-01223,AF-0165,Pallet Jack,2025-08-29,Friday,15,30,E-0060,Completed
+BK-01224,AF-0165,Pallet Jack,2026-01-02,Friday,13,60,E-0015,Completed
+BK-01225,AF-0165,Pallet Jack,2026-05-14,Thursday,14,120,E-0015,Completed
+BK-01226,AF-0165,Pallet Jack,2026-07-03,Friday,14,30,E-0029,Completed
+BK-01227,AF-0165,Pallet Jack,2025-10-07,Tuesday,12,60,E-0015,Completed
+BK-01228,AF-0165,Pallet Jack,2026-02-27,Friday,12,30,E-0041,Completed
+BK-01229,AF-0165,Pallet Jack,2026-06-23,Tuesday,12,30,E-0054,Completed
+BK-01230,AF-0165,Pallet Jack,2026-01-21,Wednesday,10,60,E-0030,Completed
+BK-01231,AF-0165,Pallet Jack,2025-11-19,Wednesday,11,60,E-0007,Completed
+BK-01232,AF-0165,Pallet Jack,2025-09-05,Friday,14,30,E-0024,Completed
+BK-01233,AF-0165,Pallet Jack,2026-02-17,Tuesday,9,60,E-0033,Completed
+BK-01234,AF-0165,Pallet Jack,2026-07-10,Friday,17,30,E-0019,Completed
+BK-01235,AF-0165,Pallet Jack,2025-11-03,Monday,15,60,E-0014,Completed
+BK-01236,AF-0166,AC Unit,2025-09-08,Monday,11,60,E-0019,Cancelled
+BK-01237,AF-0166,AC Unit,2025-11-18,Tuesday,15,30,E-0044,Completed
+BK-01238,AF-0166,AC Unit,2025-11-19,Wednesday,13,30,E-0044,Completed
+BK-01239,AF-0166,AC Unit,2025-12-02,Tuesday,11,120,E-0053,Completed
+BK-01240,AF-0166,AC Unit,2026-04-10,Friday,14,30,E-0027,Completed
+BK-01241,AF-0166,AC Unit,2025-10-03,Friday,15,60,E-0053,Completed
+BK-01242,AF-0166,AC Unit,2026-01-01,Thursday,12,60,E-0003,Completed
+BK-01243,AF-0166,AC Unit,2025-07-29,Tuesday,14,30,E-0058,Cancelled
+BK-01244,AF-0166,AC Unit,2026-01-04,Sunday,14,30,E-0037,Cancelled
+BK-01245,AF-0166,AC Unit,2025-11-27,Thursday,9,60,E-0019,Completed
+BK-01246,AF-0166,AC Unit,2025-08-16,Saturday,11,60,E-0016,Cancelled
+BK-01247,AF-0166,AC Unit,2025-08-25,Monday,10,60,E-0046,Completed
+BK-01248,AF-0166,AC Unit,2025-10-07,Tuesday,10,60,E-0036,Completed
+BK-01249,AF-0166,AC Unit,2026-04-09,Thursday,13,60,E-0030,Completed
+BK-01250,AF-0166,AC Unit,2025-09-30,Tuesday,14,90,E-0042,Completed
+BK-01251,AF-0166,AC Unit,2025-10-03,Friday,16,60,E-0016,Completed
+BK-01252,AF-0166,AC Unit,2025-09-05,Friday,11,90,E-0050,Completed
+BK-01253,AF-0166,AC Unit,2025-08-20,Wednesday,15,60,E-0037,Completed
+BK-01254,AF-0166,AC Unit,2026-01-14,Wednesday,11,30,E-0049,Completed
+BK-01255,AF-0166,AC Unit,2025-08-13,Wednesday,10,60,E-0045,Completed
+BK-01256,AF-0166,AC Unit,2026-06-17,Wednesday,15,60,E-0022,Completed
+BK-01257,AF-0166,AC Unit,2025-11-19,Wednesday,11,30,E-0033,Completed
+BK-01258,AF-0166,AC Unit,2026-05-19,Tuesday,15,60,E-0050,Completed
+BK-01259,AF-0166,AC Unit,2025-12-05,Friday,15,120,E-0036,Completed
+BK-01260,AF-0166,AC Unit,2025-07-23,Wednesday,14,60,E-0020,Completed
+BK-01261,AF-0166,AC Unit,2025-09-15,Monday,13,120,E-0049,Completed
+BK-01262,AF-0166,AC Unit,2026-02-25,Wednesday,9,60,E-0003,Completed
+BK-01263,AF-0166,AC Unit,2025-07-20,Sunday,12,60,E-0053,Completed
+BK-01264,AF-0166,AC Unit,2026-06-17,Wednesday,11,60,E-0025,Completed
+BK-01265,AF-0166,AC Unit,2026-01-08,Thursday,17,30,E-0033,Cancelled
+BK-01266,AF-0166,AC Unit,2026-01-01,Thursday,10,30,E-0015,Completed
+BK-01267,AF-0166,AC Unit,2026-06-26,Friday,12,60,E-0021,Completed
+BK-01268,AF-0166,AC Unit,2025-10-13,Monday,15,30,E-0051,Completed
+BK-01269,AF-0166,AC Unit,2025-11-26,Wednesday,15,30,E-0050,Completed
+BK-01270,AF-0166,AC Unit,2026-06-04,Thursday,12,60,E-0022,Completed
+BK-01271,AF-0166,AC Unit,2025-09-19,Friday,11,60,E-0006,Completed
+BK-01272,AF-0166,AC Unit,2026-02-11,Wednesday,11,30,E-0054,Completed
+BK-01273,AF-0166,AC Unit,2026-03-02,Monday,16,90,E-0025,Completed
+BK-01274,AF-0166,AC Unit,2025-11-25,Tuesday,14,30,E-0028,Completed
+BK-01275,AF-0166,AC Unit,2026-04-02,Thursday,15,30,E-0041,Completed
+BK-01276,AF-0167,Pallet Jack,2025-09-30,Tuesday,14,60,E-0026,Completed
+BK-01277,AF-0167,Pallet Jack,2025-07-23,Wednesday,12,90,E-0033,Completed
+BK-01278,AF-0167,Pallet Jack,2026-06-02,Tuesday,12,60,E-0044,Completed
+BK-01279,AF-0167,Pallet Jack,2025-12-04,Thursday,11,60,E-0027,Completed
+BK-01280,AF-0167,Pallet Jack,2025-11-06,Thursday,10,30,E-0022,Completed
+BK-01281,AF-0167,Pallet Jack,2025-12-12,Friday,16,60,E-0020,Completed
+BK-01282,AF-0167,Pallet Jack,2026-06-02,Tuesday,11,90,E-0006,Completed
+BK-01283,AF-0167,Pallet Jack,2025-07-18,Friday,14,60,E-0019,Completed
+BK-01284,AF-0167,Pallet Jack,2025-09-18,Thursday,15,60,E-0021,Cancelled
+BK-01285,AF-0167,Pallet Jack,2025-09-26,Friday,14,90,E-0051,Completed
+BK-01286,AF-0167,Pallet Jack,2026-05-28,Thursday,13,60,E-0012,Completed
+BK-01287,AF-0167,Pallet Jack,2026-02-16,Monday,14,30,E-0048,Completed
+BK-01288,AF-0167,Pallet Jack,2025-09-16,Tuesday,13,30,E-0031,Completed
+BK-01289,AF-0167,Pallet Jack,2025-11-06,Thursday,16,60,E-0001,Completed
+BK-01290,AF-0167,Pallet Jack,2026-03-25,Wednesday,13,30,E-0059,Cancelled
+BK-01291,AF-0167,Pallet Jack,2025-07-31,Thursday,15,30,E-0030,Completed
+BK-01292,AF-0168,Docking Station,2025-07-22,Tuesday,11,90,E-0017,Completed
+BK-01293,AF-0168,Docking Station,2025-08-07,Thursday,9,90,E-0032,Completed
+BK-01294,AF-0168,Docking Station,2025-08-04,Monday,11,120,E-0042,Completed
+BK-01295,AF-0168,Docking Station,2026-03-23,Monday,17,60,E-0053,Completed
+BK-01296,AF-0168,Docking Station,2025-09-12,Friday,10,90,E-0039,Completed
+BK-01297,AF-0168,Docking Station,2026-02-20,Friday,14,60,E-0005,Completed
+BK-01298,AF-0168,Docking Station,2026-05-19,Tuesday,10,60,E-0016,Completed
+BK-01299,AF-0168,Docking Station,2025-10-02,Thursday,9,60,E-0052,Completed
+BK-01300,AF-0168,Docking Station,2025-12-05,Friday,10,60,E-0011,Completed
+BK-01301,AF-0168,Docking Station,2026-01-29,Thursday,12,60,E-0029,Completed
+BK-01302,AF-0168,Docking Station,2025-10-03,Friday,15,120,E-0005,Completed
+BK-01303,AF-0168,Docking Station,2025-07-28,Monday,14,30,E-0053,Completed
+BK-01304,AF-0168,Docking Station,2025-11-07,Friday,12,60,E-0044,Completed
+BK-01305,AF-0168,Docking Station,2025-10-20,Monday,11,30,E-0001,Completed
+BK-01306,AF-0168,Docking Station,2025-08-25,Monday,15,30,E-0041,Completed
+BK-01307,AF-0168,Docking Station,2025-10-21,Tuesday,11,90,E-0039,Completed
+BK-01308,AF-0168,Docking Station,2026-02-24,Tuesday,11,30,E-0017,Completed
+BK-01309,AF-0168,Docking Station,2025-11-23,Sunday,16,30,E-0019,Completed
+BK-01310,AF-0168,Docking Station,2025-12-09,Tuesday,12,60,E-0015,Completed
+BK-01311,AF-0168,Docking Station,2026-06-19,Friday,9,120,E-0054,Completed
+BK-01312,AF-0168,Docking Station,2025-08-22,Friday,12,120,E-0038,Completed
+BK-01313,AF-0168,Docking Station,2026-06-23,Tuesday,11,120,E-0029,Completed
+BK-01314,AF-0168,Docking Station,2026-04-23,Thursday,14,90,E-0008,Completed
+BK-01315,AF-0168,Docking Station,2026-06-10,Wednesday,15,30,E-0029,Completed
+BK-01316,AF-0168,Docking Station,2025-08-07,Thursday,10,90,E-0059,Completed
+BK-01317,AF-0168,Docking Station,2026-04-04,Saturday,10,30,E-0028,Completed
+BK-01318,AF-0168,Docking Station,2026-04-17,Friday,10,30,E-0055,Completed
+BK-01319,AF-0168,Docking Station,2026-06-03,Wednesday,11,90,E-0057,Completed
+BK-01320,AF-0169,Delivery Van,2026-03-10,Tuesday,15,60,E-0058,Completed
+BK-01321,AF-0169,Delivery Van,2026-03-02,Monday,11,60,E-0013,Completed
+BK-01322,AF-0169,Delivery Van,2026-01-30,Friday,15,120,E-0043,Completed
+BK-01323,AF-0169,Delivery Van,2025-10-29,Wednesday,15,60,E-0010,Completed
+BK-01324,AF-0169,Delivery Van,2025-11-12,Wednesday,11,60,E-0051,Cancelled
+BK-01325,AF-0169,Delivery Van,2025-12-09,Tuesday,10,60,E-0029,Completed
+BK-01326,AF-0169,Delivery Van,2025-09-06,Saturday,9,60,E-0030,Completed
+BK-01327,AF-0169,Delivery Van,2025-10-20,Monday,15,90,E-0017,Completed
+BK-01328,AF-0169,Delivery Van,2025-08-09,Saturday,14,90,E-0005,Completed
+BK-01329,AF-0169,Delivery Van,2026-01-06,Tuesday,10,120,E-0006,Completed
+BK-01330,AF-0169,Delivery Van,2026-03-26,Thursday,17,120,E-0041,Completed
+BK-01331,AF-0171,Compressor,2025-12-01,Monday,10,120,E-0026,Completed
+BK-01332,AF-0171,Compressor,2025-07-29,Tuesday,11,60,E-0060,Completed
+BK-01333,AF-0171,Compressor,2025-12-22,Monday,13,30,E-0052,Completed
+BK-01334,AF-0171,Compressor,2026-02-28,Saturday,10,30,E-0030,Completed
+BK-01335,AF-0171,Compressor,2025-11-11,Tuesday,9,30,E-0049,Completed
+BK-01336,AF-0171,Compressor,2026-01-20,Tuesday,15,60,E-0059,Completed
+BK-01337,AF-0171,Compressor,2025-12-15,Monday,14,30,E-0050,Completed
+BK-01338,AF-0171,Compressor,2025-10-22,Wednesday,15,60,E-0024,Completed
+BK-01339,AF-0171,Compressor,2025-08-28,Thursday,10,60,E-0019,Completed
+BK-01340,AF-0174,Delivery Van,2026-04-15,Wednesday,10,90,E-0010,Completed
+BK-01341,AF-0174,Delivery Van,2026-04-14,Tuesday,14,60,E-0002,Completed
+BK-01342,AF-0174,Delivery Van,2026-02-18,Wednesday,10,60,E-0019,Completed
+BK-01343,AF-0174,Delivery Van,2026-04-22,Wednesday,13,60,E-0031,Completed
+BK-01344,AF-0174,Delivery Van,2026-06-09,Tuesday,10,60,E-0037,Completed
+BK-01345,AF-0174,Delivery Van,2026-03-27,Friday,16,30,E-0037,Completed
+BK-01346,AF-0174,Delivery Van,2026-04-28,Tuesday,12,60,E-0012,Cancelled
+BK-01347,AF-0174,Delivery Van,2025-08-27,Wednesday,11,30,E-0030,Completed
+BK-01348,AF-0174,Delivery Van,2026-01-02,Friday,14,120,E-0008,Completed
+BK-01349,AF-0174,Delivery Van,2026-01-20,Tuesday,15,30,E-0048,Completed
+BK-01350,AF-0174,Delivery Van,2025-10-03,Friday,15,30,E-0041,Completed
+BK-01351,AF-0174,Delivery Van,2026-03-03,Tuesday,14,120,E-0043,Completed
+BK-01352,AF-0174,Delivery Van,2026-04-08,Wednesday,14,90,E-0059,Completed
+BK-01353,AF-0174,Delivery Van,2025-12-02,Tuesday,15,60,E-0044,Completed
+BK-01354,AF-0174,Delivery Van,2025-08-29,Friday,14,60,E-0011,Completed
+BK-01355,AF-0176,Sedan Car,2026-04-20,Monday,11,30,E-0004,Completed
+BK-01356,AF-0176,Sedan Car,2026-02-20,Friday,15,60,E-0058,Completed
+BK-01357,AF-0176,Sedan Car,2025-11-05,Wednesday,15,120,E-0052,Cancelled
+BK-01358,AF-0176,Sedan Car,2026-02-09,Monday,14,60,E-0012,Completed
+BK-01359,AF-0176,Sedan Car,2026-01-22,Thursday,15,90,E-0034,Completed
+BK-01360,AF-0176,Sedan Car,2025-11-10,Monday,15,90,E-0047,Completed
+BK-01361,AF-0176,Sedan Car,2026-05-18,Monday,10,60,E-0030,Completed
+BK-01362,AF-0176,Sedan Car,2025-10-31,Friday,15,90,E-0046,Completed
+BK-01363,AF-0177,Forklift,2026-03-16,Monday,12,60,E-0003,Completed
+BK-01364,AF-0177,Forklift,2026-03-02,Monday,11,30,E-0058,Completed
+BK-01365,AF-0177,Forklift,2025-11-10,Monday,14,90,E-0053,Completed
+BK-01366,AF-0177,Forklift,2026-03-27,Friday,16,60,E-0029,Completed
+BK-01367,AF-0177,Forklift,2026-06-01,Monday,16,60,E-0041,Completed
+BK-01368,AF-0177,Forklift,2025-12-10,Wednesday,12,60,E-0056,Completed
+BK-01369,AF-0177,Forklift,2026-03-19,Thursday,15,60,E-0054,Completed
+BK-01370,AF-0177,Forklift,2026-05-27,Wednesday,17,60,E-0055,Cancelled
+BK-01371,AF-0177,Forklift,2026-03-05,Thursday,13,30,E-0043,Completed
+BK-01372,AF-0177,Forklift,2026-02-24,Tuesday,14,90,E-0030,Completed
+BK-01373,AF-0177,Forklift,2026-05-05,Tuesday,15,60,E-0022,Completed
+BK-01374,AF-0177,Forklift,2025-12-10,Wednesday,15,60,E-0040,Completed
+BK-01375,AF-0177,Forklift,2026-02-12,Thursday,16,30,E-0006,Completed
+BK-01376,AF-0177,Forklift,2026-03-05,Thursday,14,90,E-0021,Completed
+BK-01377,AF-0177,Forklift,2026-01-23,Friday,10,60,E-0051,Completed
+BK-01378,AF-0177,Forklift,2026-06-17,Wednesday,14,60,E-0032,Completed
+BK-01379,AF-0177,Forklift,2026-02-17,Tuesday,15,30,E-0007,Cancelled
+BK-01380,AF-0177,Forklift,2025-07-21,Monday,16,30,E-0022,Completed
+BK-01381,AF-0177,Forklift,2025-10-14,Tuesday,11,60,E-0044,Completed
+BK-01382,AF-0177,Forklift,2025-12-30,Tuesday,15,120,E-0014,Cancelled
+BK-01383,AF-0177,Forklift,2025-10-31,Friday,15,60,E-0051,Completed
+BK-01384,AF-0177,Forklift,2025-11-04,Tuesday,15,60,E-0019,Completed
+BK-01385,AF-0177,Forklift,2025-11-24,Monday,17,30,E-0002,Completed
+BK-01386,AF-0177,Forklift,2025-08-25,Monday,16,30,E-0014,Completed
+BK-01387,AF-0177,Forklift,2026-01-05,Monday,12,60,E-0020,Completed
+BK-01388,AF-0177,Forklift,2025-12-11,Thursday,16,90,E-0057,Completed
+BK-01389,AF-0177,Forklift,2026-03-04,Wednesday,17,30,E-0002,Completed
+BK-01390,AF-0177,Forklift,2025-12-02,Tuesday,11,60,E-0036,Completed
+BK-01391,AF-0177,Forklift,2025-09-29,Monday,9,60,E-0053,Completed
+BK-01392,AF-0177,Forklift,2026-01-27,Tuesday,11,60,E-0060,Completed
+BK-01393,AF-0177,Forklift,2026-04-29,Wednesday,14,90,E-0031,Completed
+BK-01394,AF-0177,Forklift,2025-08-25,Monday,12,30,E-0038,Completed
+BK-01395,AF-0177,Forklift,2025-12-01,Monday,17,60,E-0046,Cancelled
+BK-01396,AF-0177,Forklift,2025-08-27,Wednesday,16,60,E-0020,Completed
+BK-01397,AF-0177,Forklift,2026-06-30,Tuesday,14,30,E-0052,Completed
+BK-01398,AF-0177,Forklift,2025-12-15,Monday,14,90,E-0021,Completed
+BK-01399,AF-0177,Forklift,2025-12-05,Friday,10,60,E-0046,Completed
+BK-01400,AF-0177,Forklift,2026-05-26,Tuesday,15,30,E-0018,Completed
+BK-01401,AF-0177,Forklift,2026-02-06,Friday,15,90,E-0009,Completed
+BK-01402,AF-0177,Forklift,2025-08-20,Wednesday,11,30,E-0032,Completed
+BK-01403,AF-0177,Forklift,2025-10-03,Friday,9,60,E-0036,Completed
+BK-01404,AF-0177,Forklift,2025-10-07,Tuesday,13,60,E-0001,Completed
+BK-01405,AF-0179,Sedan Car,2026-06-02,Tuesday,11,120,E-0060,Completed
+BK-01406,AF-0179,Sedan Car,2026-01-05,Monday,11,30,E-0011,Completed
+BK-01407,AF-0179,Sedan Car,2025-09-10,Wednesday,11,60,E-0049,Completed
+BK-01408,AF-0179,Sedan Car,2026-01-28,Wednesday,14,30,E-0009,Cancelled
+BK-01409,AF-0180,Sedan Car,2025-07-17,Thursday,11,30,E-0010,Completed
+BK-01410,AF-0180,Sedan Car,2026-03-23,Monday,14,30,E-0030,Completed
+BK-01411,AF-0180,Sedan Car,2025-09-10,Wednesday,10,60,E-0039,Completed
+BK-01412,AF-0180,Sedan Car,2026-02-17,Tuesday,14,60,E-0014,Completed
+BK-01413,AF-0180,Sedan Car,2026-01-26,Monday,14,60,E-0054,Completed
+BK-01414,AF-0180,Sedan Car,2025-08-07,Thursday,10,90,E-0030,Completed
+BK-01415,AF-0180,Sedan Car,2026-05-21,Thursday,10,90,E-0054,Completed
+BK-01416,AF-0180,Sedan Car,2025-07-18,Friday,14,60,E-0005,Completed
+BK-01417,AF-0180,Sedan Car,2026-06-08,Monday,15,60,E-0017,Completed
+BK-01418,AF-0180,Sedan Car,2026-06-09,Tuesday,16,60,E-0049,Completed
+BK-01419,AF-0180,Sedan Car,2025-07-29,Tuesday,13,30,E-0026,Completed
+BK-01420,AF-0186,Pallet Jack,2025-09-03,Wednesday,13,30,E-0052,Completed
+BK-01421,AF-0186,Pallet Jack,2026-06-15,Monday,11,60,E-0003,Completed
+BK-01422,AF-0186,Pallet Jack,2025-12-16,Tuesday,12,60,E-0026,Completed
+BK-01423,AF-0186,Pallet Jack,2026-04-30,Thursday,11,120,E-0055,Completed
+BK-01424,AF-0186,Pallet Jack,2026-02-04,Wednesday,10,120,E-0028,Completed
+BK-01425,AF-0186,Pallet Jack,2026-05-06,Wednesday,10,60,E-0017,Completed
+BK-01426,AF-0186,Pallet Jack,2026-06-25,Thursday,15,60,E-0029,Completed
+BK-01427,AF-0186,Pallet Jack,2026-06-08,Monday,14,60,E-0027,Completed
+BK-01428,AF-0186,Pallet Jack,2025-10-01,Wednesday,15,90,E-0043,Completed
+BK-01429,AF-0186,Pallet Jack,2026-04-22,Wednesday,15,30,E-0041,Completed
+BK-01430,AF-0186,Pallet Jack,2026-06-01,Monday,10,30,E-0010,Completed
+BK-01431,AF-0186,Pallet Jack,2026-05-14,Thursday,14,60,E-0037,Completed
+BK-01432,AF-0186,Pallet Jack,2026-06-02,Tuesday,11,90,E-0023,Completed
+BK-01433,AF-0186,Pallet Jack,2025-07-16,Wednesday,15,60,E-0017,Completed
+BK-01434,AF-0186,Pallet Jack,2026-02-16,Monday,10,30,E-0009,Completed
+BK-01435,AF-0186,Pallet Jack,2025-08-11,Monday,11,120,E-0007,Completed
+BK-01436,AF-0186,Pallet Jack,2025-08-02,Saturday,10,60,E-0058,Completed
+BK-01437,AF-0186,Pallet Jack,2026-05-08,Friday,13,90,E-0024,Completed
+BK-01438,AF-0186,Pallet Jack,2026-04-22,Wednesday,15,60,E-0022,Completed
+BK-01439,AF-0186,Pallet Jack,2026-02-25,Wednesday,10,30,E-0017,Completed
+BK-01440,AF-0186,Pallet Jack,2025-09-29,Monday,14,60,E-0019,Completed
+BK-01441,AF-0186,Pallet Jack,2025-07-21,Monday,11,120,E-0038,Completed
+BK-01442,AF-0186,Pallet Jack,2026-01-22,Thursday,10,90,E-0035,Completed
+BK-01443,AF-0186,Pallet Jack,2025-09-10,Wednesday,10,30,E-0030,Completed
+BK-01444,AF-0186,Pallet Jack,2026-05-23,Saturday,17,60,E-0023,Completed
+BK-01445,AF-0186,Pallet Jack,2025-07-31,Thursday,12,30,E-0052,Completed
+BK-01446,AF-0186,Pallet Jack,2025-10-30,Thursday,10,90,E-0029,Completed
+BK-01447,AF-0186,Pallet Jack,2026-05-12,Tuesday,11,60,E-0046,Completed
+BK-01448,AF-0186,Pallet Jack,2026-02-12,Thursday,9,60,E-0021,Completed
+BK-01449,AF-0186,Pallet Jack,2026-02-18,Wednesday,15,30,E-0038,Completed
+BK-01450,AF-0186,Pallet Jack,2026-06-09,Tuesday,14,60,E-0029,Completed
+BK-01451,AF-0186,Pallet Jack,2026-03-04,Wednesday,15,60,E-0006,Cancelled
+BK-01452,AF-0186,Pallet Jack,2026-05-18,Monday,13,30,E-0016,Completed
+BK-01453,AF-0186,Pallet Jack,2025-08-27,Wednesday,14,30,E-0049,Completed
+BK-01454,AF-0187,Generator,2026-04-01,Wednesday,9,60,E-0001,Cancelled
+BK-01455,AF-0187,Generator,2026-02-07,Saturday,13,30,E-0033,Cancelled
+BK-01456,AF-0187,Generator,2026-06-22,Monday,10,90,E-0027,Completed
+BK-01457,AF-0187,Generator,2025-07-14,Monday,17,90,E-0053,Completed
+BK-01458,AF-0187,Generator,2025-10-08,Wednesday,10,30,E-0029,Completed
+BK-01459,AF-0187,Generator,2025-08-12,Tuesday,10,30,E-0038,Cancelled
+BK-01460,AF-0187,Generator,2025-09-09,Tuesday,17,60,E-0036,Completed
+BK-01461,AF-0187,Generator,2025-10-23,Thursday,15,60,E-0013,Completed
+BK-01462,AF-0187,Generator,2026-07-09,Thursday,10,60,E-0009,Completed
+BK-01463,AF-0187,Generator,2025-10-23,Thursday,12,120,E-0055,Completed
+BK-01464,AF-0187,Generator,2025-08-22,Friday,14,60,E-0042,Completed
+BK-01465,AF-0187,Generator,2026-03-04,Wednesday,15,60,E-0006,Completed
+BK-01466,AF-0187,Generator,2026-02-10,Tuesday,12,30,E-0041,Completed
+BK-01467,AF-0187,Generator,2026-06-21,Sunday,16,30,E-0018,Completed
+BK-01468,AF-0187,Generator,2026-06-30,Tuesday,11,60,E-0041,Completed
+BK-01469,AF-0187,Generator,2026-04-29,Wednesday,12,60,E-0006,Completed
+BK-01470,AF-0187,Generator,2026-01-29,Thursday,9,120,E-0028,Completed
+BK-01471,AF-0187,Generator,2026-04-10,Friday,11,60,E-0009,Completed
+BK-01472,AF-0187,Generator,2025-07-25,Friday,11,30,E-0057,Completed
+BK-01473,AF-0187,Generator,2026-01-28,Wednesday,15,90,E-0002,Cancelled
+BK-01474,AF-0187,Generator,2026-06-15,Monday,17,60,E-0056,Completed
+BK-01475,AF-0187,Generator,2026-04-07,Tuesday,12,90,E-0040,Completed
+BK-01476,AF-0187,Generator,2026-02-25,Wednesday,9,30,E-0048,Completed
+BK-01477,AF-0187,Generator,2025-12-03,Wednesday,13,60,E-0018,Completed
+BK-01478,AF-0187,Generator,2026-06-25,Thursday,16,30,E-0037,Completed
+BK-01479,AF-0187,Generator,2025-07-24,Thursday,12,30,E-0019,Completed
+BK-01480,AF-0187,Generator,2026-04-03,Friday,15,30,E-0055,Completed
+BK-01481,AF-0187,Generator,2026-01-22,Thursday,13,60,E-0030,Completed
+BK-01482,AF-0187,Generator,2026-05-25,Monday,11,30,E-0022,Cancelled
+BK-01483,AF-0187,Generator,2026-04-02,Thursday,11,60,E-0034,Completed
+BK-01484,AF-0187,Generator,2025-12-16,Tuesday,14,60,E-0033,Completed
+BK-01485,AF-0187,Generator,2025-10-07,Tuesday,15,90,E-0015,Completed
+BK-01486,AF-0188,Generator,2026-06-16,Tuesday,12,60,E-0031,Completed
+BK-01487,AF-0188,Generator,2025-08-27,Wednesday,14,30,E-0012,Completed
+BK-01488,AF-0188,Generator,2026-03-05,Thursday,15,60,E-0012,Completed
+BK-01489,AF-0188,Generator,2026-03-04,Wednesday,11,60,E-0052,Completed
+BK-01490,AF-0188,Generator,2025-11-04,Tuesday,15,60,E-0012,Completed
+BK-01491,AF-0188,Generator,2026-06-17,Wednesday,11,90,E-0016,Completed
+BK-01492,AF-0188,Generator,2025-09-18,Thursday,17,120,E-0040,Completed
+BK-01493,AF-0188,Generator,2026-07-10,Friday,11,120,E-0048,Completed
+BK-01494,AF-0188,Generator,2026-02-19,Thursday,12,60,E-0017,Completed
+BK-01495,AF-0188,Generator,2026-06-16,Tuesday,10,60,E-0003,Completed
+BK-01496,AF-0188,Generator,2026-05-21,Thursday,10,30,E-0046,Cancelled
+BK-01497,AF-0188,Generator,2025-10-30,Thursday,12,120,E-0052,Completed
+BK-01498,AF-0189,Sedan Car,2026-05-06,Wednesday,10,90,E-0032,Completed
+BK-01499,AF-0190,Dell Laptop,2026-04-02,Thursday,13,90,E-0054,Completed
+BK-01500,AF-0190,Dell Laptop,2025-11-27,Thursday,9,90,E-0029,Completed
+BK-01501,AF-0190,Dell Laptop,2026-03-19,Thursday,12,60,E-0033,Cancelled
+BK-01502,AF-0190,Dell Laptop,2026-04-14,Tuesday,13,60,E-0052,Completed
+BK-01503,AF-0190,Dell Laptop,2025-09-11,Thursday,14,30,E-0043,Completed
+BK-01504,AF-0190,Dell Laptop,2026-02-04,Wednesday,15,60,E-0037,Completed
+BK-01505,AF-0192,Scooter,2026-03-03,Tuesday,15,90,E-0054,Completed
+BK-01506,AF-0192,Scooter,2026-04-29,Wednesday,13,60,E-0026,Completed
+BK-01507,AF-0192,Scooter,2025-11-26,Wednesday,9,90,E-0033,Completed
+BK-01508,AF-0192,Scooter,2026-05-12,Tuesday,17,30,E-0042,Completed
+BK-01509,AF-0192,Scooter,2026-06-09,Tuesday,10,30,E-0037,Cancelled
+BK-01510,AF-0192,Scooter,2025-08-07,Thursday,14,30,E-0034,Completed
+BK-01511,AF-0192,Scooter,2026-02-04,Wednesday,10,60,E-0049,Completed
+BK-01512,AF-0192,Scooter,2026-03-20,Friday,13,30,E-0033,Completed
+BK-01513,AF-0192,Scooter,2025-11-27,Thursday,10,30,E-0024,Completed
+BK-01514,AF-0192,Scooter,2026-03-23,Monday,11,90,E-0047,Completed
+BK-01515,AF-0192,Scooter,2026-04-23,Thursday,11,30,E-0011,Completed
+BK-01516,AF-0192,Scooter,2025-11-04,Tuesday,15,30,E-0045,Completed
+BK-01517,AF-0192,Scooter,2025-09-12,Friday,15,60,E-0038,Completed
+BK-01518,AF-0192,Scooter,2025-08-05,Tuesday,10,30,E-0001,Completed
+BK-01519,AF-0192,Scooter,2026-07-09,Thursday,17,60,E-0027,Completed
+BK-01520,AF-0192,Scooter,2025-12-22,Monday,14,60,E-0007,Completed
+BK-01521,AF-0192,Scooter,2026-02-02,Monday,12,30,E-0042,Completed
+BK-01522,AF-0192,Scooter,2025-11-08,Saturday,16,90,E-0025,Cancelled
+BK-01523,AF-0192,Scooter,2025-11-20,Thursday,15,30,E-0023,Completed
+BK-01524,AF-0192,Scooter,2026-03-21,Saturday,15,90,E-0050,Completed
+BK-01525,AF-0192,Scooter,2026-01-01,Thursday,15,90,E-0007,Completed
+BK-01526,AF-0192,Scooter,2025-07-21,Monday,16,30,E-0048,Cancelled
+BK-01527,AF-0192,Scooter,2026-05-02,Saturday,11,60,E-0051,Cancelled
+BK-01528,AF-0192,Scooter,2026-03-12,Thursday,14,30,E-0033,Completed
+BK-01529,AF-0192,Scooter,2025-08-20,Wednesday,9,30,E-0020,Completed
+BK-01530,AF-0192,Scooter,2025-09-09,Tuesday,17,90,E-0045,Completed
+BK-01531,AF-0200,Generator,2025-07-21,Monday,10,30,E-0002,Completed
+BK-01532,AF-0200,Generator,2026-02-26,Thursday,17,30,E-0039,Completed
+BK-01533,AF-0200,Generator,2025-10-30,Thursday,10,60,E-0059,Completed
+BK-01534,AF-0200,Generator,2025-09-24,Wednesday,15,120,E-0054,Cancelled
+BK-01535,AF-0200,Generator,2026-01-09,Friday,11,30,E-0006,Cancelled
+BK-01536,AF-0200,Generator,2025-12-24,Wednesday,11,30,E-0037,Completed
+BK-01537,AF-0200,Generator,2026-01-12,Monday,17,90,E-0014,Completed
+BK-01538,AF-0200,Generator,2026-01-13,Tuesday,11,60,E-0031,Completed
+BK-01539,AF-0200,Generator,2025-07-23,Wednesday,11,90,E-0049,Cancelled
+BK-01540,AF-0200,Generator,2026-03-10,Tuesday,11,90,E-0005,Completed
+BK-01541,AF-0200,Generator,2026-03-05,Thursday,15,60,E-0043,Completed
+BK-01542,AF-0200,Generator,2026-06-22,Monday,15,30,E-0031,Completed
+BK-01543,AF-0200,Generator,2026-02-25,Wednesday,17,60,E-0047,Completed
+BK-01544,AF-0200,Generator,2026-01-08,Thursday,10,30,E-0007,Completed
+BK-01545,AF-0200,Generator,2026-06-03,Wednesday,17,120,E-0003,Completed
+BK-01546,AF-0200,Generator,2026-01-21,Wednesday,12,60,E-0026,Completed
+BK-01547,AF-0200,Generator,2025-07-22,Tuesday,15,120,E-0030,Completed
+BK-01548,AF-0200,Generator,2025-11-27,Thursday,11,90,E-0017,Completed
+BK-01549,AF-0200,Generator,2025-11-18,Tuesday,10,60,E-0010,Completed
+BK-01550,AF-0200,Generator,2026-03-19,Thursday,10,30,E-0009,Completed
+BK-01551,AF-0200,Generator,2025-11-19,Wednesday,14,90,E-0027,Completed
+BK-01552,AF-0200,Generator,2026-01-07,Wednesday,11,60,E-0044,Completed
+BK-01553,AF-0200,Generator,2026-04-09,Thursday,14,30,E-0017,Completed
+BK-01554,AF-0201,Pallet Jack,2026-06-26,Friday,14,30,E-0041,Completed
+BK-01555,AF-0201,Pallet Jack,2025-07-16,Wednesday,10,30,E-0052,Completed
+BK-01556,AF-0201,Pallet Jack,2025-09-05,Friday,13,90,E-0008,Completed
+BK-01557,AF-0201,Pallet Jack,2026-04-06,Monday,14,60,E-0037,Completed
+BK-01558,AF-0201,Pallet Jack,2026-01-30,Friday,11,90,E-0058,Completed
+BK-01559,AF-0201,Pallet Jack,2025-08-27,Wednesday,10,60,E-0041,Completed
+BK-01560,AF-0201,Pallet Jack,2025-10-31,Friday,11,30,E-0021,Completed
+BK-01561,AF-0201,Pallet Jack,2025-11-15,Saturday,10,60,E-0041,Completed
+BK-01562,AF-0201,Pallet Jack,2026-07-08,Wednesday,14,60,E-0045,Completed
+BK-01563,AF-0201,Pallet Jack,2026-04-17,Friday,15,60,E-0060,Completed
+BK-01564,AF-0201,Pallet Jack,2026-05-06,Wednesday,10,60,E-0037,Completed
+BK-01565,AF-0201,Pallet Jack,2025-12-15,Monday,16,30,E-0017,Completed
+BK-01566,AF-0201,Pallet Jack,2025-07-17,Thursday,13,30,E-0035,Completed
+BK-01567,AF-0201,Pallet Jack,2025-08-19,Tuesday,14,120,E-0052,Completed
+BK-01568,AF-0201,Pallet Jack,2026-02-06,Friday,13,30,E-0008,Completed
+BK-01569,AF-0201,Pallet Jack,2026-06-23,Tuesday,14,90,E-0014,Completed
+BK-01570,AF-0201,Pallet Jack,2026-04-02,Thursday,11,120,E-0024,Completed
+BK-01571,AF-0201,Pallet Jack,2025-10-09,Thursday,12,30,E-0035,Completed
+BK-01572,AF-0201,Pallet Jack,2026-02-08,Sunday,11,90,E-0027,Cancelled
+BK-01573,AF-0201,Pallet Jack,2026-01-15,Thursday,15,90,E-0031,Completed
+BK-01574,AF-0201,Pallet Jack,2025-10-07,Tuesday,15,60,E-0013,Completed
+BK-01575,AF-0201,Pallet Jack,2025-10-08,Wednesday,15,120,E-0037,Completed
+BK-01576,AF-0201,Pallet Jack,2026-05-22,Friday,10,60,E-0040,Completed
+BK-01577,AF-0201,Pallet Jack,2025-12-16,Tuesday,10,90,E-0021,Completed
+BK-01578,AF-0201,Pallet Jack,2025-10-31,Friday,10,120,E-0032,Completed
+BK-01579,AF-0201,Pallet Jack,2026-04-25,Saturday,12,30,E-0032,Completed
+BK-01580,AF-0202,Pickup Truck,2026-06-18,Thursday,11,90,E-0054,Completed
+BK-01581,AF-0202,Pickup Truck,2025-11-05,Wednesday,10,90,E-0007,Completed
+BK-01582,AF-0202,Pickup Truck,2026-03-10,Tuesday,10,90,E-0039,Completed
+BK-01583,AF-0202,Pickup Truck,2026-04-16,Thursday,15,30,E-0009,Completed
+BK-01584,AF-0202,Pickup Truck,2026-04-20,Monday,15,120,E-0038,Completed
+BK-01585,AF-0202,Pickup Truck,2025-08-06,Wednesday,11,90,E-0010,Completed
+BK-01586,AF-0202,Pickup Truck,2026-04-01,Wednesday,16,60,E-0027,Completed
+BK-01587,AF-0202,Pickup Truck,2025-08-13,Wednesday,9,60,E-0022,Completed
+BK-01588,AF-0202,Pickup Truck,2026-02-18,Wednesday,15,90,E-0039,Completed
+BK-01589,AF-0202,Pickup Truck,2026-01-20,Tuesday,15,30,E-0031,Completed
+BK-01590,AF-0202,Pickup Truck,2026-06-05,Friday,15,30,E-0024,Completed
+BK-01591,AF-0202,Pickup Truck,2025-12-29,Monday,10,60,E-0032,Completed
+BK-01592,AF-0202,Pickup Truck,2025-12-02,Tuesday,11,60,E-0044,Completed
+BK-01593,AF-0202,Pickup Truck,2026-05-28,Thursday,14,60,E-0026,Completed
+BK-01594,AF-0202,Pickup Truck,2025-08-15,Friday,11,60,E-0001,Completed
+BK-01595,AF-0202,Pickup Truck,2025-10-28,Tuesday,14,30,E-0003,Completed
+BK-01596,AF-0204,Delivery Van,2026-02-24,Tuesday,11,60,E-0042,Completed
+BK-01597,AF-0204,Delivery Van,2026-05-12,Tuesday,15,60,E-0039,Completed
+BK-01598,AF-0204,Delivery Van,2026-06-17,Wednesday,10,30,E-0037,Completed
+BK-01599,AF-0204,Delivery Van,2025-12-10,Wednesday,13,60,E-0057,Completed
+BK-01600,AF-0204,Delivery Van,2025-11-09,Sunday,9,60,E-0018,Completed
+BK-01601,AF-0204,Delivery Van,2026-01-01,Thursday,17,30,E-0008,Completed
+BK-01602,AF-0204,Delivery Van,2025-12-01,Monday,16,90,E-0003,Completed
+BK-01603,AF-0204,Delivery Van,2026-04-24,Friday,13,60,E-0052,Completed
+BK-01604,AF-0204,Delivery Van,2026-06-11,Thursday,15,60,E-0019,Completed
+BK-01605,AF-0204,Delivery Van,2025-12-17,Wednesday,14,60,E-0043,Completed
+BK-01606,AF-0204,Delivery Van,2025-12-29,Monday,11,120,E-0034,Completed
+BK-01607,AF-0204,Delivery Van,2025-08-29,Friday,10,60,E-0056,Completed
+BK-01608,AF-0204,Delivery Van,2025-09-22,Monday,10,30,E-0031,Cancelled
+BK-01609,AF-0204,Delivery Van,2026-02-03,Tuesday,17,30,E-0025,Completed
+BK-01610,AF-0206,Pickup Truck,2026-06-12,Friday,10,60,E-0056,Completed
+BK-01611,AF-0206,Pickup Truck,2026-05-29,Friday,14,30,E-0009,Completed
+BK-01612,AF-0206,Pickup Truck,2025-10-31,Friday,14,90,E-0025,Completed
+BK-01613,AF-0206,Pickup Truck,2026-05-26,Tuesday,10,60,E-0057,Completed
+BK-01614,AF-0206,Pickup Truck,2026-05-14,Thursday,16,60,E-0018,Completed
+BK-01615,AF-0206,Pickup Truck,2025-11-19,Wednesday,11,30,E-0039,Completed
+BK-01616,AF-0206,Pickup Truck,2026-02-04,Wednesday,16,60,E-0002,Completed
+BK-01617,AF-0206,Pickup Truck,2026-02-27,Friday,11,30,E-0031,Completed
+BK-01618,AF-0206,Pickup Truck,2026-01-17,Saturday,10,30,E-0032,Completed
+BK-01619,AF-0206,Pickup Truck,2025-12-27,Saturday,13,60,E-0049,Completed
+BK-01620,AF-0206,Pickup Truck,2025-08-04,Monday,15,90,E-0004,Completed
+BK-01621,AF-0206,Pickup Truck,2026-06-18,Thursday,15,120,E-0009,Completed
+BK-01622,AF-0206,Pickup Truck,2025-07-23,Wednesday,11,60,E-0060,Completed
+BK-01623,AF-0206,Pickup Truck,2026-04-03,Friday,11,30,E-0012,Completed
+BK-01624,AF-0206,Pickup Truck,2026-03-13,Friday,12,30,E-0032,Completed
+BK-01625,AF-0206,Pickup Truck,2025-10-17,Friday,10,30,E-0044,Completed
+BK-01626,AF-0206,Pickup Truck,2025-12-11,Thursday,15,60,E-0006,Completed
+BK-01627,AF-0206,Pickup Truck,2025-12-31,Wednesday,14,30,E-0017,Completed
+BK-01628,AF-0206,Pickup Truck,2025-07-30,Wednesday,12,60,E-0037,Completed
+BK-01629,AF-0206,Pickup Truck,2026-02-05,Thursday,14,90,E-0036,Completed
+BK-01630,AF-0206,Pickup Truck,2026-04-30,Thursday,15,30,E-0054,Completed
+BK-01631,AF-0206,Pickup Truck,2025-12-23,Tuesday,17,60,E-0015,Completed
+BK-01632,AF-0206,Pickup Truck,2026-06-30,Tuesday,12,90,E-0004,Completed
+BK-01633,AF-0207,Dell Laptop,2025-08-23,Saturday,13,60,E-0008,Completed
+BK-01634,AF-0207,Dell Laptop,2025-07-21,Monday,14,60,E-0010,Completed
+BK-01635,AF-0207,Dell Laptop,2025-12-03,Wednesday,14,30,E-0042,Completed
+BK-01636,AF-0207,Dell Laptop,2026-02-02,Monday,14,90,E-0008,Completed
+BK-01637,AF-0207,Dell Laptop,2025-11-20,Thursday,11,30,E-0057,Completed
+BK-01638,AF-0207,Dell Laptop,2025-08-08,Friday,15,90,E-0021,Completed
+BK-01639,AF-0207,Dell Laptop,2025-07-16,Wednesday,15,60,E-0037,Completed
+BK-01640,AF-0207,Dell Laptop,2026-06-13,Saturday,14,90,E-0016,Completed
+BK-01641,AF-0207,Dell Laptop,2026-03-09,Monday,17,60,E-0039,Completed
+BK-01642,AF-0207,Dell Laptop,2025-09-03,Wednesday,11,60,E-0024,Completed
+BK-01643,AF-0211,Forklift,2025-09-08,Monday,15,90,E-0006,Completed
+BK-01644,AF-0211,Forklift,2025-09-17,Wednesday,11,60,E-0032,Completed
+BK-01645,AF-0211,Forklift,2026-06-10,Wednesday,15,60,E-0057,Completed
+BK-01646,AF-0211,Forklift,2025-08-19,Tuesday,15,30,E-0003,Completed
+BK-01647,AF-0211,Forklift,2025-08-04,Monday,13,60,E-0058,Completed
+BK-01648,AF-0211,Forklift,2025-12-19,Friday,11,120,E-0043,Completed
+BK-01649,AF-0211,Forklift,2025-09-26,Friday,15,90,E-0046,Completed
+BK-01650,AF-0211,Forklift,2026-05-01,Friday,13,90,E-0039,Completed
+BK-01651,AF-0211,Forklift,2025-09-24,Wednesday,11,30,E-0002,Completed
+BK-01652,AF-0211,Forklift,2025-09-04,Thursday,10,30,E-0046,Completed
+BK-01653,AF-0211,Forklift,2025-12-01,Monday,14,90,E-0051,Completed
+BK-01654,AF-0211,Forklift,2026-03-19,Thursday,14,30,E-0047,Completed
+BK-01655,AF-0211,Forklift,2026-01-29,Thursday,10,120,E-0012,Completed
+BK-01656,AF-0211,Forklift,2025-12-01,Monday,10,90,E-0045,Completed
+BK-01657,AF-0211,Forklift,2026-05-05,Tuesday,13,60,E-0019,Completed
+BK-01658,AF-0211,Forklift,2026-05-30,Saturday,10,30,E-0026,Completed
+BK-01659,AF-0211,Forklift,2026-01-01,Thursday,17,60,E-0050,Completed
+BK-01660,AF-0211,Forklift,2026-01-19,Monday,11,30,E-0054,Completed
+BK-01661,AF-0211,Forklift,2025-11-17,Monday,11,90,E-0058,Completed
+BK-01662,AF-0211,Forklift,2025-12-27,Saturday,16,120,E-0020,Completed
+BK-01663,AF-0211,Forklift,2026-02-24,Tuesday,13,120,E-0049,Completed
+BK-01664,AF-0211,Forklift,2026-05-19,Tuesday,9,90,E-0051,Cancelled
+BK-01665,AF-0211,Forklift,2025-10-14,Tuesday,17,60,E-0002,Completed
+BK-01666,AF-0211,Forklift,2025-10-16,Thursday,11,60,E-0018,Completed
+BK-01667,AF-0211,Forklift,2026-03-24,Tuesday,16,30,E-0024,Completed
+BK-01668,AF-0211,Forklift,2026-01-09,Friday,10,90,E-0028,Completed
+BK-01669,AF-0211,Forklift,2025-09-02,Tuesday,10,90,E-0049,Completed
+BK-01670,AF-0211,Forklift,2025-08-19,Tuesday,17,60,E-0053,Completed
+BK-01671,AF-0211,Forklift,2025-07-28,Monday,17,30,E-0012,Completed
+BK-01672,AF-0211,Forklift,2025-12-15,Monday,14,30,E-0032,Completed
+BK-01673,AF-0211,Forklift,2025-08-04,Monday,10,120,E-0038,Completed
+BK-01674,AF-0211,Forklift,2025-10-14,Tuesday,14,30,E-0033,Completed
+BK-01675,AF-0211,Forklift,2026-01-22,Thursday,11,30,E-0036,Completed
+BK-01676,AF-0211,Forklift,2025-07-30,Wednesday,14,60,E-0058,Completed
+BK-01677,AF-0211,Forklift,2025-12-16,Tuesday,11,60,E-0053,Completed
+BK-01678,AF-0211,Forklift,2026-01-16,Friday,15,60,E-0059,Completed
+BK-01679,AF-0211,Forklift,2026-01-08,Thursday,15,30,E-0059,Completed
+BK-01680,AF-0212,Generator,2026-01-19,Monday,17,90,E-0016,Completed
+BK-01681,AF-0213,Compressor,2025-12-11,Thursday,11,30,E-0048,Completed
+BK-01682,AF-0213,Compressor,2025-11-07,Friday,16,30,E-0052,Completed
+BK-01683,AF-0213,Compressor,2025-09-10,Wednesday,11,90,E-0005,Completed
+BK-01684,AF-0213,Compressor,2026-05-15,Friday,15,60,E-0002,Completed
+BK-01685,AF-0213,Compressor,2026-03-05,Thursday,11,120,E-0043,Completed
+BK-01686,AF-0213,Compressor,2025-10-03,Friday,14,30,E-0020,Completed
+BK-01687,AF-0213,Compressor,2026-05-01,Friday,12,60,E-0028,Completed
+BK-01688,AF-0213,Compressor,2026-06-01,Monday,14,60,E-0042,Completed
+BK-01689,AF-0213,Compressor,2026-05-31,Sunday,17,90,E-0034,Cancelled
+BK-01690,AF-0213,Compressor,2026-04-15,Wednesday,14,90,E-0025,Completed
+BK-01691,AF-0213,Compressor,2025-08-05,Tuesday,15,30,E-0056,Completed
+BK-01692,AF-0213,Compressor,2025-09-25,Thursday,14,60,E-0004,Completed
+BK-01693,AF-0213,Compressor,2025-09-22,Monday,11,30,E-0027,Completed
+BK-01694,AF-0213,Compressor,2026-04-07,Tuesday,15,90,E-0059,Cancelled
+BK-01695,AF-0213,Compressor,2025-07-31,Thursday,14,90,E-0022,Completed
+BK-01696,AF-0213,Compressor,2026-01-01,Thursday,10,60,E-0055,Completed
+BK-01697,AF-0213,Compressor,2025-08-13,Wednesday,15,60,E-0056,Completed
+BK-01698,AF-0213,Compressor,2026-02-12,Thursday,13,60,E-0019,Completed
+BK-01699,AF-0213,Compressor,2025-12-23,Tuesday,10,60,E-0043,Completed
+BK-01700,AF-0213,Compressor,2026-01-27,Tuesday,13,90,E-0023,Completed
+BK-01701,AF-0213,Compressor,2026-06-17,Wednesday,12,30,E-0020,Completed
+BK-01702,AF-0213,Compressor,2025-09-16,Tuesday,11,120,E-0019,Completed
+BK-01703,AF-0213,Compressor,2026-07-07,Tuesday,14,60,E-0023,Completed
+BK-01704,AF-0213,Compressor,2026-02-04,Wednesday,13,120,E-0059,Cancelled
+BK-01705,AF-0213,Compressor,2025-09-24,Wednesday,17,30,E-0033,Completed
+BK-01706,AF-0213,Compressor,2026-04-10,Friday,11,90,E-0059,Completed
+BK-01707,AF-0213,Compressor,2026-04-30,Thursday,12,60,E-0054,Completed
+BK-01708,AF-0213,Compressor,2025-09-18,Thursday,10,60,E-0028,Completed
+BK-01709,AF-0213,Compressor,2026-07-03,Friday,13,60,E-0019,Completed
+BK-01710,AF-0214,Delivery Van,2026-04-01,Wednesday,16,60,E-0023,Completed
+BK-01711,AF-0214,Delivery Van,2025-09-08,Monday,17,90,E-0026,Completed
+BK-01712,AF-0218,Generator,2026-04-25,Saturday,9,60,E-0028,Cancelled
+BK-01713,AF-0218,Generator,2025-11-03,Monday,14,60,E-0056,Completed
+BK-01714,AF-0218,Generator,2025-10-02,Thursday,11,60,E-0001,Completed
+BK-01715,AF-0218,Generator,2025-12-23,Tuesday,10,60,E-0035,Completed
+BK-01716,AF-0221,Sedan Car,2026-01-14,Wednesday,15,60,E-0030,Completed
+BK-01717,AF-0221,Sedan Car,2026-04-15,Wednesday,11,60,E-0016,Completed
+BK-01718,AF-0223,Pickup Truck,2025-12-01,Monday,15,30,E-0028,Completed
+BK-01719,AF-0223,Pickup Truck,2026-04-14,Tuesday,14,60,E-0040,Completed
+BK-01720,AF-0223,Pickup Truck,2026-02-02,Monday,12,120,E-0023,Completed
+BK-01721,AF-0223,Pickup Truck,2025-12-15,Monday,15,30,E-0056,Completed
+BK-01722,AF-0223,Pickup Truck,2026-02-03,Tuesday,11,30,E-0049,Completed
+BK-01723,AF-0223,Pickup Truck,2026-03-27,Friday,13,90,E-0026,Completed
+BK-01724,AF-0223,Pickup Truck,2025-10-04,Saturday,14,60,E-0028,Completed
+BK-01725,AF-0224,Pickup Truck,2026-05-07,Thursday,11,60,E-0053,Completed
+BK-01726,AF-0224,Pickup Truck,2025-09-02,Tuesday,14,60,E-0020,Completed
+BK-01727,AF-0224,Pickup Truck,2026-06-01,Monday,12,60,E-0028,Completed
+BK-01728,AF-0224,Pickup Truck,2026-05-28,Thursday,15,120,E-0018,Completed
+BK-01729,AF-0224,Pickup Truck,2026-05-15,Friday,11,60,E-0027,Completed
+BK-01730,AF-0224,Pickup Truck,2026-01-29,Thursday,17,30,E-0040,Completed
+BK-01731,AF-0224,Pickup Truck,2026-04-09,Thursday,16,60,E-0046,Completed
+BK-01732,AF-0224,Pickup Truck,2026-03-02,Monday,10,60,E-0034,Completed
+BK-01733,AF-0224,Pickup Truck,2026-06-26,Friday,15,30,E-0005,Completed
+BK-01734,AF-0224,Pickup Truck,2026-02-16,Monday,13,30,E-0013,Completed
+BK-01735,AF-0224,Pickup Truck,2025-09-03,Wednesday,14,60,E-0021,Completed
+BK-01736,AF-0224,Pickup Truck,2025-10-15,Wednesday,10,30,E-0032,Completed
+BK-01737,AF-0224,Pickup Truck,2026-01-21,Wednesday,13,60,E-0054,Completed
+BK-01738,AF-0226,Pickup Truck,2025-08-25,Monday,10,90,E-0012,Completed
+BK-01739,AF-0226,Pickup Truck,2025-07-18,Friday,14,60,E-0030,Completed
+BK-01740,AF-0226,Pickup Truck,2025-07-21,Monday,16,30,E-0009,Completed
+BK-01741,AF-0226,Pickup Truck,2026-04-16,Thursday,11,60,E-0019,Completed
+BK-01742,AF-0226,Pickup Truck,2026-06-22,Monday,9,60,E-0029,Completed
+BK-01743,AF-0226,Pickup Truck,2026-03-20,Friday,14,120,E-0054,Completed
+BK-01744,AF-0226,Pickup Truck,2026-01-26,Monday,14,60,E-0040,Completed
+BK-01745,AF-0226,Pickup Truck,2026-01-27,Tuesday,11,60,E-0026,Completed
+BK-01746,AF-0226,Pickup Truck,2026-02-06,Friday,11,120,E-0018,Cancelled
+BK-01747,AF-0226,Pickup Truck,2025-08-30,Saturday,17,60,E-0051,Completed
+BK-01748,AF-0226,Pickup Truck,2025-12-10,Wednesday,9,60,E-0057,Completed
+BK-01749,AF-0226,Pickup Truck,2026-05-18,Monday,15,30,E-0059,Completed
+BK-01750,AF-0226,Pickup Truck,2025-08-29,Friday,10,30,E-0019,Completed
+BK-01751,AF-0226,Pickup Truck,2025-08-02,Saturday,10,60,E-0023,Cancelled
+BK-01752,AF-0226,Pickup Truck,2025-10-08,Wednesday,11,30,E-0030,Completed
+BK-01753,AF-0227,Projector,2025-09-18,Thursday,15,30,E-0021,Completed
+BK-01754,AF-0227,Projector,2026-05-20,Wednesday,10,90,E-0039,Completed
+BK-01755,AF-0227,Projector,2026-02-03,Tuesday,12,90,E-0008,Completed
+BK-01756,AF-0228,Pallet Jack,2025-11-12,Wednesday,10,60,E-0045,Completed
+BK-01757,AF-0228,Pallet Jack,2026-02-25,Wednesday,14,30,E-0054,Completed
+BK-01758,AF-0228,Pallet Jack,2025-10-26,Sunday,11,30,E-0052,Completed
+BK-01759,AF-0228,Pallet Jack,2025-11-19,Wednesday,16,60,E-0033,Cancelled
+BK-01760,AF-0228,Pallet Jack,2025-12-29,Monday,12,60,E-0030,Cancelled
+BK-01761,AF-0228,Pallet Jack,2025-12-06,Saturday,13,60,E-0038,Completed
+BK-01762,AF-0228,Pallet Jack,2026-06-24,Wednesday,11,60,E-0011,Completed
+BK-01763,AF-0228,Pallet Jack,2025-09-24,Wednesday,14,120,E-0023,Completed
+BK-01764,AF-0228,Pallet Jack,2026-05-18,Monday,14,120,E-0010,Completed
+BK-01765,AF-0228,Pallet Jack,2025-12-23,Tuesday,15,60,E-0016,Completed
+BK-01766,AF-0228,Pallet Jack,2026-06-11,Thursday,11,30,E-0020,Cancelled
+BK-01767,AF-0230,Compressor,2026-03-31,Tuesday,9,60,E-0027,Completed
+BK-01768,AF-0230,Compressor,2026-05-22,Friday,12,30,E-0035,Completed
+BK-01769,AF-0230,Compressor,2026-06-22,Monday,14,60,E-0028,Completed
+BK-01770,AF-0230,Compressor,2026-01-12,Monday,10,30,E-0015,Completed
+BK-01771,AF-0230,Compressor,2025-12-24,Wednesday,15,30,E-0056,Completed
+BK-01772,AF-0230,Compressor,2025-09-30,Tuesday,11,30,E-0041,Completed
+BK-01773,AF-0230,Compressor,2025-09-01,Monday,15,30,E-0031,Completed
+BK-01774,AF-0230,Compressor,2025-12-16,Tuesday,10,60,E-0019,Completed
+BK-01775,AF-0232,Pallet Jack,2025-09-19,Friday,11,30,E-0051,Completed
+BK-01776,AF-0232,Pallet Jack,2026-07-06,Monday,10,90,E-0052,Completed
+BK-01777,AF-0232,Pallet Jack,2025-11-06,Thursday,12,90,E-0057,Completed
+BK-01778,AF-0232,Pallet Jack,2026-04-22,Wednesday,10,30,E-0013,Completed
+BK-01779,AF-0232,Pallet Jack,2026-06-03,Wednesday,14,30,E-0022,Completed
+BK-01780,AF-0232,Pallet Jack,2026-04-06,Monday,11,30,E-0022,Completed
+BK-01781,AF-0232,Pallet Jack,2025-10-30,Thursday,11,60,E-0034,Completed
+BK-01782,AF-0232,Pallet Jack,2026-03-09,Monday,13,60,E-0020,Completed
+BK-01783,AF-0232,Pallet Jack,2026-04-14,Tuesday,15,60,E-0055,Cancelled
+BK-01784,AF-0232,Pallet Jack,2026-03-09,Monday,17,30,E-0033,Completed
+BK-01785,AF-0232,Pallet Jack,2025-08-12,Tuesday,14,30,E-0011,Completed
+BK-01786,AF-0232,Pallet Jack,2026-03-02,Monday,10,30,E-0056,Completed
+BK-01787,AF-0234,Generator,2025-10-23,Thursday,11,60,E-0011,Completed
+BK-01788,AF-0234,Generator,2025-10-30,Thursday,17,30,E-0052,Completed
+BK-01789,AF-0234,Generator,2025-08-28,Thursday,13,90,E-0001,Completed
+BK-01790,AF-0234,Generator,2025-10-14,Tuesday,10,90,E-0044,Completed
+BK-01791,AF-0234,Generator,2026-06-30,Tuesday,9,120,E-0021,Completed
+BK-01792,AF-0234,Generator,2026-02-10,Tuesday,13,90,E-0007,Completed
+BK-01793,AF-0234,Generator,2026-03-19,Thursday,13,60,E-0004,Completed
+BK-01794,AF-0234,Generator,2025-08-05,Tuesday,16,120,E-0036,Completed
+BK-01795,AF-0234,Generator,2025-09-26,Friday,10,120,E-0021,Completed
+BK-01796,AF-0234,Generator,2026-01-06,Tuesday,15,90,E-0004,Completed
+BK-01797,AF-0234,Generator,2026-03-20,Friday,16,60,E-0056,Completed
+BK-01798,AF-0234,Generator,2026-03-12,Thursday,15,60,E-0041,Completed
+BK-01799,AF-0235,Compressor,2026-03-19,Thursday,12,90,E-0009,Completed
+BK-01800,AF-0235,Compressor,2026-01-26,Monday,12,60,E-0035,Completed
+BK-01801,AF-0236,Delivery Van,2026-03-05,Thursday,10,30,E-0012,Completed
+BK-01802,AF-0236,Delivery Van,2026-07-10,Friday,11,120,E-0009,Completed
+BK-01803,AF-0236,Delivery Van,2026-06-25,Thursday,9,30,E-0007,Completed
+BK-01804,AF-0236,Delivery Van,2026-01-26,Monday,14,30,E-0048,Completed
+BK-01805,AF-0236,Delivery Van,2026-04-08,Wednesday,11,60,E-0026,Completed
+BK-01806,AF-0236,Delivery Van,2025-09-15,Monday,15,60,E-0013,Completed
+BK-01807,AF-0236,Delivery Van,2026-06-25,Thursday,15,60,E-0055,Completed
+BK-01808,AF-0236,Delivery Van,2026-05-15,Friday,14,90,E-0026,Completed
+BK-01809,AF-0236,Delivery Van,2026-03-10,Tuesday,17,90,E-0012,Completed
+BK-01810,AF-0236,Delivery Van,2025-10-29,Wednesday,15,120,E-0056,Completed
+BK-01811,AF-0236,Delivery Van,2025-08-27,Wednesday,9,120,E-0052,Completed
+BK-01812,AF-0236,Delivery Van,2026-05-04,Monday,13,120,E-0009,Cancelled
+BK-01813,AF-0236,Delivery Van,2025-08-14,Thursday,15,30,E-0041,Completed
+BK-01814,AF-0236,Delivery Van,2026-03-24,Tuesday,11,30,E-0025,Completed
+BK-01815,AF-0236,Delivery Van,2025-08-19,Tuesday,11,90,E-0059,Completed
+BK-01816,AF-0236,Delivery Van,2025-08-18,Monday,15,60,E-0011,Completed
+BK-01817,AF-0236,Delivery Van,2026-03-23,Monday,17,60,E-0045,Completed
+BK-01818,AF-0236,Delivery Van,2025-10-31,Friday,11,90,E-0002,Completed
+BK-01819,AF-0239,Pickup Truck,2025-12-08,Monday,17,30,E-0007,Completed
+BK-01820,AF-0239,Pickup Truck,2026-03-02,Monday,11,30,E-0041,Completed
+BK-01821,AF-0239,Pickup Truck,2026-04-07,Tuesday,12,60,E-0019,Completed
+BK-01822,AF-0239,Pickup Truck,2026-06-22,Monday,11,60,E-0021,Completed
+BK-01823,AF-0239,Pickup Truck,2026-07-11,Saturday,14,90,E-0018,Completed
+BK-01824,AF-0239,Pickup Truck,2026-07-09,Thursday,14,60,E-0023,Completed
+BK-01825,AF-0239,Pickup Truck,2025-12-02,Tuesday,10,90,E-0009,Completed
+BK-01826,AF-0239,Pickup Truck,2025-09-11,Thursday,15,60,E-0024,Completed
+BK-01827,AF-0239,Pickup Truck,2026-03-24,Tuesday,14,90,E-0055,Completed
+BK-01828,AF-0239,Pickup Truck,2025-09-26,Friday,9,30,E-0040,Completed
+BK-01829,AF-0239,Pickup Truck,2026-06-25,Thursday,15,90,E-0002,Completed
+BK-01830,AF-0239,Pickup Truck,2025-08-11,Monday,10,60,E-0030,Completed
+BK-01831,AF-0239,Pickup Truck,2026-03-18,Wednesday,15,120,E-0050,Completed
+BK-01832,AF-0239,Pickup Truck,2026-04-14,Tuesday,15,60,E-0033,Completed
+BK-01833,AF-0239,Pickup Truck,2025-08-18,Monday,15,60,E-0026,Completed
+BK-01834,AF-0239,Pickup Truck,2026-06-10,Wednesday,11,30,E-0026,Completed
+BK-01835,AF-0239,Pickup Truck,2025-11-25,Tuesday,12,60,E-0028,Completed
+BK-01836,AF-0239,Pickup Truck,2026-04-30,Thursday,14,60,E-0018,Completed
+BK-01837,AF-0239,Pickup Truck,2026-06-15,Monday,11,60,E-0045,Completed
+BK-01838,AF-0239,Pickup Truck,2025-10-23,Thursday,13,120,E-0037,Completed
+BK-01839,AF-0239,Pickup Truck,2025-12-23,Tuesday,17,120,E-0023,Completed
+BK-01840,AF-0239,Pickup Truck,2026-02-05,Thursday,14,30,E-0037,Cancelled
+BK-01841,AF-0239,Pickup Truck,2025-07-30,Wednesday,10,30,E-0019,Cancelled
+BK-01842,AF-0239,Pickup Truck,2025-10-13,Monday,15,90,E-0020,Completed
+BK-01843,AF-0239,Pickup Truck,2026-02-05,Thursday,11,60,E-0001,Completed
+BK-01844,AF-0239,Pickup Truck,2025-10-29,Wednesday,10,60,E-0028,Completed
+BK-01845,AF-0239,Pickup Truck,2025-11-20,Thursday,11,60,E-0033,Completed
+BK-01846,AF-0239,Pickup Truck,2026-04-20,Monday,10,60,E-0046,Completed
+BK-01847,AF-0239,Pickup Truck,2026-01-02,Friday,15,30,E-0057,Completed
+BK-01848,AF-0239,Pickup Truck,2025-09-05,Friday,11,90,E-0052,Completed
+BK-01849,AF-0239,Pickup Truck,2025-12-18,Thursday,11,60,E-0039,Completed
+BK-01850,AF-0239,Pickup Truck,2026-01-29,Thursday,11,60,E-0033,Completed
+BK-01851,AF-0239,Pickup Truck,2026-04-16,Thursday,10,90,E-0002,Completed
+BK-01852,AF-0241,Generator,2026-02-19,Thursday,9,120,E-0039,Completed
+BK-01853,AF-0241,Generator,2026-01-28,Wednesday,17,60,E-0021,Completed
+BK-01854,AF-0241,Generator,2026-04-16,Thursday,16,60,E-0041,Completed
+BK-01855,AF-0244,Forklift,2025-08-27,Wednesday,15,90,E-0020,Completed
+BK-01856,AF-0244,Forklift,2025-09-03,Wednesday,11,120,E-0028,Completed
+BK-01857,AF-0244,Forklift,2025-08-28,Thursday,12,90,E-0044,Cancelled
+BK-01858,AF-0244,Forklift,2026-03-25,Wednesday,11,30,E-0005,Completed
+BK-01859,AF-0244,Forklift,2025-08-05,Tuesday,9,90,E-0057,Completed
+BK-01860,AF-0244,Forklift,2025-09-18,Thursday,12,120,E-0003,Cancelled
+BK-01861,AF-0244,Forklift,2026-03-11,Wednesday,16,120,E-0019,Completed
+BK-01862,AF-0244,Forklift,2025-12-17,Wednesday,13,60,E-0009,Completed
+BK-01863,AF-0244,Forklift,2025-07-22,Tuesday,12,90,E-0012,Cancelled
+BK-01864,AF-0244,Forklift,2025-12-15,Monday,15,30,E-0021,Completed
+BK-01865,AF-0244,Forklift,2026-06-05,Friday,12,30,E-0054,Completed
+BK-01866,AF-0244,Forklift,2025-09-24,Wednesday,9,60,E-0002,Cancelled
+BK-01867,AF-0244,Forklift,2025-11-07,Friday,17,90,E-0050,Completed
+BK-01868,AF-0244,Forklift,2026-01-07,Wednesday,15,90,E-0057,Completed
+BK-01869,AF-0244,Forklift,2025-12-10,Wednesday,14,30,E-0006,Completed
+BK-01870,AF-0244,Forklift,2026-01-27,Tuesday,16,60,E-0048,Completed
+BK-01871,AF-0244,Forklift,2025-11-07,Friday,14,90,E-0045,Completed
+BK-01872,AF-0244,Forklift,2026-03-17,Tuesday,10,30,E-0025,Completed
+BK-01873,AF-0245,Pickup Truck,2025-09-25,Thursday,14,60,E-0024,Completed
+BK-01874,AF-0245,Pickup Truck,2025-09-15,Monday,15,90,E-0008,Completed
+BK-01875,AF-0245,Pickup Truck,2026-02-24,Tuesday,17,90,E-0048,Completed
+BK-01876,AF-0245,Pickup Truck,2026-05-12,Tuesday,9,120,E-0040,Completed
+BK-01877,AF-0245,Pickup Truck,2026-01-28,Wednesday,17,60,E-0040,Completed
+BK-01878,AF-0245,Pickup Truck,2026-05-15,Friday,14,120,E-0039,Completed
+BK-01879,AF-0245,Pickup Truck,2025-08-12,Tuesday,17,60,E-0005,Completed
+BK-01880,AF-0245,Pickup Truck,2025-10-30,Thursday,9,90,E-0041,Completed
+BK-01881,AF-0245,Pickup Truck,2025-11-05,Wednesday,15,60,E-0009,Completed
+BK-01882,AF-0245,Pickup Truck,2025-11-20,Thursday,17,30,E-0025,Completed
+BK-01883,AF-0245,Pickup Truck,2026-01-01,Thursday,11,30,E-0050,Completed
+BK-01884,AF-0245,Pickup Truck,2026-05-12,Tuesday,15,30,E-0048,Completed
+BK-01885,AF-0245,Pickup Truck,2025-10-21,Tuesday,11,60,E-0039,Completed
+BK-01886,AF-0245,Pickup Truck,2026-02-17,Tuesday,12,60,E-0033,Completed
+BK-01887,AF-0245,Pickup Truck,2025-09-16,Tuesday,13,60,E-0033,Completed
+BK-01888,AF-0245,Pickup Truck,2026-06-11,Thursday,15,30,E-0022,Completed
+BK-01889,AF-0245,Pickup Truck,2025-11-12,Wednesday,10,60,E-0028,Completed
+BK-01890,AF-0245,Pickup Truck,2025-07-23,Wednesday,9,60,E-0036,Cancelled
+BK-01891,AF-0245,Pickup Truck,2026-01-16,Friday,14,120,E-0001,Completed
+BK-01892,AF-0245,Pickup Truck,2025-08-13,Wednesday,14,60,E-0004,Completed
+BK-01893,AF-0247,Projector,2025-07-23,Wednesday,17,60,E-0043,Completed
+BK-01894,AF-0247,Projector,2025-08-25,Monday,14,60,E-0013,Completed
+BK-01895,AF-0247,Projector,2025-11-25,Tuesday,11,60,E-0006,Completed
+BK-01896,AF-0247,Projector,2026-05-04,Monday,16,120,E-0058,Completed
+BK-01897,AF-0247,Projector,2026-01-28,Wednesday,10,30,E-0018,Completed
+BK-01898,AF-0247,Projector,2025-11-13,Thursday,12,60,E-0053,Completed
+BK-01899,AF-0247,Projector,2026-02-23,Monday,15,60,E-0003,Completed
+BK-01900,AF-0247,Projector,2025-09-15,Monday,9,30,E-0034,Completed
+BK-01901,AF-0247,Projector,2025-10-09,Thursday,11,30,E-0058,Completed
+BK-01902,AF-0248,Generator,2026-01-07,Wednesday,10,30,E-0040,Completed
+BK-01903,AF-0248,Generator,2025-09-18,Thursday,14,30,E-0007,Completed
+BK-01904,AF-0248,Generator,2025-09-09,Tuesday,15,120,E-0045,Completed
+BK-01905,AF-0248,Generator,2026-04-08,Wednesday,11,90,E-0052,Completed
+BK-01906,AF-0248,Generator,2025-11-25,Tuesday,16,120,E-0032,Completed
+BK-01907,AF-0248,Generator,2026-03-22,Sunday,15,30,E-0042,Completed
+BK-01908,AF-0248,Generator,2025-11-15,Saturday,14,60,E-0019,Completed
+BK-01909,AF-0248,Generator,2025-08-08,Friday,11,60,E-0021,Completed
+BK-01910,AF-0248,Generator,2025-08-27,Wednesday,12,30,E-0022,Completed
+BK-01911,AF-0248,Generator,2026-03-25,Wednesday,16,30,E-0054,Completed
+BK-01912,AF-0248,Generator,2026-06-02,Tuesday,15,90,E-0023,Completed
+BK-01913,AF-0248,Generator,2026-05-27,Wednesday,11,90,E-0041,Completed
+BK-01914,AF-0248,Generator,2025-12-01,Monday,12,60,E-0001,Completed
+BK-01915,AF-0249,Delivery Van,2026-06-02,Tuesday,14,60,E-0041,Completed
+BK-01916,AF-0249,Delivery Van,2025-12-03,Wednesday,13,60,E-0045,Completed
+BK-01917,AF-0249,Delivery Van,2026-06-22,Monday,10,60,E-0014,Completed
+BK-01918,AF-0249,Delivery Van,2026-03-19,Thursday,11,30,E-0018,Completed
+BK-01919,AF-0249,Delivery Van,2026-02-05,Thursday,12,30,E-0022,Completed
+BK-01920,AF-0249,Delivery Van,2026-05-07,Thursday,14,60,E-0030,Completed
+BK-01921,AF-0249,Delivery Van,2025-11-05,Wednesday,14,60,E-0060,Completed
+BK-01922,AF-0249,Delivery Van,2026-03-11,Wednesday,12,60,E-0057,Completed
+BK-01923,AF-0249,Delivery Van,2026-05-14,Thursday,14,90,E-0005,Completed
+BK-01924,AF-0249,Delivery Van,2025-08-22,Friday,14,30,E-0038,Cancelled
+BK-01925,AF-0249,Delivery Van,2026-05-11,Monday,15,90,E-0057,Completed
+BK-01926,AF-0249,Delivery Van,2026-05-30,Saturday,11,90,E-0044,Completed
+BK-01927,AF-0249,Delivery Van,2025-12-24,Wednesday,9,60,E-0057,Completed
+BK-01928,AF-0249,Delivery Van,2025-09-16,Tuesday,10,30,E-0053,Completed
+BK-01929,AF-0249,Delivery Van,2025-08-20,Wednesday,17,120,E-0058,Completed
+BK-01930,AF-0249,Delivery Van,2026-04-30,Thursday,11,30,E-0045,Completed
+BK-01931,AF-0249,Delivery Van,2025-07-14,Monday,11,90,E-0025,Completed
+BK-01932,AF-0249,Delivery Van,2026-01-09,Friday,10,30,E-0044,Completed
+BK-01933,AF-0249,Delivery Van,2026-01-05,Monday,10,60,E-0001,Completed
+BK-01934,AF-0250,Sedan Car,2026-04-22,Wednesday,12,90,E-0012,Completed
+BK-01935,AF-0250,Sedan Car,2026-02-27,Friday,11,30,E-0003,Completed
+BK-01936,AF-0250,Sedan Car,2026-02-17,Tuesday,15,60,E-0029,Completed
+BK-01937,AF-0250,Sedan Car,2025-08-26,Tuesday,11,90,E-0017,Cancelled
+BK-01938,AF-0250,Sedan Car,2026-01-06,Tuesday,17,30,E-0048,Completed
+BK-01939,AF-0250,Sedan Car,2025-12-01,Monday,15,30,E-0030,Completed
+BK-01940,AF-0250,Sedan Car,2025-11-08,Saturday,13,60,E-0030,Completed
+BK-01941,AF-0250,Sedan Car,2025-12-01,Monday,13,60,E-0001,Completed
+BK-01942,AF-0250,Sedan Car,2026-02-11,Wednesday,14,60,E-0049,Completed
+BK-01943,AF-0250,Sedan Car,2026-07-07,Tuesday,13,60,E-0050,Completed
+BK-01944,AF-0250,Sedan Car,2025-07-28,Monday,15,60,E-0006,Completed
+BK-01945,AF-0252,Desktop PC,2025-12-19,Friday,9,90,E-0039,Completed
+BK-01946,AF-0252,Desktop PC,2026-01-22,Thursday,14,60,E-0002,Completed
+BK-01947,AF-0252,Desktop PC,2026-02-26,Thursday,10,30,E-0031,Completed
+BK-01948,AF-0254,Pallet Jack,2026-03-24,Tuesday,14,120,E-0028,Completed
+BK-01949,AF-0254,Pallet Jack,2025-08-07,Thursday,10,30,E-0036,Completed
+BK-01950,AF-0254,Pallet Jack,2025-09-12,Friday,13,60,E-0027,Completed
+BK-01951,AF-0254,Pallet Jack,2025-10-03,Friday,14,30,E-0032,Completed
+BK-01952,AF-0254,Pallet Jack,2025-12-08,Monday,11,60,E-0042,Completed
+BK-01953,AF-0254,Pallet Jack,2026-03-04,Wednesday,11,120,E-0044,Completed
+BK-01954,AF-0254,Pallet Jack,2025-11-28,Friday,16,30,E-0001,Completed
+BK-01955,AF-0254,Pallet Jack,2026-06-08,Monday,13,120,E-0035,Completed
+BK-01956,AF-0254,Pallet Jack,2025-11-06,Thursday,15,90,E-0059,Completed
+BK-01957,AF-0254,Pallet Jack,2026-01-09,Friday,15,30,E-0050,Completed
+BK-01958,AF-0254,Pallet Jack,2026-06-05,Friday,10,30,E-0026,Completed
+BK-01959,AF-0254,Pallet Jack,2026-03-16,Monday,10,30,E-0056,Cancelled
+BK-01960,AF-0254,Pallet Jack,2026-03-24,Tuesday,10,120,E-0011,Completed
+BK-01961,AF-0254,Pallet Jack,2026-01-19,Monday,10,60,E-0032,Completed
+BK-01962,AF-0254,Pallet Jack,2026-02-02,Monday,10,60,E-0029,Completed
+BK-01963,AF-0254,Pallet Jack,2026-05-28,Thursday,10,90,E-0007,Completed
+BK-01964,AF-0254,Pallet Jack,2025-12-16,Tuesday,17,60,E-0025,Completed
+BK-01965,AF-0254,Pallet Jack,2026-04-14,Tuesday,17,30,E-0026,Completed
+BK-01966,AF-0254,Pallet Jack,2026-03-18,Wednesday,11,30,E-0057,Completed
+BK-01967,AF-0254,Pallet Jack,2026-05-07,Thursday,16,30,E-0047,Cancelled
+BK-01968,AF-0254,Pallet Jack,2025-07-28,Monday,11,60,E-0038,Completed
+BK-01969,AF-0254,Pallet Jack,2025-12-15,Monday,15,30,E-0038,Completed
+BK-01970,AF-0254,Pallet Jack,2026-04-02,Thursday,10,60,E-0053,Completed
+BK-01971,AF-0254,Pallet Jack,2025-09-10,Wednesday,10,60,E-0043,Cancelled
+BK-01972,AF-0254,Pallet Jack,2025-12-08,Monday,11,60,E-0057,Completed
+BK-01973,AF-0254,Pallet Jack,2025-10-28,Tuesday,16,90,E-0033,Completed
+BK-01974,AF-0254,Pallet Jack,2025-11-11,Tuesday,15,30,E-0019,Completed
+BK-01975,AF-0254,Pallet Jack,2026-06-17,Wednesday,13,120,E-0010,Completed
+BK-01976,AF-0254,Pallet Jack,2026-01-18,Sunday,10,90,E-0053,Completed
+BK-01977,AF-0254,Pallet Jack,2025-10-24,Friday,16,60,E-0048,Completed
+BK-01978,AF-0254,Pallet Jack,2026-03-19,Thursday,10,90,E-0024,Cancelled
+BK-01979,AF-0254,Pallet Jack,2026-03-14,Saturday,10,90,E-0029,Completed
+BK-01980,AF-0254,Pallet Jack,2025-08-18,Monday,11,90,E-0018,Completed
+BK-01981,AF-0254,Pallet Jack,2026-02-17,Tuesday,14,60,E-0018,Completed
+BK-01982,AF-0254,Pallet Jack,2026-03-25,Wednesday,14,60,E-0032,Completed
+BK-01983,AF-0254,Pallet Jack,2026-01-29,Thursday,13,30,E-0025,Completed
+BK-01984,AF-0254,Pallet Jack,2026-01-05,Monday,15,90,E-0046,Completed
+BK-01985,AF-0254,Pallet Jack,2025-08-03,Sunday,11,30,E-0019,Completed
+BK-01986,AF-0254,Pallet Jack,2026-02-24,Tuesday,15,30,E-0029,Completed
+BK-01987,AF-0254,Pallet Jack,2025-11-20,Thursday,16,30,E-0002,Completed
+BK-01988,AF-0258,Forklift,2025-11-28,Friday,15,120,E-0041,Completed
+BK-01989,AF-0258,Forklift,2026-04-12,Sunday,14,60,E-0053,Completed
+BK-01990,AF-0258,Forklift,2026-06-18,Thursday,14,60,E-0060,Completed
+BK-01991,AF-0258,Forklift,2025-12-12,Friday,11,30,E-0017,Completed
+BK-01992,AF-0258,Forklift,2026-06-03,Wednesday,15,90,E-0041,Completed
+BK-01993,AF-0258,Forklift,2026-01-08,Thursday,13,60,E-0039,Completed
+BK-01994,AF-0258,Forklift,2026-05-06,Wednesday,11,30,E-0004,Completed
+BK-01995,AF-0258,Forklift,2026-03-11,Wednesday,9,30,E-0015,Completed
+BK-01996,AF-0258,Forklift,2026-01-23,Friday,14,90,E-0034,Completed
+BK-01997,AF-0258,Forklift,2025-10-02,Thursday,17,30,E-0047,Completed
+BK-01998,AF-0258,Forklift,2025-11-06,Thursday,9,120,E-0011,Completed
+BK-01999,AF-0259,Scooter,2026-04-29,Wednesday,11,90,E-0044,Completed
+BK-02000,AF-0259,Scooter,2026-07-08,Wednesday,12,120,E-0005,Completed
+BK-02001,AF-0259,Scooter,2025-08-16,Saturday,15,60,E-0040,Completed
+BK-02002,AF-0262,Sedan Car,2026-07-10,Friday,17,30,E-0009,Completed
+BK-02003,AF-0262,Sedan Car,2025-08-01,Friday,11,90,E-0055,Completed
+BK-02004,AF-0262,Sedan Car,2026-01-16,Friday,17,60,E-0054,Completed
+BK-02005,AF-0262,Sedan Car,2026-03-05,Thursday,14,60,E-0046,Completed
+BK-02006,AF-0262,Sedan Car,2025-09-30,Tuesday,10,60,E-0001,Completed
+BK-02007,AF-0262,Sedan Car,2026-04-02,Thursday,15,60,E-0004,Completed
+BK-02008,AF-0262,Sedan Car,2026-03-03,Tuesday,10,30,E-0012,Completed
+BK-02009,AF-0262,Sedan Car,2026-01-02,Friday,10,60,E-0040,Completed
+BK-02010,AF-0262,Sedan Car,2026-04-22,Wednesday,15,60,E-0010,Completed
+BK-02011,AF-0262,Sedan Car,2025-09-04,Thursday,14,60,E-0060,Completed
+BK-02012,AF-0262,Sedan Car,2026-02-20,Friday,14,30,E-0011,Completed
+BK-02013,AF-0262,Sedan Car,2026-02-20,Friday,10,60,E-0001,Completed
+BK-02014,AF-0262,Sedan Car,2026-05-13,Wednesday,15,30,E-0059,Cancelled
+BK-02015,AF-0262,Sedan Car,2026-04-02,Thursday,15,90,E-0026,Completed
+BK-02016,AF-0262,Sedan Car,2025-10-31,Friday,12,60,E-0032,Completed
+BK-02017,AF-0262,Sedan Car,2025-10-06,Monday,11,60,E-0057,Completed
+BK-02018,AF-0263,Forklift,2026-01-13,Tuesday,15,120,E-0035,Completed
+BK-02019,AF-0263,Forklift,2025-07-15,Tuesday,9,90,E-0027,Completed
+BK-02020,AF-0263,Forklift,2026-01-05,Monday,11,60,E-0029,Completed
+BK-02021,AF-0263,Forklift,2026-06-25,Thursday,10,120,E-0026,Completed
+BK-02022,AF-0263,Forklift,2026-02-04,Wednesday,15,60,E-0029,Completed
+BK-02023,AF-0263,Forklift,2025-12-01,Monday,10,60,E-0022,Completed
+BK-02024,AF-0263,Forklift,2025-08-04,Monday,16,60,E-0018,Cancelled
+BK-02025,AF-0263,Forklift,2025-10-07,Tuesday,16,30,E-0055,Completed
+BK-02026,AF-0263,Forklift,2026-04-03,Friday,11,120,E-0010,Completed
+BK-02027,AF-0263,Forklift,2025-10-19,Sunday,17,60,E-0022,Completed
+BK-02028,AF-0263,Forklift,2026-02-23,Monday,11,60,E-0003,Completed
+BK-02029,AF-0263,Forklift,2025-12-19,Friday,11,60,E-0035,Cancelled
+BK-02030,AF-0263,Forklift,2026-04-13,Monday,10,120,E-0028,Completed
+BK-02031,AF-0263,Forklift,2025-08-04,Monday,16,30,E-0031,Completed
+BK-02032,AF-0263,Forklift,2026-02-12,Thursday,17,60,E-0006,Completed
+BK-02033,AF-0263,Forklift,2025-09-09,Tuesday,11,60,E-0052,Completed
+BK-02034,AF-0263,Forklift,2025-12-22,Monday,15,60,E-0026,Cancelled
+BK-02035,AF-0263,Forklift,2025-07-23,Wednesday,15,90,E-0037,Completed
+BK-02036,AF-0263,Forklift,2026-01-16,Friday,15,60,E-0022,Completed
+BK-02037,AF-0263,Forklift,2025-12-26,Friday,11,30,E-0005,Completed
+BK-02038,AF-0263,Forklift,2025-09-17,Wednesday,14,90,E-0035,Completed
+BK-02039,AF-0265,Cabinet,2026-01-07,Wednesday,16,90,E-0045,Completed
+BK-02040,AF-0265,Cabinet,2025-09-19,Friday,14,60,E-0013,Completed
+BK-02041,AF-0265,Cabinet,2025-12-12,Friday,12,60,E-0057,Completed
+BK-02042,AF-0265,Cabinet,2025-10-07,Tuesday,11,30,E-0010,Completed
+BK-02043,AF-0265,Cabinet,2025-07-25,Friday,17,30,E-0048,Completed
+BK-02044,AF-0265,Cabinet,2026-04-14,Tuesday,15,120,E-0008,Completed
+BK-02045,AF-0265,Cabinet,2026-05-04,Monday,14,90,E-0047,Completed
+BK-02046,AF-0265,Cabinet,2025-12-24,Wednesday,14,60,E-0027,Completed
+BK-02047,AF-0265,Cabinet,2026-04-30,Thursday,10,60,E-0032,Completed
+BK-02048,AF-0266,Air Purifier,2025-07-25,Friday,13,90,E-0037,Completed
+BK-02049,AF-0266,Air Purifier,2025-11-06,Thursday,14,90,E-0019,Completed
+BK-02050,AF-0266,Air Purifier,2025-11-11,Tuesday,14,30,E-0012,Completed
+BK-02051,AF-0266,Air Purifier,2026-04-17,Friday,12,30,E-0029,Completed
+BK-02052,AF-0266,Air Purifier,2025-09-15,Monday,10,60,E-0011,Cancelled
+BK-02053,AF-0267,Scooter,2025-11-19,Wednesday,14,60,E-0016,Completed
+BK-02054,AF-0267,Scooter,2026-04-21,Tuesday,13,30,E-0040,Completed
+BK-02055,AF-0267,Scooter,2025-08-06,Wednesday,10,30,E-0007,Completed
+BK-02056,AF-0267,Scooter,2026-01-26,Monday,14,60,E-0015,Completed
+BK-02057,AF-0267,Scooter,2025-10-07,Tuesday,12,60,E-0025,Completed
+BK-02058,AF-0267,Scooter,2026-02-16,Monday,16,60,E-0032,Completed
+BK-02059,AF-0267,Scooter,2025-08-08,Friday,16,90,E-0006,Completed
+BK-02060,AF-0267,Scooter,2026-04-27,Monday,10,60,E-0050,Completed
+BK-02061,AF-0267,Scooter,2026-04-21,Tuesday,10,60,E-0040,Completed
+BK-02062,AF-0267,Scooter,2026-07-03,Friday,16,90,E-0040,Cancelled
+BK-02063,AF-0267,Scooter,2025-08-18,Monday,16,90,E-0006,Completed
+BK-02064,AF-0267,Scooter,2025-10-02,Thursday,16,120,E-0060,Completed
+BK-02065,AF-0267,Scooter,2026-06-22,Monday,15,60,E-0039,Completed
+BK-02066,AF-0267,Scooter,2026-06-17,Wednesday,11,30,E-0011,Completed
+BK-02067,AF-0267,Scooter,2025-08-16,Saturday,17,60,E-0005,Completed
+BK-02068,AF-0267,Scooter,2025-10-02,Thursday,13,60,E-0042,Cancelled
+BK-02069,AF-0268,Meeting Table,2025-09-09,Tuesday,13,60,E-0051,Completed
+BK-02070,AF-0268,Meeting Table,2025-10-01,Wednesday,14,120,E-0011,Completed
+BK-02071,AF-0270,Pallet Jack,2026-04-16,Thursday,17,60,E-0060,Cancelled
+BK-02072,AF-0270,Pallet Jack,2026-04-13,Monday,10,60,E-0019,Completed
+BK-02073,AF-0270,Pallet Jack,2025-10-09,Thursday,14,60,E-0009,Completed
+BK-02074,AF-0270,Pallet Jack,2025-09-09,Tuesday,9,30,E-0028,Completed
+BK-02075,AF-0270,Pallet Jack,2025-08-25,Monday,17,60,E-0039,Completed
+BK-02076,AF-0270,Pallet Jack,2026-01-28,Wednesday,11,60,E-0051,Completed
+BK-02077,AF-0270,Pallet Jack,2026-04-01,Wednesday,15,60,E-0014,Completed
+BK-02078,AF-0270,Pallet Jack,2025-08-22,Friday,11,120,E-0017,Cancelled
+BK-02079,AF-0270,Pallet Jack,2026-02-06,Friday,10,30,E-0047,Completed
+BK-02080,AF-0271,Pickup Truck,2025-12-23,Tuesday,10,90,E-0031,Completed
+BK-02081,AF-0271,Pickup Truck,2026-06-08,Monday,15,30,E-0015,Completed
+BK-02082,AF-0271,Pickup Truck,2025-11-13,Thursday,10,60,E-0048,Completed
+BK-02083,AF-0271,Pickup Truck,2026-04-23,Thursday,17,90,E-0030,Completed
+BK-02084,AF-0271,Pickup Truck,2026-05-15,Friday,9,90,E-0050,Completed
+BK-02085,AF-0271,Pickup Truck,2025-09-16,Tuesday,15,60,E-0011,Completed
+BK-02086,AF-0271,Pickup Truck,2026-04-03,Friday,13,30,E-0048,Completed
+BK-02087,AF-0271,Pickup Truck,2026-04-17,Friday,11,60,E-0015,Completed
+BK-02088,AF-0271,Pickup Truck,2025-08-23,Saturday,10,30,E-0052,Completed
+BK-02089,AF-0271,Pickup Truck,2025-10-30,Thursday,14,30,E-0037,Completed
+BK-02090,AF-0271,Pickup Truck,2025-12-15,Monday,14,60,E-0056,Completed
+BK-02091,AF-0271,Pickup Truck,2025-09-09,Tuesday,15,60,E-0006,Completed
+BK-02092,AF-0271,Pickup Truck,2025-10-27,Monday,12,60,E-0060,Completed
+BK-02093,AF-0271,Pickup Truck,2026-01-28,Wednesday,10,60,E-0045,Completed
+BK-02094,AF-0271,Pickup Truck,2026-02-20,Friday,15,90,E-0026,Completed
+BK-02095,AF-0272,Generator,2026-05-22,Friday,15,60,E-0022,Completed
+BK-02096,AF-0272,Generator,2025-12-17,Wednesday,14,30,E-0007,Completed
+BK-02097,AF-0272,Generator,2026-05-22,Friday,14,60,E-0026,Completed
+BK-02098,AF-0272,Generator,2026-06-11,Thursday,17,90,E-0013,Completed
+BK-02099,AF-0272,Generator,2025-07-31,Thursday,12,60,E-0031,Completed
+BK-02100,AF-0272,Generator,2026-01-01,Thursday,11,60,E-0057,Completed
+BK-02101,AF-0272,Generator,2025-11-11,Tuesday,15,90,E-0031,Completed
+BK-02102,AF-0272,Generator,2025-12-10,Wednesday,14,60,E-0001,Completed
+BK-02103,AF-0272,Generator,2026-05-27,Wednesday,16,90,E-0004,Completed
+BK-02104,AF-0272,Generator,2025-09-03,Wednesday,11,90,E-0031,Completed
+BK-02105,AF-0272,Generator,2026-01-16,Friday,10,60,E-0041,Completed
+BK-02106,AF-0272,Generator,2026-01-19,Monday,9,90,E-0021,Completed
+BK-02107,AF-0272,Generator,2025-10-08,Wednesday,14,30,E-0033,Completed
+BK-02108,AF-0272,Generator,2025-12-08,Monday,14,60,E-0044,Cancelled
+BK-02109,AF-0272,Generator,2026-04-08,Wednesday,12,60,E-0044,Completed
+BK-02110,AF-0272,Generator,2026-02-26,Thursday,11,90,E-0059,Completed
+BK-02111,AF-0272,Generator,2026-01-17,Saturday,9,60,E-0055,Completed
+BK-02112,AF-0272,Generator,2025-08-19,Tuesday,14,120,E-0040,Completed
+BK-02113,AF-0272,Generator,2026-03-11,Wednesday,9,90,E-0006,Completed
+BK-02114,AF-0272,Generator,2026-06-08,Monday,15,90,E-0020,Completed
+BK-02115,AF-0272,Generator,2026-05-22,Friday,11,90,E-0015,Completed
+BK-02116,AF-0272,Generator,2025-09-02,Tuesday,15,60,E-0052,Completed
+BK-02117,AF-0272,Generator,2026-03-26,Thursday,11,30,E-0059,Completed
+BK-02118,AF-0272,Generator,2025-08-22,Friday,16,30,E-0050,Completed
+BK-02119,AF-0272,Generator,2025-12-24,Wednesday,16,120,E-0013,Completed
+BK-02120,AF-0272,Generator,2026-02-24,Tuesday,14,30,E-0002,Completed
+BK-02121,AF-0272,Generator,2025-07-15,Tuesday,14,60,E-0009,Cancelled
+BK-02122,AF-0272,Generator,2025-10-22,Wednesday,10,60,E-0026,Completed
+BK-02123,AF-0272,Generator,2026-02-10,Tuesday,11,60,E-0037,Completed
+BK-02124,AF-0272,Generator,2026-06-02,Tuesday,10,30,E-0053,Completed
+BK-02125,AF-0272,Generator,2026-05-13,Wednesday,14,30,E-0039,Completed
+BK-02126,AF-0272,Generator,2026-07-02,Thursday,16,30,E-0052,Completed
+BK-02127,AF-0273,Compressor,2025-07-21,Monday,17,90,E-0019,Completed
+BK-02128,AF-0273,Compressor,2025-12-25,Thursday,9,30,E-0041,Completed
+BK-02129,AF-0273,Compressor,2026-01-29,Thursday,15,60,E-0011,Completed
+BK-02130,AF-0273,Compressor,2025-07-23,Wednesday,17,30,E-0039,Completed
+BK-02131,AF-0273,Compressor,2026-04-03,Friday,12,90,E-0008,Completed
+BK-02132,AF-0273,Compressor,2025-10-10,Friday,14,30,E-0023,Completed
+BK-02133,AF-0273,Compressor,2025-09-18,Thursday,12,60,E-0004,Completed
+BK-02134,AF-0273,Compressor,2025-11-13,Thursday,14,60,E-0016,Completed
+BK-02135,AF-0273,Compressor,2025-08-18,Monday,11,30,E-0037,Completed
+BK-02136,AF-0273,Compressor,2026-04-16,Thursday,14,60,E-0048,Completed
+BK-02137,AF-0273,Compressor,2025-11-12,Wednesday,9,60,E-0033,Completed
+BK-02138,AF-0273,Compressor,2025-10-30,Thursday,14,60,E-0055,Completed
+BK-02139,AF-0273,Compressor,2025-12-04,Thursday,11,60,E-0048,Completed
+BK-02140,AF-0273,Compressor,2026-04-08,Wednesday,10,30,E-0038,Completed
+BK-02141,AF-0273,Compressor,2025-08-05,Tuesday,14,30,E-0028,Completed
+BK-02142,AF-0273,Compressor,2025-12-26,Friday,10,60,E-0006,Completed
+BK-02143,AF-0273,Compressor,2025-08-28,Thursday,13,30,E-0054,Cancelled
+BK-02144,AF-0273,Compressor,2026-01-27,Tuesday,10,60,E-0027,Completed
+BK-02145,AF-0274,Meeting Table,2025-09-17,Wednesday,15,90,E-0018,Cancelled
+BK-02146,AF-0274,Meeting Table,2025-10-23,Thursday,10,30,E-0053,Completed
+BK-02147,AF-0274,Meeting Table,2025-11-26,Wednesday,10,60,E-0037,Completed
+BK-02148,AF-0274,Meeting Table,2025-12-27,Saturday,17,60,E-0044,Completed
+BK-02149,AF-0274,Meeting Table,2025-07-15,Tuesday,13,60,E-0049,Completed
+BK-02150,AF-0274,Meeting Table,2026-03-25,Wednesday,15,90,E-0047,Completed
+BK-02151,AF-0274,Meeting Table,2026-01-05,Monday,15,60,E-0039,Completed
+BK-02152,AF-0274,Meeting Table,2025-09-29,Monday,11,60,E-0043,Completed
+BK-02153,AF-0274,Meeting Table,2026-06-09,Tuesday,10,90,E-0045,Completed
+BK-02154,AF-0274,Meeting Table,2025-11-07,Friday,15,30,E-0009,Completed
+BK-02155,AF-0274,Meeting Table,2025-08-20,Wednesday,9,30,E-0014,Completed
+BK-02156,AF-0274,Meeting Table,2026-04-18,Saturday,9,30,E-0012,Completed
+BK-02157,AF-0274,Meeting Table,2026-01-14,Wednesday,9,30,E-0009,Completed
+BK-02158,AF-0274,Meeting Table,2026-04-20,Monday,10,90,E-0049,Completed
+BK-02159,AF-0274,Meeting Table,2026-02-17,Tuesday,15,60,E-0048,Completed
+BK-02160,AF-0274,Meeting Table,2025-08-14,Thursday,14,120,E-0049,Completed
+BK-02161,AF-0274,Meeting Table,2025-08-22,Friday,11,30,E-0056,Completed
+BK-02162,AF-0274,Meeting Table,2026-06-09,Tuesday,17,90,E-0005,Completed
+BK-02163,AF-0274,Meeting Table,2025-10-07,Tuesday,10,60,E-0007,Completed
+BK-02164,AF-0274,Meeting Table,2026-03-10,Tuesday,10,30,E-0059,Completed
+BK-02165,AF-0274,Meeting Table,2025-09-20,Saturday,15,60,E-0044,Completed
+BK-02166,AF-0274,Meeting Table,2026-06-08,Monday,15,120,E-0033,Completed
+BK-02167,AF-0274,Meeting Table,2026-04-27,Monday,14,60,E-0035,Completed
+BK-02168,AF-0274,Meeting Table,2025-07-17,Thursday,16,30,E-0038,Completed
+BK-02169,AF-0274,Meeting Table,2026-06-19,Friday,14,60,E-0011,Cancelled
+BK-02170,AF-0274,Meeting Table,2026-03-02,Monday,10,90,E-0040,Completed
+BK-02171,AF-0274,Meeting Table,2026-03-13,Friday,17,30,E-0001,Completed
+BK-02172,AF-0274,Meeting Table,2026-04-22,Wednesday,16,30,E-0024,Completed
+BK-02173,AF-0274,Meeting Table,2026-03-05,Thursday,14,60,E-0033,Completed
+BK-02174,AF-0274,Meeting Table,2026-04-30,Thursday,12,60,E-0002,Completed
+BK-02175,AF-0275,Generator,2025-12-12,Friday,11,30,E-0003,Completed
+BK-02176,AF-0276,Pallet Jack,2026-07-08,Wednesday,13,60,E-0034,Completed
+BK-02177,AF-0278,Bookshelf,2026-03-05,Thursday,10,60,E-0055,Completed
+BK-02178,AF-0278,Bookshelf,2026-04-09,Thursday,15,30,E-0039,Completed
+BK-02179,AF-0278,Bookshelf,2026-02-24,Tuesday,13,90,E-0017,Completed
+BK-02180,AF-0279,Pickup Truck,2025-10-30,Thursday,11,60,E-0036,Completed
+BK-02181,AF-0279,Pickup Truck,2026-04-07,Tuesday,14,60,E-0018,Completed
+BK-02182,AF-0279,Pickup Truck,2026-02-03,Tuesday,9,30,E-0021,Completed
+BK-02183,AF-0279,Pickup Truck,2025-07-26,Saturday,12,90,E-0016,Completed
+BK-02184,AF-0279,Pickup Truck,2026-01-13,Tuesday,17,90,E-0023,Completed
+BK-02185,AF-0279,Pickup Truck,2026-06-27,Saturday,13,90,E-0024,Completed
+BK-02186,AF-0279,Pickup Truck,2026-06-01,Monday,10,60,E-0006,Completed
+BK-02187,AF-0279,Pickup Truck,2025-10-20,Monday,15,30,E-0034,Completed
+BK-02188,AF-0279,Pickup Truck,2026-01-27,Tuesday,13,60,E-0016,Completed
+BK-02189,AF-0279,Pickup Truck,2026-05-12,Tuesday,12,30,E-0011,Completed
+BK-02190,AF-0279,Pickup Truck,2025-09-02,Tuesday,9,60,E-0033,Completed
+BK-02191,AF-0279,Pickup Truck,2025-08-05,Tuesday,11,60,E-0005,Completed
+BK-02192,AF-0279,Pickup Truck,2026-02-12,Thursday,15,60,E-0043,Completed
+BK-02193,AF-0279,Pickup Truck,2025-12-03,Wednesday,10,90,E-0021,Completed
+BK-02194,AF-0279,Pickup Truck,2026-05-28,Thursday,15,30,E-0037,Completed
+BK-02195,AF-0279,Pickup Truck,2025-08-13,Wednesday,17,60,E-0033,Completed
+BK-02196,AF-0279,Pickup Truck,2025-10-13,Monday,17,120,E-0025,Completed
+BK-02197,AF-0279,Pickup Truck,2026-01-27,Tuesday,16,30,E-0012,Completed
+BK-02198,AF-0279,Pickup Truck,2026-05-20,Wednesday,15,30,E-0041,Completed
+BK-02199,AF-0279,Pickup Truck,2025-09-22,Monday,12,60,E-0029,Completed
+BK-02200,AF-0279,Pickup Truck,2025-11-06,Thursday,9,30,E-0044,Completed
+BK-02201,AF-0279,Pickup Truck,2026-07-01,Wednesday,10,90,E-0043,Completed
+BK-02202,AF-0279,Pickup Truck,2025-12-08,Monday,10,60,E-0013,Completed
+BK-02203,AF-0279,Pickup Truck,2026-05-30,Saturday,10,60,E-0006,Completed
+BK-02204,AF-0279,Pickup Truck,2026-03-19,Thursday,13,60,E-0006,Completed
+BK-02205,AF-0279,Pickup Truck,2025-10-30,Thursday,16,30,E-0047,Completed
+BK-02206,AF-0279,Pickup Truck,2026-03-12,Thursday,12,90,E-0041,Completed
+BK-02207,AF-0279,Pickup Truck,2025-12-15,Monday,10,30,E-0054,Completed
+BK-02208,AF-0279,Pickup Truck,2026-04-02,Thursday,14,90,E-0012,Completed
+BK-02209,AF-0279,Pickup Truck,2026-06-05,Friday,14,60,E-0020,Completed
+BK-02210,AF-0279,Pickup Truck,2025-11-13,Thursday,11,60,E-0059,Completed
+BK-02211,AF-0279,Pickup Truck,2025-12-25,Thursday,14,60,E-0021,Completed
+BK-02212,AF-0279,Pickup Truck,2026-04-10,Friday,9,120,E-0004,Completed
+BK-02213,AF-0279,Pickup Truck,2026-07-10,Friday,16,60,E-0060,Completed
+BK-02214,AF-0279,Pickup Truck,2025-12-05,Friday,15,120,E-0040,Completed
+BK-02215,AF-0279,Pickup Truck,2025-09-01,Monday,17,60,E-0032,Completed
+BK-02216,AF-0279,Pickup Truck,2025-11-27,Thursday,9,90,E-0015,Completed
+BK-02217,AF-0279,Pickup Truck,2025-09-12,Friday,11,30,E-0046,Completed
+BK-02218,AF-0279,Pickup Truck,2026-02-19,Thursday,11,60,E-0012,Completed
+BK-02219,AF-0279,Pickup Truck,2025-09-29,Monday,15,30,E-0039,Completed
+BK-02220,AF-0279,Pickup Truck,2026-01-08,Thursday,10,60,E-0008,Completed
+BK-02221,AF-0279,Pickup Truck,2026-03-16,Monday,14,30,E-0043,Completed
+BK-02222,AF-0283,Sedan Car,2026-05-25,Monday,12,60,E-0029,Completed
+BK-02223,AF-0283,Sedan Car,2025-09-08,Monday,16,30,E-0059,Completed
+BK-02224,AF-0283,Sedan Car,2026-01-26,Monday,17,60,E-0046,Completed
+BK-02225,AF-0283,Sedan Car,2025-11-21,Friday,9,30,E-0056,Completed
+BK-02226,AF-0283,Sedan Car,2026-02-23,Monday,16,90,E-0060,Completed
+BK-02227,AF-0283,Sedan Car,2025-11-06,Thursday,11,30,E-0021,Completed
+BK-02228,AF-0283,Sedan Car,2026-03-18,Wednesday,13,30,E-0050,Completed
+BK-02229,AF-0283,Sedan Car,2025-09-03,Wednesday,14,60,E-0045,Completed
+BK-02230,AF-0283,Sedan Car,2026-02-27,Friday,15,60,E-0057,Completed
+BK-02231,AF-0283,Sedan Car,2026-01-26,Monday,11,60,E-0024,Completed
+BK-02232,AF-0283,Sedan Car,2025-08-17,Sunday,11,60,E-0057,Completed
+BK-02233,AF-0283,Sedan Car,2025-07-25,Friday,11,60,E-0016,Completed
+BK-02234,AF-0283,Sedan Car,2025-08-21,Thursday,16,120,E-0045,Completed
+BK-02235,AF-0283,Sedan Car,2025-11-12,Wednesday,11,30,E-0016,Completed
+BK-02236,AF-0283,Sedan Car,2026-05-04,Monday,12,60,E-0021,Completed
+BK-02237,AF-0283,Sedan Car,2026-04-24,Friday,14,90,E-0036,Completed
+BK-02238,AF-0283,Sedan Car,2026-07-01,Wednesday,13,60,E-0015,Completed
+BK-02239,AF-0283,Sedan Car,2026-06-01,Monday,17,120,E-0046,Completed
+BK-02240,AF-0283,Sedan Car,2025-08-28,Thursday,10,30,E-0011,Completed
+BK-02241,AF-0287,Pallet Jack,2026-04-15,Wednesday,10,120,E-0001,Completed
+BK-02242,AF-0290,Forklift,2025-10-06,Monday,14,90,E-0051,Completed
+BK-02243,AF-0290,Forklift,2025-12-24,Wednesday,16,30,E-0014,Completed
+BK-02244,AF-0290,Forklift,2025-09-02,Tuesday,12,60,E-0049,Completed
+BK-02245,AF-0290,Forklift,2026-05-20,Wednesday,14,30,E-0022,Completed
+BK-02246,AF-0290,Forklift,2025-10-24,Friday,15,120,E-0014,Completed
+BK-02247,AF-0290,Forklift,2025-12-17,Wednesday,9,60,E-0022,Completed
+BK-02248,AF-0290,Forklift,2025-08-13,Wednesday,11,60,E-0018,Completed
+BK-02249,AF-0290,Forklift,2025-10-02,Thursday,16,60,E-0034,Completed
+BK-02250,AF-0290,Forklift,2026-05-19,Tuesday,12,60,E-0038,Completed
+BK-02251,AF-0290,Forklift,2026-03-21,Saturday,17,60,E-0028,Completed
+BK-02252,AF-0290,Forklift,2025-11-06,Thursday,15,60,E-0049,Completed
+BK-02253,AF-0290,Forklift,2025-11-17,Monday,16,30,E-0007,Completed
+BK-02254,AF-0290,Forklift,2025-08-12,Tuesday,14,90,E-0049,Completed
+BK-02255,AF-0290,Forklift,2026-04-16,Thursday,12,60,E-0029,Completed
+BK-02256,AF-0290,Forklift,2025-11-28,Friday,17,30,E-0042,Completed
+BK-02257,AF-0290,Forklift,2026-03-04,Wednesday,13,60,E-0036,Completed
+BK-02258,AF-0290,Forklift,2026-03-19,Thursday,10,90,E-0057,Completed
+BK-02259,AF-0290,Forklift,2026-03-31,Tuesday,16,60,E-0024,Completed
+BK-02260,AF-0290,Forklift,2026-01-27,Tuesday,17,30,E-0047,Completed
+BK-02261,AF-0290,Forklift,2025-11-12,Wednesday,10,90,E-0023,Completed
+BK-02262,AF-0290,Forklift,2025-09-30,Tuesday,16,120,E-0059,Completed
+BK-02263,AF-0290,Forklift,2025-08-21,Thursday,16,30,E-0033,Completed
+BK-02264,AF-0290,Forklift,2026-06-17,Wednesday,10,30,E-0049,Completed
+BK-02265,AF-0290,Forklift,2025-10-08,Wednesday,11,30,E-0051,Completed
+BK-02266,AF-0290,Forklift,2025-08-01,Friday,11,30,E-0013,Completed
+BK-02267,AF-0290,Forklift,2025-08-12,Tuesday,10,60,E-0005,Completed
+BK-02268,AF-0290,Forklift,2025-07-31,Thursday,14,90,E-0003,Completed
+BK-02269,AF-0290,Forklift,2026-06-04,Thursday,17,60,E-0053,Completed
+BK-02270,AF-0290,Forklift,2025-10-06,Monday,17,90,E-0041,Completed
+BK-02271,AF-0290,Forklift,2026-06-05,Friday,10,60,E-0055,Cancelled
+BK-02272,AF-0290,Forklift,2026-04-20,Monday,15,30,E-0040,Completed
+BK-02273,AF-0290,Forklift,2026-03-13,Friday,17,120,E-0010,Completed
+BK-02274,AF-0290,Forklift,2026-02-05,Thursday,13,60,E-0016,Completed
+BK-02275,AF-0290,Forklift,2025-08-06,Wednesday,14,60,E-0036,Completed
+BK-02276,AF-0290,Forklift,2025-11-05,Wednesday,16,60,E-0040,Completed
+BK-02277,AF-0290,Forklift,2026-02-09,Monday,17,60,E-0032,Completed
+BK-02278,AF-0290,Forklift,2026-01-21,Wednesday,11,30,E-0041,Completed
+BK-02279,AF-0291,Meeting Table,2026-04-28,Tuesday,15,30,E-0016,Completed
+BK-02280,AF-0291,Meeting Table,2026-03-21,Saturday,11,60,E-0041,Completed
+BK-02281,AF-0291,Meeting Table,2026-06-08,Monday,16,30,E-0038,Completed
+BK-02282,AF-0291,Meeting Table,2026-03-04,Wednesday,11,90,E-0014,Completed
+BK-02283,AF-0291,Meeting Table,2025-12-31,Wednesday,11,90,E-0034,Completed
+BK-02284,AF-0291,Meeting Table,2026-05-20,Wednesday,10,30,E-0008,Cancelled
+BK-02285,AF-0291,Meeting Table,2026-03-05,Thursday,10,30,E-0001,Completed
+BK-02286,AF-0291,Meeting Table,2026-02-24,Tuesday,15,60,E-0034,Completed
+BK-02287,AF-0291,Meeting Table,2025-12-04,Thursday,15,60,E-0039,Completed
+BK-02288,AF-0291,Meeting Table,2026-05-31,Sunday,15,30,E-0032,Completed
+BK-02289,AF-0291,Meeting Table,2025-07-18,Friday,10,30,E-0043,Completed
+BK-02290,AF-0291,Meeting Table,2026-01-20,Tuesday,11,60,E-0057,Completed
+BK-02291,AF-0291,Meeting Table,2026-02-23,Monday,14,30,E-0053,Completed
+BK-02292,AF-0291,Meeting Table,2025-07-28,Monday,16,30,E-0050,Completed
+BK-02293,AF-0291,Meeting Table,2026-04-30,Thursday,10,90,E-0053,Completed
+BK-02294,AF-0291,Meeting Table,2026-02-02,Monday,10,90,E-0030,Completed
+BK-02295,AF-0291,Meeting Table,2025-08-15,Friday,11,60,E-0035,Completed
+BK-02296,AF-0291,Meeting Table,2025-09-01,Monday,14,90,E-0042,Completed
+BK-02297,AF-0291,Meeting Table,2025-07-29,Tuesday,14,120,E-0018,Completed
+BK-02298,AF-0291,Meeting Table,2026-06-30,Tuesday,15,60,E-0007,Completed
+BK-02299,AF-0291,Meeting Table,2025-12-23,Tuesday,10,60,E-0036,Completed
+BK-02300,AF-0291,Meeting Table,2025-09-11,Thursday,13,30,E-0025,Completed
+BK-02301,AF-0291,Meeting Table,2025-08-26,Tuesday,12,90,E-0036,Completed
+BK-02302,AF-0291,Meeting Table,2026-06-24,Wednesday,11,60,E-0022,Completed
+BK-02303,AF-0291,Meeting Table,2026-04-13,Monday,15,60,E-0058,Completed
+BK-02304,AF-0291,Meeting Table,2026-02-26,Thursday,11,60,E-0007,Completed
+BK-02305,AF-0291,Meeting Table,2026-05-20,Wednesday,14,120,E-0018,Completed
+BK-02306,AF-0291,Meeting Table,2025-08-26,Tuesday,13,30,E-0008,Completed
+BK-02307,AF-0291,Meeting Table,2025-08-19,Tuesday,10,30,E-0018,Completed
+BK-02308,AF-0291,Meeting Table,2025-08-12,Tuesday,16,60,E-0042,Completed
+BK-02309,AF-0291,Meeting Table,2025-07-20,Sunday,14,90,E-0011,Completed
+BK-02310,AF-0291,Meeting Table,2026-01-13,Tuesday,14,90,E-0044,Completed
+BK-02311,AF-0291,Meeting Table,2026-05-05,Tuesday,12,60,E-0016,Completed
+BK-02312,AF-0294,Scooter,2025-11-12,Wednesday,15,30,E-0035,Completed
+BK-02313,AF-0294,Scooter,2026-03-28,Saturday,10,120,E-0015,Completed
+BK-02314,AF-0294,Scooter,2025-10-17,Friday,13,90,E-0017,Completed
+BK-02315,AF-0294,Scooter,2026-03-16,Monday,16,90,E-0006,Completed
+BK-02316,AF-0294,Scooter,2025-10-18,Saturday,12,60,E-0041,Completed
+BK-02317,AF-0294,Scooter,2026-05-18,Monday,10,90,E-0029,Completed
+BK-02318,AF-0294,Scooter,2025-11-04,Tuesday,11,30,E-0006,Completed
+BK-02319,AF-0294,Scooter,2026-01-27,Tuesday,15,60,E-0052,Completed
+BK-02320,AF-0294,Scooter,2026-04-06,Monday,10,60,E-0058,Completed
+BK-02321,AF-0294,Scooter,2025-10-21,Tuesday,9,90,E-0020,Cancelled
+BK-02322,AF-0294,Scooter,2026-03-09,Monday,14,60,E-0020,Completed
+BK-02323,AF-0294,Scooter,2025-12-26,Friday,10,30,E-0014,Completed
+BK-02324,AF-0294,Scooter,2025-12-17,Wednesday,16,30,E-0025,Completed
+BK-02325,AF-0297,Sedan Car,2025-08-22,Friday,10,90,E-0001,Completed
+BK-02326,AF-0297,Sedan Car,2026-01-28,Wednesday,16,30,E-0043,Completed
+BK-02327,AF-0297,Sedan Car,2026-04-24,Friday,16,30,E-0057,Completed
+BK-02328,AF-0297,Sedan Car,2026-06-29,Monday,13,60,E-0041,Completed
+BK-02329,AF-0297,Sedan Car,2026-01-28,Wednesday,17,60,E-0040,Completed
+BK-02330,AF-0297,Sedan Car,2026-05-28,Thursday,10,90,E-0020,Completed
+BK-02331,AF-0297,Sedan Car,2026-04-07,Tuesday,15,60,E-0024,Completed
+BK-02332,AF-0297,Sedan Car,2025-08-01,Friday,15,120,E-0042,Completed
+BK-02333,AF-0297,Sedan Car,2026-03-03,Tuesday,14,120,E-0002,Completed
+BK-02334,AF-0297,Sedan Car,2025-11-13,Thursday,12,60,E-0017,Completed
+BK-02335,AF-0297,Sedan Car,2026-02-12,Thursday,15,90,E-0017,Cancelled
+BK-02336,AF-0297,Sedan Car,2025-07-14,Monday,15,60,E-0020,Completed
+BK-02337,AF-0297,Sedan Car,2025-08-01,Friday,14,60,E-0045,Completed
+BK-02338,AF-0297,Sedan Car,2026-05-19,Tuesday,15,60,E-0046,Completed
+BK-02339,AF-0297,Sedan Car,2026-03-29,Sunday,14,30,E-0049,Completed
+BK-02340,AF-0297,Sedan Car,2025-11-09,Sunday,9,30,E-0002,Cancelled
+BK-02341,AF-0297,Sedan Car,2025-08-21,Thursday,10,30,E-0017,Completed
+BK-02342,AF-0297,Sedan Car,2026-04-22,Wednesday,11,60,E-0005,Completed
+BK-02343,AF-0297,Sedan Car,2025-11-25,Tuesday,10,30,E-0004,Completed
+BK-02344,AF-0300,Compressor,2026-03-10,Tuesday,10,90,E-0005,Completed
+BK-02345,AF-0300,Compressor,2025-08-27,Wednesday,16,60,E-0022,Completed
+BK-02346,AF-0300,Compressor,2026-06-26,Friday,14,120,E-0049,Completed
+BK-02347,AF-0300,Compressor,2025-12-22,Monday,14,60,E-0055,Completed
+BK-02348,AF-0300,Compressor,2025-10-07,Tuesday,10,60,E-0020,Completed
+BK-02349,AF-0300,Compressor,2025-08-12,Tuesday,11,30,E-0048,Completed
+BK-02350,AF-0300,Compressor,2025-11-14,Friday,11,60,E-0012,Completed
+BK-02351,AF-0300,Compressor,2025-07-15,Tuesday,11,60,E-0017,Completed
+BK-02352,AF-0300,Compressor,2025-10-15,Wednesday,14,60,E-0035,Completed
+BK-02353,AF-0300,Compressor,2026-02-12,Thursday,11,30,E-0005,Completed
+BK-02354,AF-0300,Compressor,2026-06-16,Tuesday,16,30,E-0055,Cancelled
+BK-02355,AF-0300,Compressor,2025-09-15,Monday,10,90,E-0024,Completed
+BK-02356,AF-0300,Compressor,2026-01-28,Wednesday,10,90,E-0011,Completed
+BK-02357,AF-0300,Compressor,2026-04-07,Tuesday,15,30,E-0040,Completed
+BK-02358,AF-0300,Compressor,2025-11-11,Tuesday,15,30,E-0022,Completed
+BK-02359,AF-0300,Compressor,2026-02-08,Sunday,15,90,E-0003,Completed
+BK-02360,AF-0300,Compressor,2026-02-25,Wednesday,14,60,E-0039,Completed
+BK-02361,AF-0300,Compressor,2025-12-03,Wednesday,9,60,E-0025,Completed
+BK-02362,AF-0300,Compressor,2025-07-25,Friday,14,120,E-0016,Completed
+BK-02363,AF-0300,Compressor,2026-07-10,Friday,9,120,E-0013,Completed
+BK-02364,AF-0300,Compressor,2025-08-29,Friday,12,60,E-0004,Completed
+BK-02365,AF-0300,Compressor,2026-06-01,Monday,17,120,E-0033,Cancelled
+BK-02366,AF-0300,Compressor,2025-07-21,Monday,11,60,E-0056,Completed
+BK-02367,AF-0300,Compressor,2026-03-06,Friday,14,60,E-0047,Completed
+BK-02368,AF-0300,Compressor,2026-03-23,Monday,14,30,E-0022,Completed
+BK-02369,AF-0300,Compressor,2025-09-30,Tuesday,17,120,E-0014,Completed
+BK-02370,AF-0301,Scooter,2026-03-06,Friday,10,90,E-0028,Completed
+BK-02371,AF-0303,Pallet Jack,2025-11-18,Tuesday,13,60,E-0038,Completed
+BK-02372,AF-0303,Pallet Jack,2026-02-04,Wednesday,14,30,E-0053,Completed
+BK-02373,AF-0303,Pallet Jack,2025-08-27,Wednesday,10,60,E-0054,Completed
+BK-02374,AF-0303,Pallet Jack,2025-08-29,Friday,14,60,E-0048,Completed
+BK-02375,AF-0303,Pallet Jack,2026-04-20,Monday,16,60,E-0006,Completed
+BK-02376,AF-0303,Pallet Jack,2026-06-02,Tuesday,10,60,E-0021,Completed
+BK-02377,AF-0303,Pallet Jack,2026-06-17,Wednesday,10,90,E-0011,Completed
+BK-02378,AF-0303,Pallet Jack,2026-02-16,Monday,10,60,E-0009,Completed
+BK-02379,AF-0303,Pallet Jack,2026-01-08,Thursday,11,30,E-0055,Completed
+BK-02380,AF-0303,Pallet Jack,2025-10-15,Wednesday,12,90,E-0025,Completed
+BK-02381,AF-0303,Pallet Jack,2025-09-25,Thursday,12,60,E-0053,Completed
+BK-02382,AF-0303,Pallet Jack,2026-07-10,Friday,10,30,E-0019,Completed
+BK-02383,AF-0303,Pallet Jack,2025-10-10,Friday,16,60,E-0030,Completed
+BK-02384,AF-0303,Pallet Jack,2025-08-11,Monday,10,90,E-0043,Completed
+BK-02385,AF-0303,Pallet Jack,2025-08-20,Wednesday,14,30,E-0051,Completed
+BK-02386,AF-0303,Pallet Jack,2026-03-30,Monday,11,120,E-0008,Completed
+BK-02387,AF-0304,Forklift,2026-04-30,Thursday,14,60,E-0049,Completed
+BK-02388,AF-0304,Forklift,2026-03-13,Friday,9,30,E-0054,Completed
+BK-02389,AF-0304,Forklift,2025-09-11,Thursday,14,30,E-0002,Cancelled
+BK-02390,AF-0304,Forklift,2025-11-25,Tuesday,10,30,E-0034,Completed
+BK-02391,AF-0304,Forklift,2026-02-18,Wednesday,12,90,E-0036,Completed
+BK-02392,AF-0304,Forklift,2026-05-05,Tuesday,17,90,E-0034,Completed
+BK-02393,AF-0304,Forklift,2026-04-21,Tuesday,11,120,E-0033,Completed
+BK-02394,AF-0304,Forklift,2026-02-18,Wednesday,15,30,E-0046,Completed
+BK-02395,AF-0304,Forklift,2026-04-29,Wednesday,13,30,E-0017,Completed
+BK-02396,AF-0304,Forklift,2025-07-31,Thursday,11,60,E-0020,Completed
+BK-02397,AF-0304,Forklift,2025-10-09,Thursday,10,30,E-0032,Completed
+BK-02398,AF-0304,Forklift,2026-05-28,Thursday,10,30,E-0023,Completed
+BK-02399,AF-0304,Forklift,2026-06-15,Monday,9,30,E-0053,Completed
+BK-02400,AF-0304,Forklift,2025-11-21,Friday,11,90,E-0042,Completed
+BK-02401,AF-0304,Forklift,2025-12-01,Monday,14,60,E-0047,Completed
+BK-02402,AF-0304,Forklift,2025-10-09,Thursday,12,30,E-0060,Completed
+BK-02403,AF-0304,Forklift,2026-03-31,Tuesday,15,60,E-0031,Completed
+BK-02404,AF-0304,Forklift,2026-03-23,Monday,9,30,E-0059,Completed
+BK-02405,AF-0304,Forklift,2026-01-07,Wednesday,12,90,E-0055,Completed
+BK-02406,AF-0304,Forklift,2026-06-11,Thursday,13,60,E-0055,Cancelled
+BK-02407,AF-0308,Delivery Van,2026-06-03,Wednesday,15,60,E-0018,Completed
+BK-02408,AF-0308,Delivery Van,2025-09-23,Tuesday,10,60,E-0009,Completed
+BK-02409,AF-0308,Delivery Van,2025-09-24,Wednesday,10,90,E-0013,Cancelled
+BK-02410,AF-0308,Delivery Van,2026-05-29,Friday,12,90,E-0024,Completed
+BK-02411,AF-0308,Delivery Van,2026-01-28,Wednesday,14,90,E-0040,Completed
+BK-02412,AF-0308,Delivery Van,2026-05-27,Wednesday,17,30,E-0034,Completed
+BK-02413,AF-0308,Delivery Van,2025-07-22,Tuesday,15,120,E-0001,Completed
+BK-02414,AF-0308,Delivery Van,2025-09-19,Friday,10,60,E-0032,Completed
+BK-02415,AF-0308,Delivery Van,2026-04-22,Wednesday,9,30,E-0022,Completed
+BK-02416,AF-0308,Delivery Van,2025-07-17,Thursday,17,60,E-0019,Completed
+BK-02417,AF-0308,Delivery Van,2026-01-26,Monday,10,30,E-0038,Completed
+BK-02418,AF-0308,Delivery Van,2025-10-24,Friday,10,30,E-0027,Cancelled
+BK-02419,AF-0308,Delivery Van,2025-07-25,Friday,11,90,E-0059,Completed
+BK-02420,AF-0308,Delivery Van,2026-04-06,Monday,10,90,E-0016,Completed
+BK-02421,AF-0308,Delivery Van,2026-04-22,Wednesday,11,30,E-0060,Completed
+BK-02422,AF-0308,Delivery Van,2026-03-24,Tuesday,12,60,E-0005,Completed
+BK-02423,AF-0308,Delivery Van,2026-02-10,Tuesday,13,60,E-0058,Completed
+BK-02424,AF-0308,Delivery Van,2025-08-27,Wednesday,14,30,E-0010,Completed
+BK-02425,AF-0308,Delivery Van,2026-03-23,Monday,17,30,E-0023,Completed
+BK-02426,AF-0308,Delivery Van,2026-04-10,Friday,11,60,E-0035,Completed
+BK-02427,AF-0308,Delivery Van,2026-05-26,Tuesday,10,90,E-0020,Completed
+BK-02428,AF-0308,Delivery Van,2025-07-24,Thursday,15,60,E-0027,Completed
+BK-02429,AF-0308,Delivery Van,2026-01-23,Friday,15,60,E-0008,Completed
+BK-02430,AF-0308,Delivery Van,2026-05-15,Friday,14,60,E-0009,Completed
+BK-02431,AF-0308,Delivery Van,2025-12-19,Friday,10,30,E-0060,Completed
+BK-02432,AF-0308,Delivery Van,2025-11-20,Thursday,15,30,E-0034,Completed
+BK-02433,AF-0308,Delivery Van,2025-11-10,Monday,15,90,E-0053,Completed
+BK-02434,AF-0308,Delivery Van,2025-07-24,Thursday,10,120,E-0053,Completed
+BK-02435,AF-0308,Delivery Van,2026-06-08,Monday,10,60,E-0046,Completed
+BK-02436,AF-0308,Delivery Van,2025-12-01,Monday,13,30,E-0003,Completed
+BK-02437,AF-0308,Delivery Van,2026-07-04,Saturday,14,60,E-0035,Completed
+BK-02438,AF-0308,Delivery Van,2026-02-13,Friday,11,60,E-0054,Completed
+BK-02439,AF-0308,Delivery Van,2026-05-22,Friday,14,120,E-0019,Completed
+BK-02440,AF-0308,Delivery Van,2026-05-04,Monday,10,60,E-0019,Completed
+BK-02441,AF-0308,Delivery Van,2025-11-10,Monday,10,120,E-0035,Completed
+BK-02442,AF-0308,Delivery Van,2026-05-23,Saturday,14,60,E-0022,Completed
+BK-02443,AF-0308,Delivery Van,2026-07-09,Thursday,16,60,E-0026,Completed
+BK-02444,AF-0308,Delivery Van,2025-09-30,Tuesday,10,30,E-0022,Completed
+BK-02445,AF-0308,Delivery Van,2025-11-12,Wednesday,15,90,E-0011,Completed
+BK-02446,AF-0308,Delivery Van,2025-11-04,Tuesday,15,30,E-0012,Completed
+BK-02447,AF-0308,Delivery Van,2026-01-13,Tuesday,14,30,E-0008,Completed
+BK-02448,AF-0308,Delivery Van,2026-04-21,Tuesday,12,60,E-0039,Completed
+BK-02449,AF-0308,Delivery Van,2026-01-09,Friday,10,60,E-0015,Completed
+BK-02450,AF-0308,Delivery Van,2026-04-02,Thursday,11,60,E-0027,Completed
+BK-02451,AF-0310,Generator,2025-11-04,Tuesday,9,60,E-0011,Completed
+BK-02452,AF-0310,Generator,2026-01-07,Wednesday,17,60,E-0006,Completed
+BK-02453,AF-0310,Generator,2026-04-08,Wednesday,14,90,E-0041,Completed
+BK-02454,AF-0310,Generator,2026-01-15,Thursday,14,30,E-0019,Completed
+BK-02455,AF-0310,Generator,2025-08-13,Wednesday,12,60,E-0024,Completed
+BK-02456,AF-0310,Generator,2026-05-21,Thursday,14,60,E-0038,Completed
+BK-02457,AF-0310,Generator,2026-06-04,Thursday,10,30,E-0051,Completed
+BK-02458,AF-0310,Generator,2025-12-26,Friday,11,90,E-0005,Completed
+BK-02459,AF-0310,Generator,2026-03-20,Friday,11,60,E-0036,Completed
+BK-02460,AF-0310,Generator,2026-06-04,Thursday,11,60,E-0013,Completed
+BK-02461,AF-0310,Generator,2026-04-15,Wednesday,13,30,E-0028,Completed
+BK-02462,AF-0310,Generator,2025-07-16,Wednesday,11,60,E-0017,Completed
+BK-02463,AF-0310,Generator,2025-10-15,Wednesday,10,60,E-0018,Completed
+BK-02464,AF-0310,Generator,2025-07-17,Thursday,15,30,E-0042,Completed
+BK-02465,AF-0310,Generator,2025-10-24,Friday,14,30,E-0029,Completed
+BK-02466,AF-0310,Generator,2026-03-19,Thursday,9,120,E-0012,Completed
+BK-02467,AF-0310,Generator,2025-08-22,Friday,15,30,E-0043,Completed
+BK-02468,AF-0310,Generator,2025-12-01,Monday,12,60,E-0031,Completed
+BK-02469,AF-0310,Generator,2026-05-06,Wednesday,10,90,E-0023,Completed
+BK-02470,AF-0310,Generator,2026-01-14,Wednesday,15,60,E-0012,Cancelled
+BK-02471,AF-0310,Generator,2026-01-07,Wednesday,16,30,E-0016,Completed
+BK-02472,AF-0310,Generator,2026-01-16,Friday,10,90,E-0003,Cancelled
+BK-02473,AF-0310,Generator,2026-05-09,Saturday,14,30,E-0031,Completed
+BK-02474,AF-0310,Generator,2026-04-16,Thursday,11,120,E-0056,Completed
+BK-02475,AF-0310,Generator,2025-12-26,Friday,14,60,E-0059,Completed
+BK-02476,AF-0310,Generator,2025-10-23,Thursday,16,120,E-0042,Completed
+BK-02477,AF-0310,Generator,2025-07-17,Thursday,10,30,E-0026,Completed
+BK-02478,AF-0311,Docking Station,2026-05-05,Tuesday,16,30,E-0029,Completed
+BK-02479,AF-0311,Docking Station,2026-03-23,Monday,11,60,E-0060,Completed
+BK-02480,AF-0311,Docking Station,2026-03-25,Wednesday,16,60,E-0031,Completed
+BK-02481,AF-0311,Docking Station,2026-06-22,Monday,14,60,E-0048,Completed
+BK-02482,AF-0311,Docking Station,2026-04-03,Friday,12,90,E-0016,Completed
+BK-02483,AF-0311,Docking Station,2025-10-23,Thursday,10,30,E-0030,Completed
+BK-02484,AF-0311,Docking Station,2026-06-07,Sunday,10,60,E-0059,Completed
+BK-02485,AF-0311,Docking Station,2026-01-30,Friday,14,90,E-0060,Completed
+BK-02486,AF-0311,Docking Station,2025-10-14,Tuesday,13,90,E-0039,Completed
+BK-02487,AF-0311,Docking Station,2026-04-27,Monday,17,60,E-0029,Cancelled
+BK-02488,AF-0311,Docking Station,2025-08-10,Sunday,14,90,E-0054,Completed
+BK-02489,AF-0311,Docking Station,2026-06-04,Thursday,15,30,E-0001,Completed
+BK-02490,AF-0311,Docking Station,2025-09-18,Thursday,15,60,E-0049,Completed
+BK-02491,AF-0311,Docking Station,2026-06-09,Tuesday,14,30,E-0044,Completed
+BK-02492,AF-0311,Docking Station,2026-06-12,Friday,15,60,E-0049,Completed
+BK-02493,AF-0311,Docking Station,2025-12-17,Wednesday,15,60,E-0039,Completed
+BK-02494,AF-0311,Docking Station,2025-08-10,Sunday,17,60,E-0010,Completed
+BK-02495,AF-0311,Docking Station,2025-08-08,Friday,15,60,E-0047,Completed
+BK-02496,AF-0311,Docking Station,2025-09-05,Friday,15,120,E-0039,Completed
+BK-02497,AF-0314,Delivery Van,2025-09-03,Wednesday,14,60,E-0029,Completed
+BK-02498,AF-0314,Delivery Van,2026-07-08,Wednesday,15,60,E-0038,Completed
+BK-02499,AF-0314,Delivery Van,2025-12-24,Wednesday,11,90,E-0026,Completed
+BK-02500,AF-0314,Delivery Van,2026-03-23,Monday,12,90,E-0043,Completed
+BK-02501,AF-0314,Delivery Van,2025-12-29,Monday,15,30,E-0020,Completed
+BK-02502,AF-0314,Delivery Van,2026-05-11,Monday,15,90,E-0026,Completed
+BK-02503,AF-0314,Delivery Van,2026-02-11,Wednesday,15,60,E-0045,Completed
+BK-02504,AF-0314,Delivery Van,2026-05-20,Wednesday,10,60,E-0060,Completed
+BK-02505,AF-0314,Delivery Van,2025-07-28,Monday,15,60,E-0048,Completed
+BK-02506,AF-0314,Delivery Van,2025-09-11,Thursday,17,30,E-0029,Completed
+BK-02507,AF-0314,Delivery Van,2025-12-08,Monday,11,60,E-0037,Completed
+BK-02508,AF-0314,Delivery Van,2025-08-26,Tuesday,15,90,E-0058,Completed
+BK-02509,AF-0314,Delivery Van,2025-11-14,Friday,15,60,E-0053,Completed
+BK-02510,AF-0314,Delivery Van,2026-01-23,Friday,15,90,E-0017,Completed
+BK-02511,AF-0314,Delivery Van,2026-05-01,Friday,11,30,E-0001,Completed
+BK-02512,AF-0314,Delivery Van,2026-01-08,Thursday,11,60,E-0035,Completed
+BK-02513,AF-0314,Delivery Van,2025-09-15,Monday,11,60,E-0014,Completed
+BK-02514,AF-0314,Delivery Van,2026-06-27,Saturday,10,30,E-0025,Completed
+BK-02515,AF-0314,Delivery Van,2026-01-28,Wednesday,15,60,E-0032,Completed
+BK-02516,AF-0314,Delivery Van,2026-01-06,Tuesday,14,30,E-0008,Completed
+BK-02517,AF-0314,Delivery Van,2025-12-19,Friday,14,30,E-0036,Completed
+BK-02518,AF-0314,Delivery Van,2026-04-14,Tuesday,14,90,E-0026,Completed
+BK-02519,AF-0314,Delivery Van,2026-05-20,Wednesday,15,30,E-0053,Completed
+BK-02520,AF-0314,Delivery Van,2025-07-28,Monday,17,60,E-0024,Completed
+BK-02521,AF-0314,Delivery Van,2026-07-07,Tuesday,10,60,E-0057,Cancelled
+BK-02522,AF-0314,Delivery Van,2026-04-29,Wednesday,16,60,E-0059,Completed
+BK-02523,AF-0317,Compressor,2026-01-26,Monday,10,60,E-0023,Completed
+BK-02524,AF-0317,Compressor,2026-01-18,Sunday,15,120,E-0029,Completed
+BK-02525,AF-0317,Compressor,2026-07-02,Thursday,11,30,E-0015,Completed
+BK-02526,AF-0317,Compressor,2025-10-24,Friday,11,90,E-0004,Completed
+BK-02527,AF-0317,Compressor,2026-02-18,Wednesday,11,120,E-0031,Completed
+BK-02528,AF-0317,Compressor,2026-05-10,Sunday,14,60,E-0010,Completed
+BK-02529,AF-0317,Compressor,2025-12-23,Tuesday,13,120,E-0006,Completed
+BK-02530,AF-0317,Compressor,2026-03-26,Thursday,10,60,E-0054,Completed
+BK-02531,AF-0317,Compressor,2025-11-27,Thursday,11,60,E-0059,Completed
+BK-02532,AF-0317,Compressor,2026-05-11,Monday,13,60,E-0034,Completed
+BK-02533,AF-0317,Compressor,2025-09-30,Tuesday,14,120,E-0003,Completed
+BK-02534,AF-0317,Compressor,2025-08-06,Wednesday,9,60,E-0037,Completed
+BK-02535,AF-0317,Compressor,2026-07-07,Tuesday,13,30,E-0060,Completed
+BK-02536,AF-0317,Compressor,2026-05-15,Friday,10,90,E-0040,Completed
+BK-02537,AF-0317,Compressor,2026-01-22,Thursday,11,90,E-0047,Completed
+BK-02538,AF-0317,Compressor,2026-06-24,Wednesday,16,90,E-0054,Cancelled
+BK-02539,AF-0317,Compressor,2025-10-23,Thursday,15,90,E-0022,Completed
+BK-02540,AF-0317,Compressor,2026-05-01,Friday,14,90,E-0050,Completed
+BK-02541,AF-0317,Compressor,2026-06-02,Tuesday,15,30,E-0056,Completed
+BK-02542,AF-0317,Compressor,2025-12-19,Friday,10,60,E-0047,Completed
+BK-02543,AF-0317,Compressor,2026-06-30,Tuesday,14,30,E-0032,Completed
+BK-02544,AF-0317,Compressor,2026-06-18,Thursday,13,30,E-0018,Completed
+BK-02545,AF-0317,Compressor,2026-06-17,Wednesday,14,30,E-0054,Completed
+BK-02546,AF-0317,Compressor,2025-07-30,Wednesday,11,30,E-0026,Completed
+BK-02547,AF-0317,Compressor,2026-06-22,Monday,11,30,E-0030,Completed
+BK-02548,AF-0317,Compressor,2026-07-04,Saturday,10,120,E-0008,Completed
+BK-02549,AF-0317,Compressor,2025-09-04,Thursday,16,30,E-0011,Completed
+BK-02550,AF-0317,Compressor,2025-10-07,Tuesday,11,60,E-0007,Completed
+BK-02551,AF-0317,Compressor,2025-10-20,Monday,15,60,E-0051,Completed
+BK-02552,AF-0317,Compressor,2026-01-21,Wednesday,11,60,E-0035,Completed
+BK-02553,AF-0317,Compressor,2026-01-26,Monday,13,30,E-0046,Completed
+BK-02554,AF-0317,Compressor,2026-06-09,Tuesday,14,30,E-0012,Completed
+BK-02555,AF-0317,Compressor,2026-02-11,Wednesday,11,90,E-0013,Completed
+BK-02556,AF-0317,Compressor,2025-08-14,Thursday,15,60,E-0011,Completed
+BK-02557,AF-0317,Compressor,2026-03-26,Thursday,12,90,E-0033,Completed
+BK-02558,AF-0317,Compressor,2025-09-08,Monday,16,60,E-0004,Completed
+BK-02559,AF-0317,Compressor,2026-04-30,Thursday,11,60,E-0059,Completed
+BK-02560,AF-0319,Keyboard,2026-01-22,Thursday,11,60,E-0020,Completed
+BK-02561,AF-0319,Keyboard,2025-07-22,Tuesday,12,120,E-0057,Completed
+BK-02562,AF-0319,Keyboard,2026-05-06,Wednesday,14,90,E-0002,Completed
+BK-02563,AF-0319,Keyboard,2025-09-22,Monday,16,90,E-0001,Completed
+BK-02564,AF-0319,Keyboard,2026-06-22,Monday,10,120,E-0026,Completed
+BK-02565,AF-0319,Keyboard,2026-06-11,Thursday,13,30,E-0030,Completed
+BK-02566,AF-0319,Keyboard,2026-04-06,Monday,10,30,E-0024,Completed
+BK-02567,AF-0319,Keyboard,2025-11-25,Tuesday,10,30,E-0010,Completed
+BK-02568,AF-0319,Keyboard,2026-01-26,Monday,15,90,E-0028,Completed
+BK-02569,AF-0319,Keyboard,2025-09-02,Tuesday,17,30,E-0001,Completed
+BK-02570,AF-0319,Keyboard,2025-10-01,Wednesday,16,60,E-0047,Completed
+BK-02571,AF-0319,Keyboard,2026-02-18,Wednesday,15,60,E-0054,Completed
+BK-02572,AF-0319,Keyboard,2026-05-04,Monday,10,120,E-0011,Completed
+BK-02573,AF-0319,Keyboard,2025-09-12,Friday,11,30,E-0017,Completed
+BK-02574,AF-0319,Keyboard,2026-03-04,Wednesday,15,60,E-0018,Completed
+BK-02575,AF-0319,Keyboard,2026-05-25,Monday,11,30,E-0002,Completed
+BK-02576,AF-0319,Keyboard,2025-12-15,Monday,13,90,E-0042,Completed
+BK-02577,AF-0319,Keyboard,2026-03-23,Monday,15,60,E-0029,Completed
+BK-02578,AF-0319,Keyboard,2026-02-18,Wednesday,15,60,E-0027,Completed
+BK-02579,AF-0319,Keyboard,2026-01-13,Tuesday,11,30,E-0046,Completed
+BK-02580,AF-0319,Keyboard,2026-06-02,Tuesday,15,120,E-0003,Completed
+BK-02581,AF-0319,Keyboard,2026-05-18,Monday,15,60,E-0015,Completed
+BK-02582,AF-0319,Keyboard,2026-03-26,Thursday,11,60,E-0051,Completed
+BK-02583,AF-0319,Keyboard,2025-09-05,Friday,13,60,E-0034,Cancelled
+BK-02584,AF-0319,Keyboard,2026-02-05,Thursday,13,90,E-0030,Completed
+BK-02585,AF-0319,Keyboard,2025-12-12,Friday,15,30,E-0049,Completed
+BK-02586,AF-0319,Keyboard,2026-03-05,Thursday,13,120,E-0036,Completed
+BK-02587,AF-0319,Keyboard,2026-05-27,Wednesday,10,90,E-0055,Completed
+BK-02588,AF-0319,Keyboard,2026-04-08,Wednesday,15,30,E-0039,Cancelled
+BK-02589,AF-0319,Keyboard,2026-01-16,Friday,17,60,E-0023,Cancelled
+BK-02590,AF-0319,Keyboard,2025-10-18,Saturday,14,60,E-0008,Completed
+BK-02591,AF-0319,Keyboard,2026-02-19,Thursday,12,60,E-0052,Completed
+BK-02592,AF-0320,Forklift,2026-06-30,Tuesday,15,120,E-0042,Completed
+BK-02593,AF-0320,Forklift,2026-06-16,Tuesday,14,90,E-0006,Cancelled
+BK-02594,AF-0320,Forklift,2026-04-17,Friday,15,30,E-0015,Completed
+BK-02595,AF-0320,Forklift,2026-02-04,Wednesday,10,90,E-0056,Completed
+BK-02596,AF-0320,Forklift,2025-10-01,Wednesday,14,30,E-0031,Completed
+BK-02597,AF-0320,Forklift,2025-08-19,Tuesday,13,30,E-0042,Completed
+BK-02598,AF-0323,Sedan Car,2025-09-13,Saturday,16,60,E-0024,Completed
+BK-02599,AF-0323,Sedan Car,2026-04-26,Sunday,14,90,E-0015,Completed
+BK-02600,AF-0323,Sedan Car,2026-01-28,Wednesday,10,90,E-0016,Completed
+BK-02601,AF-0323,Sedan Car,2025-07-28,Monday,11,30,E-0015,Completed
+BK-02602,AF-0323,Sedan Car,2025-11-21,Friday,13,90,E-0057,Completed
+BK-02603,AF-0323,Sedan Car,2026-06-03,Wednesday,13,90,E-0036,Completed
+BK-02604,AF-0323,Sedan Car,2026-06-15,Monday,16,60,E-0054,Completed
+BK-02605,AF-0323,Sedan Car,2025-10-15,Wednesday,11,60,E-0016,Completed
+BK-02606,AF-0323,Sedan Car,2025-12-31,Wednesday,11,60,E-0059,Completed
+BK-02607,AF-0323,Sedan Car,2026-03-08,Sunday,11,30,E-0034,Completed
+BK-02608,AF-0327,Compressor,2026-07-06,Monday,15,30,E-0048,Cancelled
+BK-02609,AF-0327,Compressor,2026-01-06,Tuesday,10,90,E-0008,Completed
+BK-02610,AF-0327,Compressor,2025-11-20,Thursday,10,30,E-0027,Completed
+BK-02611,AF-0327,Compressor,2026-06-11,Thursday,10,60,E-0022,Completed
+BK-02612,AF-0327,Compressor,2026-01-01,Thursday,14,60,E-0044,Completed
+BK-02613,AF-0327,Compressor,2025-10-30,Thursday,13,90,E-0018,Completed
+BK-02614,AF-0327,Compressor,2025-08-12,Tuesday,13,90,E-0048,Completed
+BK-02615,AF-0327,Compressor,2026-04-29,Wednesday,15,60,E-0022,Completed
+BK-02616,AF-0327,Compressor,2026-02-12,Thursday,14,30,E-0056,Cancelled
+BK-02617,AF-0327,Compressor,2025-10-22,Wednesday,15,60,E-0033,Completed
+BK-02618,AF-0329,Meeting Table,2025-08-24,Sunday,11,30,E-0040,Completed
+BK-02619,AF-0329,Meeting Table,2025-08-27,Wednesday,9,120,E-0020,Cancelled
+BK-02620,AF-0329,Meeting Table,2026-03-21,Saturday,14,30,E-0047,Completed
+BK-02621,AF-0329,Meeting Table,2026-06-09,Tuesday,15,60,E-0030,Cancelled
+BK-02622,AF-0329,Meeting Table,2025-10-09,Thursday,11,60,E-0034,Completed
+BK-02623,AF-0329,Meeting Table,2025-11-03,Monday,9,60,E-0038,Completed
+BK-02624,AF-0329,Meeting Table,2025-10-23,Thursday,17,30,E-0038,Completed
+BK-02625,AF-0329,Meeting Table,2025-12-19,Friday,10,60,E-0040,Completed
+BK-02626,AF-0329,Meeting Table,2025-08-21,Thursday,14,30,E-0005,Completed
+BK-02627,AF-0329,Meeting Table,2026-03-02,Monday,11,60,E-0010,Completed
+BK-02628,AF-0329,Meeting Table,2025-11-14,Friday,14,120,E-0008,Completed
+BK-02629,AF-0329,Meeting Table,2026-05-15,Friday,13,120,E-0035,Completed
+BK-02630,AF-0330,Forklift,2025-07-29,Tuesday,14,30,E-0023,Completed
+BK-02631,AF-0330,Forklift,2025-12-11,Thursday,15,30,E-0007,Completed
+BK-02632,AF-0330,Forklift,2025-08-13,Wednesday,13,60,E-0031,Completed
+BK-02633,AF-0330,Forklift,2026-03-03,Tuesday,9,30,E-0039,Completed
+BK-02634,AF-0330,Forklift,2026-07-05,Sunday,15,30,E-0016,Completed
+BK-02635,AF-0330,Forklift,2026-01-24,Saturday,15,60,E-0012,Completed
+BK-02636,AF-0330,Forklift,2025-09-30,Tuesday,10,30,E-0033,Completed
+BK-02637,AF-0330,Forklift,2026-06-24,Wednesday,14,30,E-0038,Completed
+BK-02638,AF-0330,Forklift,2026-04-03,Friday,10,30,E-0034,Completed
+BK-02639,AF-0330,Forklift,2026-01-28,Wednesday,11,90,E-0029,Completed
+BK-02640,AF-0330,Forklift,2026-02-20,Friday,12,60,E-0047,Completed
+BK-02641,AF-0330,Forklift,2025-08-28,Thursday,10,90,E-0046,Completed
+BK-02642,AF-0330,Forklift,2025-10-28,Tuesday,15,60,E-0022,Completed
+BK-02643,AF-0330,Forklift,2026-06-11,Thursday,11,30,E-0010,Completed
+BK-02644,AF-0330,Forklift,2025-12-19,Friday,11,30,E-0005,Completed
+BK-02645,AF-0330,Forklift,2026-06-09,Tuesday,11,60,E-0040,Completed
+BK-02646,AF-0330,Forklift,2026-03-17,Tuesday,12,60,E-0037,Cancelled
+BK-02647,AF-0335,Pallet Jack,2025-08-19,Tuesday,10,90,E-0013,Completed
+BK-02648,AF-0335,Pallet Jack,2026-02-20,Friday,12,30,E-0015,Completed
+BK-02649,AF-0335,Pallet Jack,2026-06-10,Wednesday,15,120,E-0002,Completed
+BK-02650,AF-0335,Pallet Jack,2026-02-23,Monday,15,90,E-0052,Completed
+BK-02651,AF-0335,Pallet Jack,2025-08-12,Tuesday,10,90,E-0014,Completed
+BK-02652,AF-0335,Pallet Jack,2026-04-22,Wednesday,9,30,E-0041,Completed
+BK-02653,AF-0335,Pallet Jack,2026-02-06,Friday,14,60,E-0029,Completed
+BK-02654,AF-0335,Pallet Jack,2026-03-17,Tuesday,9,30,E-0031,Completed
+BK-02655,AF-0335,Pallet Jack,2025-11-20,Thursday,15,30,E-0011,Completed
+BK-02656,AF-0335,Pallet Jack,2025-09-11,Thursday,16,60,E-0015,Completed
+BK-02657,AF-0335,Pallet Jack,2025-09-18,Thursday,17,120,E-0044,Completed
+BK-02658,AF-0335,Pallet Jack,2026-02-04,Wednesday,11,90,E-0048,Completed
+BK-02659,AF-0335,Pallet Jack,2026-01-19,Monday,11,60,E-0050,Completed
+BK-02660,AF-0335,Pallet Jack,2026-01-20,Tuesday,10,30,E-0007,Completed
+BK-02661,AF-0335,Pallet Jack,2025-12-18,Thursday,10,60,E-0057,Completed
+BK-02662,AF-0335,Pallet Jack,2026-02-16,Monday,10,60,E-0039,Completed
+BK-02663,AF-0335,Pallet Jack,2025-10-09,Thursday,16,30,E-0007,Cancelled
+BK-02664,AF-0335,Pallet Jack,2025-09-05,Friday,10,60,E-0055,Completed
+BK-02665,AF-0335,Pallet Jack,2025-08-15,Friday,14,120,E-0017,Completed
+BK-02666,AF-0335,Pallet Jack,2025-11-12,Wednesday,14,60,E-0023,Completed
+BK-02667,AF-0335,Pallet Jack,2025-09-10,Wednesday,10,30,E-0004,Cancelled
+BK-02668,AF-0335,Pallet Jack,2026-05-14,Thursday,11,120,E-0035,Completed
+BK-02669,AF-0335,Pallet Jack,2025-09-04,Thursday,11,120,E-0043,Completed
+BK-02670,AF-0335,Pallet Jack,2025-12-12,Friday,13,30,E-0020,Completed
+BK-02671,AF-0335,Pallet Jack,2026-04-25,Saturday,14,120,E-0057,Completed
+BK-02672,AF-0335,Pallet Jack,2025-10-03,Friday,11,90,E-0052,Completed
+BK-02673,AF-0335,Pallet Jack,2025-10-09,Thursday,10,60,E-0017,Completed
+BK-02674,AF-0335,Pallet Jack,2026-02-12,Thursday,16,60,E-0037,Completed
+BK-02675,AF-0335,Pallet Jack,2026-07-09,Thursday,9,90,E-0005,Completed
+BK-02676,AF-0335,Pallet Jack,2025-10-10,Friday,15,60,E-0053,Completed
+BK-02677,AF-0335,Pallet Jack,2026-03-20,Friday,12,60,E-0056,Completed
+BK-02678,AF-0335,Pallet Jack,2025-11-20,Thursday,17,90,E-0025,Completed
+BK-02679,AF-0335,Pallet Jack,2026-03-04,Wednesday,11,60,E-0030,Completed
+BK-02680,AF-0336,Sedan Car,2025-09-09,Tuesday,11,90,E-0057,Completed
+BK-02681,AF-0336,Sedan Car,2026-06-03,Wednesday,14,60,E-0041,Completed
+BK-02682,AF-0336,Sedan Car,2025-09-30,Tuesday,10,60,E-0015,Completed
+BK-02683,AF-0336,Sedan Car,2025-10-01,Wednesday,16,60,E-0020,Completed
+BK-02684,AF-0336,Sedan Car,2025-12-31,Wednesday,15,60,E-0010,Completed
+BK-02685,AF-0336,Sedan Car,2026-02-04,Wednesday,14,30,E-0005,Completed
+BK-02686,AF-0336,Sedan Car,2025-11-26,Wednesday,11,30,E-0027,Completed
+BK-02687,AF-0336,Sedan Car,2026-03-16,Monday,14,60,E-0036,Completed
+BK-02688,AF-0336,Sedan Car,2026-01-20,Tuesday,10,30,E-0015,Cancelled
+BK-02689,AF-0336,Sedan Car,2025-12-03,Wednesday,14,120,E-0030,Completed
+BK-02690,AF-0336,Sedan Car,2025-12-09,Tuesday,10,60,E-0045,Cancelled
+BK-02691,AF-0336,Sedan Car,2026-05-07,Thursday,15,30,E-0039,Completed
+BK-02692,AF-0336,Sedan Car,2026-07-08,Wednesday,11,60,E-0006,Completed
+BK-02693,AF-0336,Sedan Car,2026-02-17,Tuesday,12,30,E-0053,Completed
+BK-02694,AF-0336,Sedan Car,2025-11-18,Tuesday,16,30,E-0034,Completed
+BK-02695,AF-0336,Sedan Car,2026-03-06,Friday,13,120,E-0028,Completed
+BK-02696,AF-0336,Sedan Car,2026-02-09,Monday,11,30,E-0006,Cancelled
+BK-02697,AF-0336,Sedan Car,2026-02-20,Friday,15,60,E-0003,Completed
+BK-02698,AF-0336,Sedan Car,2026-06-10,Wednesday,14,30,E-0050,Completed
+BK-02699,AF-0336,Sedan Car,2025-08-13,Wednesday,15,120,E-0011,Completed
+BK-02700,AF-0336,Sedan Car,2025-10-21,Tuesday,10,30,E-0048,Completed
+BK-02701,AF-0336,Sedan Car,2025-10-08,Wednesday,10,30,E-0035,Completed
+BK-02702,AF-0336,Sedan Car,2026-02-06,Friday,10,60,E-0015,Completed
+BK-02703,AF-0336,Sedan Car,2026-05-21,Thursday,14,30,E-0018,Completed
+BK-02704,AF-0336,Sedan Car,2025-10-22,Wednesday,11,30,E-0006,Completed
+BK-02705,AF-0336,Sedan Car,2025-08-18,Monday,13,90,E-0052,Completed
+BK-02706,AF-0336,Sedan Car,2026-07-08,Wednesday,17,30,E-0059,Completed
+BK-02707,AF-0336,Sedan Car,2026-03-26,Thursday,16,60,E-0016,Completed
+BK-02708,AF-0336,Sedan Car,2026-01-07,Wednesday,11,60,E-0001,Completed
+BK-02709,AF-0336,Sedan Car,2025-08-21,Thursday,12,60,E-0055,Completed
+BK-02710,AF-0337,Generator,2025-09-04,Thursday,16,30,E-0003,Completed
+BK-02711,AF-0337,Generator,2026-05-25,Monday,10,30,E-0034,Completed
+BK-02712,AF-0337,Generator,2025-11-12,Wednesday,12,60,E-0001,Completed
+BK-02713,AF-0337,Generator,2026-03-18,Wednesday,9,90,E-0003,Completed
+BK-02714,AF-0337,Generator,2025-10-06,Monday,11,60,E-0020,Completed
+BK-02715,AF-0337,Generator,2026-01-23,Friday,10,60,E-0040,Completed
+BK-02716,AF-0337,Generator,2026-04-02,Thursday,12,30,E-0037,Completed
+BK-02717,AF-0337,Generator,2025-10-27,Monday,10,30,E-0036,Completed
+BK-02718,AF-0337,Generator,2025-11-17,Monday,10,90,E-0010,Completed
+BK-02719,AF-0337,Generator,2026-06-03,Wednesday,10,30,E-0019,Completed
+BK-02720,AF-0337,Generator,2025-10-21,Tuesday,15,120,E-0029,Cancelled
+BK-02721,AF-0337,Generator,2026-03-30,Monday,13,60,E-0011,Completed
+BK-02722,AF-0337,Generator,2025-09-18,Thursday,17,30,E-0060,Completed
+BK-02723,AF-0337,Generator,2025-11-12,Wednesday,15,60,E-0024,Completed
+BK-02724,AF-0337,Generator,2026-01-28,Wednesday,14,60,E-0005,Completed
+BK-02725,AF-0337,Generator,2025-08-19,Tuesday,11,30,E-0030,Completed
+BK-02726,AF-0337,Generator,2026-06-13,Saturday,16,60,E-0054,Completed
+BK-02727,AF-0337,Generator,2026-03-23,Monday,11,90,E-0008,Completed
+BK-02728,AF-0337,Generator,2026-01-20,Tuesday,13,30,E-0053,Completed
+BK-02729,AF-0337,Generator,2026-02-13,Friday,11,60,E-0050,Completed
+BK-02730,AF-0337,Generator,2025-10-16,Thursday,14,90,E-0011,Completed
+BK-02731,AF-0337,Generator,2025-11-19,Wednesday,15,60,E-0029,Completed
+BK-02732,AF-0337,Generator,2026-02-17,Tuesday,11,60,E-0040,Completed
+BK-02733,AF-0337,Generator,2025-08-06,Wednesday,10,60,E-0013,Completed
+BK-02734,AF-0337,Generator,2025-10-23,Thursday,15,30,E-0008,Completed
+BK-02735,AF-0337,Generator,2026-01-19,Monday,15,30,E-0056,Cancelled
+BK-02736,AF-0337,Generator,2025-08-05,Tuesday,10,90,E-0010,Completed
+BK-02737,AF-0337,Generator,2026-06-08,Monday,11,60,E-0054,Cancelled
+BK-02738,AF-0337,Generator,2025-08-01,Friday,14,60,E-0004,Completed
+BK-02739,AF-0337,Generator,2026-03-10,Tuesday,15,30,E-0045,Completed
+BK-02740,AF-0337,Generator,2026-04-24,Friday,11,60,E-0054,Completed
+BK-02741,AF-0337,Generator,2026-06-08,Monday,14,30,E-0032,Completed
+BK-02742,AF-0337,Generator,2025-12-19,Friday,9,60,E-0059,Completed
+BK-02743,AF-0342,Forklift,2025-12-17,Wednesday,14,60,E-0014,Completed
+BK-02744,AF-0342,Forklift,2026-03-13,Friday,9,90,E-0051,Completed
+BK-02745,AF-0342,Forklift,2025-11-20,Thursday,12,120,E-0058,Completed
+BK-02746,AF-0342,Forklift,2025-12-05,Friday,12,30,E-0050,Cancelled
+BK-02747,AF-0342,Forklift,2026-07-02,Thursday,11,120,E-0039,Completed
+BK-02748,AF-0342,Forklift,2026-02-25,Wednesday,14,120,E-0019,Completed
+BK-02749,AF-0342,Forklift,2026-02-03,Tuesday,13,60,E-0051,Completed
+BK-02750,AF-0342,Forklift,2025-12-12,Friday,14,60,E-0035,Completed
+BK-02751,AF-0342,Forklift,2026-04-24,Friday,14,90,E-0009,Completed
+BK-02752,AF-0342,Forklift,2025-11-21,Friday,11,60,E-0035,Completed
+BK-02753,AF-0342,Forklift,2025-10-29,Wednesday,10,30,E-0034,Completed
+BK-02754,AF-0342,Forklift,2025-11-07,Friday,15,30,E-0032,Completed
+BK-02755,AF-0342,Forklift,2025-10-30,Thursday,11,30,E-0056,Completed
+BK-02756,AF-0342,Forklift,2025-11-11,Tuesday,15,60,E-0052,Completed
+BK-02757,AF-0342,Forklift,2026-04-07,Tuesday,9,30,E-0018,Cancelled
+BK-02758,AF-0342,Forklift,2026-01-15,Thursday,10,60,E-0035,Completed
+BK-02759,AF-0342,Forklift,2025-09-10,Wednesday,13,60,E-0015,Completed
+BK-02760,AF-0342,Forklift,2025-07-14,Monday,11,60,E-0057,Completed
+BK-02761,AF-0342,Forklift,2026-04-24,Friday,11,90,E-0045,Cancelled
+BK-02762,AF-0342,Forklift,2025-10-08,Wednesday,11,60,E-0050,Cancelled
+BK-02763,AF-0342,Forklift,2026-07-10,Friday,16,60,E-0005,Completed
+BK-02764,AF-0342,Forklift,2025-07-24,Thursday,9,60,E-0043,Cancelled
+BK-02765,AF-0342,Forklift,2025-11-19,Wednesday,10,120,E-0054,Completed
+BK-02766,AF-0342,Forklift,2025-08-22,Friday,11,60,E-0035,Completed
+BK-02767,AF-0346,Pallet Jack,2025-10-03,Friday,15,120,E-0031,Completed
+BK-02768,AF-0346,Pallet Jack,2025-12-19,Friday,15,60,E-0055,Completed
+BK-02769,AF-0346,Pallet Jack,2025-12-18,Thursday,12,30,E-0057,Completed
+BK-02770,AF-0346,Pallet Jack,2025-08-08,Friday,17,30,E-0041,Completed
+BK-02771,AF-0346,Pallet Jack,2025-08-14,Thursday,10,90,E-0057,Completed
+BK-02772,AF-0346,Pallet Jack,2025-08-13,Wednesday,11,90,E-0010,Completed
+BK-02773,AF-0346,Pallet Jack,2026-07-07,Tuesday,13,60,E-0017,Completed
+BK-02774,AF-0346,Pallet Jack,2025-09-17,Wednesday,11,60,E-0049,Completed
+BK-02775,AF-0346,Pallet Jack,2026-04-08,Wednesday,10,90,E-0030,Completed
+BK-02776,AF-0346,Pallet Jack,2026-03-16,Monday,12,60,E-0047,Completed
+BK-02777,AF-0346,Pallet Jack,2026-04-06,Monday,10,60,E-0035,Completed
+BK-02778,AF-0346,Pallet Jack,2025-10-19,Sunday,15,90,E-0051,Completed
+BK-02779,AF-0346,Pallet Jack,2026-04-13,Monday,12,60,E-0015,Completed
+BK-02780,AF-0346,Pallet Jack,2026-07-01,Wednesday,17,120,E-0037,Cancelled
+BK-02781,AF-0346,Pallet Jack,2025-07-24,Thursday,10,90,E-0031,Completed
+BK-02782,AF-0346,Pallet Jack,2026-03-03,Tuesday,10,30,E-0026,Completed
+BK-02783,AF-0346,Pallet Jack,2025-11-24,Monday,11,30,E-0010,Completed
+BK-02784,AF-0346,Pallet Jack,2025-12-03,Wednesday,13,30,E-0044,Completed
+BK-02785,AF-0346,Pallet Jack,2025-10-29,Wednesday,16,30,E-0001,Completed
+BK-02786,AF-0346,Pallet Jack,2025-08-15,Friday,13,90,E-0039,Completed
+BK-02787,AF-0346,Pallet Jack,2026-02-12,Thursday,14,30,E-0021,Completed
+BK-02788,AF-0346,Pallet Jack,2026-03-09,Monday,13,30,E-0011,Completed
+BK-02789,AF-0346,Pallet Jack,2026-04-03,Friday,12,90,E-0011,Completed
