@@ -1,9 +1,0 @@
-department_id,department_name,parent_department,head,status
-D-001,Engineering,,Allison Hill,Active
-D-002,Facilities,,Noah Rhodes,Active
-D-003,Field Ops (East),Facilities,Angie Henderson,Active
-D-004,IT,,Daniel Wagner,Active
-D-005,HR,,Cristian Santos,Active
-D-006,Finance,,Connie Lawrence,Active
-D-007,Procurement,,Abigail Shaffer,Active
-D-008,Warehouse Ops,Facilities,Gina Moore,Inactive
