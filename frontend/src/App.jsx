@@ -3,12 +3,12 @@ import Login from './pages/Login'
 import Signup from './pages/Signup'
 import Dashboard from './pages/Dashboard'
 import Notifications from './pages/Notifications'
+import Assets from './pages/Assets'
 import ComingSoon from './pages/ComingSoon'
 import ProtectedRoute from './components/ProtectedRoute'
 
 const comingSoonRoutes = [
   { path: '/organization-setup', title: 'Organization Setup' },
-  { path: '/assets', title: 'Assets' },
   { path: '/allocation-transfer', title: 'Allocation & Transfer' },
   { path: '/resource-booking', title: 'Resource Booking' },
   { path: '/maintenance', title: 'Maintenance' },
@@ -34,6 +34,14 @@ function App() {
         element={
           <ProtectedRoute>
             <Notifications />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/assets"
+        element={
+          <ProtectedRoute>
+            <Assets />
           </ProtectedRoute>
         }
       />

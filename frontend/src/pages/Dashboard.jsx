@@ -1,4 +1,10 @@
+import { useEffect, useState } from 'react'
 import DashboardLayout from '../components/dashboard/DashboardLayout'
+import RegisterAssetModal from '../components/assets/RegisterAssetModal'
+import { useAuth } from '../context/AuthContext'
+import { getDashboardStats } from '../api/dashboard'
+import { listAssetCategories } from '../api/assets'
+import { ApiError } from '../api/client'
 import {
   Plus,
   CheckCircle2,
@@ -17,46 +23,47 @@ import {
   DoorClosed,
   Wrench,
   UserPlus,
+  Package,
 } from 'lucide-react'
 
-const primaryStats = [
+const primaryStatConfig = [
   {
+    key: 'availableAssets',
     icon: CheckCircle2,
     iconBg: 'bg-blue-100 dark:bg-blue-950/60',
     iconColor: 'text-blue-700 dark:text-blue-400',
-    badge: '+12% from last week',
+    badge: 'Ready to allocate',
     badgeColor: 'text-emerald-600 dark:text-emerald-400',
-    value: 128,
     label: 'AVAILABLE ASSETS',
   },
   {
+    key: 'allocatedAssets',
     icon: User,
     iconBg: 'bg-blue-50 dark:bg-blue-950/40',
     iconColor: 'text-blue-500 dark:text-blue-400',
     badge: 'In active use',
     badgeColor: 'text-slate-500 dark:text-slate-400',
-    value: 76,
     label: 'ALLOCATED ASSETS',
   },
   {
+    key: 'readyForDeployment',
     icon: Hourglass,
     iconBg: 'bg-orange-100 dark:bg-orange-950/50',
     iconColor: 'text-orange-500 dark:text-orange-400',
     badge: 'Awaiting setup',
     badgeColor: 'text-slate-500 dark:text-slate-400',
-    value: 4,
     label: 'READY FOR DEPLOYMENT',
   },
 ]
 
-const secondaryStats = [
-  { icon: Bookmark, label: 'ACTIVE BOOKINGS', value: 4 },
-  { icon: ArrowLeftRight, label: 'PENDING TRANSFERS', value: 3 },
-  { icon: Undo2, label: 'UPCOMING RETURNS', value: 12 },
+const secondaryStatConfig = [
+  { key: 'activeBookings', icon: Bookmark, label: 'ACTIVE BOOKINGS' },
+  { key: 'pendingTransfers', icon: ArrowLeftRight, label: 'PENDING TRANSFERS' },
+  { key: 'upcomingReturns', icon: Undo2, label: 'UPCOMING RETURNS' },
   {
+    key: 'assetsAtRisk',
     icon: ShieldAlert,
     label: 'ASSETS AT RISK',
-    value: 5,
     iconColor: 'text-amber-600 dark:text-amber-400',
     bg: 'bg-amber-50 dark:bg-amber-950/40',
   },
@@ -68,64 +75,61 @@ const quickActions = [
   { icon: ClipboardCheck, label: 'Batch Audit' },
 ]
 
-const activity = [
-  {
-    icon: Laptop,
-    iconBg: 'bg-blue-100 dark:bg-blue-950/60',
-    iconColor: 'text-blue-600 dark:text-blue-400',
-    content: (
-      <>
-        <span className="font-semibold text-slate-900 dark:text-slate-100">Laptop AF-0114</span> was
-        allocated to{' '}
-        <span className="font-semibold text-blue-700 dark:text-blue-400">Priya Shah</span>{' '}
-        <span className="text-slate-500 dark:text-slate-400">(Engineering dept)</span>
-      </>
-    ),
-    time: '2 minutes ago',
-    place: 'Bangalore Office',
-  },
-  {
-    icon: DoorClosed,
-    iconBg: 'bg-orange-100 dark:bg-orange-950/50',
-    iconColor: 'text-orange-600 dark:text-orange-400',
-    content: (
-      <>
-        <span className="font-semibold text-slate-900 dark:text-slate-100">Room B2</span> booking
-        confirmed: 2:00 PM to 3:00 PM
-      </>
-    ),
-    time: '45 minutes ago',
-    place: 'Conference Center',
-  },
-  {
-    icon: Wrench,
-    iconBg: 'bg-emerald-100 dark:bg-emerald-950/50',
-    iconColor: 'text-emerald-600 dark:text-emerald-400',
-    content: (
-      <>
-        <span className="font-semibold text-slate-900 dark:text-slate-100">Projector AF-0062</span>{' '}
-        maintenance resolved
-      </>
-    ),
-    time: '2 hours ago',
-    place: 'HQ Floor 2',
-  },
-  {
-    icon: UserPlus,
-    iconBg: 'bg-blue-700 dark:bg-blue-600',
-    iconColor: 'text-white',
-    content: (
-      <>
-        <span className="font-semibold text-slate-900 dark:text-slate-100">New Employee</span>{' '}
-        onboarding: John Doe added to Engineering
-      </>
-    ),
-    time: '5 hours ago',
-    place: 'System Admin',
-  },
-]
+const activityIconByType = {
+  asset: { icon: Laptop, iconBg: 'bg-blue-100 dark:bg-blue-950/60', iconColor: 'text-blue-600 dark:text-blue-400' },
+  booking: { icon: DoorClosed, iconBg: 'bg-orange-100 dark:bg-orange-950/50', iconColor: 'text-orange-600 dark:text-orange-400' },
+  maintenance: { icon: Wrench, iconBg: 'bg-emerald-100 dark:bg-emerald-950/50', iconColor: 'text-emerald-600 dark:text-emerald-400' },
+  admin: { icon: UserPlus, iconBg: 'bg-blue-700 dark:bg-blue-600', iconColor: 'text-white' },
+}
+const defaultActivityIcon = { icon: Package, iconBg: 'bg-slate-100 dark:bg-slate-800', iconColor: 'text-slate-500 dark:text-slate-400' }
+
+function formatRelativeTime(isoString) {
+  const diffMs = Date.now() - new Date(isoString).getTime()
+  const minutes = Math.floor(diffMs / 60000)
+  if (minutes < 1) return 'Just now'
+  if (minutes < 60) return `${minutes} minute${minutes === 1 ? '' : 's'} ago`
+  const hours = Math.floor(minutes / 60)
+  if (hours < 24) return `${hours} hour${hours === 1 ? '' : 's'} ago`
+  const days = Math.floor(hours / 24)
+  return `${days} day${days === 1 ? '' : 's'} ago`
+}
 
 export default function Dashboard() {
+  const { token } = useAuth()
+  const [stats, setStats] = useState(null)
+  const [loading, setLoading] = useState(true)
+  const [error, setError] = useState(null)
+  const [categories, setCategories] = useState([])
+  const [categoriesError, setCategoriesError] = useState(null)
+  const [showModal, setShowModal] = useState(false)
+
+  const loadStats = () => {
+    setLoading(true)
+    setError(null)
+    getDashboardStats(token)
+      .then(setStats)
+      .catch((err) => setError(err instanceof ApiError ? err.message : 'Failed to load dashboard data.'))
+      .finally(() => setLoading(false))
+  }
+
+  const loadCategories = () => {
+    setCategoriesError(null)
+    listAssetCategories(token)
+      .then((data) => setCategories(data.categories))
+      .catch((err) => setCategoriesError(err instanceof ApiError ? err.message : 'Failed to load categories.'))
+  }
+
+  useEffect(loadStats, [token])
+  useEffect(loadCategories, [token])
+
+  const kpis = stats?.kpis ?? {}
+  const activity = stats?.recentActivity ?? []
+
+  const handleAssetCreated = () => {
+    setShowModal(false)
+    loadStats()
+  }
+
   return (
     <DashboardLayout>
       <div className="flex items-start justify-between gap-4">
@@ -137,6 +141,7 @@ export default function Dashboard() {
         </div>
         <button
           type="button"
+          onClick={() => setShowModal(true)}
           className="flex shrink-0 items-center gap-2 rounded-lg bg-blue-700 px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-blue-800 dark:bg-blue-600 dark:hover:bg-blue-500"
         >
           <Plus size={16} />
@@ -144,10 +149,19 @@ export default function Dashboard() {
         </button>
       </div>
 
+      {error && (
+        <div className="mt-6 flex items-center justify-between rounded-2xl border border-red-200 bg-red-50 px-5 py-4 text-sm text-red-700 dark:border-red-900/60 dark:bg-red-950/40 dark:text-red-400">
+          {error}
+          <button type="button" onClick={loadStats} className="font-semibold underline">
+            Retry
+          </button>
+        </div>
+      )}
+
       <div className="mt-6 grid grid-cols-1 gap-5 md:grid-cols-3">
-        {primaryStats.map((stat) => (
+        {primaryStatConfig.map((stat) => (
           <div
-            key={stat.label}
+            key={stat.key}
             className="rounded-2xl border border-slate-200 bg-white p-6 dark:border-slate-800 dark:bg-slate-900"
           >
             <div className="flex items-start justify-between">
@@ -156,7 +170,9 @@ export default function Dashboard() {
               </div>
               <span className={`text-sm font-medium ${stat.badgeColor}`}>{stat.badge}</span>
             </div>
-            <p className="mt-5 text-4xl font-bold text-slate-900 dark:text-slate-100">{stat.value}</p>
+            <p className="mt-5 text-4xl font-bold text-slate-900 dark:text-slate-100">
+              {loading ? '—' : kpis[stat.key] ?? 0}
+            </p>
             <p className="mt-1 text-xs font-semibold tracking-wide text-slate-400 dark:text-slate-500">
               {stat.label}
             </p>
@@ -165,9 +181,9 @@ export default function Dashboard() {
       </div>
 
       <div className="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-5">
-        {secondaryStats.map((stat) => (
+        {secondaryStatConfig.map((stat) => (
           <div
-            key={stat.label}
+            key={stat.key}
             className={`rounded-2xl border border-slate-200 p-5 dark:border-slate-800 ${
               stat.bg ?? 'bg-indigo-50/60 dark:bg-slate-900'
             }`}
@@ -176,7 +192,9 @@ export default function Dashboard() {
               <stat.icon size={16} />
               <span className="text-xs font-semibold tracking-wide">{stat.label}</span>
             </div>
-            <p className="mt-3 text-3xl font-bold text-slate-900 dark:text-slate-100">{stat.value}</p>
+            <p className="mt-3 text-3xl font-bold text-slate-900 dark:text-slate-100">
+              {loading ? '—' : kpis[stat.key] ?? 0}
+            </p>
           </div>
         ))}
 
@@ -186,7 +204,7 @@ export default function Dashboard() {
             <span className="text-xs font-semibold tracking-wide">URGENT ACTION</span>
           </div>
           <p className="mt-3 text-lg font-semibold leading-snug text-red-700 dark:text-red-400">
-            3 assets overdue for return
+            {loading ? '—' : `${kpis.overdueReturns ?? 0} assets overdue for return`}
           </p>
         </div>
       </div>
@@ -229,22 +247,44 @@ export default function Dashboard() {
           </div>
 
           <ul className="mt-2 divide-y divide-slate-100 dark:divide-slate-800">
-            {activity.map((item, index) => (
-              <li key={index} className="flex items-start gap-4 py-4">
-                <div className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-full ${item.iconBg}`}>
-                  <item.icon size={18} className={item.iconColor} />
-                </div>
-                <div>
-                  <p className="text-sm leading-relaxed text-slate-700 dark:text-slate-300">{item.content}</p>
-                  <p className="mt-1 text-xs text-slate-400 dark:text-slate-500">
-                    {item.time} &bull; {item.place}
-                  </p>
-                </div>
-              </li>
-            ))}
+            {loading && (
+              <li className="py-10 text-center text-sm text-slate-400 dark:text-slate-500">Loading activity…</li>
+            )}
+            {!loading && activity.length === 0 && (
+              <li className="py-10 text-center text-sm text-slate-400 dark:text-slate-500">No recent activity yet.</li>
+            )}
+            {!loading && activity.map((item) => {
+              const { icon: Icon, iconBg, iconColor } = activityIconByType[item.details?.type] ?? defaultActivityIcon
+              return (
+                <li key={item.id} className="flex items-start gap-4 py-4">
+                  <div className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-full ${iconBg}`}>
+                    <Icon size={18} className={iconColor} />
+                  </div>
+                  <div>
+                    <p className="text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                      {item.details?.message ?? item.action}
+                    </p>
+                    <p className="mt-1 text-xs text-slate-400 dark:text-slate-500">
+                      {formatRelativeTime(item.createdAt)}
+                      {item.details?.location ? ` • ${item.details.location}` : ''}
+                    </p>
+                  </div>
+                </li>
+              )
+            })}
           </ul>
         </div>
       </div>
+
+      {showModal && (
+        <RegisterAssetModal
+          categories={categories}
+          categoriesError={categoriesError}
+          onRetryCategories={loadCategories}
+          onClose={() => setShowModal(false)}
+          onCreated={handleAssetCreated}
+        />
+      )}
     </DashboardLayout>
   )
 }

@@ -1,5 +1,6 @@
 import { createContext, useContext, useEffect, useState } from 'react'
 import * as authApi from '../api/auth'
+import { ApiError } from '../api/client'
 
 const AuthContext = createContext(null)
 const TOKEN_KEY = 'assetflow-token'
@@ -17,9 +18,15 @@ export function AuthProvider({ children }) {
     authApi
       .getMe(token)
       .then((data) => setUser(data?.user ?? data))
-      .catch(() => {
-        setToken(null)
-        window.localStorage.removeItem(TOKEN_KEY)
+      .catch((err) => {
+        // Only a genuine auth rejection (401/403) should end the session.
+        // Transient network errors (e.g. a dev-server reload aborting the
+        // request) must not silently log the user out.
+        const isAuthRejection = err instanceof ApiError && (err.status === 401 || err.status === 403)
+        if (isAuthRejection) {
+          setToken(null)
+          window.localStorage.removeItem(TOKEN_KEY)
+        }
       })
       .finally(() => setLoading(false))
   }, [token])
