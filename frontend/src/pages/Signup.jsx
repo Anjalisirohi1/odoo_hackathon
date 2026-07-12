@@ -69,8 +69,8 @@ export default function Signup() {
     <AuthLayout>
       <form onSubmit={handleSubmit} noValidate className="p-8 pb-6 flex flex-col gap-5">
         <div>
-          <h2 className="text-2xl font-bold text-slate-900">Create your account</h2>
-          <p className="mt-1 text-sm text-slate-500">Set up employee access to AssetFlow</p>
+          <h2 className="text-2xl font-bold text-slate-900 dark:text-slate-100">Create your account</h2>
+          <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">Set up employee access to AssetFlow</p>
         </div>
 
         <FormField
@@ -118,7 +118,7 @@ export default function Signup() {
               <button
                 type="button"
                 onClick={() => setShowPassword((prev) => !prev)}
-                className="text-slate-400 hover:text-slate-600 transition-colors"
+                className="text-slate-400 hover:text-slate-600 transition-colors dark:text-slate-500 dark:hover:text-slate-300"
                 aria-label={showPassword ? 'Hide password' : 'Show password'}
                 tabIndex={-1}
               >
@@ -133,7 +133,9 @@ export default function Signup() {
                 return (
                   <li
                     key={rule.key}
-                    className={`flex items-center gap-1.5 text-xs ${met ? 'text-emerald-600' : 'text-slate-400'}`}
+                    className={`flex items-center gap-1.5 text-xs ${
+                      met ? 'text-emerald-600 dark:text-emerald-400' : 'text-slate-400 dark:text-slate-500'
+                    }`}
                   >
                     {met ? <Check size={13} /> : <X size={13} />}
                     {rule.label}
@@ -159,7 +161,7 @@ export default function Signup() {
             <button
               type="button"
               onClick={() => setShowConfirmPassword((prev) => !prev)}
-              className="text-slate-400 hover:text-slate-600 transition-colors"
+              className="text-slate-400 hover:text-slate-600 transition-colors dark:text-slate-500 dark:hover:text-slate-300"
               aria-label={showConfirmPassword ? 'Hide password' : 'Show password'}
               tabIndex={-1}
             >
@@ -168,9 +170,9 @@ export default function Signup() {
           }
         />
 
-        <div className="flex items-start gap-3 rounded-lg border border-blue-200 bg-blue-50 px-4 py-3">
-          <Info size={18} className="mt-0.5 shrink-0 text-blue-700" />
-          <p className="text-sm text-slate-700">
+        <div className="flex items-start gap-3 rounded-lg border border-blue-200 bg-blue-50 px-4 py-3 dark:border-blue-900/60 dark:bg-blue-950/40">
+          <Info size={18} className="mt-0.5 shrink-0 text-blue-700 dark:text-blue-400" />
+          <p className="text-sm text-slate-700 dark:text-slate-300">
             Sign up creates an employee account. Admin roles are assigned later by your department lead.
           </p>
         </div>
@@ -178,7 +180,7 @@ export default function Signup() {
         <button
           type="submit"
           disabled={submitting}
-          className="group mt-1 flex w-full items-center justify-center gap-2 rounded-lg bg-blue-700 py-3 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-blue-800 disabled:opacity-60"
+          className="group mt-1 flex w-full items-center justify-center gap-2 rounded-lg bg-blue-700 py-3 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-blue-800 disabled:opacity-60 dark:bg-blue-600 dark:hover:bg-blue-500"
         >
           {submitting ? 'Creating account…' : 'Create Account'}
           {!submitting && (
@@ -188,19 +190,19 @@ export default function Signup() {
       </form>
 
       <div className="relative px-8">
-        <div className="border-t border-slate-200" />
-        <span className="absolute -top-2.5 left-1/2 -translate-x-1/2 bg-white px-3 text-xs font-medium text-slate-400">
+        <div className="border-t border-slate-200 dark:border-slate-800" />
+        <span className="absolute -top-2.5 left-1/2 -translate-x-1/2 bg-white px-3 text-xs font-medium text-slate-400 dark:bg-slate-900 dark:text-slate-500">
           or
         </span>
       </div>
 
-      <div className="bg-blue-50/60 px-8 pt-6 pb-8 text-center">
-        <h3 className="text-lg font-bold text-slate-900">Already have an account?</h3>
-        <p className="mt-1 text-sm text-slate-500">Sign in to access your enterprise dashboard.</p>
+      <div className="bg-blue-50/60 px-8 pt-6 pb-8 text-center dark:bg-blue-950/20">
+        <h3 className="text-lg font-bold text-slate-900 dark:text-slate-100">Already have an account?</h3>
+        <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">Sign in to access your enterprise dashboard.</p>
 
         <Link
           to="/login"
-          className="mt-4 flex w-full items-center justify-center rounded-lg border border-slate-300 bg-white py-3 text-sm font-semibold text-slate-800 shadow-sm transition-colors hover:bg-slate-50"
+          className="mt-4 flex w-full items-center justify-center rounded-lg border border-slate-300 bg-white py-3 text-sm font-semibold text-slate-800 shadow-sm transition-colors hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200 dark:hover:bg-slate-700"
         >
           Sign In
         </Link>
