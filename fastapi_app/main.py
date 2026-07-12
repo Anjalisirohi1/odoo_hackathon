@@ -15,8 +15,8 @@ BASE_DIR = Path(__file__).parent
 PROJECT_ROOT = BASE_DIR.parent
 
 MODELS_DIR = BASE_DIR / "models"
-DATA_DIR = PROJECT_ROOT / "real_data"
-OUTPUT_DIR = PROJECT_ROOT / "real_model_outputs"
+DATA_DIR = PROJECT_ROOT / "ML" / "real_data"
+OUTPUT_DIR = PROJECT_ROOT / "ML" / "real_model_outputs"
 
 app = FastAPI(
     title="AssetFlow Screen 9 ML API",

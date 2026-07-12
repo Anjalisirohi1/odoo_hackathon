@@ -6,6 +6,8 @@ import assetsRoutes from './routes/assets.route.js';
 import bookingRoutes from './routes/booking.route.js';
 import transferRoutes from './routes/transfer.route.js';
 import allocationRoutes from './routes/allocation.route.js';
+import analyticsRoutes from './routes/analytics.route.js';
+import maintenanceRoutes from './routes/maintenance.route.js';
 
 
 const app = express();
@@ -19,6 +21,8 @@ app.use('/api/assets', assetsRoutes);
 app.use('/api/bookings', bookingRoutes);
 app.use('/api/transfers', transferRoutes);
 app.use('/api/allocations', allocationRoutes);
+app.use('/api/analytics', analyticsRoutes);
+app.use('/api/maintenance', maintenanceRoutes);
 
 app.get('/health', (req, res) => {
     res.status(200).json({ status: 'OK', timestamp: new Date() });

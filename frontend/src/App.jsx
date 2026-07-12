@@ -8,13 +8,11 @@ import OrganizationSetup from './pages/OrganizationSetup'
 import ResourceBooking from './pages/ResourceBooking'
 import Reports from './pages/Reports'
 import AllocationTransfer from './pages/AllocationTransfer'
+import Maintenance from './pages/Maintenance'
 import ComingSoon from './pages/ComingSoon'
 import ProtectedRoute from './components/ProtectedRoute'
 
-const comingSoonRoutes = [
-  { path: '/maintenance', title: 'Maintenance' },
-  { path: '/audit', title: 'Audit' },
-]
+const comingSoonRoutes = [{ path: '/audit', title: 'Audit' }]
 
 function App() {
   return (
@@ -74,6 +72,14 @@ function App() {
         element={
           <ProtectedRoute>
             <AllocationTransfer />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/maintenance"
+        element={
+          <ProtectedRoute>
+            <Maintenance />
           </ProtectedRoute>
         }
       />
