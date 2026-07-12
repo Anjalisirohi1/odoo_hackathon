@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "\"Backend for odoo hackathon\"",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Asset",
+    "management"
+  ],
+  "author": "Shreya Singh",
+  "license": "ISC"
+}
