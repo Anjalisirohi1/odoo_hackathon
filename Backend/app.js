@@ -3,6 +3,7 @@ import cors from 'cors';
 import authRoutes from './routes/auth.route.js';
 import dashboardRoutes from './routes/dashboard.route.js';
 import assetsRoutes from './routes/assets.route.js';
+import bookingRoutes from './routes/booking.route.js';
 
 
 const app = express();
@@ -13,6 +14,7 @@ app.use(express.json());
 app.use('/api/auth', authRoutes);
 app.use('/api/dashboard', dashboardRoutes);
 app.use('/api/assets', assetsRoutes);
+app.use('/api/bookings', bookingRoutes);
 
 app.get('/health', (req, res) => {
     res.status(200).json({ status: 'OK', timestamp: new Date() });

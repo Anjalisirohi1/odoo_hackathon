@@ -5,15 +5,15 @@ import Dashboard from './pages/Dashboard'
 import Notifications from './pages/Notifications'
 import Assets from './pages/Assets'
 import OrganizationSetup from './pages/OrganizationSetup'
+import ResourceBooking from './pages/ResourceBooking'
+import Reports from './pages/Reports'
 import ComingSoon from './pages/ComingSoon'
 import ProtectedRoute from './components/ProtectedRoute'
 
 const comingSoonRoutes = [
   { path: '/allocation-transfer', title: 'Allocation & Transfer' },
-  { path: '/resource-booking', title: 'Resource Booking' },
   { path: '/maintenance', title: 'Maintenance' },
   { path: '/audit', title: 'Audit' },
-  { path: '/reports', title: 'Reports' },
 ]
 
 function App() {
@@ -50,6 +50,22 @@ function App() {
         element={
           <ProtectedRoute>
             <OrganizationSetup />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/resource-booking"
+        element={
+          <ProtectedRoute>
+            <ResourceBooking />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/reports"
+        element={
+          <ProtectedRoute>
+            <Reports />
           </ProtectedRoute>
         }
       />
