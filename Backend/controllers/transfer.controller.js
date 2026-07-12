@@ -21,11 +21,12 @@ export const getTransferDetails = async (req, res) => {
         const asset = assetResult.rows[0];
 
         const currentHolderResult = await db.query(
-            `SELECT u.id, u.name, u.department_id
+            `SELECT u.id, u.name, u.department_id, d.name AS department_name
              FROM allocations a
-             JOIN users u ON u.id = a.user_id
+             JOIN users u ON u.id = a.employee_id
+             LEFT JOIN departments d ON d.id = u.department_id
              WHERE a.asset_id = $1 AND a.status = 'ACTIVE'
-             ORDER BY a.created_at DESC
+             ORDER BY a.allocated_at DESC
              LIMIT 1`,
             [assetId]
         );
@@ -41,11 +42,14 @@ export const getTransferDetails = async (req, res) => {
         );
 
         const historyResult = await db.query(
-            `SELECT a.id, a.action_type, a.condition, a.status, a.created_at, u.name AS holder_name, u.department_id
-             FROM allocations a
-             LEFT JOIN users u ON u.id = a.user_id
-             WHERE a.asset_id = $1
-             ORDER BY a.created_at DESC
+            `SELECT tr.id, tr.status, tr.created_at,
+                    fu.name AS from_name, tu.name AS to_name, ru.name AS requested_by_name
+             FROM transfer_requests tr
+             LEFT JOIN users fu ON fu.id = tr.from_user_id
+             LEFT JOIN users tu ON tu.id = tr.to_user_id
+             LEFT JOIN users ru ON ru.id = tr.requested_by_id
+             WHERE tr.asset_id = $1
+             ORDER BY tr.created_at DESC
              LIMIT 8`,
             [assetId]
         );
@@ -56,12 +60,11 @@ export const getTransferDetails = async (req, res) => {
             eligibleHolders: eligibleHoldersResult.rows,
             history: historyResult.rows.map((row) => ({
                 id: row.id,
-                action: row.action_type,
-                condition: row.condition,
                 status: row.status,
                 date: row.created_at,
-                holderName: row.holder_name,
-                departmentId: row.department_id,
+                fromName: row.from_name,
+                toName: row.to_name,
+                requestedByName: row.requested_by_name,
             })),
         });
     } catch (error) {
@@ -86,25 +89,25 @@ export const createTransferRequest = async (req, res) => {
         if (assetResult.rows.length === 0) {
             return res.status(404).json({ error: 'Asset not found.' });
         }
+        const asset = assetResult.rows[0];
 
         const currentHolderResult = await db.query(
             `SELECT u.id
              FROM allocations a
-             JOIN users u ON u.id = a.user_id
+             JOIN users u ON u.id = a.employee_id
              WHERE a.asset_id = $1 AND a.status = 'ACTIVE'
-             ORDER BY a.created_at DESC
+             ORDER BY a.allocated_at DESC
              LIMIT 1`,
             [parseInt(asset_id, 10)]
         );
 
         if (currentHolderResult.rows.length === 0) {
-            return res.status(400).json({ error: 'Asset is not currently allocated.' });
+            return res.status(400).json({ error: 'Asset is not currently allocated to anyone, so it cannot be transferred.' });
         }
 
         const existingRequest = await db.query(
             `SELECT id FROM transfer_requests
-             WHERE asset_id = $1
-               AND status = 'PENDING'
+             WHERE asset_id = $1 AND status = 'PENDING'
              LIMIT 1`,
             [parseInt(asset_id, 10)]
         );
@@ -114,15 +117,27 @@ export const createTransferRequest = async (req, res) => {
         }
 
         const result = await db.query(
-            `INSERT INTO transfer_requests (asset_id, requested_by, current_holder_id, new_holder_id, reason, status)
-             VALUES ($1, $2, $3, $4, $5, 'PENDING')
-             RETURNING id, asset_id, requested_by, current_holder_id, new_holder_id, reason, status, created_at`,
+            `INSERT INTO transfer_requests (asset_id, requested_by_id, from_user_id, to_user_id, status)
+             VALUES ($1, $2, $3, $4, 'PENDING')
+             RETURNING id, asset_id, requested_by_id, from_user_id, to_user_id, status, created_at`,
             [
                 parseInt(asset_id, 10),
                 req.user.id,
                 currentHolderResult.rows[0].id,
                 parseInt(new_holder_id, 10),
-                reason,
+            ]
+        );
+
+        await db.query(
+            `INSERT INTO audit_logs (user_id, action, details) VALUES ($1, $2, $3)`,
+            [
+                req.user.id,
+                'TRANSFER_REQUESTED',
+                JSON.stringify({
+                    type: 'asset',
+                    message: `Transfer requested for ${asset.name} (${asset.asset_tag}): ${reason}`,
+                    location: asset.location,
+                }),
             ]
         );
 
