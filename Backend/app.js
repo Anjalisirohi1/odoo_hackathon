@@ -1,15 +1,16 @@
-// app.js
 import express from 'express';
 import cors from 'cors';
-import authRoutes from './routes/auth.routes.js';
+import authRoutes from './routes/auth.route.js';
+import dashboardRoutes from './routes/dashboard.route.js';
+
 
 const app = express();
 
 app.use(cors());
 app.use(express.json());
 
-// Set up routes prefix
 app.use('/api/auth', authRoutes);
+app.use('/api/dashboard', dashboardRoutes);
 
 app.get('/health', (req, res) => {
     res.status(200).json({ status: 'OK', timestamp: new Date() });

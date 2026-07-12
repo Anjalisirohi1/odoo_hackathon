@@ -1,8 +1,7 @@
-// middlewares/auth.middleware.js
 import jwt from 'jsonwebtoken';
-import db from '../db.js';
+import db from '../database/db.js';
 
-const JWT_SECRET = process.env.JWT_SECRET || 'hackathon_secret_key_123';
+const JWT_SECRET = process.env.JWT_SECRET || 'assetflow_secret_key_123';
 
 export const authenticateToken = async (req, res, next) => {
     const authHeader = req.headers['authorization'];

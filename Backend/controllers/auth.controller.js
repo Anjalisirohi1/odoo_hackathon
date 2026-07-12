@@ -1,11 +1,9 @@
-// controllers/auth.controller.js
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
-import db from '../db.js';
+import db from '../database/db.js';
 
-const JWT_SECRET = process.env.JWT_SECRET || 'hackathon_secret_key_123';
+const JWT_SECRET = process.env.JWT_SECRET;
 
-// 1. Signup (Forces EMPLOYEE role)
 export const signup = async (req, res) => {
     const { name, email, password } = req.body;
 
@@ -14,18 +12,18 @@ export const signup = async (req, res) => {
     }
 
     try {
-        const checkUser = await db.query('SELECT id FROM users WHERE email = $1', [email]);
-        if (checkUser.rows.length > 0) {
+        const existingUser = await db.query('SELECT id FROM users WHERE email = $1', [email]);
+        if (existingUser.rows.length > 0) {
             return res.status(400).json({ error: 'Email already registered.' });
         }
 
         const passwordHash = await bcrypt.hash(password, 10);
 
         const result = await db.query(
-            `INSERT INTO users (name, email, password_hash, role, status) 
-       VALUES ($1, $2, $3, 'EMPLOYEE'::user_role, 'ACTIVE'::user_status) 
-       RETURNING id, name, email, role, status`,
-            [name, email, passwordHash]
+            `INSERT INTO users (name, email, password_hash, role, status)
+             VALUES ($1, $2, $3, $4, $5)
+             RETURNING id, name, email, role, status`,
+            [name, email, passwordHash, 'EMPLOYEE', 'ACTIVE']
         );
 
         const newUser = result.rows[0];
@@ -38,7 +36,6 @@ export const signup = async (req, res) => {
     }
 };
 
-// 2. Login
 export const login = async (req, res) => {
     const { email, password } = req.body;
 
@@ -77,15 +74,15 @@ export const login = async (req, res) => {
     }
 };
 
-// 3. Get Current User (Me)
 export const getMe = (req, res) => {
     res.status(200).json({ user: req.user });
 };
 
-// 4. Forgot Password (Mock Console Logger)
 export const forgotPassword = async (req, res) => {
     const { email } = req.body;
-    if (!email) return res.status(400).json({ error: 'Email is required.' });
+    if (!email) {
+        return res.status(400).json({ error: 'Email is required.' });
+    }
 
     try {
         const result = await db.query('SELECT id FROM users WHERE email = $1', [email]);
@@ -105,7 +102,6 @@ export const forgotPassword = async (req, res) => {
     }
 };
 
-// 5. Admin-Only Promotion (Preps for Screen 3)
 export const promoteUser = async (req, res) => {
     const { id } = req.params;
     const { role, departmentId } = req.body;
@@ -116,11 +112,11 @@ export const promoteUser = async (req, res) => {
 
     try {
         const result = await db.query(
-            `UPDATE users 
-       SET role = $1::user_role, department_id = $2 
-       WHERE id = $3 
-       RETURNING id, name, email, role, department_id`,
-            [role, departmentId ? parseInt(departmentId) : null, parseInt(id)]
+            `UPDATE users
+             SET role = $1, department_id = $2
+             WHERE id = $3
+             RETURNING id, name, email, role, department_id`,
+            [role, departmentId ? parseInt(departmentId, 10) : null, parseInt(id, 10)]
         );
 
         const updatedUser = result.rows[0];
